@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # শূন্য থেকে প্রোডাকশন পর্যন্ত AI এজেন্ট নির্মাণ
 
-![শূন্য থেকে প্রোডাকশনে AI এজেন্ট তৈরি](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.bn.png)
+![শূন্য থেকে প্রোডাকশনে AI এজেন্ট তৈরি](../../translated_images/bn/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 বহু-ভাষা সমর্থন
 

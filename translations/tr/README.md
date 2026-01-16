@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sıfırdan Üretime Yapay Zeka Ajanları Oluşturma
 
-![Sıfırdan Üretime Yapay Zeka Ajanları Oluşturma](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.tr.png)
+![Sıfırdan Üretime Yapay Zeka Ajanları Oluşturma](../../translated_images/tr/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Çok Dilli Destek
 

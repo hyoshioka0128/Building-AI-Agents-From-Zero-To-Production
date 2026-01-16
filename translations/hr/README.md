@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Izgradnja AI agenata od nule do produkcije
 
-![Izgradnja AI agenata od nule do produkcije](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.hr.png)
+![Izgradnja AI agenata od nule do produkcije](../../translated_images/hr/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Podrška za više jezika
 

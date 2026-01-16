@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ゼロから本番までのAIエージェント構築
 
-![ゼロから本番までのAIエージェント構築](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.ja.png)
+![ゼロから本番までのAIエージェント構築](../../translated_images/ja/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 マルチ言語サポート
 

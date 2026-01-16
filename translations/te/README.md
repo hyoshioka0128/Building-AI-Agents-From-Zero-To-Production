@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # శూన్యం నుండి ఉత్పత్తి వరకు AI ఏజెంట్స్‌ని నిర్మించడం
 
-![శూన్యం నుండి ఉత్పత్తి వరకు AI ఏజెంట్స్‌ని నిర్మించడం](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.te.png)
+![శూన్యం నుండి ఉత్పత్తి వరకు AI ఏజెంట్స్‌ని నిర్మించడం](../../translated_images/te/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 బహుభాషా మద్దతు
 

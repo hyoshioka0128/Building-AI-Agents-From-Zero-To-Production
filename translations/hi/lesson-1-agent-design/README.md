@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## एआई एजेंट क्या हैं?
 
-![What Are AI Agents?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.hi.png)
+![What Are AI Agents?](../../../translated_images/hi/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 यदि यह आपका पहला अनुभव है कि आप कैसे एक एआई एजेंट बनाते हैं, तो आपके मन में यह सवाल हो सकता है कि एआई एजेंट को ठीक से कैसे परिभाषित किया जाए।
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## हमारा एआई एजेंट उपयोग मामला
 
-![What Are We Building?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.hi.png)
+![What Are We Building?](../../../translated_images/hi/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 इस कोर्स के लिए, हम एक एआई एजेंट एप्लिकेशन बनाएंगे जो नए डेवलपर्स को हमारे एआई एजेंट विकास टीम में शामिल होने में मदद करता है!
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 आइए इसे परिदृश्य दर परिदृश्य करें और प्रत्येक एजेंट के कार्य, उपकरण और वांछित परिणामों की सूची बनाकर अच्छा एजेंटिक डिज़ाइन करें।
 
-![Agent Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.hi.png)
+![Agent Design](../../../translated_images/hi/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### परिदृश्य 1 - कर्मचारी खोज एजेंट
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 अब जब हमने प्रत्येक एजेंट को परिभाषित कर लिया है, आइए एक आर्किटेक्चर डायग्राम बनाएं जो हमें समझने में मदद करेगा कि प्रत्येक एजेंट कार्य के आधार पर एक साथ और अलग-अलग कैसे काम करेगा:
 
-![Agent Architecture](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.hi.png)
+![Agent Architecture](../../../translated_images/hi/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## अगले कदम
 

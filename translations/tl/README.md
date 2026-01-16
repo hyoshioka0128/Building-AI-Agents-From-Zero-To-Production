@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pagbuo ng mga AI Agent mula sa Simula hanggang Produksyon
 
-![Pagbuo ng mga AI Agent mula sa Simula hanggang Produksyon](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.tl.png)
+![Pagbuo ng mga AI Agent mula sa Simula hanggang Produksyon](../../translated_images/tl/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Suporta sa Maramihang Wika
 

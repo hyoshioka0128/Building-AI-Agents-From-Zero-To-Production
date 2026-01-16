@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Membina Ejen AI dari Sifar ke Pengeluaran
 
-![Membina Ejen AI dari Sifar ke Pengeluaran](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.ms.png)
+![Membina Ejen AI dari Sifar ke Pengeluaran](../../translated_images/ms/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Sokongan Pelbagai Bahasa
 

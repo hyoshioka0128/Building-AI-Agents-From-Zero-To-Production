@@ -25,7 +25,7 @@ Bu derste şunları ele alacağız:
 
 ## Yapay Zeka Ajanları Nedir?
 
-![Yapay Zeka Ajanları Nedir?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.tr.png)
+![Yapay Zeka Ajanları Nedir?](../../../translated_images/tr/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Eğer bir Yapay Zeka Ajanı nasıl inşa edilir ilk kez keşfediyorsanız, Yapay Zeka Ajanının tam olarak ne olduğunu tanımlamak konusunda sorularınız olabilir.
 
@@ -39,7 +39,7 @@ Yapay Zeka Ajanını oluşturan bileşenler üzerinden basitçe tanımlamak gere
 
 ## Yapay Zeka Ajanı Kullanım Durumumuz
 
-![Ne İnşa Ediyoruz?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.tr.png)
+![Ne İnşa Ediyoruz?](../../../translated_images/tr/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Bu kurs için, yeni geliştiricilerin Yapay Zeka Ajanı Geliştirme Ekibimize katılmalarına yardımcı olan bir Yapay Zeka Ajanı uygulaması inşa edeceğiz!
 
@@ -61,7 +61,7 @@ Bu süreç, Yapay Zeka Ajanlarımızın görevleri tamamlamak için doğru bağl
 
 Her senaryoyu tek tek ele alalım ve her ajanın görevini, araçlarını ve istenen sonuçlarını listeleyerek iyi bir ajan tasarımı yapalım.
 
-![Ajan Tasarımı](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.tr.png)
+![Ajan Tasarımı](../../../translated_images/tr/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Senaryo 1 - Çalışan Arama Ajanı
 
@@ -91,7 +91,7 @@ Her senaryoyu tek tek ele alalım ve her ajanın görevini, araçlarını ve ist
 
 Her bir Ajanımızı tanımladığımıza göre, her ajanın göreve bağlı olarak birlikte ve ayrı ayrı nasıl çalışacağını anlamamıza yardımcı olacak bir mimari diyagram oluşturalım:
 
-![Ajan Mimarisi](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.tr.png)
+![Ajan Mimarisi](../../../translated_images/tr/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Sonraki Adımlar
 

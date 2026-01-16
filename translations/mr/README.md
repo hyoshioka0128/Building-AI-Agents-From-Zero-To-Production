@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # शून्यापासून उत्पादनापर्यंत AI एजंट्स तयार करणे
 
-![शून्यापासून उत्पादनापर्यंत AI एजंट्स तयार करणे](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.mr.png)
+![शून्यापासून उत्पादनापर्यंत AI एजंट्स तयार करणे](../../translated_images/mr/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 बहुभाषिक समर्थन
 

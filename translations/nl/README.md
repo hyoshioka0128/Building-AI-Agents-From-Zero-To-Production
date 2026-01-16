@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # AI-agents bouwen van nul tot productie
 
-![AI-agents bouwen van nul tot productie](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.nl.png)
+![AI-agents bouwen van nul tot productie](../../translated_images/nl/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Meertalige ondersteuning
 

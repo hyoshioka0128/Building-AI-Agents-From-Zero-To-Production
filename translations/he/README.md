@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # בניית סוכני בינה מלאכותית מאפס עד לייצור
 
-![בניית סוכני בינה מלאכותית מאפס עד לייצור](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.he.png)
+![בניית סוכני בינה מלאכותית מאפס עד לייצור](../../translated_images/he/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 תמיכה בריבוי שפות
 

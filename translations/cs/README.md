@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Stavba AI agentů od nuly do produkce
 
-![Stavba AI agentů od nuly do produkce](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.cs.png)
+![Stavba AI agentů od nuly do produkce](../../translated_images/cs/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Podpora více jazyků
 

@@ -25,7 +25,7 @@ Iniziamo definendo cosa sono gli agenti e perché li useremmo all'interno di un'
 
 ## Cosa Sono gli Agenti AI?
 
-![What Are AI Agents?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.it.png)
+![What Are AI Agents?](../../../translated_images/it/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Se è la prima volta che esplori come costruire un Agente AI, potresti avere domande su come definire esattamente cosa sia un Agente AI.
 
@@ -39,7 +39,7 @@ Un modo semplice per definire cosa sia un Agente AI è attraverso i componenti c
 
 ## Il Nostro Caso d'Uso per l'Agente AI
 
-![What Are We Building?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.it.png)
+![What Are We Building?](../../../translated_images/it/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Per questo corso, costruiremo un'applicazione Agente AI che aiuta i nuovi sviluppatori a inserirsi nel nostro Team di Sviluppo Agenti AI!
 
@@ -61,7 +61,7 @@ Questo processo rientra nella categoria dell'Ingegneria del Contesto poiché ci 
 
 Facciamo questo scenario per scenario e realizziamo un buon design agentico elencando il compito, gli strumenti e i risultati desiderati di ogni agente.
 
-![Agent Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.it.png)
+![Agent Design](../../../translated_images/it/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Scenario 1 - Agente di Ricerca Dipendenti
 
@@ -91,7 +91,7 @@ Facciamo questo scenario per scenario e realizziamo un buon design agentico elen
 
 Ora che abbiamo definito ciascuno dei nostri Agenti, creiamo un diagramma architetturale che ci aiuterà a capire come ogni agente lavorerà insieme e separatamente a seconda del compito:
 
-![Agent Architecture](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.it.png)
+![Agent Architecture](../../../translated_images/it/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Passi Successivi
 

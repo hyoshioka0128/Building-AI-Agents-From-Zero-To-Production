@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਛੀਰੋ ਤੋਂ ਉਤਪਾਦਨ ਤੱਕ AI ਏਜੰਟ ਬਣਾਉਣਾ
 
-![ਜ਼ੀਰੋ ਤੋਂ ਉਤਪਾਦਨ ਤੱਕ AI ਏਜੰਟ ਬਣਾਉਣਾ](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.pa.png)
+![ਜ਼ੀਰੋ ਤੋਂ ਉਤਪਾਦਨ ਤੱਕ AI ਏਜੰਟ ਬਣਾਉਣਾ](../../translated_images/pa/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 ਬਹੁ-ਭਾਸ਼ਾਈ ਸਹਿਯੋਗ
 

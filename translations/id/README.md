@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Membangun Agen AI dari Nol sampai Produksi
 
-![Membangun Agen AI dari Nol sampai Produksi](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.id.png)
+![Membangun Agen AI dari Nol sampai Produksi](../../translated_images/id/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Dukungan Multi-Bahasa
 

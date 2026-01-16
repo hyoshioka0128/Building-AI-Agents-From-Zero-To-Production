@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # AI-ügynökök építése a nulláról a termelésbe
 
-![AI-ügynökök építése a nulláról a termelésbe](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.hu.png)
+![AI-ügynökök építése a nulláról a termelésbe](../../translated_images/hu/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Többnyelvű támogatás
 

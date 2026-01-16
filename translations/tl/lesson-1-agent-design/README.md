@@ -25,7 +25,7 @@ Magsimula tayo sa pagpapakahulugan kung ano ang agent at bakit natin ito gagamit
 
 ## Ano ang AI Agents?
 
-![What Are AI Agents?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.tl.png)
+![What Are AI Agents?](../../../translated_images/tl/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Kung ito ang unang pagkakataon mo na tuklasin kung paano bumuo ng AI Agent, maaaring may mga tanong ka kung paano eksaktong ipapakahulugan kung ano ang AI Agent.
 
@@ -39,7 +39,7 @@ Para sa isang simpleng paraan ng pagpapakahulugan kung ano ang AI Agent ay sa pa
 
 ## Ang Gamit ng Ating AI Agent
 
-![What Are We Building?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.tl.png)
+![What Are We Building?](../../../translated_images/tl/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Para sa kursong ito, gagawa tayo ng isang AI Agent application na tumutulong sa mga bagong developer na makapasok sa ating AI Agent Development Team!
 
@@ -61,7 +61,7 @@ Ang prosesong ito ay kabilang sa kategorya ng Context Engineering dahil magtutuo
 
 Gawin natin ito senaryo bawat senaryo at magsagawa ng mahusay na disenyo ng agent sa pamamagitan ng paglista ng bawat gawain ng agent, mga tools at mga inaasahang resulta.
 
-![Agent Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.tl.png)
+![Agent Design](../../../translated_images/tl/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Senaryo 1 - Employee Search Agent
 
@@ -91,7 +91,7 @@ Gawin natin ito senaryo bawat senaryo at magsagawa ng mahusay na disenyo ng agen
 
 Ngayon na naipaliwanag na natin ang bawat isa sa ating mga Agents, gumawa tayo ng isang architecture diagram na makakatulong sa atin na maunawaan kung paano magtutulungan at gagana nang hiwalay ang bawat agent depende sa gawain:
 
-![Agent Architecture](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.tl.png)
+![Agent Architecture](../../../translated_images/tl/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Mga Susunod na Hakbang
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # AI ஏஜென்ட்களை பூஜ்ஜியத்திலிருந்து தயாரிப்புக்கு கட்டமைத்தல்
 
-![AI ஏஜென்ட்களை பூஜ்ஜியத்திலிருந்து தயாரிப்புக்கு கட்டமைத்தல்](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.ta.png)
+![AI ஏஜென்ட்களை பூஜ்ஜியத்திலிருந்து தயாரிப்புக்கு கட்டமைத்தல்](../../translated_images/ta/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 பல மொழி ஆதரவு
 

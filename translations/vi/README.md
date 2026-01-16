@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Xây dựng Agent AI từ số 0 đến sản xuất
 
-![Xây dựng Agent AI từ số 0 đến sản xuất](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.vi.png)
+![Xây dựng Agent AI từ số 0 đến sản xuất](../../translated_images/vi/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Hỗ trợ đa ngôn ngữ
 

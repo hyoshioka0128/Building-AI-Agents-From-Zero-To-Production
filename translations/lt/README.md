@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # AI agentų kūrimas nuo nulio iki gamybos
 
-![AI agentų kūrimas nuo nulio iki gamybos](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.lt.png)
+![AI agentų kūrimas nuo nulio iki gamybos](../../translated_images/lt/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Daugiakalbystės palaikymas
 

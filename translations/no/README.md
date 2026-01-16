@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bygge AI-agenter fra null til produksjon
 
-![Bygge AI-agenter fra null til produksjon](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.no.png)
+![Bygge AI-agenter fra null til produksjon](../../translated_images/no/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Støtte for flere språk
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Створення агентів ШІ від нуля до виробництва
 
-![Створення агентів ШІ від нуля до виробництва](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.uk.png)
+![Створення агентів ШІ від нуля до виробництва](../../translated_images/uk/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Підтримка кількох мов
 

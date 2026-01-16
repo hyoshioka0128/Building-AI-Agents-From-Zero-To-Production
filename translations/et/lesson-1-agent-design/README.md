@@ -25,7 +25,7 @@ Alustame agendi mõiste määratlemisest ja sellest, miks me neid rakenduses kas
 
 ## Mis on AI Agendid?
 
-![Mis on AI Agendid?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.et.png)
+![Mis on AI Agendid?](../../../translated_images/et/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Kui see on sinu esimene kord uurida, kuidas AI Agenti ehitada, võivad sul tekkida küsimused, kuidas täpselt määratleda, mis on AI Agent.
 
@@ -39,7 +39,7 @@ Lihtsustatult saab AI Agendi määratleda selle komponentide kaudu:
 
 ## Meie AI Agendi Kasutusjuhtum
 
-![Mida me ehitame?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.et.png)
+![Mida me ehitame?](../../../translated_images/et/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Selle kursuse raames ehitame AI Agendi rakenduse, mis aitab uutel arendajatel meie AI Agendi Arendusmeeskonnaga liituda!
 
@@ -61,7 +61,7 @@ See protsess kuulub konteksti insenerinduse valdkonda, kuna keskendume sellele, 
 
 Teeme seda stsenaariumite kaupa ja teostame head agendi disaini, loetledes iga agendi ülesande, tööriistad ja soovitud tulemused.
 
-![Agendi Disain](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.et.png)
+![Agendi Disain](../../../translated_images/et/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Stsenaarium 1 - Töötajate Otsingu Agent
 
@@ -91,7 +91,7 @@ Teeme seda stsenaariumite kaupa ja teostame head agendi disaini, loetledes iga a
 
 Nüüd, kui oleme määratlenud iga meie Agendi, loome arhitektuuri diagrammi, mis aitab meil mõista, kuidas iga agent töötab koos ja eraldi sõltuvalt ülesandest:
 
-![Agendi Arhitektuur](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.et.png)
+![Agendi Arhitektuur](../../../translated_images/et/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Järgmised Sammud
 

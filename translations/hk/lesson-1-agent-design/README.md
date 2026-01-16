@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 什麼是 AI Agent？
 
-![What Are AI Agents?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.hk.png)
+![What Are AI Agents?](../../../translated_images/hk/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 如果這是你第一次探索如何構建 AI Agent，你可能會有關於如何準確定義 AI Agent 是什麼的疑問。
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 我們的 AI Agent 使用案例
 
-![What Are We Building?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.hk.png)
+![What Are We Building?](../../../translated_images/hk/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 在本課程中，我們將構建一個 AI Agent 應用程式，幫助新開發者加入我們的 AI Agent 開發團隊！
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 讓我們逐個場景進行，並透過列出每個 agent 的任務、工具和期望結果，來執行良好的 agent 設計。
 
-![Agent Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.hk.png)
+![Agent Design](../../../translated_images/hk/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### 場景 1 - 員工搜尋 Agent
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 現在我們已經定義了每個 Agent，讓我們建立一個架構圖，幫助我們了解每個 agent 如何根據任務一起或分別運作：
 
-![Agent Architecture](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.hk.png)
+![Agent Architecture](../../../translated_images/hk/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## 下一步
 

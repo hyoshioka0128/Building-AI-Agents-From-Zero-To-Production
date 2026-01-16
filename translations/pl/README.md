@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Budowanie agentów AI od zera do produkcji
 
-![Budowanie agentów AI od zera do produkcji](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.pl.png)
+![Budowanie agentów AI od zera do produkcji](../../translated_images/pl/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Wsparcie wielu języków
 

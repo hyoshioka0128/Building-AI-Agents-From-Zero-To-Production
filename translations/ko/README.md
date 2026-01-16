@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 제로부터 프로덕션까지 AI 에이전트 구축
 
-![제로부터 프로덕션까지 AI 에이전트 구축](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.ko.png)
+![제로부터 프로덕션까지 AI 에이전트 구축](../../translated_images/ko/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 다국어 지원
 

@@ -25,7 +25,7 @@ Kezdjük azzal, hogy meghatározzuk, mik az ügynökök, és miért használjuk 
 
 ## Mik azok az AI ügynökök?
 
-![Mik azok az AI ügynökök?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.hu.png)
+![Mik azok az AI ügynökök?](../../../translated_images/hu/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Ha most először fedezed fel, hogyan építs AI ügynököt, lehet, hogy kérdéseid vannak arra vonatkozóan, pontosan hogyan definiáljuk az AI ügynököt.
 
@@ -39,7 +39,7 @@ Egy egyszerű módja annak, hogy meghatározzuk, mi az AI ügynök, az alkotóel
 
 ## Az AI ügynökünk használati esete
 
-![Mit építünk?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.hu.png)
+![Mit építünk?](../../../translated_images/hu/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Ehhez a tanfolyamhoz egy AI ügynök alkalmazást fogunk építeni, amely segíti az új fejlesztőket az AI ügynök fejlesztő csapatunkhoz való csatlakozásban!
 
@@ -61,7 +61,7 @@ Ez a folyamat a Kontextus Mérnökség kategóriájába tartozik, mivel arra fog
 
 Tegyük ezt forgatókönyvenként, és végezzünk jó ügynök tervezést azzal, hogy felsoroljuk minden ügynök feladatát, eszközeit és kívánt eredményeit.
 
-![Ügynök tervezés](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.hu.png)
+![Ügynök tervezés](../../../translated_images/hu/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### 1. forgatókönyv – Alkalmazott kereső ügynök
 
@@ -91,7 +91,7 @@ Tegyük ezt forgatókönyvenként, és végezzünk jó ügynök tervezést azzal
 
 Most, hogy meghatároztuk mindegyik ügynökünket, készítsünk egy architektúra diagramot, amely segít megérteni, hogyan működik együtt és külön-külön minden ügynök a feladattól függően:
 
-![Ügynök architektúra](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.hu.png)
+![Ügynök architektúra](../../../translated_images/hu/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Következő lépések
 

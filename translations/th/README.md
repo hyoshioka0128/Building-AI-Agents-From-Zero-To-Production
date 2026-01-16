@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # การสร้างเอเจนต์ AI ตั้งแต่ศูนย์จนถึงการใช้งานจริง
 
-![การสร้างเอเจนต์ AI ตั้งแต่ศูนย์จนถึงการใช้งานจริง](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.th.png)
+![การสร้างเอเจนต์ AI ตั้งแต่ศูนย์จนถึงการใช้งานจริง](../../translated_images/th/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 รองรับหลายภาษา
 

@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## এআই এজেন্ট কী?
 
-![What Are AI Agents?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.bn.png)
+![What Are AI Agents?](../../../translated_images/bn/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 যদি এটি আপনার প্রথমবার হয় এআই এজেন্ট কীভাবে তৈরি করতে হয় তা অন্বেষণ করা, তাহলে আপনার মনে প্রশ্ন থাকতে পারে এআই এজেন্ট কীভাবে সঠিকভাবে সংজ্ঞায়িত করা যায়।
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## আমাদের এআই এজেন্ট ব্যবহারের কেস
 
-![What Are We Building?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.bn.png)
+![What Are We Building?](../../../translated_images/bn/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 এই কোর্সের জন্য, আমরা একটি এআই এজেন্ট অ্যাপ্লিকেশন তৈরি করব যা নতুন ডেভেলপারদের আমাদের এআই এজেন্ট ডেভেলপমেন্ট টিমে অনবোর্ড করতে সাহায্য করবে!
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 চলুন দৃশ্যপট অনুযায়ী এটি করি এবং প্রতিটি এজেন্টের কাজ, টুলস এবং কাঙ্ক্ষিত ফলাফল তালিকাভুক্ত করে ভাল এজেন্টিক ডিজাইন করি।
 
-![Agent Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.bn.png)
+![Agent Design](../../../translated_images/bn/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### দৃশ্যপট ১ - কর্মচারী অনুসন্ধান এজেন্ট
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 এখন যেহেতু আমরা প্রতিটি এজেন্ট সংজ্ঞায়িত করেছি, চলুন একটি আর্কিটেকচার ডায়াগ্রাম তৈরি করি যা আমাদের বুঝতে সাহায্য করবে প্রতিটি এজেন্ট কীভাবে একসাথে এবং আলাদাভাবে কাজ করবে কাজের উপর নির্ভর করে:
 
-![Agent Architecture](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.bn.png)
+![Agent Architecture](../../../translated_images/bn/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## পরবর্তী ধাপ
 

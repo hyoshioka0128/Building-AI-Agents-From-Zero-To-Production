@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # शून्य से उत्पादन तक AI एजेंट बनाना
 
-![शून्य से उत्पादन तक AI एजेंट बनाना](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.hi.png)
+![शून्य से उत्पादन तक AI एजेंट बनाना](../../translated_images/hi/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 बहु-भाषा समर्थन
 

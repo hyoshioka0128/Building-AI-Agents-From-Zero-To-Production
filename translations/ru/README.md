@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Создание AI-агентов от нуля до продакшна
 
-![Создание AI-агентов от нуля до продакшна](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.ru.png)
+![Создание AI-агентов от нуля до продакшна](../../translated_images/ru/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Поддержка нескольких языков
 

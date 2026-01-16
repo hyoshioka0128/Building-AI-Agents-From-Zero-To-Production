@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # AI-Agenten von Null bis zur Produktion erstellen
 
-![AI-Agenten von Null bis zur Produktion erstellen](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.de.png)
+![AI-Agenten von Null bis zur Produktion erstellen](../../translated_images/de/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Mehrsprachige Unterstützung
 

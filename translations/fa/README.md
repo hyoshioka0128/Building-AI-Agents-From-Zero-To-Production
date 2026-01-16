@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ساخت عامل‌های هوش مصنوعی از صفر تا تولید
 
-![ساخت عامل‌های هوش مصنوعی از صفر تا تولید](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.fa.png)
+![ساخت عامل‌های هوش مصنوعی از صفر تا تولید](../../translated_images/fa/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 پشتیبانی چندزبانه
 

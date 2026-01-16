@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vytváranie AI agentov od nuly do produkcie
 
-![Vytváranie AI agentov od nuly do produkcie](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.sk.png)
+![Vytváranie AI agentov od nuly do produkcie](../../translated_images/sk/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 Podpora viacerých jazykov
 

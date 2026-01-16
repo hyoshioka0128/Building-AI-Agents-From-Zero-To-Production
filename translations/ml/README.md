@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ശൂന്യത്തിൽ നിന്ന് ഉൽപ്പാദനത്തിലേക്ക് AI ഏജന്റുകൾ നിർമ്മിക്കല്‍
 
-![ശൂന്യത്തിൽ നിന്ന് ഉൽപ്പാദനത്തിലേക്ക് AI ഏജന്റുകൾ നിർമ്മിക്കല്‍](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.ml.png)
+![ശൂന്യത്തിൽ നിന്ന് ഉൽപ്പാദനത്തിലേക്ക് AI ഏജന്റുകൾ നിർമ്മിക്കല്‍](../../translated_images/ml/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
 
 ### 🌐 ബഹുഭാഷാ പിന്തുണ
 

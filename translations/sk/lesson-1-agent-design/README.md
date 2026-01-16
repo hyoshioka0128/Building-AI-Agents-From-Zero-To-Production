@@ -25,7 +25,7 @@ Začnime definovaním, čo je agent a prečo ich používame v aplikácii.
 
 ## Čo sú AI Agenti?
 
-![Čo sú AI Agenti?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.sk.png)
+![Čo sú AI Agenti?](../../../translated_images/sk/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Ak je to váš prvýkrát, čo skúmate, ako vytvoriť AI Agenta, možno máte otázky, ako presne definovať, čo AI Agent je.
 
@@ -39,7 +39,7 @@ Jednoduchý spôsob, ako definovať, čo AI Agent je, je podľa komponentov, kto
 
 ## Náš prípad použitia AI Agenta
 
-![Čo budujeme?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.sk.png)
+![Čo budujeme?](../../../translated_images/sk/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Pre tento kurz vytvoríme AI Agent aplikáciu, ktorá pomáha novým vývojárom začleniť sa do nášho AI Agent vývojárskeho tímu!
 
@@ -61,7 +61,7 @@ Tento proces spadá do kategórie Context Engineering, pretože sa zameriame na 
 
 Urobme to scenár po scenári a vykonajme dobrý agentný návrh tým, že uvedieme úlohy, nástroje a požadované výsledky každého agenta.
 
-![Návrh agenta](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.sk.png)
+![Návrh agenta](../../../translated_images/sk/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Scenár 1 - Agent na vyhľadávanie zamestnancov
 
@@ -91,7 +91,7 @@ Urobme to scenár po scenári a vykonajme dobrý agentný návrh tým, že uvedi
 
 Teraz, keď sme definovali každého z našich agentov, vytvorme architektonický diagram, ktorý nám pomôže pochopiť, ako bude každý agent spolupracovať a pracovať samostatne v závislosti od úlohy:
 
-![Architektúra agenta](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.sk.png)
+![Architektúra agenta](../../../translated_images/sk/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Ďalšie kroky
 
