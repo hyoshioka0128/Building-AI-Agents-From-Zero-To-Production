@@ -1,26 +1,26 @@
 {
-  "repo-thumbnail.083b24afed61b6dd.webp": {
-    "original_hash": "85f3ed57ac6387e2a6eebed0cb45c165",
-    "translation_date": "2026-01-16T08:57:23+00:00",
-    "source_file": "images/repo-thumbnail.png",
-    "language_code": "it"
-  },
   "agent-architecture.4fd5efa371e77a3c.webp": {
     "original_hash": "65d19b632542162ac7176db1a2f73fa0",
     "translation_date": "2026-01-16T08:57:31+00:00",
     "source_file": "lesson-1-agent-design/images/agent-architecture.png",
     "language_code": "it"
   },
-  "what-are-ai-agents.47a544a1d03481ab.webp": {
-    "original_hash": "102deca274b5fd082400fc2b59f67c06",
-    "translation_date": "2026-01-16T08:57:44+00:00",
-    "source_file": "lesson-1-agent-design/images/what-are-ai-agents.png",
-    "language_code": "it"
-  },
   "agent-design.07edb7ae37f47803.webp": {
     "original_hash": "1edd28ea30f0783abd05b0d47416df17",
     "translation_date": "2026-01-16T08:57:54+00:00",
     "source_file": "lesson-1-agent-design/images/agent-design.png",
+    "language_code": "it"
+  },
+  "repo-thumbnail.083b24afed61b6dd.webp": {
+    "original_hash": "85f3ed57ac6387e2a6eebed0cb45c165",
+    "translation_date": "2026-01-16T08:57:23+00:00",
+    "source_file": "images/repo-thumbnail.png",
+    "language_code": "it"
+  },
+  "what-are-ai-agents.47a544a1d03481ab.webp": {
+    "original_hash": "102deca274b5fd082400fc2b59f67c06",
+    "translation_date": "2026-01-16T08:57:44+00:00",
+    "source_file": "lesson-1-agent-design/images/what-are-ai-agents.png",
     "language_code": "it"
   },
   "what-are-we-building.1ff3b9a752eb8570.webp": {
