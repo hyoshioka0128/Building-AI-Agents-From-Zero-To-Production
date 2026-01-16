@@ -1,51 +1,61 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "73b37a335747d59d319b00aac130f073",
-  "translation_date": "2025-12-24T23:41:16+00:00",
+  "original_hash": "b09df38b3188ffe957c7ac8b055967f5",
+  "translation_date": "2026-01-16T09:21:21+00:00",
   "source_file": "README.md",
   "language_code": "ms"
 }
 -->
-# Membina Ejen AI dari Sifar ke Pengeluaran
+# Membangunkan Ejen AI dari Asas ke Pengeluaran
 
-![Membina Ejen AI dari Sifar ke Pengeluaran](../../translated_images/ms/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.png)
+![Membangunkan Ejen AI dari Asas ke Pengeluaran](../../../../translated_images/ms/repo-thumbnail.083b24afed61b6dd.webp)
 
 ### 🌐 Sokongan Pelbagai Bahasa
 
 #### Disokong melalui GitHub Action (Automatik & Sentiasa Dikemas Kini)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Bahasa Arab](../ar/README.md) | [Bengali](../bn/README.md) | [Bahasa Bulgaria](../bg/README.md) | [Bahasa Burma (Myanmar)](../my/README.md) | [Cina (Dipermudahkan)](../zh/README.md) | [Cina (Tradisional, Hong Kong)](../hk/README.md) | [Cina (Tradisional, Macau)](../mo/README.md) | [Cina (Tradisional, Taiwan)](../tw/README.md) | [Bahasa Croatia](../hr/README.md) | [Bahasa Czech](../cs/README.md) | [Bahasa Denmark](../da/README.md) | [Bahasa Belanda](../nl/README.md) | [Bahasa Estonia](../et/README.md) | [Bahasa Finland](../fi/README.md) | [Bahasa Perancis](../fr/README.md) | [Bahasa Jerman](../de/README.md) | [Bahasa Yunani](../el/README.md) | [Bahasa Ibrani](../he/README.md) | [Bahasa Hindi](../hi/README.md) | [Bahasa Hungary](../hu/README.md) | [Bahasa Indonesia](../id/README.md) | [Bahasa Itali](../it/README.md) | [Bahasa Jepun](../ja/README.md) | [Kannada](../kn/README.md) | [Bahasa Korea](../ko/README.md) | [Bahasa Lithuania](../lt/README.md) | [Melayu](./README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Pidgin Nigeria](../pcm/README.md) | [Bahasa Norway](../no/README.md) | [Parsi (Farsi)](../fa/README.md) | [Bahasa Poland](../pl/README.md) | [Portugis (Brazil)](../br/README.md) | [Portugis (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Bahasa Romania](../ro/README.md) | [Bahasa Rusia](../ru/README.md) | [Serbia (Cyrillic)](../sr/README.md) | [Bahasa Slovak](../sk/README.md) | [Bahasa Slovenia](../sl/README.md) | [Bahasa Sepanyol](../es/README.md) | [Bahasa Swahili](../sw/README.md) | [Bahasa Sweden](../sv/README.md) | [Tagalog (Filipina)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Bahasa Thai](../th/README.md) | [Bahasa Turki](../tr/README.md) | [Bahasa Ukraine](../uk/README.md) | [Bahasa Urdu](../ur/README.md) | [Bahasa Vietnam](../vi/README.md)
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](./README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+
+> **Lebih Suka Klon Secara Tempatan?**
+
+> Repositori ini termasuk lebih 50 terjemahan bahasa yang secara ketara meningkatkan saiz muat turun. Untuk klon tanpa terjemahan, gunakan sparse checkout:
+> ```bash
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production.git
+> cd Building-AI-Agents-From-Zero-To-Production
+> git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
+> ```
+> Ini memberikan semua yang anda perlukan untuk menyelesaikan kursus dengan muat turun yang lebih pantas.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
 ## Sebuah kursus yang mengajar anda asas-asas Kitaran Hayat Pembangunan Ejen AI
 
-[![lesen GitHub](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
-[![penyumbang GitHub](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
-[![isu GitHub](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
-[![permintaan tarik GitHub](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
+[![Lesen GitHub](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
+[![Penyumbang GitHub](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
+[![Isu GitHub](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
+[![Permintaan tarik GitHub](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
 [![PRs Dialu-alukan](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
 
-[![Discord Microsoft Foundry](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
 ## 🌱 Memulakan
 
-Kursus ini mempunyai pelajaran yang merangkumi asas-asas membina dan menyebarkan Ejen AI.
+Kursus ini mempunyai pelajaran yang meliputi asas-asas membina dan menyebarkan Ejen AI.
 
-Setiap pelajaran dibina berdasarkan pelajaran sebelumnya, jadi kami mengesyorkan bermula dari awal dan meneruskannya sehingga selesai.
+Setiap pelajaran membina daripada yang sebelumnya, jadi kami mengesyorkan bermula dari awal dan teruskan sehingga akhir.
 
-Jika anda ingin meneroka lebih lanjut tentang topik Ejen AI, anda boleh melihat [Kursus Ejen AI Untuk Pemula](https://aka.ms/ai-agents-beginners).
+Jika anda ingin meneroka lebih lanjut mengenai topik Ejen AI, anda boleh melihat [Kursus Ejen AI Untuk Pemula](https://aka.ms/ai-agents-beginners).
 
-### Bertemu Pelajar Lain, Dapatkan Soalan Anda Dijawab
+### Bertemu Pelajar Lain, Dapatkan Jawapan Untuk Soalan Anda
 
-Jika anda tersekat atau mempunyai sebarang soalan tentang membina Ejen AI, sertai Saluran Discord khusus kami di [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
+Jika anda tersekat atau mempunyai sebarang soalan tentang membina Ejen AI, sertai Saluran Discord khusus kami di dalam [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
 
 ### Apa Yang Anda Perlukan
 
-Setiap Pelajaran mempunyai contoh kod sendiri yang boleh anda jalankan secara tempatan. Anda boleh [fork repositori ini](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) untuk mencipta salinan anda sendiri.
+Setiap Pelajaran mempunyai contoh kod tersendiri yang anda boleh jalankan secara tempatan. Anda boleh [fork repositori ini](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) untuk membuat salinan anda sendiri.
 
-Kursus ini kini menggunakan perkara berikut:
+Kursus ini kini menggunakan yang berikut:
 
 - [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
 - [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry)
@@ -54,16 +64,16 @@ Kursus ini kini menggunakan perkara berikut:
 
 Sila pastikan anda mempunyai akses kepada perkhidmatan ini sebelum memulakan.
 
-Lebih banyak pilihan mengenai pengehosan model dan perkhidmatan akan tersedia tidak lama lagi. 
+Lebih banyak pilihan mengenai hos model dan perkhidmatan akan datang tidak lama lagi.
 
 ## 🗃️ Pelajaran
 
-| **Pelajaran**         | **Penerangan**                                                                                  |
-|--------------------|--------------------------------------------------------------------------------------------------|
-| [Reka Bentuk Ejen](./lesson-1-agent-design/README.md)       | Pengenalan kepada Kes Penggunaan Ejen "Developer Onboarding" kami dan cara untuk mereka bentuk ejen yang berkesan  |
-| [Pembangunan Ejen](./lesson-2-agent-development/README.md)  | Menggunakan Microsoft Agent Framework (MAF), cipta 3 ejen untuk membantu pembangun baru menjalani proses onboarding.       |
-| [Penilaian Ejen](./lesson-3-agent-evals/README.md)  | Menggunakan Microsoft Foundry, ketahui sejauh mana prestasi Ejen AI kami dan cara untuk memperbaikinya. |
-| [Penyebaran Ejen](./lesson-4-agent-deployment/README.md)   | Menggunakan Hosted Agents dan OpenAI Chatkit, lihat bagaimana untuk menyebarkan Ejen AI ke dalam pengeluaran.       |
+| **Pelajaran**         | **Penerangan**                                                                                |
+|----------------------|------------------------------------------------------------------------------------------------|
+| [Reka Bentuk Ejen](./lesson-1-agent-design/README.md)       | Pengenalan kepada Kes Penggunaan Ejen "Pengenalan Pembangun" dan cara merekabentuk ejen yang berkesan  |
+| [Pembangunan Ejen](./lesson-2-agent-development/README.md)  | Menggunakan Microsoft Agent Framework (MAF), buat 3 ejen untuk membantu pembangun baru memulakan.       |
+| [Penilaian Ejen](./lesson-3-agent-evals/README.md)          | Menggunakan Microsoft Foundry, ketahui prestasi Ejen AI kami dan cara meningkatkannya.                   |
+| [Pengeluaran Ejen](./lesson-4-agent-deployment/README.md)   | Menggunakan Hosted Agents dan OpenAI Chatkit, lihat cara menyebarkan Ejen AI ke dalam pengeluaran.      |
 
 
 ## 🎒 Kursus Lain
@@ -85,7 +95,7 @@ Pasukan kami menghasilkan kursus lain! Lihat:
 
 ---
  
-### Siri Generatif AI
+### Siri AI Generatif
 [![AI Generatif untuk Pemula](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI Generatif (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![AI Generatif (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
@@ -98,7 +108,6 @@ Pasukan kami menghasilkan kursus lain! Lihat:
 [![Sains Data untuk Pemula](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI untuk Pemula](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
 [![Keselamatan Siber untuk Pemula](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-
 [![Pembangunan Web untuk Pemula](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
 [![IoT untuk Pemula](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
 [![Pembangunan XR untuk Pemula](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -113,32 +122,38 @@ Pasukan kami menghasilkan kursus lain! Lihat:
 
 ## Menyumbang
 
-Projek ini mengalu-alukan sumbangan dan cadangan.  Kebanyakan sumbangan memerlukan anda bersetuju dengan Perjanjian Lesen Penyumbang (CLA) yang menyatakan bahawa anda mempunyai hak, dan benar-benar memberi kami hak untuk menggunakan sumbangan anda. Untuk butiran, lawati <https://cla.opensource.microsoft.com>.
+Projek ini mengalu-alukan sumbangan dan cadangan. Kebanyakan sumbangan memerlukan anda bersetuju dengan
+Perjanjian Lesen Penyumbang (CLA) yang menyatakan bahawa anda mempunyai hak untuk, dan benar-benar memberikan kami
+hak untuk menggunakan sumbangan anda. Untuk maklumat lanjut, lawati <https://cla.opensource.microsoft.com>.
 
-Apabila anda menghantar permintaan tarik, bot CLA akan secara automatik menentukan sama ada anda perlu menyediakan CLA dan menghias PR dengan sewajarnya (contohnya, pemeriksaan status, komen). Ikut sahaja arahan yang diberikan oleh bot. Anda hanya perlu melakukan ini sekali sahaja bagi semua repositori yang menggunakan CLA kami.
+Apabila anda menghantar permintaan tarik, bot CLA akan secara automatik menentukan sama ada anda perlu menyediakan
+CLA dan menghiasi PR dengan sewajarnya (contohnya, semakan status, komen). Ikuti sahaja arahan
+yang diberikan oleh bot. Anda hanya perlu melakukannya sekali sahaja merentas semua repositori yang menggunakan CLA kami.
 
-Projek ini telah mengamalkan [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-Untuk maklumat lanjut lihat [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) atau hubungi [opencode@microsoft.com](mailto:opencode@microsoft.com) dengan sebarang soalan atau komen tambahan.
+Projek ini telah mengadopsi [Kod Etika Sumber Terbuka Microsoft](https://opensource.microsoft.com/codeofconduct/).
+Untuk maklumat lanjut, lihat [Soalan Lazim Kod Etika](https://opensource.microsoft.com/codeofconduct/faq/) atau 
+hubungi [opencode@microsoft.com](mailto:opencode@microsoft.com) untuk sebarang soalan atau komen tambahan.
 
 ## Tanda Dagangan
 
-Projek ini mungkin mengandungi tanda dagangan atau logo untuk projek, produk, atau perkhidmatan. Penggunaan tanda dagangan atau logo Microsoft yang dibenarkan tertakluk kepada dan mesti mematuhi
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
-Penggunaan tanda dagangan atau logo Microsoft dalam versi projek yang diubah suai tidak boleh menyebabkan kekeliruan atau memberi gambaran bahawa Microsoft menaja. Sebarang penggunaan tanda dagangan atau logo pihak ketiga tertakluk kepada polisi pihak ketiga tersebut.
+Projek ini mungkin mengandungi tanda dagangan atau logo untuk projek, produk, atau perkhidmatan. Penggunaan sah tanda dagangan atau logo Microsoft adalah tertakluk kepada dan mesti mengikuti 
+[Garisan Panduan Tanda Dagangan & Jenama Microsoft](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
+Penggunaan tanda dagangan atau logo Microsoft dalam versi diubah projek ini tidak boleh menyebabkan kekeliruan atau menunjukkan penajaan Microsoft.
+Sebarang penggunaan tanda dagangan atau logo pihak ketiga tertakluk kepada polisi pihak ketiga tersebut.
 
 ## Mendapatkan Bantuan
 
-Jika anda tersekat atau mempunyai sebarang pertanyaan tentang membina aplikasi AI, sertai:
+Jika anda tersekat atau mempunyai sebarang soalan tentang membina aplikasi AI, sertai:
 
-[![Discord Microsoft Foundry](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-Jika anda mempunyai maklum balas produk atau ralat semasa membina, lawati:
+Jika anda mempunyai maklum balas produk atau kesilapan semasa membina, lawati:
 
-[![Forum Pembangun Microsoft Foundry](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-Penafian:
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI Co-op Translator (https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi ralat atau ketidaktepatan. Dokumen asal dalam bahasa sumbernya hendaklah dianggap sebagai sumber rujukan yang sahih. Untuk maklumat yang kritikal, disyorkan penterjemahan profesional oleh penterjemah manusia. Kami tidak bertanggungjawab terhadap sebarang salah faham atau tafsiran yang salah yang timbul daripada penggunaan terjemahan ini.
+**Penafian**:
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya hendaklah dianggap sebagai sumber yang sahih. Untuk maklumat yang kritikal, terjemahan profesional oleh manusia adalah disyorkan. Kami tidak bertanggungjawab terhadap sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
