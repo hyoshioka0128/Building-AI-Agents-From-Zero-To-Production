@@ -25,7 +25,7 @@ Make we start by defining wetin agent be and why we go use dem inside applicatio
 
 ## Wetin Be AI Agents?
 
-![What Are AI Agents?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.pcm.png)
+![What Are AI Agents?](../../../translated_images/pcm/what-are-ai-agents.47a544a1d03481ab.webp)
 
 If dis na your first time to explore how to build AI Agent, you fit get questions on how to exactly define wetin AI Agent be.
 
@@ -39,7 +39,7 @@ For simple way to define wetin AI Agent be na di components wey make am:
 
 ## Our AI Agent Use Case
 
-![What Are We Building?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.pcm.png)
+![What Are We Building?](../../../translated_images/pcm/what-are-we-building.1ff3b9a752eb8570.webp)
 
 For dis course, we go build AI Agent application wey go help new developers join our AI Agent Development Team!
 
@@ -61,7 +61,7 @@ Dis process dey under di category of Context Engineering as we go focus on makin
 
 Make we do dis scenario by scenario and perform good agentic design by listing each agent's task, tools and wetin we want make e achieve.
 
-![Agent Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.pcm.png)
+![Agent Design](../../../translated_images/pcm/agent-design.07edb7ae37f47803.webp)
 
 ### Scenario 1 - Employee Search Agent
 
@@ -91,7 +91,7 @@ Make we do dis scenario by scenario and perform good agentic design by listing e
 
 Now we don define each of our Agents, make we create architecture diagram wey go help us understand how each agent go work together and separately depending on di task:
 
-![Agent Architecture](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.pcm.png)
+![Agent Architecture](../../../translated_images/pcm/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Next Steps
 
