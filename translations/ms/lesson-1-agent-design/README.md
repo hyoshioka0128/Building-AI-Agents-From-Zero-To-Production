@@ -25,7 +25,7 @@ Mari kita mulakan dengan mendefinisikan apa itu ejen dan mengapa kita menggunaka
 
 ## Apa Itu Ejen AI?
 
-![Apa Itu Ejen AI?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.ms.png)
+![Apa Itu Ejen AI?](../../../translated_images/ms/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Jika ini kali pertama anda meneroka cara membina Ejen AI, anda mungkin mempunyai soalan tentang bagaimana untuk mentakrifkan dengan tepat apa itu Ejen AI.
 
@@ -39,7 +39,7 @@ Cara mudah untuk mentakrifkan apa itu Ejen AI adalah melalui komponen yang membi
 
 ## Kes Penggunaan Ejen AI Kami
 
-![Apa Yang Kami Bina?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.ms.png)
+![Apa Yang Kami Bina?](../../../translated_images/ms/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Untuk kursus ini, kita akan membina aplikasi Ejen AI yang membantu pembangun baru menyertai Pasukan Pembangunan Ejen AI kami!
 
@@ -61,7 +61,7 @@ Proses ini termasuk dalam kategori Kejuruteraan Konteks kerana kita akan memberi
 
 Mari kita lakukan ini satu persatu mengikut senario dan melaksanakan reka bentuk ejen yang baik dengan menyenaraikan tugasan, alat dan hasil yang diingini untuk setiap ejen.
 
-![Reka Bentuk Ejen](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.ms.png)
+![Reka Bentuk Ejen](../../../translated_images/ms/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Senario 1 - Ejen Carian Pekerja
 
@@ -91,7 +91,7 @@ Mari kita lakukan ini satu persatu mengikut senario dan melaksanakan reka bentuk
 
 Sekarang kita telah mentakrifkan setiap Ejen kita, mari cipta rajah seni bina yang akan membantu kita memahami bagaimana setiap ejen akan bekerjasama dan berasingan bergantung pada tugasan:
 
-![Seni Bina Ejen](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.ms.png)
+![Seni Bina Ejen](../../../translated_images/ms/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Langkah Seterusnya
 

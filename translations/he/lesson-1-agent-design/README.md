@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## מה הם סוכני בינה מלאכותית?
 
-![What Are AI Agents?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.he.png)
+![What Are AI Agents?](../../../translated_images/he/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 אם זו הפעם הראשונה שלך לחקור כיצד לבנות סוכן בינה מלאכותית, ייתכן שיש לך שאלות כיצד להגדיר בדיוק מהו סוכן בינה מלאכותית.
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## מקרה השימוש של סוכן הבינה שלנו
 
-![What Are We Building?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.he.png)
+![What Are We Building?](../../../translated_images/he/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 לקורס זה, אנו הולכים לבנות אפליקציית סוכן בינה מלאכותית שעוזרת למפתחים חדשים להצטרף לצוות הפיתוח של סוכני הבינה שלנו!
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 בואו נעשה זאת תרחיש אחר תרחיש ונבצע עיצוב סוכני טוב על ידי רישום המשימה, הכלים והתוצאות הרצויות של כל סוכן.
 
-![Agent Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.he.png)
+![Agent Design](../../../translated_images/he/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### תרחיש 1 - סוכן חיפוש עובדים
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 כעת שהגדרנו כל אחד מהסוכנים שלנו, בואו ניצור דיאגרמת ארכיטקטורה שתעזור לנו להבין כיצד כל סוכן יעבוד יחד ובנפרד בהתאם למשימה:
 
-![Agent Architecture](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.he.png)
+![Agent Architecture](../../../translated_images/he/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## הצעדים הבאים
 

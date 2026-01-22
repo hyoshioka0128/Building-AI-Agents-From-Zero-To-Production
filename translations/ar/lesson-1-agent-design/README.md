@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## ما هي وكلاء الذكاء الاصطناعي؟
 
-![ما هي وكلاء الذكاء الاصطناعي؟](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.ar.png)
+![ما هي وكلاء الذكاء الاصطناعي؟](../../../translated_images/ar/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 إذا كانت هذه هي المرة الأولى التي تستكشف فيها كيفية بناء وكيل ذكاء اصطناعي، قد تكون لديك أسئلة حول كيفية تعريف ما هو وكيل الذكاء الاصطناعي بالضبط.
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## حالة استخدام وكيل الذكاء الاصطناعي الخاص بنا
 
-![ماذا نبني؟](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.ar.png)
+![ماذا نبني؟](../../../translated_images/ar/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 لهذه الدورة، سنبني تطبيق وكيل ذكاء اصطناعي يساعد المطورين الجدد على الانضمام إلى فريق تطوير وكلاء الذكاء الاصطناعي لدينا!
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 لنقم بذلك سيناريو تلو الآخر وننفذ تصميمًا وكيلًا جيدًا من خلال سرد مهمة كل وكيل، الأدوات والنتائج المرجوة.
 
-![تصميم الوكيل](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.ar.png)
+![تصميم الوكيل](../../../translated_images/ar/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### السيناريو 1 - وكيل البحث عن الموظف
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 الآن بعد أن عرفنا كل وكيل من وكلائنا، دعونا ننشئ مخطط هيكلي يساعدنا على فهم كيف سيعمل كل وكيل معًا وبشكل منفصل اعتمادًا على المهمة:
 
-![هيكل الوكيل](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.ar.png)
+![هيكل الوكيل](../../../translated_images/ar/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## الخطوات التالية
 

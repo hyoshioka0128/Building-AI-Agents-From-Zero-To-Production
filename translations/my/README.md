@@ -1,25 +1,35 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d8cf941adeb146a5f00f04e4726c3033",
-  "translation_date": "2025-12-19T10:45:37+00:00",
+  "original_hash": "b09df38b3188ffe957c7ac8b055967f5",
+  "translation_date": "2026-01-16T09:52:40+00:00",
   "source_file": "README.md",
   "language_code": "my"
 }
 -->
-# Zero မှ Production အထိ AI Agent များ တည်ဆောက်ခြင်း
+# Zero မှ စ၍ Production အထိ AI ပြုလုပ်သူများ ဖန်တီးခြင်း
 
-![Building AI Agents from Zero to Production](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.my.png)
+![Zero မှ စ၍ Production အထိ AI ပြုလုပ်သူများ ဖန်တီးခြင်း](../../../../translated_images/my/repo-thumbnail.083b24afed61b6dd.webp)
 
-### 🌐 ဘာသာစကားများစွာကို ထောက်ပံ့မှု
+### 🌐 ဘာသာစကားများစွာကို ထောက်ပံ့ခြင်း
 
-#### GitHub Action မှတဆင့် ထောက်ပံ့ထားခြင်း (အလိုအလျောက်နှင့် အမြဲတမ်း နောက်ဆုံးပေါ်)
+#### GitHub Action မှတဆင့် ထောက်ပံ့သည် (အလိုအလျောက် & အမြဲတမ်း အပ်ဒိတ်ပြုလုပ်ထားသည်)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](./README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+
+> **ဒေသတွင်းမှာ ကလုံးကို မကူးယူချင်ပါသလား?**
+
+> ဤ repository တွင် ဘာသာစကား 50 ကျော်သော အတန်းများပါဝင်ပြီး ဒေါင်းလုပ်အရွယ်အစားကို အလွန်တိုးစေသည်။ ဘာသာပြန်မှုများ မပါဘဲ ကလုံးယူရန် sparse checkout ကိုအသုံးပြုပါ:
+> ```bash
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production.git
+> cd Building-AI-Agents-From-Zero-To-Production
+> git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
+> ```
+>  သင်အတန်းကို အောင်မြင်စွာပြီးမြောက်စေရန် လိုအပ်သည့် အရာအားလုံးကို ဒီလိုနည်းဖြင့် ပိုမြန်ဆန်စွာ ရရှိပါသည်။
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-## AI Agent ဖွံ့ဖြိုးတိုးတက်မှု ဘဝလည်ပတ်မှု အခြေခံများ သင်ကြားပေးသည့် သင်တန်း
+## AI ပြုလုပ်သူ ဖွံ့ဖြိုးတိုးတက်မှု အချိန်ဇယားသည် အခြေခံသင်ခန်းစာကျောင်း
 
 [![GitHub license](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
 [![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
@@ -31,44 +41,44 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 🌱 စတင်ခြင်း
 
-ဤသင်တန်းတွင် AI Agent များ တည်ဆောက်ခြင်းနှင့် ထုတ်လုပ်ခြင်း၏ အခြေခံအချက်များကို သင်ကြားပေးပါသည်။
+ဤသင်တန်းတွင် AI ပြုလုပ်သူများ ဖန်တီးခြင်းနှင့် ထုတ်လုပ်မှုအတွက် အခြေခံအကြောင်းအရာများကို သင်ကြားပေးသည်။
 
-သင်ခန်းစာတိုင်းသည် ယခင်သင်ခန်းစာပေါ်တွင် အခြေခံထားသည်ဖြစ်သောကြောင့် အစမှ စတင်၍ အဆုံးအထိ တက်ကြွစွာ လေ့လာရန် အကြံပြုပါသည်။
+သင်တန်းတိုင်းသည် ယခင်အတန်းပေါ်တွင် အခြေခံထားသောကြောင့် အစမှ စပြီး နောက်ဆုံးအထိ ဖြတ်သွားရန် အကြံပေးသည်။
 
-AI Agent ခေါင်းစဉ်များကို ပိုမိုလေ့လာလိုပါက [AI Agents For Beginners Course](https://aka.ms/ai-agents-beginners) ကို ကြည့်ရှုနိုင်ပါသည်။
+AI ပြုလုပ်သူနယ်ပယ်များအကြောင်း ပိုမိုလေ့လာလိုပါက [AI Agents For Beginners Course](https://aka.ms/ai-agents-beginners) ကို ကြည့်ရှုနိုင်ပါသည်။
 
-### အခြား သင်ယူသူများနှင့် တွေ့ဆုံခြင်း၊ မေးခွန်းများကို ဖြေကြားခြင်း
+### အခြားလေ့လာသူများနှင့် တွေ့ဆုံခြင်း၊ မေးခွန်းများကို ဖြေရှင်းခြင်း
 
-AI Agent များ တည်ဆောက်ရာတွင် အခက်အခဲရှိပါက သို့မဟုတ် မေးခွန်းများရှိပါက [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6) တွင် ကျွန်ုပ်တို့၏ သီးသန့် Discord ချန်နယ်သို့ ဝင်ရောက်ပါ။
+AI ပြုလုပ်သူများ ဖန်တီးရာတွင် တားဆီးခြင်းရှိပါက ဒါမှမဟုတ် မေးခွန်းများရှိလျှင် [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6) တွင်ရှိသော dedicated Discord Channel မှာ ပူးပေါင်းဆွေးနွေးနိုင်ပါသည်။
 
-### လိုအပ်သော အရာများ
+### မည်သည်ကို လိုအပ်ပါသနည်း
 
-သင်ခန်းစာတိုင်းတွင် ကိုယ်ပိုင် ကုဒ်နမူနာရှိပြီး ဒေသတွင်းတွင် ပြေးနိုင်ပါသည်။ ကိုယ်ပိုင် မိတ္တူတစ်ခု ဖန်တီးရန် [ဤ repo ကို fork လုပ်နိုင်ပါသည်](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork)။
+သင်တန်းတိုင်းတွင် ကိုယ်ပိုင် code နမူနာရှိပြီး ဒေသတွင်းတွင် ပြေးနိုင်သည်။ ကိုယ်ပိုင် copy ကို ဖန်တီးရန် [ဒီ repo ကို fork လုပ်ပါ](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork)။
 
-ဤသင်တန်းတွင် လက်ရှိ အသုံးပြုနေသော အရာများမှာ -
+ဤသင်တန်းတွင် ယခုအချိန်တွင် အသုံးပြုထားသော အရာများမှာ -
 
 - [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
 - [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry)
 - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-foundry/models/openai)
 - [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
 
-စတင်ရန်မတိုင်မီ ဤဝန်ဆောင်မှုများကို အသုံးပြုခွင့် ရှိကြောင်း သေချာစေပါ။
+စတင်မတိုင်မှီ ထိုဝန်ဆောင်မှုများကို လက်လှမ်းရောက်ရာရှိမရှိ သေချာစေပါ။
 
-မကြာမီ မော်ဒယ် ဟိုစတင်းနှင့် ဝန်ဆောင်မှုများအတွက် နောက်ထပ် ရွေးချယ်စရာများ ရရှိလာမည်ဖြစ်သည်။
+မကြာမီ မော်ဒယ်ဟိုစတင်ခြင်းနှင့် ဝန်ဆောင်မှုများဆိုင်ရာ အခြားရွေးချယ်စရာများ ထပ်မံကြေငြာပါမည်။
 
 ## 🗃️ သင်ခန်းစာများ
 
-| **သင်ခန်းစာ**         | **ဖော်ပြချက်**                                                                                  |
+| **သင်ခန်းစာ**          | **ဖော်ပြချက်**                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------|
-| [Agent Design](./lesson-1-agent-design/README.md)       | ကျွန်ုပ်တို့၏ "Developer Onboarding" Agent အသုံးပြုမှုအကြောင်း မိတ်ဆက်ခြင်းနှင့် ထိရောက်သော agent များ ဒီဇိုင်းဆွဲနည်း |
-| [Agent Development](./lesson-2-agent-development/README.md)  | Microsoft Agent Framework (MAF) ကို အသုံးပြု၍ developer အသစ်များအတွက် agent ၃ ခု ဖန်တီးခြင်း |
-| [Agent Evaluations](./lesson-3-agent-evals/README.md)  | Microsoft Foundry ကို အသုံးပြု၍ AI Agent များ၏ လုပ်ဆောင်မှုကို စစ်ဆေးပြီး တိုးတက်အောင် ပြုလုပ်နည်း |
-| [Agent Deployment](./lesson-4-agent-deployment/README.md)   | Hosted Agents နှင့် OpenAI Chatkit ကို အသုံးပြု၍ AI Agent ကို ထုတ်လုပ်မှုတွင် တင်သွင်းနည်း |
+| [Agent Design](./lesson-1-agent-design/README.md)       | ကျွန်ုပ်တို့၏ "Developer Onboarding" Agent Use Case နှင့် ထိရောက်မြန်ဆန်သော ပြုလုပ်သူများ တည်ဆောက်ပုံ မိတ်ဆက်ခြင်း  |
+| [Agent Development](./lesson-2-agent-development/README.md)  | Microsoft Agent Framework (MAF) ကို အသုံးပြုပြီး Developer အသစ်များ အတန်းဝင်နိုင်ရန် အကူအညီဖြစ်ပေါ်စေမည့် AI ပြုလုပ်သူ 3 ဦး ဖန်တီးခြင်း        |
+| [Agent Evaluations](./lesson-3-agent-evals/README.md)  | Microsoft Foundry အသုံးပြုပြီး ကျွန်ုပ်တို့ AI ပြုလုပ်သူများ အလုပ္ဆောင်မှု အခြေအနေနှင့် တိုးတက်မှုများကို ရှာဖွေခြင်း       |
+| [Agent Deployment](./lesson-4-agent-deployment/README.md)   | Hosted Agents နှင့် OpenAI Chatkit ကို အသုံးပြုပြီး AI ပြုလုပ်သူတစ်ဦးအား ထုတ်လုပ်မှုတွင် ထည့်သွင်းအသုံးပြုခြင်း      |
 
 
 ## 🎒 အခြား သင်တန်းများ
 
-ကျွန်ုပ်တို့အဖွဲ့သည် အခြား သင်တန်းများကိုလည်း ထုတ်လုပ်ပါသည်။ ကြည့်ရှုပါ -
+ကျွန်ုပ်တို့အဖွဲ့မှ အခြားသင်တန်းများကိုလည်း ထုတ်လုပ်ပေးပါသည်။ ကြည့်ရှုပါ -
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -93,48 +103,48 @@ AI Agent များ တည်ဆောက်ရာတွင် အခက်အ
 
 ---
  
-### Core Learning
+### မူလသင်ယူမှု
 [![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![စတင်သူများအတွက် ဆိုင်ဘာလုံခြုံရေး](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![စတင်သူများအတွက် ဝက်ဘ် တိုးတက်ရေး](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![စတင်သူများအတွက် IoT](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![စတင်သူများအတွက် XR ဖွံ့ဖြိုးရေး](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### Copilot Series
-[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+### Copilot စီးရီး
+[![AI စုံတွဲပရိုဂရမ္မင်းအတွက် Copilot](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![C#/.NET အတွက် Copilot](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Copilot စွန့်စားခန်း](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## Contributing
+## ပံ့ပိုးမှု
 
-ဤပရောဂျက်သည် အထောက်အပံ့များနှင့် အကြံပြုချက်များကို ကြိုဆိုပါသည်။ အများဆုံး အထောက်အပံ့များသည် သင်သည် သင့်အထောက်အပံ့ကို အသုံးပြုခွင့်ရှိကြောင်းနှင့် အမှန်တကယ်ပင် သင့်အထောက်အပံ့ကို အသုံးပြုခွင့်ပေးကြောင်း ကြေညာသည့် Contributor License Agreement (CLA) သို့ သဘောတူရမည်။ အသေးစိတ်အချက်အလက်များအတွက် <https://cla.opensource.microsoft.com> ကို ကြည့်ရှုပါ။
+ဤပရောဂျက်တွင် အကူအညီပေးခြင်းများနှင့် အကြံပြုချက်များကို ကြိုဆိုပါတယ်။ အများဆုံးပံ့ပိုးမှုများသည် သင်၏ပံ့ပိုးမှုကို အသုံးပြုခွင့်ရှိကြောင်းနှင့် အမှန်တကယ်ပံ့ပိုးခွင့်ကို ပေးနေကြောင်း ပရောဂျက်နဲ့အသုံးပြုခွင့်စာချုပ် (Contributor License Agreement - CLA) ကို သင်လက်ခံရန်လိုအပ်သည်။ အသေးစိတ်အတွက် <https://cla.opensource.microsoft.com> ကိုကြည့်ပါ။
 
-သင်သည် pull request တင်သည့်အခါ CLA bot သည် သင် CLA ပေးရန် လိုအပ်မလား၊ PR ကို သင့်တော်စွာ အလှဆင်ပေးမလား (ဥပမာ - status check, comment) ကို အလိုအလျောက် သတ်မှတ်ပေးမည်ဖြစ်သည်။ bot မှ ပေးသော ညွှန်ကြားချက်များကို လိုက်နာပါ။ ဤလုပ်ငန်းစဉ်ကို ကျွန်ုပ်တို့၏ CLA ကို အသုံးပြုသည့် repository များအားလုံးတွင် တစ်ကြိမ်တည်းသာ လုပ်ဆောင်ရမည်ဖြစ်သည်။
+သင့်ရဲ့ pull request ကိုတင်သည့်အခါ CLA bot ကိုယ်တိုင် သင် CLA လိုအပ်မလိုအပ်ခြင်းကို အလိုအလျောက်ဆုံးဖြတ်ပေးပြီး PR ကို သင့်လျော်သည့် နည်းလမ်းဖြင့် (ဥပမာ - အခြေအနေစစ်ဆေးမှု၊ မှတ်ချက်) အမှတ်အသားထိုးပေးပါလိမ့်မည်။ bot မှပေးထားသည့်ညွှန်ကြားချက်များကိုသာလိုက်နာလိုက်ပါ။ ပြုလုပ်ရမည့်အချက်ကို ကျွန်ုပ်တို့ရဲ့ CLA အသုံးပြုသည့် repository များအားလုံးအတွက် တစ်ကြိမ်တည်းသာ လုပ် ဆောင်ရလိမ့်မည်။
 
-ဤပရောဂျက်သည် [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) ကို လက်ခံအသုံးပြုထားပါသည်။ ပိုမိုသိရှိလိုပါက [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) ကို ကြည့်ရှုပါ သို့မဟုတ် [opencode@microsoft.com](mailto:opencode@microsoft.com) သို့ မေးမြန်းနိုင်ပါသည်။
+ဤပရောဂျက်သည် [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) ကို လက်ခံအသုံးပြုထားသည်။ ပိုမိုသိရှိလိုပါက [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) ကိုကြည့်ရှုပါ သို့မဟုတ် ထပ်မံမေးမြန်းလိုပါက [opencode@microsoft.com](mailto:opencode@microsoft.com) သို့ ဆက်သွယ်နိုင်ပါသည်။
 
-## Trademarks
+## ကုန်သည်အမှတ်တံဆိပ်များ
 
-ဤပရောဂျက်တွင် ပရောဂျက်များ၊ ထုတ်ကုန်များ သို့မဟုတ် ဝန်ဆောင်မှုများအတွက် trademark များ သို့မဟုတ် logo များ ပါဝင်နိုင်သည်။ Microsoft trademark များ သို့မဟုတ် logo များကို ခွင့်ပြုထားသော အသုံးပြုမှုသည် [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general) ကို လိုက်နာရမည်ဖြစ်သည်။ ဤပရောဂျက်၏ ပြင်ဆင်ထားသော ဗားရှင်းများတွင် Microsoft trademark များ သို့မဟုတ် logo များကို အသုံးပြုခြင်းသည် ရောဂါဖြစ်စေခြင်း သို့မဟုတ် Microsoft ၏ အားပေးမှုကို ဆိုလိုခြင်း မဖြစ်စေရန် ဖြစ်ရမည်။ တတိယပါတီ trademark များ သို့မဟုတ် logo များကို အသုံးပြုခြင်းသည် ထိုတတိယပါတီများ၏ မူဝါဒများအပေါ် မူတည်ပါသည်။
+ဤပရောဂျက်တွင် ပရောဂျက်များ၊ ထုတ်ကုန်များ သို့မဟုတ် ဝန်ဆောင်မှုများအတွက် ကုန်သည်အမှတ်တံဆိပ်များ သို့မဟုတ် အမှတ်အသားများ ပါဝင်နိုင်သည်။ Microsoft ကုန်သည်အမှတ်တံဆိပ်များ သို့မဟုတ် အမှတ်အသားများကို ခွင့်ပြု အသုံးပြုခြင်းသည် [Microsoft ၏ ကုန်သည်အမှတ်တံဆိပ်နှင့် အမှတ်အသား လမ်းညွှန်ချက်များ](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general) အတိုင်း လိုက်နာရမည် မဖြစ်မနေ ဖြစ်သည်။ ဒီပိုင်းကို ပြင်ဆင်ထားသော ဤပရောဂျက်တွင် Microsoft ကုန်သည်အမှတ်တံဆိပ်များ သို့မဟုတ် အမှတ်အသားများ အသုံးပြုခြင်းက Microsoft အား ကြားဖြတ်ခြင်း သို့မဟုတ် ပံ့ပိုးမှု စကားမျိုး မဖြစ်ဖွယ်ရှိရနှင့် မထင်ဟပ်ရပါ။ တတိယပါတီ ကုန်သည်အမှတ်တံဆိပ် သို့မဟုတ် အမှတ်အသားများကို အသုံးပြုရာတွင် ထိုတတိယပါတီ၏ မူဝါဒများအတိုင်း လိုက်နာရမည် ဖြစ်သည်။
 
-## Getting Help
+## အကူအညီရယူခြင်း
 
-AI အက်ပ်များ တည်ဆောက်ရာတွင် အခက်အခဲရှိပါက သို့မဟုတ် မေးခွန်းများရှိပါက ဝင်ရောက်ပါ -
+AI အက်ပ်များ ဖန်တီးရာတွင် အခက်အခဲ ဖြစ်ပေါ်ပါက သို့မဟုတ် မေးခွန်းများရှိပါက တက်ရောက်လိုက်ပါ။
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-ထုတ်ကုန်တုံ့ပြန်ချက် သို့မဟုတ် တည်ဆောက်စဉ် အမှားများရှိပါက အောက်ပါနေရာသို့ သွားရောက်ပါ -
+ထုတ်ကုန်အကြံပေးချက် သို့မဟုတ် ဖန်တီးရာမှ အမှားတွေရှိပါက ဤနေရာတွင် ကြည့်ရှုနိုင်ပါသည်။
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**အကြောင်းကြားချက်**  
-ဤစာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ဖြင့် ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှန်ကန်မှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်ခြင်းများတွင် အမှားများ သို့မဟုတ် မှားယွင်းချက်များ ပါဝင်နိုင်ကြောင်း သတိပြုပါရန် မေတ္တာရပ်ခံအပ်ပါသည်။ မူရင်းစာတမ်းကို မိမိဘာသာစကားဖြင့်သာ တရားဝင်အချက်အလက်အဖြစ် ယူဆသင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်သူမှ တာဝန်ယူ၍ ဘာသာပြန်ခြင်းကို အကြံပြုပါသည်။ ဤဘာသာပြန်ချက်ကို အသုံးပြုမှုကြောင့် ဖြစ်ပေါ်လာနိုင်သည့် နားလည်မှုမှားယွင်းမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+**အသစ်မည့်အကြောင်းပြချက်**  
+ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှုဖြစ်သော [Co-op Translator](https://github.com/Azure/co-op-translator) ဖြင့် ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် မှန်ကန်မှုအတွက် ကြိုးပမ်းနေပါသော်လည်း စက်လည်ပတ်မှုအရ ဘာသာပြန်ချက်များတွင် အမှားများ သို့မဟုတ် မှားယွင်းချက်များ ပါရှိနိုင်သည်ကို သိရှိထားပါ။ မူရင်းစာရွက်စာတမ်းကို မူရင်းဘာသာဖြင့်သာ အတည်ပြုနိုင်သော အစီအစဉ်အဖြစ် သိရှိသည်မှာ သင့်လျော်ပါသည်။ အရေးကြီးသော သတင်းအချက်အလက်များအတွက် သက်ဆိုင်ရာ ပရော်ဖက်ရှင်နယ် လူသားဘာသာပြန်မှုကို သုံးစွဲရန် အကြံပြုပါသည်။ ဤဘာသာပြန်မှုအသုံးပြုမှုမှ ဖြစ်ပေါ်သော နားမလည်မှုများ သို့မဟုတ် မှားယွင်းဖတ်ရှုမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

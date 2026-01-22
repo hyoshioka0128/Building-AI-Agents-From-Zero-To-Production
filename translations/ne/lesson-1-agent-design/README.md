@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## एआई एजेन्ट के हुन्?
 
-![What Are AI Agents?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.ne.png)
+![What Are AI Agents?](../../../translated_images/ne/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 यदि यो तपाईंको पहिलो पटक हो एआई एजेन्ट कसरी बनाउने भनेर अन्वेषण गर्दै हुनुहुन्छ भने, तपाईंलाई एआई एजेन्ट के हो भनेर ठीकसँग परिभाषित गर्ने बारे प्रश्नहरू हुन सक्छन्।
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## हाम्रो एआई एजेन्ट प्रयोग केस
 
-![What Are We Building?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.ne.png)
+![What Are We Building?](../../../translated_images/ne/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 यस कोर्सका लागि, हामी एउटा एआई एजेन्ट अनुप्रयोग बनाउँदैछौं जसले नयाँ विकासकर्ताहरूलाई हाम्रो एआई एजेन्ट विकास टोलीमा सामेल हुन मद्दत गर्दछ!
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 हामी यो परिदृश्य अनुसार गर्दै राम्रो एजेन्टिक डिजाइन गर्नेछौं प्रत्येक एजेन्टको कार्य, उपकरण र चाहिने परिणामहरू सूचीबद्ध गरेर।
 
-![Agent Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.ne.png)
+![Agent Design](../../../translated_images/ne/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### परिदृश्य १ - कर्मचारी खोज एजेन्ट
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 अब जब हामीले हरेक एजेन्ट परिभाषित गरिसकेका छौं, एउटा वास्तुकला चित्र बनाऔं जसले हामीलाई बुझ्न मद्दत गर्नेछ कि प्रत्येक एजेन्ट कसरी सँगै र अलग-अलग कार्य अनुसार काम गर्नेछ:
 
-![Agent Architecture](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.ne.png)
+![Agent Architecture](../../../translated_images/ne/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## अर्को कदमहरू
 

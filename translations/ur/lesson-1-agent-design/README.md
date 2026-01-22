@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## AI ایجنٹس کیا ہیں؟
 
-![AI ایجنٹس کیا ہیں؟](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.ur.png)
+![AI ایجنٹس کیا ہیں؟](../../../translated_images/ur/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 اگر یہ آپ کا پہلا موقع ہے کہ آپ AI ایجنٹ بنانے کا طریقہ تلاش کر رہے ہیں، تو آپ کے ذہن میں یہ سوالات ہو سکتے ہیں کہ AI ایجنٹ کو بالکل کیسے تعریف کیا جائے۔
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## ہمارا AI ایجنٹ استعمال کا کیس
 
-![ہم کیا بنا رہے ہیں؟](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.ur.png)
+![ہم کیا بنا رہے ہیں؟](../../../translated_images/ur/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 اس کورس کے لیے، ہم ایک AI ایجنٹ ایپلیکیشن بنائیں گے جو نئے ڈویلپرز کو ہمارے AI ایجنٹ ڈیولپمنٹ ٹیم میں شامل ہونے میں مدد دے گی!
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 آئیے ہر منظرنامے کو الگ الگ کریں اور اچھے ایجنٹ ڈیزائن کے لیے ہر ایجنٹ کے کام، ٹولز اور مطلوبہ نتائج کی فہرست بنائیں۔
 
-![ایجنٹ ڈیزائن](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.ur.png)
+![ایجنٹ ڈیزائن](../../../translated_images/ur/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### منظرنامہ 1 - ملازم تلاش ایجنٹ
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 اب جب کہ ہم نے اپنے ہر ایجنٹ کی تعریف کر لی ہے، آئیے ایک آرکیٹیکچر ڈایاگرام بنائیں جو ہمیں سمجھنے میں مدد دے کہ ہر ایجنٹ کس طرح ایک ساتھ اور الگ الگ کام کرے گا، کام کی نوعیت کے مطابق:
 
-![ایجنٹ آرکیٹیکچر](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.ur.png)
+![ایجنٹ آرکیٹیکچر](../../../translated_images/ur/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## اگلے اقدامات
 

@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## AI ഏജന്റുകൾ എന്താണ്?
 
-![What Are AI Agents?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.ml.png)
+![What Are AI Agents?](../../../translated_images/ml/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 നിങ്ങൾക്ക് ആദ്യമായി AI ഏജന്റ് എങ്ങനെ നിർമ്മിക്കാമെന്ന് അന്വേഷിക്കുമ്പോൾ, AI ഏജന്റ് എന്താണെന്ന് കൃത്യമായി നിർവചിക്കാൻ സംശയങ്ങൾ ഉണ്ടാകാം.
 
@@ -39,7 +39,7 @@ AI ഏജന്റ് എന്താണെന്ന് എളുപ്പത്
 
 ## നമ്മുടെ AI ഏജന്റ് ഉപയോഗകേസ്
 
-![What Are We Building?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.ml.png)
+![What Are We Building?](../../../translated_images/ml/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 ഈ കോഴ്സിനായി, നാം ഒരു AI ഏജന്റ് അപ്ലിക്കേഷൻ നിർമ്മിക്കുകയാണ്, ഇത് പുതിയ ഡെവലപ്പർമാർക്ക് നമ്മുടെ AI ഏജന്റ് ഡെവലപ്പ്മെന്റ് ടീമിൽ ചേർക്കാൻ സഹായിക്കും!
 
@@ -61,7 +61,7 @@ AI ഏജന്റ് എന്താണെന്ന് എളുപ്പത്
 
 ഓരോ സീനാരിയോയും അനുസരിച്ച് ഇത് ചെയ്യാം, ഓരോ ഏജന്റിന്റെ ടാസ്ക്, ഉപകരണങ്ങൾ, ആഗ്രഹിക്കുന്ന ഫലങ്ങൾ പട്ടികപ്പെടുത്തിക്കൊണ്ട് നല്ല ഏജന്റിക് ഡിസൈൻ നടത്താം.
 
-![Agent Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.ml.png)
+![Agent Design](../../../translated_images/ml/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### സീനാരിയോ 1 - ജീവനക്കാരൻ തിരയൽ ഏജന്റ്
 
@@ -91,7 +91,7 @@ AI ഏജന്റ് എന്താണെന്ന് എളുപ്പത്
 
 ഇപ്പോൾ ഓരോ ഏജന്റും നിർവചിച്ചതിനുശേഷം, ഓരോ ഏജന്റും ടാസ്ക് അനുസരിച്ച് എങ്ങനെ ചേർന്ന് വേർപിരിഞ്ഞ് പ്രവർത്തിക്കുമെന്ന് മനസ്സിലാക്കാൻ സഹായിക്കുന്ന ഒരു ആർക്കിടെക്ചർ ഡയഗ്രാം സൃഷ്ടിക്കാം:
 
-![Agent Architecture](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.ml.png)
+![Agent Architecture](../../../translated_images/ml/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## അടുത്ത ഘട്ടങ്ങൾ
 

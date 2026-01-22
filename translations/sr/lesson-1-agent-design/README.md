@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Шта су AI агенти?
 
-![Шта су AI агенти?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.sr.png)
+![Шта су AI агенти?](../../../translated_images/sr/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Ако је ово ваш први пут да истражујете како изградити AI агента, можда имате питања како тачно дефинисати шта је AI агент.
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Наш случај употребе AI агента
 
-![Шта градимо?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.sr.png)
+![Шта градимо?](../../../translated_images/sr/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 За овај курс, направићемо AI апликацију агента која помаже новим програмерима да се укључе у наш тим за развој AI агената!
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Хајде да то урадимо сценарио по сценарио и извршимо добар агентски дизајн тако што ћемо набројати задатак, алате и жељене резултате сваког агента.
 
-![Дизајн агента](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.sr.png)
+![Дизајн агента](../../../translated_images/sr/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Сценарио 1 - Агент за претрагу запослених
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Сада када смо дефинисали сваког од наших агената, хајде да направимо дијаграм архитектуре који ће нам помоћи да разумемо како ће сваки агент радити заједно и одвојено у зависности од задатка:
 
-![Архитектура агента](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.sr.png)
+![Архитектура агента](../../../translated_images/sr/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Следећи кораци
 

@@ -25,7 +25,7 @@ Let's start by defining what an agent is and why we would use them inside an app
 
 ## What Are AI Agents?
 
-![What Are AI Agents?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.en.png)
+![What Are AI Agents?](../../../translated_images/en/what-are-ai-agents.47a544a1d03481ab.webp)
 
 If this is your first time exploring how to build an AI Agent, you might have questions on how to exactly define what an AI Agent is.
 
@@ -39,7 +39,7 @@ For a simple way to define what an AI Agent is by the components that make it:
 
 ## Our AI Agent Use Case
 
-![What Are We Building?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.en.png)
+![What Are We Building?](../../../translated_images/en/what-are-we-building.1ff3b9a752eb8570.webp)
 
 For this course, we are going to build an AI Agent application that helps new developers onboard to our AI Agent Development Team!
 
@@ -61,7 +61,7 @@ This process falls under the category of Context Engineering as we will focus on
 
 Let's do this scenario by scenario and perform good agentic design by listing each agent's task, tools and desired outcomes.
 
-![Agent Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.en.png)
+![Agent Design](../../../translated_images/en/agent-design.07edb7ae37f47803.webp)
 
 ### Scenario 1 - Employee Search Agent
 
@@ -91,7 +91,7 @@ Let's do this scenario by scenario and perform good agentic design by listing ea
 
 Now that we have defined each of our Agents, let's create an architecture diagram that will help us understand how each agent will work together and separately depending on the task:
 
-![Agent Architecture](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.en.png)
+![Agent Architecture](../../../translated_images/en/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Next Steps
 

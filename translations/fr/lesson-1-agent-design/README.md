@@ -25,7 +25,7 @@ Commençons par définir ce qu'est un agent et pourquoi nous les utiliserions da
 
 ## Qu'est-ce qu'un Agent IA ?
 
-![Qu'est-ce qu'un Agent IA ?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.fr.png)
+![Qu'est-ce qu'un Agent IA ?](../../../translated_images/fr/what-are-ai-agents.47a544a1d03481ab.webp)
 
 Si c'est la première fois que vous explorez comment construire un Agent IA, vous pourriez avoir des questions sur la manière de définir exactement ce qu'est un Agent IA.
 
@@ -39,7 +39,7 @@ Une façon simple de définir ce qu'est un Agent IA est par les composants qui l
 
 ## Notre Cas d'Usage Agent IA
 
-![Que construisons-nous ?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.fr.png)
+![Que construisons-nous ?](../../../translated_images/fr/what-are-we-building.1ff3b9a752eb8570.webp)
 
 Pour ce cours, nous allons construire une application Agent IA qui aide les nouveaux développeurs à intégrer notre équipe de développement d'Agents IA !
 
@@ -61,7 +61,7 @@ Ce processus relève de l'ingénierie du contexte car nous allons nous concentre
 
 Faisons cela scénario par scénario et réalisons une bonne conception agentique en listant la tâche, les outils et les résultats souhaités de chaque agent.
 
-![Conception d'Agent](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.fr.png)
+![Conception d'Agent](../../../translated_images/fr/agent-design.07edb7ae37f47803.webp)
 
 ### Scénario 1 - Agent de Recherche d'Employés
 
@@ -91,7 +91,7 @@ Faisons cela scénario par scénario et réalisons une bonne conception agentiqu
 
 Maintenant que nous avons défini chacun de nos Agents, créons un diagramme d'architecture qui nous aidera à comprendre comment chaque agent va travailler ensemble et séparément selon la tâche :
 
-![Architecture Agent](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.fr.png)
+![Architecture Agent](../../../translated_images/fr/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Prochaines Étapes
 

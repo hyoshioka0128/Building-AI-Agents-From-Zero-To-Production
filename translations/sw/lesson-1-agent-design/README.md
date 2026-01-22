@@ -25,7 +25,7 @@ Tuanze kwa kuelezea ni wakala ni nini na kwa nini tungetumia ndani ya programu.
 
 ## Wakala wa AI ni Nini?
 
-![What Are AI Agents?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.sw.png)
+![What Are AI Agents?](../../../translated_images/sw/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Ikiwa huu ni mara yako ya kwanza kuchunguza jinsi ya kujenga Wakala wa AI, unaweza kuwa na maswali juu ya jinsi ya kuelezea hasa ni nini Wakala wa AI.
 
@@ -39,7 +39,7 @@ Njia rahisi ya kuelezea ni kwa vipengele vinavyounda:
 
 ## Mfano wa Matumizi ya Wakala wetu wa AI
 
-![What Are We Building?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.sw.png)
+![What Are We Building?](../../../translated_images/sw/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Kwa kozi hii, tutajenga programu ya Wakala wa AI inayosaidia waendelezaji wapya kujiunga na Timu yetu ya Maendeleo ya Wakala wa AI!
 
@@ -61,7 +61,7 @@ Mchakato huu unaangukia katika kundi la Uhandisi wa Muktadha kwani tutazingatia 
 
 Tufanye hivi hali kwa hali na kufanya ubunifu mzuri wa wakala kwa kuorodhesha kazi, zana na matokeo yanayotarajiwa ya kila wakala.
 
-![Agent Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.sw.png)
+![Agent Design](../../../translated_images/sw/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Hali 1 - Wakala wa Utafutaji wa Mfanyakazi
 
@@ -91,7 +91,7 @@ Tufanye hivi hali kwa hali na kufanya ubunifu mzuri wa wakala kwa kuorodhesha ka
 
 Sasa tunapokuwa tumefafanua kila Wakala wetu, hebu tengeneze mchoro wa usanifu utakaotusaidia kuelewa jinsi kila wakala atakavyofanya kazi pamoja na kwa tofauti kulingana na kazi:
 
-![Agent Architecture](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.sw.png)
+![Agent Architecture](../../../translated_images/sw/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Hatua Zifuatazo
 
