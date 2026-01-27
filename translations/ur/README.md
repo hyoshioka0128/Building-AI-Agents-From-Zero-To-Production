@@ -1,70 +1,79 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d8cf941adeb146a5f00f04e4726c3033",
-  "translation_date": "2025-12-19T09:54:51+00:00",
+  "original_hash": "b09df38b3188ffe957c7ac8b055967f5",
+  "translation_date": "2026-01-16T08:23:29+00:00",
   "source_file": "README.md",
   "language_code": "ur"
 }
 -->
-# صفر سے پروڈکشن تک AI ایجنٹس کی تعمیر
+# زیرو سے پروڈکشن تک AI ایجنٹس کی تعمیر
 
-![صفر سے پروڈکشن تک AI ایجنٹس کی تعمیر](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.ur.png)
+![زیرو سے پروڈکشن تک AI ایجنٹس کی تعمیر](../../../../translated_images/ur/repo-thumbnail.083b24afed61b6dd.webp)
 
-### 🌐 کثیراللسانی معاونت
+### 🌐 کثیر الزبان کی حمایت
 
-#### GitHub ایکشن کے ذریعے معاونت (خودکار اور ہمیشہ تازہ ترین)
+#### گٹ ہب ایکشن کے ذریعے معاونت (خودکار اور ہمیشہ جدید)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](./README.md) | [Vietnamese](../vi/README.md)
+[عربی](../ar/README.md) | [بنگالی](../bn/README.md) | [بلغاریائی](../bg/README.md) | [برمی (میانمار)](../my/README.md) | [چینی (آسان)](../zh/README.md) | [چینی (روایتی، ہانگ کانگ)](../hk/README.md) | [چینی (روایتی، ماکاؤ)](../mo/README.md) | [چینی (روایتی، تائیوان)](../tw/README.md) | [کروشیائی](../hr/README.md) | [چیک](../cs/README.md) | [ڈینش](../da/README.md) | [ڈچ](../nl/README.md) | [ایسٹونین](../et/README.md) | [فنلش](../fi/README.md) | [فرانسیسی](../fr/README.md) | [جرمن](../de/README.md) | [یونانی](../el/README.md) | [عبرانی](../he/README.md) | [ہندی](../hi/README.md) | [ہنگیرین](../hu/README.md) | [انڈونیشین](../id/README.md) | [اطالوی](../it/README.md) | [جاپانی](../ja/README.md) | [کنڑ](../kn/README.md) | [کوریائی](../ko/README.md) | [لتھوانین](../lt/README.md) | [مالے](../ms/README.md) | [مالایالم](../ml/README.md) | [مہاراشٹرا](../mr/README.md) | [نیپالی](../ne/README.md) | [نائجیریائی پیڈجن](../pcm/README.md) | [ناروے](../no/README.md) | [فارسی (فارس)](../fa/README.md) | [پولش](../pl/README.md) | [پرتگالی (برازیل)](../br/README.md) | [پرتگالی (پرتگال)](../pt/README.md) | [پنجابی (گرمکھی)](../pa/README.md) | [رومانیائی](../ro/README.md) | [روسی](../ru/README.md) | [سربیائی (سریلیک)](../sr/README.md) | [سلواک](../sk/README.md) | [سلووینین](../sl/README.md) | [ہسپانوی](../es/README.md) | [سواحلی](../sw/README.md) | [سویڈش](../sv/README.md) | [ٹاگالوگ (فلپائنی)](../tl/README.md) | [تمل](../ta/README.md) | [تلگو](../te/README.md) | [تھائی](../th/README.md) | [ترکی](../tr/README.md) | [یوکرینیائی](../uk/README.md) | [اردو](./README.md) | [ویتنامی](../vi/README.md)
+
+> **کیا آپ مقامی طور پر کلون کرنا پسند کریں گے؟**
+
+> اس ریپوزیٹری میں 50+ زبانوں کے تراجم شامل ہیں جو ڈاؤن لوڈ کے سائز کو نمایاں بڑھاتے ہیں۔ بغیر تراجم کے کلون کرنے کے لیے sparse checkout استعمال کریں:
+> ```bash
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production.git
+> cd Building-AI-Agents-From-Zero-To-Production
+> git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
+> ```
+> اس سے آپ کو کورس مکمل کرنے کے لیے ہر چیز بہت تیز ڈاؤن لوڈ کے ساتھ ملے گی۔
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-## AI ایجنٹ ڈیولپمنٹ لائف سائیکل کے بنیادی اصول سکھانے والا کورس
+## ایک کورس جو آپ کو AI ایجنٹ ڈیولپمنٹ کی بنیادیات سکھاتا ہے
 
-[![GitHub license](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
+[![GitHub لائسنس](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
+[![GitHub ٹربیوشن کنندگان](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
+[![GitHub ایشوز](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
+[![GitHub پل-ریکویسٹس](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
+[![PRs خوش آمدید](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
 ## 🌱 شروع کرنا
 
-یہ کورس AI ایجنٹس کی تعمیر اور تعیناتی کے بنیادی اصولوں پر مبنی اسباق پر مشتمل ہے۔
+یہ کورس AI ایجنٹس کی تعمیر اور تعیناتی کی بنیادیات پر مشتمل ہے۔
 
-ہر سبق پچھلے سبق پر مبنی ہے، لہٰذا ہم تجویز کرتے ہیں کہ آپ ابتدا سے شروع کریں اور آخر تک کام کریں۔
+ہر سبق پچھلے سبق کی بنیاد پر بنتا ہے، لہذا ہم تجویز کرتے ہیں کہ شروع سے شروع کریں اور آخر تک کام کریں۔
 
-اگر آپ AI ایجنٹس کے موضوعات کے بارے میں مزید جاننا چاہتے ہیں، تو آپ [AI Agents For Beginners Course](https://aka.ms/ai-agents-beginners) دیکھ سکتے ہیں۔
+اگر آپ AI ایجنٹ کے موضوعات کے بارے میں مزید جاننا چاہتے ہیں، تو آپ [AI Agents For Beginners کورس](https://aka.ms/ai-agents-beginners) دیکھ سکتے ہیں۔
 
-### دیگر سیکھنے والوں سے ملیں، اپنے سوالات کے جواب حاصل کریں
+### دیگر سیکھنے والوں سے ملیں، اپنے سوالات کے جواب پائیں
 
-اگر آپ پھنس جائیں یا AI ایجنٹس کی تعمیر کے بارے میں کوئی سوال ہو، تو ہمارے مخصوص Discord چینل میں شامل ہوں جو [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6) میں ہے۔
+اگر آپ پھنس جائیں یا AI ایجنٹس کی تعمیر کے بارے میں کوئی سوال ہو، تو ہمارے مخصوص Discord چینل میں شامل ہوں جو [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6) پر موجود ہے۔
 
 ### آپ کو کیا چاہیے
 
-ہر سبق کے ساتھ ایک کوڈ نمونہ ہوتا ہے جسے آپ مقامی طور پر چلا سکتے ہیں۔ آپ [اس ریپو کو فورک کریں](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) تاکہ اپنی کاپی بنا سکیں۔
+ہر سبق کے پاس اپنا کوڈ نمونہ ہے جسے آپ لوکل چل سکتے ہیں۔ آپ [اس ریپو کو فورک](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) کر کے اپنی کاپی بنا سکتے ہیں۔
 
-یہ کورس فی الحال درج ذیل استعمال کرتا ہے:
+یہ کورس اس وقت مندرجہ ذیل استعمال کرتا ہے:
 
 - [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
 - [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry)
 - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-foundry/models/openai)
 - [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
 
-براہ کرم شروع کرنے سے پہلے ان خدمات تک رسائی یقینی بنائیں۔
+براہ کرم شروع کرنے سے پہلے ان خدمات تک رسائی کو یقینی بنائیں۔
 
-ماڈل ہوسٹنگ اور خدمات کے مزید اختیارات جلد آ رہے ہیں۔
+ماڈل ہوسٹنگ اور خدمات کے متعلق مزید اختیارات جلد آ رہے ہیں۔
 
 ## 🗃️ اسباق
 
-| **سبق**         | **تفصیل**                                                                                  |
-|--------------------|--------------------------------------------------------------------------------------------------|
-| [ایجنٹ ڈیزائن](./lesson-1-agent-design/README.md)       | ہمارے "ڈیولپر آن بورڈنگ" ایجنٹ استعمال کیس کا تعارف اور مؤثر ایجنٹس ڈیزائن کرنے کا طریقہ  |
-| [ایجنٹ ڈیولپمنٹ](./lesson-2-agent-development/README.md)  | Microsoft Agent Framework (MAF) کا استعمال کرتے ہوئے، نئے ڈیولپرز کی مدد کے لیے 3 ایجنٹس بنائیں۔       |
-| [ایجنٹ جائزے](./lesson-3-agent-evals/README.md)  | Microsoft Foundry کا استعمال کرتے ہوئے، معلوم کریں کہ ہمارے AI ایجنٹس کی کارکردگی کیسی ہے اور انہیں کیسے بہتر بنایا جائے۔ |
-| [ایجنٹ تعیناتی](./lesson-4-agent-deployment/README.md)   | Hosted Agents اور OpenAI Chatkit کا استعمال کرتے ہوئے، AI ایجنٹ کو پروڈکشن میں تعینات کرنے کا طریقہ دیکھیں۔       |
-
+| **سبق**              | **تفصیل**                                                                                      |
+|-----------------------|------------------------------------------------------------------------------------------------|
+| [Agent Design](./lesson-1-agent-design/README.md)         | ہمارے "Developer Onboarding" Agent Use Case کا تعارف اور مؤثر ایجنٹس کے ڈیزائن کا طریقہ          |
+| [Agent Development](./lesson-2-agent-development/README.md)    | Microsoft Agent Framework (MAF) کے استعمال سے 3 ایجنٹس بنائیں جو نئے ڈیولپرز کی مدد کریں۔       |
+| [Agent Evaluations](./lesson-3-agent-evals/README.md)      | Microsoft Foundry کے ذریعے جانیں کہ ہمارے AI ایجنٹس کتنے اچھے کام کر رہے ہیں اور انہیں کیسے بہتر بنایا جائے۔ |
+| [Agent Deployment](./lesson-4-agent-deployment/README.md)       | Hosted Agents اور OpenAI Chatkit کا استعمال کرتے ہوئے AI ایجنٹس کو پروڈکشن میں تعینات کرنے کا طریقہ۔    |
 
 ## 🎒 دیگر کورسز
 
@@ -93,57 +102,55 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
  
-### بنیادی تعلیم
+### Core Learning
 [![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![ابتدائیوں کے لیے سائبر سیکیورٹی](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
 [![ابتدائیوں کے لیے ویب ڈویلپمنٹ](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
 [![ابتدائیوں کے لیے آئی او ٹی](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![ابتدائیوں کے لیے ایکس آر ڈیولپمنٹ](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![ابتدائیوں کے لیے ایکس آر ڈویلپمنٹ](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
- 
+
 ### کوپائلٹ سیریز
-[![AI جوڑے ہوئے پروگرامنگ کے لیے کوپائلٹ](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![C#/.NET کے لیے کوپائلٹ](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![اے آئی جوڑے ہوئے پروگرامنگ کے لئے کوپائلٹ](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![C#/.NET کے لئے کوپائلٹ](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![کوپائلٹ ایڈونچر](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
 ## تعاون
 
-یہ پروجیکٹ تعاون اور تجاویز کا خیرمقدم کرتا ہے۔ زیادہ تر تعاون کے لیے آپ کو ایک
-کنٹریبیوٹر لائسنس ایگریمنٹ (CLA) سے اتفاق کرنا ہوگا جس میں آپ یہ اعلان کرتے ہیں کہ آپ کے پاس
-اپنا تعاون استعمال کرنے کے حقوق ہیں اور آپ واقعی ہمیں یہ حقوق دیتے ہیں۔ تفصیلات کے لیے ملاحظہ کریں <https://cla.opensource.microsoft.com>۔
+یہ پروجیکٹ تعاون اور تجاویز کو خوش آمدید کہتا ہے۔ زیادہ تر تعاون کے لیے آپ کو ایک
+کنٹریبیوٹر لائسنس ایگریمنٹ (CLA) سے اتفاق کرنا ضروری ہے جو اس بات کا اعلان کرتا ہے کہ آپ کے پاس یہ حق ہے، اور واقعی، ہمیں اپنے تعاون کو استعمال کرنے کے حقوق دیتے ہیں۔ تفصیلات کے لیے ملاحظہ کریں <https://cla.opensource.microsoft.com>۔
 
-جب آپ پل ریکویسٹ جمع کرواتے ہیں، تو CLA بوٹ خود بخود تعین کرے گا کہ آیا آپ کو CLA فراہم کرنے کی ضرورت ہے
-اور PR کو مناسب طریقے سے سجا دے گا (مثلاً، اسٹیٹس چیک، تبصرہ)۔ بس بوٹ کی ہدایات پر عمل کریں۔
-آپ کو یہ صرف ایک بار تمام ریپوز میں کرنا ہوگا جو ہمارے CLA استعمال کرتے ہیں۔
+جب آپ کوئی پل ریکوئسٹ جمع کراتے ہیں، تو CLA بوٹ خود بخود یہ تعین کرے گا کہ آیا آپ کو CLA فراہم کرنے کی ضرورت ہے اور پل ریکوئسٹ کو مناسب طریقے سے نشاندہی کرے گا (مثلاً، اسٹیٹس چیک، کمنٹس)۔ بس بوٹ کی جانب سے دی گئی ہدایات پر عمل کریں۔ آپ کو یہ ایک بار تمام ریپوز میں CLA کے ذریعہ استعمال کرنے کے لیے کرنا ہوگا۔
 
-اس پروجیکٹ نے [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) کو اپنایا ہے۔
-مزید معلومات کے لیے [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) دیکھیں یا
+اس پروجیکٹ نے مائیکروسافٹ کی اوپن سورس کوڈ آف کنڈکٹ کو اپنایا ہے۔
+مزید معلومات کے لیے [کوڈ آف کنڈکٹ FAQ](https://opensource.microsoft.com/codeofconduct/faq/) دیکھیں یا
 کسی اضافی سوالات یا تبصروں کے لیے [opencode@microsoft.com](mailto:opencode@microsoft.com) سے رابطہ کریں۔
 
 ## تجارتی نشان
 
-یہ پروجیکٹ پروجیکٹس، مصنوعات، یا خدمات کے لیے تجارتی نشان یا لوگوز پر مشتمل ہو سکتا ہے۔ مائیکروسافٹ کے
-تجارتی نشان یا لوگوز کا مجاز استعمال [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general) کے تابع ہے اور اس کی پیروی کرنا ضروری ہے۔
-اس پروجیکٹ کے ترمیم شدہ ورژنز میں مائیکروسافٹ کے تجارتی نشان یا لوگوز کا استعمال الجھن پیدا نہیں کرنا چاہیے یا مائیکروسافٹ کی سرپرستی کا تاثر نہیں دینا چاہیے۔
-تیسری پارٹی کے تجارتی نشان یا لوگوز کا کوئی بھی استعمال ان تیسری پارٹیوں کی پالیسیوں کے تابع ہے۔
+یہ پروجیکٹ ممکن ہے کہ منصوبوں، مصنوعات، یا خدمات کے لیے تجارتی نشان یا لوگوز پر مشتمل ہو۔ مائیکروسافٹ کے
+تجارتی نشان یا لوگوز کے مجاز استعمال کو اور اس کی پیروی کرنا ہوگی
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general)۔
+اس پروجیکٹ کے ترمیم شدہ ورژن میں مائیکروسافٹ کے تجارتی نشان یا لوگوز کا استعمال الجھن نہیں پیدا کرنا چاہیے یا مائیکروسافٹ کی سرپرستی کا تاثر نہیں دینا چاہیے۔
+تیسرے فریق کے تجارتی نشان یا لوگوز کا کوئی بھی استعمال ان تیسرے فریقوں کی پالیسیوں کے تابع ہے۔
 
 ## مدد حاصل کریں
 
-اگر آپ پھنس جائیں یا AI ایپس بنانے کے بارے میں کوئی سوال ہو، تو شامل ہوں:
+اگر آپ بند ہو جائیں یا AI ایپس بنانے کے دوران کوئی سوال ہو تو شامل ہوں:
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-اگر آپ کے پاس پروڈکٹ فیڈبیک یا تعمیر کے دوران غلطیاں ہوں تو ملاحظہ کریں:
+اگر آپ کے پاس مصنوعات کی رائے یا تعمیر کے دوران غلطیاں ہوں تو ملاحظہ کریں:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**دستخطی دستبرداری**:  
-یہ دستاویز AI ترجمہ سروس [Co-op Translator](https://github.com/Azure/co-op-translator) کے ذریعے ترجمہ کی گئی ہے۔ اگرچہ ہم درستگی کے لیے کوشاں ہیں، براہ کرم آگاہ رہیں کہ خودکار ترجمے میں غلطیاں یا عدم درستیاں ہو سکتی ہیں۔ اصل دستاویز اپنی مادری زبان میں ہی معتبر ماخذ سمجھی جانی چاہیے۔ اہم معلومات کے لیے پیشہ ور انسانی ترجمہ کی سفارش کی جاتی ہے۔ اس ترجمے کے استعمال سے پیدا ہونے والی کسی بھی غلط فہمی یا غلط تشریح کی ذمہ داری ہم پر عائد نہیں ہوتی۔
+**ڈی کلیئرشن**:  
+یہ دستاویز AI ترجمہ سروس [Co-op Translator](https://github.com/Azure/co-op-translator) کے ذریعے ترجمہ کی گئی ہے۔ اگرچہ ہم درستگی کے لیے کوشاں ہیں، براہ کرم نوٹ کریں کہ خودکار ترجموں میں غلطیاں یا کمی بیشی ہو سکتی ہے۔ اصل دستاویز اپنی مادری زبان میں معتبر ماخذ سمجھی جائے گی۔ اہم معلومات کے لیے پیشہ ور انسانی ترجمہ تجویز کیا جاتا ہے۔ اس ترجمہ کے استعمال سے پیدا ہونے والے کسی بھی غلط فہمی یا غلط تشریحات کی ذمہ داری ہم پر عائد نہیں ہوتی۔
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

@@ -25,7 +25,7 @@ Comencemos definiendo qué es un agente y por qué los usaríamos dentro de una 
 
 ## ¿Qué Son los Agentes de IA?
 
-![¿Qué Son los Agentes de IA?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.es.png)
+![¿Qué Son los Agentes de IA?](../../../translated_images/es/what-are-ai-agents.47a544a1d03481ab.webp)
 
 Si es la primera vez que exploras cómo construir un Agente de IA, podrías tener preguntas sobre cómo definir exactamente qué es un Agente de IA.
 
@@ -39,7 +39,7 @@ Una forma sencilla de definir qué es un Agente de IA es por los componentes que
 
 ## Nuestro Caso de Uso de Agente de IA
 
-![¿Qué Estamos Construyendo?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.es.png)
+![¿Qué Estamos Construyendo?](../../../translated_images/es/what-are-we-building.1ff3b9a752eb8570.webp)
 
 Para este curso, vamos a construir una aplicación de Agente de IA que ayude a nuevos desarrolladores a integrarse a nuestro Equipo de Desarrollo de Agentes de IA.
 
@@ -61,7 +61,7 @@ Este proceso cae bajo la categoría de Ingeniería de Contexto ya que nos enfoca
 
 Hagamos esto escenario por escenario y realicemos un buen diseño agentico listando la tarea, herramientas y resultados deseados de cada agente.
 
-![Diseño de Agente](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.es.png)
+![Diseño de Agente](../../../translated_images/es/agent-design.07edb7ae37f47803.webp)
 
 ### Escenario 1 - Agente de Búsqueda de Empleados
 
@@ -91,7 +91,7 @@ Hagamos esto escenario por escenario y realicemos un buen diseño agentico lista
 
 Ahora que hemos definido cada uno de nuestros Agentes, creemos un diagrama de arquitectura que nos ayudará a entender cómo cada agente trabajará juntos y por separado dependiendo de la tarea:
 
-![Arquitectura de Agente](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.es.png)
+![Arquitectura de Agente](../../../translated_images/es/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Próximos Pasos
 

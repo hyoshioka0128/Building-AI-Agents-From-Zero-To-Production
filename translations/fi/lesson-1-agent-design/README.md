@@ -25,7 +25,7 @@ Aloitetaan määrittelemällä, mitä agentti on ja miksi käyttäisimme niitä 
 
 ## Mitä AI-agentit ovat?
 
-![Mitkä ovat AI-agentit?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.fi.png)
+![Mitkä ovat AI-agentit?](../../../translated_images/fi/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Jos tämä on ensimmäinen kerta, kun tutkit, miten AI-agentti rakennetaan, sinulla saattaa olla kysymyksiä siitä, miten AI-agentti tarkalleen määritellään.
 
@@ -39,7 +39,7 @@ Yksinkertainen tapa määritellä AI-agentti on sen osien kautta:
 
 ## AI-agenttimme käyttötapaus
 
-![Mitä rakennamme?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.fi.png)
+![Mitä rakennamme?](../../../translated_images/fi/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Tätä kurssia varten rakennamme AI-agenttisovelluksen, joka auttaa uusia kehittäjiä liittymään AI-agenttikehitystiimiimme!
 
@@ -61,7 +61,7 @@ Tämä prosessi kuuluu kontekstisuunnittelun kategoriaan, sillä keskitymme varm
 
 Tehdään tämä skenaario kerrallaan ja toteutetaan hyvä agenttisuunnittelu listaamalla kunkin agentin tehtävät, työkalut ja toivotut tulokset.
 
-![Agenttisuunnittelu](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.fi.png)
+![Agenttisuunnittelu](../../../translated_images/fi/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Skenaario 1 – Työntekijähakija-agentti
 
@@ -91,7 +91,7 @@ Tehdään tämä skenaario kerrallaan ja toteutetaan hyvä agenttisuunnittelu li
 
 Nyt kun olemme määritelleet jokaisen agenttimme, luodaan arkkitehtuurikaavio, joka auttaa meitä ymmärtämään, miten kukin agentti toimii yhdessä ja erikseen tehtävästä riippuen:
 
-![Agenttiarkkitehtuuri](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.fi.png)
+![Agenttiarkkitehtuuri](../../../translated_images/fi/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Seuraavat askeleet
 

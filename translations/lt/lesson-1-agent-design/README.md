@@ -25,7 +25,7 @@ Pradėkime nuo to, kas yra agentas ir kodėl jį naudotume programoje.
 
 ## Kas yra DI agentai?
 
-![Kas yra DI agentai?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.lt.png)
+![Kas yra DI agentai?](../../../translated_images/lt/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Jei pirmą kartą tyrinėjate, kaip sukurti DI agentą, gali kilti klausimų, kaip tiksliai apibrėžti, kas yra DI agentas.
 
@@ -39,7 +39,7 @@ Paprastas būdas apibrėžti DI agentą – pagal jo sudedamąsias dalis:
 
 ## Mūsų DI agentų naudojimo atvejis
 
-![Ką mes kuriame?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.lt.png)
+![Ką mes kuriame?](../../../translated_images/lt/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Šiam kursui kursime DI agentų programą, kuri padės naujiems kūrėjams prisijungti prie mūsų DI agentų kūrimo komandos!
 
@@ -61,7 +61,7 @@ Dabar, kai turime šiuos scenarijus, kitas žingsnis – susieti juos su įranki
 
 Padarykime tai scenarijus po scenarijaus ir atlikime gerą agentų dizainą, išvardindami kiekvieno agente užduotį, įrankius ir norimus rezultatus.
 
-![Agentų dizainas](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.lt.png)
+![Agentų dizainas](../../../translated_images/lt/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Scenarijus 1 – Darbuotojų paieškos agentas
 
@@ -91,7 +91,7 @@ Padarykime tai scenarijus po scenarijaus ir atlikime gerą agentų dizainą, iš
 
 Dabar, kai apibrėžėme kiekvieną agentą, sukurkime architektūros diagramą, kuri padės suprasti, kaip kiekvienas agentas veiks kartu ir atskirai, priklausomai nuo užduoties:
 
-![Agentų architektūra](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.lt.png)
+![Agentų architektūra](../../../translated_images/lt/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Tolimesni žingsniai
 

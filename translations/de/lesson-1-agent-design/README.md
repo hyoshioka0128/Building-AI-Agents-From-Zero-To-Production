@@ -25,7 +25,7 @@ Beginnen wir damit, zu definieren, was Agenten sind und warum wir sie in einer A
 
 ## Was sind KI-Agenten?
 
-![Was sind KI-Agenten?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.de.png)
+![Was sind KI-Agenten?](../../../translated_images/de/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Wenn Sie zum ersten Mal erkunden, wie man einen KI-Agenten baut, könnten Sie Fragen dazu haben, wie man genau definiert, was ein KI-Agent ist.
 
@@ -39,7 +39,7 @@ Eine einfache Möglichkeit, zu definieren, was ein KI-Agent ist, ist anhand der 
 
 ## Unser KI-Agenten-Anwendungsfall
 
-![Was bauen wir?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.de.png)
+![Was bauen wir?](../../../translated_images/de/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Für diesen Kurs werden wir eine KI-Agenten-Anwendung bauen, die neuen Entwicklern hilft, in unser KI-Agenten-Entwicklungsteam einzusteigen!
 
@@ -61,7 +61,7 @@ Dieser Prozess fällt unter die Kategorie Kontext-Engineering, da wir uns darauf
 
 Lassen Sie uns dies Szenario für Szenario tun und gutes agentisches Design durchführen, indem wir die Aufgaben, Werkzeuge und gewünschten Ergebnisse jedes Agenten auflisten.
 
-![Agenten-Design](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.de.png)
+![Agenten-Design](../../../translated_images/de/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Szenario 1 – Mitarbeiter-Suchagent
 
@@ -91,7 +91,7 @@ Lassen Sie uns dies Szenario für Szenario tun und gutes agentisches Design durc
 
 Jetzt, da wir jeden unserer Agenten definiert haben, erstellen wir ein Architekturdiagramm, das uns hilft zu verstehen, wie jeder Agent je nach Aufgabe zusammen und getrennt arbeiten wird:
 
-![Agenten-Architektur](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.de.png)
+![Agenten-Architektur](../../../translated_images/de/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Nächste Schritte
 

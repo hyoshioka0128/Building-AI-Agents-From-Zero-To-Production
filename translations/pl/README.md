@@ -1,74 +1,84 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d8cf941adeb146a5f00f04e4726c3033",
-  "translation_date": "2025-12-19T10:13:38+00:00",
+  "original_hash": "b09df38b3188ffe957c7ac8b055967f5",
+  "translation_date": "2026-01-16T08:55:16+00:00",
   "source_file": "README.md",
   "language_code": "pl"
 }
 -->
-# Budowanie Agentów AI od Zera do Produkcji
+# Budowanie agentów AI od podstaw do produkcji
 
-![Budowanie Agentów AI od Zera do Produkcji](../../translated_images/repo-thumbnail.083b24afed61b6dd27a7fc53798bebe9edf688a41031163a1fca9f61c64d63ec.pl.png)
+![Budowanie agentów AI od podstaw do produkcji](../../../../translated_images/pl/repo-thumbnail.083b24afed61b6dd.webp)
 
-### 🌐 Wsparcie Wielojęzyczne
+### 🌐 Wsparcie wielojęzyczne
 
-#### Obsługiwane przez GitHub Action (Automatyczne i Zawsze Aktualne)
+#### Obsługiwane przez GitHub Action (zautomatyzowane i zawsze aktualne)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabski](../ar/README.md) | [Bengalski](../bn/README.md) | [Bułgarski](../bg/README.md) | [Birmański (Myanmar)](../my/README.md) | [Chiński (Uproszczony)](../zh/README.md) | [Chiński (Tradycyjny, Hongkong)](../hk/README.md) | [Chiński (Tradycyjny, Makau)](../mo/README.md) | [Chiński (Tradycyjny, Tajwan)](../tw/README.md) | [Chorwacki](../hr/README.md) | [Czeski](../cs/README.md) | [Duński](../da/README.md) | [Niderlandzki](../nl/README.md) | [Estoński](../et/README.md) | [Fiński](../fi/README.md) | [Francuski](../fr/README.md) | [Niemiecki](../de/README.md) | [Grecki](../el/README.md) | [Hebrajski](../he/README.md) | [Hindi](../hi/README.md) | [Węgierski](../hu/README.md) | [Indonezyjski](../id/README.md) | [Włoski](../it/README.md) | [Japoński](../ja/README.md) | [Kannada](../kn/README.md) | [Koreański](../ko/README.md) | [Litewski](../lt/README.md) | [Malajski](../ms/README.md) | [Malajalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepalski](../ne/README.md) | [Pidgin Nigeryjski](../pcm/README.md) | [Norweski](../no/README.md) | [Perski (Farsi)](../fa/README.md) | [Polski](./README.md) | [Portugalski (Brazylia)](../br/README.md) | [Portugalski (Portugalia)](../pt/README.md) | [Pendżabski (Gurmukhi)](../pa/README.md) | [Rumuński](../ro/README.md) | [Rosyjski](../ru/README.md) | [Serbski (Cyrylica)](../sr/README.md) | [Słowacki](../sk/README.md) | [Słoweński](../sl/README.md) | [Hiszpański](../es/README.md) | [Suahili](../sw/README.md) | [Szwedzki](../sv/README.md) | [Tagalog (Filipiński)](../tl/README.md) | [Tamilski](../ta/README.md) | [Telugu](../te/README.md) | [Tajski](../th/README.md) | [Turecki](../tr/README.md) | [Ukraiński](../uk/README.md) | [Urdu](../ur/README.md) | [Wietnamski](../vi/README.md)
+[Arabski](../ar/README.md) | [Bengalski](../bn/README.md) | [Bułgarski](../bg/README.md) | [Birmański (Myanmar)](../my/README.md) | [Chiński (uproszczony)](../zh/README.md) | [Chiński (tradycyjny, Hongkong)](../hk/README.md) | [Chiński (tradycyjny, Macau)](../mo/README.md) | [Chiński (tradycyjny, Tajwan)](../tw/README.md) | [Chorwacki](../hr/README.md) | [Czeski](../cs/README.md) | [Duński](../da/README.md) | [Holenderski](../nl/README.md) | [Estoński](../et/README.md) | [Fiński](../fi/README.md) | [Francuski](../fr/README.md) | [Niemiecki](../de/README.md) | [Grecki](../el/README.md) | [Hebrajski](../he/README.md) | [Hindi](../hi/README.md) | [Węgierski](../hu/README.md) | [Indonezyjski](../id/README.md) | [Włoski](../it/README.md) | [Japoński](../ja/README.md) | [Kannada](../kn/README.md) | [Koreański](../ko/README.md) | [Litewski](../lt/README.md) | [Malajski](../ms/README.md) | [Malajalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepalski](../ne/README.md) | [Nigeryjski pidgin](../pcm/README.md) | [Norweski](../no/README.md) | [Perski (Farsi)](../fa/README.md) | [Polski](./README.md) | [Portugalski (Brazylia)](../br/README.md) | [Portugalski (Portugalia)](../pt/README.md) | [Pendżabski (Gurmukhi)](../pa/README.md) | [Rumuński](../ro/README.md) | [Rosyjski](../ru/README.md) | [Serbski (cyrylica)](../sr/README.md) | [Słowacki](../sk/README.md) | [Słoweński](../sl/README.md) | [Hiszpański](../es/README.md) | [Suahili](../sw/README.md) | [Szwedzki](../sv/README.md) | [Tagalog (Filipiński)](../tl/README.md) | [Tamilski](../ta/README.md) | [Telugu](../te/README.md) | [Tajski](../th/README.md) | [Turecki](../tr/README.md) | [Ukraiński](../uk/README.md) | [Urdu](../ur/README.md) | [Wietnamski](../vi/README.md)
+
+> **Wolisz klonować lokalnie?**
+
+> To repozytorium zawiera tłumaczenia na ponad 50 języków, co znacznie zwiększa rozmiar pobierania. Aby sklonować bez tłumaczeń, użyj sparsowanego checkout:
+> ```bash
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production.git
+> cd Building-AI-Agents-From-Zero-To-Production
+> git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
+> ```
+> Zapewnia to wszystko, czego potrzebujesz do ukończenia kursu, przy znacznie szybszym pobieraniu.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-## Kurs uczący podstaw cyklu życia rozwoju Agenta AI
+## Kurs uczący podstaw cyklu życia rozwoju agenta AI
 
 [![Licencja GitHub](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
 [![Współtwórcy GitHub](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
-[![Problemy GitHub](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
-[![Pull requesty GitHub](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
+[![Zgłoszenia GitHub](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
+[![Prośby o pull GitHub](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-## 🌱 Rozpoczęcie
+## 🌱 Zaczynamy
 
-Ten kurs zawiera lekcje obejmujące podstawy budowania i wdrażania Agentów AI.
+Kurs zawiera lekcje obejmujące podstawy budowania i wdrażania agentów AI.
 
-Każda lekcja opiera się na poprzedniej, dlatego zalecamy rozpoczęcie od początku i przejście przez wszystkie do końca.
+Każda lekcja opiera się na poprzedniej, dlatego zalecamy rozpoczęcie od początku i przechodzenie kolejno do końca.
 
-Jeśli chcesz zgłębić więcej tematów związanych z Agentami AI, możesz sprawdzić [Kurs AI Agents For Beginners](https://aka.ms/ai-agents-beginners).
+Jeśli chcesz zgłębić więcej tematów związanych z agentami AI, możesz zobaczyć kurs [AI Agents For Beginners](https://aka.ms/ai-agents-beginners).
 
-### Poznaj innych uczących się, uzyskaj odpowiedzi na swoje pytania
+### Poznaj innych uczniów, uzyskaj odpowiedzi na swoje pytania
 
-Jeśli utkniesz lub masz pytania dotyczące budowania Agentów AI, dołącz do naszego dedykowanego kanału Discord w [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
+Jeśli utkniesz lub masz pytania dotyczące budowy agentów AI, dołącz do naszego dedykowanego kanału Discord w [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
 
-### Co jest potrzebne
+### Co potrzebujesz
 
-Każda lekcja ma własny przykład kodu, który możesz uruchomić lokalnie. Możesz [forkować to repozytorium](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork), aby utworzyć własną kopię.
+Każda lekcja ma swój własny przykładowy kod, który możesz uruchomić lokalnie. Możesz [forkować to repozytorium](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork), aby utworzyć własną kopię.
 
-Ten kurs obecnie korzysta z następujących:
+Obecnie kurs korzysta z następujących narzędzi:
 
 - [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
 - [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry)
 - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-foundry/models/openai)
 - [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
 
-Upewnij się, że masz dostęp do tych usług przed rozpoczęciem.
+Upewnij się, że masz dostęp do tych usług, zanim zaczniesz.
 
-Wkrótce pojawią się kolejne opcje dotyczące hostingu modeli i usług.
+Wkrótce pojawią się kolejne opcje związane z hostingiem modeli i usługami.
 
 ## 🗃️ Lekcje
 
-| **Lekcja**         | **Opis**                                                                                  |
-|--------------------|-------------------------------------------------------------------------------------------|
-| [Projektowanie Agenta](./lesson-1-agent-design/README.md)       | Wprowadzenie do naszego przypadku użycia "Developer Onboarding" oraz jak projektować skutecznych agentów  |
-| [Rozwój Agenta](./lesson-2-agent-development/README.md)  | Korzystając z Microsoft Agent Framework (MAF), stwórz 3 agentów pomagających nowym deweloperom w onboardingu.       |
-| [Oceny Agentów](./lesson-3-agent-evals/README.md)  | Korzystając z Microsoft Foundry, dowiedz się, jak dobrze działają nasze Agenty AI i jak je ulepszyć. |
-| [Wdrażanie Agenta](./lesson-4-agent-deployment/README.md)   | Korzystając z Hosted Agents i OpenAI Chatkit, zobacz, jak wdrożyć Agenta AI do produkcji.       |
+| **Lekcja**         | **Opis**                                                                                           |
+|--------------------|---------------------------------------------------------------------------------------------------|
+| [Projektowanie agenta](./lesson-1-agent-design/README.md)       | Wprowadzenie do naszego przypadku użycia "Developer Onboarding" oraz jak projektować skutecznych agentów |
+| [Tworzenie agenta](./lesson-2-agent-development/README.md)  | Z wykorzystaniem Microsoft Agent Framework (MAF), stwórz 3 agentów pomagających nowym deweloperom w onboardingu.       |
+| [Ocena agenta](./lesson-3-agent-evals/README.md)  | Z użyciem Microsoft Foundry sprawdź, jak dobrze działają nasze agent AI i jak je usprawnić. |
+| [Wdrażanie agenta](./lesson-4-agent-deployment/README.md)   | Korzystając z Hosted Agents i OpenAI Chatkit, zobacz jak wdrożyć agenta AI do produkcji.       |
 
 
-## 🎒 Inne Kursy
+## 🎒 Inne kursy
 
-Nasz zespół tworzy inne kursy! Sprawdź:
+Nasz zespół tworzy też inne kursy! Sprawdź:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -93,32 +103,32 @@ Nasz zespół tworzy inne kursy! Sprawdź:
 
 ---
  
-### Podstawowe Nauki
+### Podstawowe nauki
 [![ML dla początkujących](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Data Science dla początkujących](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI dla początkujących](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
 [![Cyberbezpieczeństwo dla początkujących](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Tworzenie stron internetowych dla początkujących](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT dla początkujących](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![Tworzenie XR dla początkujących](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### Seria Copilot
-[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+[![Copilot dla AI w programowaniu wspomaganym](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot dla C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Przygoda z Copilot](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## Współtworzenie
+## Wkład
 
-Ten projekt zachęca do współtworzenia i sugestii. Większość wkładów wymaga zgody na
-Umowę Licencyjną Współtwórcy (CLA), w której oświadczasz, że masz prawo i faktycznie udzielasz nam
-praw do korzystania z Twojego wkładu. Szczegóły znajdziesz na <https://cla.opensource.microsoft.com>.
+Ten projekt zachęca do wkładu i sugestii. Większość wkładów wymaga zgody na
+Umowę Licencyjną Współtwórcy (CLA), w której oświadczasz, że masz prawo, i faktycznie udzielasz nam
+praw do używania Twojego wkładu. Szczegóły znajdziesz na <https://cla.opensource.microsoft.com>.
 
 Gdy zgłaszasz pull request, bot CLA automatycznie określi, czy musisz dostarczyć
-CLA i odpowiednio oznaczy PR (np. kontrola statusu, komentarz). Po prostu postępuj zgodnie z instrukcjami
-podanymi przez bota. Będziesz musiał to zrobić tylko raz we wszystkich repozytoriach korzystających z naszej CLA.
+CLA i odpowiednio oznaczy PR (np. weryfikacja statusu, komentarz). Wystarczy postępować zgodnie z instrukcjami
+podanymi przez bota. Musisz to zrobić tylko raz we wszystkich repozytoriach używających naszego CLA.
 
 Ten projekt przyjął [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 Więcej informacji znajdziesz w [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) lub
@@ -127,18 +137,18 @@ skontaktuj się z [opencode@microsoft.com](mailto:opencode@microsoft.com) w razi
 ## Znaki towarowe
 
 Ten projekt może zawierać znaki towarowe lub logotypy projektów, produktów lub usług. Autoryzowane użycie znaków towarowych lub logotypów Microsoft
-podlega i musi być zgodne z
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
-Użycie znaków towarowych lub logotypów Microsoft w zmodyfikowanych wersjach tego projektu nie może powodować zamieszania ani sugerować sponsorowania przez Microsoft.
-Każde użycie znaków towarowych lub logotypów stron trzecich podlega politykom tych stron trzecich.
+jest zgodne i musi przestrzegać
+[Wytycznych dotyczących znaków towarowych i marki Microsoft](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
+Używanie znaków towarowych lub logotypów Microsoft w zmodyfikowanych wersjach tego projektu nie może powodować nieporozumień ani sugerować sponsorowania przez Microsoft.
+Jakiekolwiek użycie znaków towarowych lub logotypów stron trzecich podlega zasadom tych stron trzecich.
 
-## Uzyskanie pomocy
+## Uzyskiwanie pomocy
 
 Jeśli utkniesz lub masz pytania dotyczące tworzenia aplikacji AI, dołącz do:
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-Jeśli masz uwagi dotyczące produktu lub błędy podczas tworzenia, odwiedź:
+Jeśli masz opinie o produkcie lub napotkasz błędy podczas tworzenia, odwiedź:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
@@ -146,5 +156,5 @@ Jeśli masz uwagi dotyczące produktu lub błędy podczas tworzenia, odwiedź:
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Zastrzeżenie**:  
-Niniejszy dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mimo że dokładamy starań, aby tłumaczenie było jak najbardziej precyzyjne, prosimy mieć na uwadze, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w języku źródłowym powinien być uznawany za źródło autorytatywne. W przypadku informacji krytycznych zalecane jest skorzystanie z profesjonalnego tłumaczenia wykonanego przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z korzystania z tego tłumaczenia.
+Dokument ten został przetłumaczony za pomocą automatycznej usługi tłumaczeniowej AI [Co-op Translator](https://github.com/Azure/co-op-translator). Choć dokładamy starań, aby tłumaczenie było jak najbardziej precyzyjne, prosimy mieć na uwadze, że automatyczne przekłady mogą zawierać błędy lub nieścisłości. Oryginalny dokument w jego języku źródłowym powinien być uznawany za źródło ostateczne. W przypadku informacji krytycznych zalecane jest skorzystanie z profesjonalnego tłumaczenia wykonanego przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikłe z korzystania z tego tłumaczenia.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

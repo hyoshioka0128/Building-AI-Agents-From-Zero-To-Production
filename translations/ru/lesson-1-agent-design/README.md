@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Что такое AI агенты?
 
-![Что такое AI агенты?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.ru.png)
+![Что такое AI агенты?](../../../translated_images/ru/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Если вы впервые изучаете, как создать AI агента, у вас могут возникнуть вопросы, как именно определить, что такое AI агент.
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Наш кейс использования AI агента
 
-![Что мы создаём?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.ru.png)
+![Что мы создаём?](../../../translated_images/ru/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 Для этого курса мы создадим AI агентное приложение, которое помогает новым разработчикам адаптироваться в нашей команде разработки AI агентов!
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Давайте пройдёмся по каждому сценарию и выполним хорошее агентное проектирование, перечислив задачи, инструменты и желаемые результаты каждого агента.
 
-![Проектирование агента](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.ru.png)
+![Проектирование агента](../../../translated_images/ru/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Сценарий 1 — Агент поиска сотрудников
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Теперь, когда мы определили каждого из наших агентов, давайте создадим диаграмму архитектуры, которая поможет нам понять, как каждый агент будет работать вместе и отдельно в зависимости от задачи:
 
-![Архитектура агента](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.ru.png)
+![Архитектура агента](../../../translated_images/ru/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Следующие шаги
 

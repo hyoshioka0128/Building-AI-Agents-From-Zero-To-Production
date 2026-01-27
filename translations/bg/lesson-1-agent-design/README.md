@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Какво са AI агенти?
 
-![Какво са AI агенти?](../../../translated_images/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.bg.png)
+![Какво са AI агенти?](../../../translated_images/bg/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 Ако това е първият път, когато изследвате как да създадете AI агент, може да имате въпроси как точно да дефинирате какво е AI агент.
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Нашият AI агентен случай на употреба
 
-![Какво изграждаме?](../../../translated_images/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.bg.png)
+![Какво изграждаме?](../../../translated_images/bg/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 За този курс ще изградим AI агент приложение, което помага на нови разработчици да се включат в нашия екип за разработка на AI агенти!
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Нека го направим сценарий по сценарий и да извършим добро агентско проектиране, като изброим задачите, инструментите и желаните резултати за всеки агент.
 
-![Проектиране на агент](../../../translated_images/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.bg.png)
+![Проектиране на агент](../../../translated_images/bg/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### Сценарий 1 - Агент за търсене на служители
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Сега, когато сме дефинирали всеки от нашите агенти, нека създадем архитектурна диаграма, която ще ни помогне да разберем как всеки агент ще работи заедно и поотделно в зависимост от задачата:
 
-![Архитектура на агент](../../../translated_images/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.bg.png)
+![Архитектура на агент](../../../translated_images/bg/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## Следващи стъпки
 
