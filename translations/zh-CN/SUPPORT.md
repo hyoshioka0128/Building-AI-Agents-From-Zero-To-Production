@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:23:13+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "zh"
-}
--->
 # TODO: 此仓库的维护者尚未编辑此文件
 
 **仓库所有者**：您是否希望为此产品/项目提供客户服务与支持（CSS）？

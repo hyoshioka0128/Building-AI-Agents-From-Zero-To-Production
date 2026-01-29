@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:17:26+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "ur"
-}
--->
 # سبق 1: AI ایجنٹ ڈیزائن
 
 "زیرو سے پروڈکشن تک AI ایجنٹ بنانے کے کورس" کے پہلے سبق میں خوش آمدید!

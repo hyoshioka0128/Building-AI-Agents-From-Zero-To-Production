@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T18:53:41+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "zh"
-}
--->
 # Lesson 4: 使用 Azure AI Foundry 托管代理 + ChatKit 部署代理
 
 本课演示如何将多代理工作流部署到 Azure AI Foundry 作为托管代理，并创建基于 ChatKit 的前端与其交互。

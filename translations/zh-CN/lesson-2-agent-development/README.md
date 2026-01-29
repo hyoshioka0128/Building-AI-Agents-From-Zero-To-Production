@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5990c2d40039586841ab255e3395d805",
-  "translation_date": "2026-01-27T11:06:28+00:00",
-  "source_file": "lesson-2-agent-development/README.md",
-  "language_code": "zh"
-}
--->
 # Lesson 2 代理开发
 
 欢迎来到“从零到生产构建 AI 代理课程”的第二课！

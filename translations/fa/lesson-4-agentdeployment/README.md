@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T18:52:28+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "fa"
-}
--->
 # درس ۴: استقرار عامل با Azure AI Foundry Hosted Agents + ChatKit
 
 این درس نشان می‌دهد چگونه یک جریان کاری چندعاملی را به عنوان یک عامل میزبانی شده در Azure AI Foundry مستقر کرده و یک رابط کاربری مبتنی بر ChatKit برای تعامل با آن ایجاد کنیم.
