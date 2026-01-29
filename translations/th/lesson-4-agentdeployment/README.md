@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:05:25+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "th"
-}
--->
 # บทที่ 4: การปรับใช้ Agent ด้วย Azure AI Foundry Hosted Agents + ChatKit
 
 บทเรียนนี้แสดงวิธีการปรับใช้เวิร์กโฟลว์หลายเอเจนต์ไปยัง Azure AI Foundry ในฐานะโฮสต์เอเจนต์และสร้าง frontend บนพื้นฐาน ChatKit เพื่อโต้ตอบกับมัน
