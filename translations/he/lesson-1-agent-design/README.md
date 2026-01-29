@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:33:27+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "he"
-}
--->
 # שיעור 1: עיצוב סוכן בינה מלאכותית
 
 ברוכים הבאים לשיעור הראשון בקורס "בניית סוכן בינה מלאכותית מאפס ועד הפקה"!

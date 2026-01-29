@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:32:49+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "nl"
-}
--->
 # Les 1: Ontwerp van AI-agenten
 
 Welkom bij de eerste les van de cursus "AI-agent bouwen van nul tot productie"!

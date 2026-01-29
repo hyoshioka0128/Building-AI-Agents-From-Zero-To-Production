@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:08:33+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "nl"
-}
--->
 # Les 4: Agentimplementatie met Azure AI Foundry Gehoste Agents + ChatKit
 
 Deze les laat zien hoe je een multi-agent workflow implementeert naar Azure AI Foundry als een gehoste agent en een ChatKit-gebaseerde frontend maakt om ermee te communiceren.
