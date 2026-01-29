@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:10:51+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "ms"
-}
--->
 # Lesson 4: Penyebaran Ejen dengan Azure AI Foundry Hosted Agents + ChatKit
 
 Pelajaran ini menunjukkan cara menyebarkan aliran kerja berbilang ejen ke Azure AI Foundry sebagai ejen yang dihoskan dan mencipta frontend berasaskan ChatKit untuk berinteraksi dengannya.

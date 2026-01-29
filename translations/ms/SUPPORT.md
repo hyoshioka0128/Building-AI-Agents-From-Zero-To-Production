@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:27:59+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "ms"
-}
--->
 # TODO: Penyelenggara repositori ini belum mengedit fail ini
 
 **PEMILIK REPO**: Adakah anda mahukan sokongan Perkhidmatan & Sokongan Pelanggan (CSS) untuk produk/projek ini?

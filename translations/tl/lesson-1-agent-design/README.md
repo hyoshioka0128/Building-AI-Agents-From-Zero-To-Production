@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:35:47+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "tl"
-}
--->
 # Lesson 1: Disenyo ng AI Agent
 
 Maligayang pagdating sa unang leksyon ng "Building AI Agent from Zero to Production Course"!
