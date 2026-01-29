@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:31:45+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "no"
-}
--->
 # Lesson 1: AI Agent Design
 
 Velkommen til den første leksjonen i "Bygge AI-agent fra null til produksjon-kurset"!

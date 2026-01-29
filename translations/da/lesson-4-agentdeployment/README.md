@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:06:47+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "da"
-}
--->
 # Lesson 4: Agentudrulning med Azure AI Foundry Hosted Agents + ChatKit
 
 Denne lektion demonstrerer, hvordan man udruller en multi-agent arbejdsgang til Azure AI Foundry som en hosted agent og opretter en ChatKit-baseret frontend til at interagere med den.

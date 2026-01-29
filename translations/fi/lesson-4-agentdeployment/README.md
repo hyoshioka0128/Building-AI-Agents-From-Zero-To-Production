@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:07:57+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "fi"
-}
--->
 # Oppitunti 4: Agentin käyttöönotto Azure AI Foundry -isännöidyillä agenteilla + ChatKit
 
 Tässä oppitunnissa näytetään, miten moniagenttityönkulku otetaan käyttöön Azure AI Foundryssa isännöitynä agenttina ja luodaan ChatKit-pohjainen käyttöliittymä sen kanssa vuorovaikutukseen.

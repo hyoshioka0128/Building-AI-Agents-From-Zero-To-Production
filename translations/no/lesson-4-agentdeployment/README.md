@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:07:20+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "no"
-}
--->
 # Lesson 4: Agentdistribusjon med Azure AI Foundry Hosted Agents + ChatKit
 
 Denne leksjonen viser hvordan du distribuerer en arbeidsflyt med flere agenter til Azure AI Foundry som en hosted agent og lager en ChatKit-basert frontend for å samhandle med den.
