@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5990c2d40039586841ab255e3395d805",
-  "translation_date": "2026-01-27T11:32:35+00:00",
-  "source_file": "lesson-2-agent-development/README.md",
-  "language_code": "et"
-}
--->
 # 2. õppetund Agendi arendamine
 
 Tere tulemast "AI-agendi loomine nullist tootmisesse" kursuse teise õppetunni juurde!

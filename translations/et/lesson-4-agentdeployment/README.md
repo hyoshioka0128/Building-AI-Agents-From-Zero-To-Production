@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:21:09+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "et"
-}
--->
 # Õppetund 4: Agendi juurutamine Azure AI Foundry hostitud agentidega + ChatKit
 
 See õppetund demonstreerib, kuidas juurutada mitme agendiga töövoog Azure AI Foundry'sse hostitud agendina ja luua ChatKit-põhine kasutajaliides sellega suhtlemiseks.

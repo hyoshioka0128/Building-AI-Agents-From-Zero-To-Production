@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7229f7490ea61a04330b79651ac4d37e",
-  "translation_date": "2025-12-12T16:48:34+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "pcm"
-}
--->
 ## Security
 
 Microsoft dey take the security of our software products and services serious, wey include all source code repositories for our GitHub organizations.

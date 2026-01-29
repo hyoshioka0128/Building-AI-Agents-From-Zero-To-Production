@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:31:31+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "pcm"
-}
--->
 # TODO: Di person wey dey maintain dis repo neva still edit dis file
 
 **REPO OWNER**: You want Customer Service & Support (CSS) support for dis product/project?
