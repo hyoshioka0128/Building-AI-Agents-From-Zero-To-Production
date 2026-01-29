@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T18:56:09+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "ja"
-}
--->
 # レッスン 4: Azure AI Foundry ホステッドエージェント + ChatKit を使ったエージェントのデプロイ
 
 このレッスンでは、マルチエージェントワークフローを Azure AI Foundry にホステッドエージェントとしてデプロイし、それと対話するための ChatKit ベースのフロントエンドを作成する方法を示します。

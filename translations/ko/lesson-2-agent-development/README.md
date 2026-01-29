@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5990c2d40039586841ab255e3395d805",
-  "translation_date": "2026-01-27T11:09:56+00:00",
-  "source_file": "lesson-2-agent-development/README.md",
-  "language_code": "ko"
-}
--->
 # Lesson 2 에이전트 개발
 
 "제로부터 프로덕션까지 AI 에이전트 구축 코스" 두 번째 수업에 오신 것을 환영합니다!

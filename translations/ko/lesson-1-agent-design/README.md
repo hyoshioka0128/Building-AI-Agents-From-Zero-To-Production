@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:21:03+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "ko"
-}
--->
 # Lesson 1: AI 에이전트 설계
 
 "제로부터 프로덕션까지 AI 에이전트 구축 과정"의 첫 번째 수업에 오신 것을 환영합니다!

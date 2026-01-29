@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T18:57:29+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "hi"
-}
--->
 # पाठ 4: Azure AI Foundry होस्टेड एजेंट्स + ChatKit के साथ एजेंट तैनाती
 
 यह पाठ दिखाता है कि कैसे एक मल्टी-एजेंट वर्कफ़्लो को Azure AI Foundry में एक होस्टेड एजेंट के रूप में तैनात किया जाए और इसके साथ बातचीत करने के लिए ChatKit-आधारित फ्रंटेंड बनाया जाए।
