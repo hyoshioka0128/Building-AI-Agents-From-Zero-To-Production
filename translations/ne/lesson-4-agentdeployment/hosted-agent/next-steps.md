@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c66e79243b2f1c2bd8ba0105275c427e",
-  "translation_date": "2025-12-12T19:32:24+00:00",
-  "source_file": "lesson-4-agentdeployment/hosted-agent/next-steps.md",
-  "language_code": "ne"
-}
--->
 # `azd init` पछि के गर्ने
 
 ## सामग्री तालिका

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5990c2d40039586841ab255e3395d805",
-  "translation_date": "2026-01-27T11:11:45+00:00",
-  "source_file": "lesson-2-agent-development/README.md",
-  "language_code": "mr"
-}
--->
 # धडा 2 एजेंट विकास
 
 "शून्यातून उत्पादनासाठी AI एजंट तयार करणे" या कोर्सच्या दुसऱ्या धड्यामध्ये आपले स्वागत आहे!

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:24:07+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "ne"
-}
--->
 # पाठ १: एआई एजेन्ट डिजाइन
 
 "शून्यदेखि उत्पादनसम्म एआई एजेन्ट निर्माण कोर्स" को पहिलो पाठमा स्वागत छ!

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T18:58:13+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "bn"
-}
--->
 # পাঠ ৪: Azure AI Foundry হোস্টেড এজেন্ট + ChatKit সহ এজেন্ট ডিপ্লয়মেন্ট
 
 এই পাঠে দেখানো হয়েছে কিভাবে একটি মাল্টি-এজেন্ট ওয়ার্কফ্লো Azure AI Foundry-তে হোস্টেড এজেন্ট হিসেবে ডিপ্লয় করতে হয় এবং এর সাথে ইন্টারঅ্যাক্ট করার জন্য ChatKit-ভিত্তিক ফ্রন্টএন্ড তৈরি করতে হয়।

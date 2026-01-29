@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:22:31+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "bn"
-}
--->
 # পাঠ ১: এআই এজেন্ট ডিজাইন
 
 "শূন্য থেকে প্রোডাকশনে এআই এজেন্ট তৈরি কোর্স"-এর প্রথম পাঠে আপনাকে স্বাগতম!
