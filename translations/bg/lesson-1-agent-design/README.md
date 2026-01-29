@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:39:51+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "bg"
-}
--->
 # Урок 1: Проектиране на AI агент
 
 Добре дошли в първия урок от курса "Създаване на AI агент от нулата до продукция"!

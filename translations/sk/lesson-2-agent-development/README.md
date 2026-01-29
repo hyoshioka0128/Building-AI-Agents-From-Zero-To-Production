@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5990c2d40039586841ab255e3395d805",
-  "translation_date": "2026-01-27T11:26:18+00:00",
-  "source_file": "lesson-2-agent-development/README.md",
-  "language_code": "sk"
-}
--->
 # Lesson 2 Vývoj agenta
 
 Vitajte v druhej lekcii kurzu "Budovanie AI agenta od nuly po produkciu"!

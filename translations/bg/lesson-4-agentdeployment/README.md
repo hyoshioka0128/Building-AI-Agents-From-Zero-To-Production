@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:15:34+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "bg"
-}
--->
 # Lesson 4: Разгръщане на агент с Azure AI Foundry Hosted Agents + ChatKit
 
 Този урок демонстрира как да разположите мултиагентен работен процес в Azure AI Foundry като хостван агент и да създадете фронтенд базиран на ChatKit за взаимодействие с него.
