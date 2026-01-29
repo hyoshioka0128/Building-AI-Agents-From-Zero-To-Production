@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T18:50:39+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "de"
-}
--->
 # Lesson 4: Agent Deployment with Azure AI Foundry Hosted Agents + ChatKit
 
 Diese Lektion zeigt, wie man einen Multi-Agent-Workflow als gehosteten Agent in Azure AI Foundry bereitstellt und ein ChatKit-basiertes Frontend erstellt, um mit ihm zu interagieren.
