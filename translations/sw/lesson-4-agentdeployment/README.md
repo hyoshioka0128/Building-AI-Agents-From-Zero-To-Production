@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:12:05+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "sw"
-}
--->
 # Somo la 4: Utekelezaji wa Wakala kwa kutumia Wakala Waliohifadhiwa wa Azure AI Foundry + ChatKit
 
 Somo hili linaonyesha jinsi ya kupeleka mtiririko wa kazi wa mawakala wengi kwenye Azure AI Foundry kama wakala aliyehifadhiwa na kuunda frontend inayotegemea ChatKit kuingiliana nayo.

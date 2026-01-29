@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:28:39+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "cs"
-}
--->
 # TODO: Správce tohoto repozitáře tento soubor ještě neupravil
 
 **VLASTNÍK REPOZITÁŘE**: Chcete podporu Zákaznického servisu a podpory (CSS) pro tento produkt/projekt?

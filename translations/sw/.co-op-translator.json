@@ -1,0 +1,62 @@
+{
+  "CODE_OF_CONDUCT.md": {
+    "original_hash": "763a733399ea9f55f6418d1efe13c12b",
+    "translation_date": "2025-12-12T16:39:13+00:00",
+    "source_file": "CODE_OF_CONDUCT.md",
+    "language_code": "sw"
+  },
+  "README.md": {
+    "original_hash": "338e54564d5dc78ad433bc9f1e4e7f60",
+    "translation_date": "2026-01-29T15:35:27+00:00",
+    "source_file": "README.md",
+    "language_code": "sw"
+  },
+  "SECURITY.md": {
+    "original_hash": "7229f7490ea61a04330b79651ac4d37e",
+    "translation_date": "2025-12-12T16:47:08+00:00",
+    "source_file": "SECURITY.md",
+    "language_code": "sw"
+  },
+  "SUPPORT.md": {
+    "original_hash": "b7244261ee19497082edf33bcce64717",
+    "translation_date": "2025-12-12T16:28:17+00:00",
+    "source_file": "SUPPORT.md",
+    "language_code": "sw"
+  },
+  "data/employees.md": {
+    "original_hash": "d29cdaa139788b02f8b4d8fbb7ed7b6b",
+    "translation_date": "2025-12-12T17:53:27+00:00",
+    "source_file": "data/employees.md",
+    "language_code": "sw"
+  },
+  "lesson-1-agent-design/README.md": {
+    "original_hash": "99c07849641a850775c188c9333f31e5",
+    "translation_date": "2025-12-12T18:36:24+00:00",
+    "source_file": "lesson-1-agent-design/README.md",
+    "language_code": "sw"
+  },
+  "lesson-2-agent-development/README.md": {
+    "original_hash": "5990c2d40039586841ab255e3395d805",
+    "translation_date": "2026-01-27T11:24:17+00:00",
+    "source_file": "lesson-2-agent-development/README.md",
+    "language_code": "sw"
+  },
+  "lesson-3-agent-evals/README.md": {
+    "original_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "translation_date": "2026-01-29T15:34:26+00:00",
+    "source_file": "lesson-3-agent-evals/README.md",
+    "language_code": "sw"
+  },
+  "lesson-4-agentdeployment/README.md": {
+    "original_hash": "3454eeec0053596d08ce81335a963ac6",
+    "translation_date": "2025-12-12T19:12:05+00:00",
+    "source_file": "lesson-4-agentdeployment/README.md",
+    "language_code": "sw"
+  },
+  "lesson-4-agentdeployment/hosted-agent/next-steps.md": {
+    "original_hash": "c66e79243b2f1c2bd8ba0105275c427e",
+    "translation_date": "2025-12-12T19:41:36+00:00",
+    "source_file": "lesson-4-agentdeployment/hosted-agent/next-steps.md",
+    "language_code": "sw"
+  }
+}
