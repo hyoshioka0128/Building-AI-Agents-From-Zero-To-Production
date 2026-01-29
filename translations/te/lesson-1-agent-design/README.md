@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:46:40+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "te"
-}
--->
 # పాఠం 1: AI ఏజెంట్ డిజైన్
 
 "జీరో నుండి ప్రొడక్షన్ వరకు AI ఏజెంట్ నిర్మాణం కోర్సు" యొక్క మొదటి పాఠానికి స్వాగతం!

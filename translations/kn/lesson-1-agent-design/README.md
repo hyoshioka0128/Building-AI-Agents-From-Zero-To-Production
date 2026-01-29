@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:48:00+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "kn"
-}
--->
 # ಪಾಠ 1: AI ಏಜೆಂಟ್ ವಿನ್ಯಾಸ
 
 "ಶೂನ್ಯದಿಂದ ಉತ್ಪಾದನೆಗೆ AI ಏಜೆಂಟ್ ನಿರ್ಮಾಣ ಕೋರ್ಸ್"ನ ಮೊದಲ ಪಾಠಕ್ಕೆ ಸ್ವಾಗತ!

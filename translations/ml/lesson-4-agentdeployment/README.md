@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:23:09+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "ml"
-}
--->
 # പാഠം 4: Azure AI Foundry ഹോസ്റ്റഡ് ഏജന്റുകളുമായി ഏജന്റ് വിന്യാസം + ChatKit
 
 ഈ പാഠം ഒരു മൾട്ടി-ഏജന്റ് വർക്ക്‌ഫ്ലോ Azure AI Foundry-യിൽ ഹോസ്റ്റഡ് ഏജന്റായി വിന്യസിച്ച് അതുമായി സംവദിക്കാൻ ChatKit അടിസ്ഥാനമാക്കിയ ഫ്രണ്ട്‌എൻഡ് സൃഷ്ടിക്കുന്ന വിധം കാണിക്കുന്നു.

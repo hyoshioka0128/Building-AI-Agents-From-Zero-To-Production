@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5990c2d40039586841ab255e3395d805",
-  "translation_date": "2026-01-27T11:39:14+00:00",
-  "source_file": "lesson-2-agent-development/README.md",
-  "language_code": "kn"
-}
--->
 # ಪಾಠ 2 ಏಜೆಂಟ್ ಅಭಿವೃದ್ಧಿ
 
 "ಸೊನ್ನೆಯಿಂದ ಉತ್ಪಾದನೆಗೆ AI ಏಜೆಂಟ್ ನಿರ್ಮಾಣ ಕೋರ್ಸ್"ರ ಎರಡನೇ ಪಾಠಕ್ಕೆ ಸ್ವಾಗತ!

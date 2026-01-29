@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:31:47+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "ml"
-}
--->
 # TODO: ഈ റിപോസിറ്ററിയുടെ മെയിന്റൈനർ ഇതുവരെ ഈ ഫയൽ എഡിറ്റ് ചെയ്തിട്ടില്ല
 
 **REPO OWNER**: ഈ ഉൽപ്പന്നത്തിനോ പ്രോജക്ടിനോ Customer Service & Support (CSS) പിന്തുണ വേണോ?
