@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 什么是 AI 代理？
 
-![什么是 AI 代理？](../../../translated_images/zh/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
+![什么是 AI 代理？](../../../translated_images/zh-CN/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
 
 如果这是你第一次探索如何构建 AI 代理，你可能会有关于如何准确界定 AI 代理是什么的问题。
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 我们的 AI 代理用例
 
-![我们在构建什么？](../../../translated_images/zh/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
+![我们在构建什么？](../../../translated_images/zh-CN/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
 
 在本课程中，我们将构建一个帮助新开发者加入我们的 AI 代理开发团队的 AI 代理应用！
 
@@ -61,7 +61,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 让我们逐个场景进行，执行良好的代理设计，列出每个代理的任务、工具和期望结果。
 
-![代理设计](../../../translated_images/zh/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
+![代理设计](../../../translated_images/zh-CN/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
 
 ### 场景 1 - 员工搜索代理
 
@@ -91,7 +91,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 既然我们已经定义了每个代理，让我们创建一个架构图，帮助我们理解每个代理如何根据任务协同工作或独立工作：
 
-![代理架构](../../../translated_images/zh/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
+![代理架构](../../../translated_images/zh-CN/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
 
 ## 下一步
 

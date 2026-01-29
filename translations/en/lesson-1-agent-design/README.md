@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:13:38+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "en"
-}
--->
 # Lesson 1: AI Agent Design
 
 Welcome to the first lesson of the "Building AI Agent from Zero to Production Course"!
@@ -33,7 +24,7 @@ For a simple way to define what an AI Agent is by the components that make it:
 
 **Large Language Model** - The LLM will power both the ability to process natural language from the user to interpret the task they want to complete as well as interpret the descriptions of the tools available to complete those tasks.
 
-**Tools** - These will be functions, APIs, data stores and other services that the LLM can choose to use to complete the tasks requested by the user.
+**Tools** - These will be functions, APIs , data stores and other services that the LLM can choose to use to complete the tasks requested by the user.
 
 **Memory** - This is how we store both short term and long term interactions between the AI Agent and the user. Storing and retrieving this information is important to making improvements and saving user preferences over time.
 

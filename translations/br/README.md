@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Construindo Agentes de IA do Zero à Produção
 
-![Construindo Agentes de IA do Zero à Produção](../../../../translated_images/br/repo-thumbnail.083b24afed61b6dd.webp)
+![Construindo Agentes de IA do Zero à Produção](../../../../translated_images/pt-BR/repo-thumbnail.083b24afed61b6dd.webp)
 
 ### 🌐 Suporte a Múltiplos Idiomas
 

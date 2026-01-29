@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 從零開始打造 AI 代理至生產
 
-![從零開始打造 AI 代理至生產](../../../../translated_images/mo/repo-thumbnail.083b24afed61b6dd.webp)
+![從零開始打造 AI 代理至生產](../../../../translated_images/zh-MO/repo-thumbnail.083b24afed61b6dd.webp)
 
 ### 🌐 多語言支援
 
