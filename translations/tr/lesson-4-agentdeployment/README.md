@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:03:53+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "tr"
-}
--->
 # Ders 4: Azure AI Foundry Barındırılan Ajanlar + ChatKit ile Ajan Dağıtımı
 
 Bu ders, çok ajanlı bir iş akışını Azure AI Foundry'ye barındırılan ajan olarak nasıl dağıtacağınızı ve onunla etkileşim kurmak için ChatKit tabanlı bir ön yüz oluşturmayı gösterir.

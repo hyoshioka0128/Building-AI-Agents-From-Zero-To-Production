@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "5990c2d40039586841ab255e3395d805",
-  "translation_date": "2026-01-27T11:15:36+00:00",
-  "source_file": "lesson-2-agent-development/README.md",
-  "language_code": "pl"
-}
--->
 # Lekcja 2 Tworzenie Agenta
 
 Witamy w drugiej lekcji kursu „Budowanie Agenta AI od Zera do Produkcji”!

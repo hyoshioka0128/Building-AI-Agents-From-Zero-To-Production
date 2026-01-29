@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:25:32+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "tr"
-}
--->
 # TODO: Bu depo yöneticisi henüz bu dosyayı düzenlemedi
 
 **DEPO SAHİBİ**: Bu ürün/proje için Müşteri Hizmetleri ve Destek (CSS) desteği ister misiniz?
