@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:19:48+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "lt"
-}
--->
 # 4 pamoka: Agentų diegimas naudojant Azure AI Foundry talpinamus agentus + ChatKit
 
 Šioje pamokoje demonstruojama, kaip diegti daugiagentinį darbo eigą į Azure AI Foundry kaip talpinamą agentą ir sukurti ChatKit pagrindu veikiantį frontendą sąveikai su juo.

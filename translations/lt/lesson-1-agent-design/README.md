@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:44:26+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "lt"
-}
--->
 # 1 pamoka: DI agentų dizainas
 
 Sveiki atvykę į pirmąją „Dirbtinio intelekto agentų kūrimo nuo nulio iki gamybos“ kurso pamoką!
