@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:24:38+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "pa"
-}
--->
 # TODO: The maintainer of this repo has not yet edited this file
 
 **REPO OWNER**: ਕੀ ਤੁਸੀਂ ਇਸ ਉਤਪਾਦ/ਪ੍ਰੋਜੈਕਟ ਲਈ ਕਸਟਮਰ ਸਰਵਿਸ ਅਤੇ ਸਹਾਇਤਾ (CSS) ਸਹਾਇਤਾ ਚਾਹੁੰਦੇ ਹੋ?
