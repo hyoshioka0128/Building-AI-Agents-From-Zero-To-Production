@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T18:50:05+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "es"
-}
--->
 # Lección 4: Despliegue de Agentes con Azure AI Foundry Hosted Agents + ChatKit
 
-Esta lección demuestra cómo desplegar un flujo de trabajo multiagente en Azure AI Foundry como un agente alojado y crear un frontend basado en ChatKit para interactuar con él.
+Esta lección muestra cómo desplegar un flujo de trabajo multiagente en Azure AI Foundry como un agente alojado y crear una interfaz basada en ChatKit para interactuar con él.
 
 ## Arquitectura
 
@@ -60,7 +51,7 @@ Esta lección demuestra cómo desplegar un flujo de trabajo multiagente en Azure
 ```bash
 cd lesson-4-agentdeployment
 cp .env.example .env
-# Edite .env con los detalles de su proyecto Azure AI Foundry
+# Edita .env con los detalles de tu proyecto Azure AI Foundry
 ```
 
 ### 2. Desplegar el Agente Alojado
@@ -88,7 +79,7 @@ docker tag developer-onboarding-agent:latest <your-acr>.azurecr.io/developer-onb
 az acr login --name <your-acr>
 docker push <your-acr>.azurecr.io/developer-onboarding-agent:latest
 
-# Desplegar a través del portal o SDK de Azure AI Foundry
+# Desplegar a través del portal de Azure AI Foundry o SDK
 ```
 
 ### 3. Iniciar el Backend de ChatKit
@@ -115,22 +106,22 @@ El frontend se iniciará en `http://localhost:3000`
 
 ### 5. Probar la Aplicación
 
-Abre `http://localhost:3000` en tu navegador y prueba estas consultas:
+Abra `http://localhost:3000` en su navegador y pruebe estas consultas:
 
 **Búsqueda de Empleados:**
 - "¡Soy nuevo aquí! ¿Alguien ha trabajado en Microsoft?"
 - "¿Quién tiene experiencia con Azure Functions?"
 
 **Recursos de Aprendizaje:**
-- "Crea una ruta de aprendizaje para Kubernetes"
-- "¿Qué certificaciones debería obtener para arquitectura en la nube?"
+- "Crear una ruta de aprendizaje para Kubernetes"
+- "¿Qué certificaciones debo obtener para arquitectura en la nube?"
 
-**Ayuda con Código:**
+**Ayuda de Programación:**
 - "Ayúdame a escribir código Python para conectarme a CosmosDB"
 - "Muéstrame cómo crear una Azure Function"
 
 **Consultas Multiagente:**
-- "Estoy comenzando como ingeniero de nube. ¿Con quién debería conectarme y qué debería aprender?"
+- "Estoy empezando como ingeniero en la nube. ¿Con quién debo conectarme y qué debo aprender?"
 
 ## Estructura del Proyecto
 
@@ -162,33 +153,33 @@ lesson-4-agentdeployment/
 
 ## El Flujo de Trabajo Multiagente
 
-El agente alojado usa **HandoffBuilder** para orquestar cuatro agentes especializados:
+El agente alojado usa **HandoffBuilder** para coordinar cuatro agentes especializados:
 
 | Agente | Rol | Herramientas |
 |--------|-----|--------------|
-| **Agente de Triaje** | Coordinador - dirige consultas a especialistas | Ninguna |
+| **Agente de Clasificación** | Coordinador - dirige las consultas a especialistas | Ninguna |
 | **Agente de Búsqueda de Empleados** | Encuentra colegas y miembros del equipo | HostedFileSearchTool (Vector Store) |
 | **Agente de Aprendizaje** | Crea rutas de aprendizaje y recomendaciones | HostedMCPTool (Microsoft Learn) |
-| **Agente de Codificación** | Genera ejemplos de código y orientación | Ninguna |
+| **Agente de Programación** | Genera ejemplos de código y orientación | Ninguna |
 
-El flujo de trabajo permite:
-- Triaje → Cualquier especialista
+El flujo permite:
+- Clasificación → Cualquier especialista
 - Especialistas → Otros especialistas (para consultas relacionadas)
-- Especialistas → Triaje (para nuevos temas)
+- Especialistas → Clasificación (para nuevos temas)
 
 ## Solución de Problemas
 
 ### El agente no responde
-- Verifica que el agente alojado esté desplegado y en ejecución en Azure AI Foundry
-- Comprueba que `HOSTED_AGENT_NAME` y `HOSTED_AGENT_VERSION` coincidan con tu despliegue
+- Verifique que el agente alojado esté desplegado y ejecutándose en Azure AI Foundry
+- Compruebe que `HOSTED_AGENT_NAME` y `HOSTED_AGENT_VERSION` coincidan con su despliegue
 
-### Errores con el vector store
-- Asegúrate de que `VECTOR_STORE_ID` esté configurado correctamente
-- Verifica que el vector store contenga los datos de empleados
+### Errores en el Vector Store
+- Asegúrese de que `VECTOR_STORE_ID` está configurado correctamente
+- Verifique que el vector store contiene los datos de los empleados
 
 ### Errores de autenticación
-- Ejecuta `az login` para refrescar las credenciales
-- Asegúrate de tener acceso al proyecto Azure AI Foundry
+- Ejecute `az login` para refrescar las credenciales
+- Asegúrese de tener acceso al proyecto Azure AI Foundry
 
 ## Recursos
 
@@ -200,6 +191,6 @@ El flujo de trabajo permite:
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Aviso Legal**:  
-Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por la precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas derivadas del uso de esta traducción.
+**Aviso legal**:  
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda la traducción profesional humana. No nos hacemos responsables por malentendidos o interpretaciones erróneas derivados del uso de esta traducción.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

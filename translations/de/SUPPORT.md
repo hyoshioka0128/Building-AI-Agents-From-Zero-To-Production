@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:22:23+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "de"
-}
--->
 # TODO: Der Betreuer dieses Repos hat diese Datei noch nicht bearbeitet
 
 **REPO-EIGENTÜMER**: Möchten Sie Kundendienst- & Support (CSS)-Unterstützung für dieses Produkt/Projekt?

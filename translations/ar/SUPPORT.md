@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:22:49+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "ar"
-}
--->
 # TODO: لم يقم المسؤول عن هذا المستودع بعد بتحرير هذا الملف
 
 **مالك المستودع**: هل تريد دعم خدمة العملاء والدعم (CSS) لهذا المنتج/المشروع؟

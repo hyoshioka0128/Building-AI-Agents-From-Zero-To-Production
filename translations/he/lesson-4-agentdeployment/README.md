@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:09:07+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "he"
-}
--->
 # שיעור 4: פריסת סוכן עם Azure AI Foundry Hosted Agents + ChatKit
 
 שיעור זה מדגים כיצד לפרוס תהליך עבודה רב-סוכני ל-Azure AI Foundry כסוכן מתארח וליצור ממשק קדמי מבוסס ChatKit כדי לתקשר איתו.

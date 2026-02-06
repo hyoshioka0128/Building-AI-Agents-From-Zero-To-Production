@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:32:17+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "fi"
-}
--->
 # Oppitunti 1: AI-agentin suunnittelu
 
 Tervetuloa "Rakennetaan AI-agentti nollasta tuotantoon" -kurssin ensimmäiseen oppituntiin!

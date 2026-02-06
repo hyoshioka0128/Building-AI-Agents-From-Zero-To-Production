@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:25:06+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "pa"
-}
--->
 # ਪਾਠ 1: ਏਆਈ ਏਜੰਟ ਡਿਜ਼ਾਈਨ
 
 "ਜ਼ੀਰੋ ਤੋਂ ਪ੍ਰੋਡਕਸ਼ਨ ਤੱਕ ਏਆਈ ਏਜੰਟ ਬਣਾਉਣ ਕੋਰਸ" ਦੇ ਪਹਿਲੇ ਪਾਠ ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ!

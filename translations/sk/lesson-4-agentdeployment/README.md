@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:14:15+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "sk"
-}
--->
 # Lekcia 4: Nasadenie agenta s Azure AI Foundry Hosted Agents + ChatKit
 
 Táto lekcia ukazuje, ako nasadiť viacagentový pracovný tok do Azure AI Foundry ako hostovaného agenta a vytvoriť frontend založený na ChatKit na interakciu s ním.

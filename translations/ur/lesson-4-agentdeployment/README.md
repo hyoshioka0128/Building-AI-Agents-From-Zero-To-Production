@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T18:53:06+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "ur"
-}
--->
 # سبق 4: Azure AI Foundry ہوسٹڈ ایجنٹس + ChatKit کے ساتھ ایجنٹ کی تعیناتی
 
 یہ سبق دکھاتا ہے کہ کس طرح ایک کثیر ایجنٹ ورک فلو کو Azure AI Foundry میں بطور ہوسٹڈ ایجنٹ تعینات کیا جائے اور اس کے ساتھ بات چیت کے لیے ChatKit پر مبنی فرنٹ اینڈ بنایا جائے۔

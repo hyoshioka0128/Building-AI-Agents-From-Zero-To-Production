@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:45:00+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "ta"
-}
--->
 # பாடம் 1: AI முகவர் வடிவமைப்பு
 
 "பூஜ்ஜியத்திலிருந்து உற்பத்தி வரை AI முகவர்களை உருவாக்கும் பாடநெறி"யின் முதல் பாடத்திற்கு வரவேற்கிறோம்!

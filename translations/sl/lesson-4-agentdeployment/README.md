@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:17:26+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "sl"
-}
--->
 # Lekcija 4: Namestitev agentov z Azure AI Foundry gostovanimi agenti + ChatKit
 
 Ta lekcija prikazuje, kako namestiti večagentni potek dela v Azure AI Foundry kot gostovanega agenta in ustvariti frontend na osnovi ChatKit za interakcijo z njim.

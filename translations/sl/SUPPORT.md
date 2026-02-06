@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:30:01+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "sl"
-}
--->
 # TODO: Vzdrževalec tega repozitorija še ni uredil te datoteke
 
 **LASTNIK REPOZITORIJA**: Ali želite podporo za službo za pomoč uporabnikom in podporo (CSS) za ta izdelek/projekt?

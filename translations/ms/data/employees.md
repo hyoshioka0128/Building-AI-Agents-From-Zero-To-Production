@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d29cdaa139788b02f8b4d8fbb7ed7b6b",
-  "translation_date": "2025-12-12T17:51:24+00:00",
-  "source_file": "data/employees.md",
-  "language_code": "ms"
-}
--->
 # Zava - Direktori Pekerja
 
 ## Gambaran Syarikat

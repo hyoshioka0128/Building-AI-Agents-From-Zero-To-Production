@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:22:24+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "te"
-}
--->
 # పాఠం 4: Azure AI Foundry హోస్టెడ్ ఏజెంట్స్ + ChatKit తో ఏజెంట్ డిప్లాయ్‌మెంట్
 
 ఈ పాఠం ఒక బహుళ ఏజెంట్ వర్క్‌ఫ్లోను Azure AI Foundryలో హోస్టెడ్ ఏజెంట్‌గా ఎలా డిప్లాయ్ చేయాలో మరియు దానితో ఇంటరాక్ట్ అయ్యేందుకు ChatKit ఆధారిత ఫ్రంట్‌ఎండ్‌ను ఎలా సృష్టించాలో చూపిస్తుంది.

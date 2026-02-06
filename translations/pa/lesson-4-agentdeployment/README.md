@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:00:36+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "pa"
-}
--->
 # Lesson 4: Agent Deployment with Azure AI Foundry Hosted Agents + ChatKit
 
 ਇਸ ਪਾਠ ਵਿੱਚ ਦਿਖਾਇਆ ਗਿਆ ਹੈ ਕਿ ਕਿਵੇਂ ਇੱਕ ਬਹੁ-ਏਜੰਟ ਵਰਕਫਲੋ ਨੂੰ Azure AI Foundry ਵਿੱਚ ਇੱਕ ਹੋਸਟ ਕੀਤੇ ਏਜੰਟ ਵਜੋਂ ਤਾਇਨਾਤ ਕੀਤਾ ਜਾਵੇ ਅਤੇ ਇਸ ਨਾਲ ਇੰਟਰੈਕਟ ਕਰਨ ਲਈ ChatKit-ਅਧਾਰਿਤ ਫਰੰਟਐਂਡ ਬਣਾਇਆ ਜਾਵੇ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:35:15+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "ms"
-}
--->
 # Lesson 1: Reka Bentuk Ejen AI
 
 Selamat datang ke pelajaran pertama kursus "Membina Ejen AI dari Kosong ke Pengeluaran"!

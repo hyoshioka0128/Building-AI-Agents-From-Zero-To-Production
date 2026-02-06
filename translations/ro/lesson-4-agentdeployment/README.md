@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:14:54+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "ro"
-}
--->
 # Lecția 4: Implementarea Agentului cu Azure AI Foundry Hosted Agents + ChatKit
 
 Această lecție demonstrează cum să implementați un flux de lucru multi-agent în Azure AI Foundry ca agent găzduit și să creați un frontend bazat pe ChatKit pentru a interacționa cu acesta.

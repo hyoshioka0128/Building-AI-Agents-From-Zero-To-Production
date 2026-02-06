@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:04:45+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "el"
-}
--->
 # Μάθημα 4: Ανάπτυξη Πράκτορα με Azure AI Foundry Hosted Agents + ChatKit
 
 Αυτό το μάθημα δείχνει πώς να αναπτύξετε μια ροή εργασίας πολλαπλών πρακτόρων στο Azure AI Foundry ως φιλοξενούμενο πράκτορα και να δημιουργήσετε ένα frontend βασισμένο στο ChatKit για αλληλεπίδραση με αυτόν.

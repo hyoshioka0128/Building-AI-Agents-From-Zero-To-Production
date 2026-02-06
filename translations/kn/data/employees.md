@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d29cdaa139788b02f8b4d8fbb7ed7b6b",
-  "translation_date": "2025-12-12T18:12:40+00:00",
-  "source_file": "data/employees.md",
-  "language_code": "kn"
-}
--->
 # Zava - ಉದ್ಯೋಗಿ ಡೈರೆಕ್ಟರಿ
 
 ## ಕಂಪನಿ ಅವಲೋಕನ

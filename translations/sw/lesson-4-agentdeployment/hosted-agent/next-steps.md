@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "c66e79243b2f1c2bd8ba0105275c427e",
-  "translation_date": "2025-12-12T19:41:36+00:00",
-  "source_file": "lesson-4-agentdeployment/hosted-agent/next-steps.md",
-  "language_code": "sw"
-}
--->
 # Hatua Zifuatazo baada ya `azd init`
 
 ## Jedwali la Yaliyomo

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "99c07849641a850775c188c9333f31e5",
-  "translation_date": "2025-12-12T18:40:29+00:00",
-  "source_file": "lesson-1-agent-design/README.md",
-  "language_code": "sr"
-}
--->
 # Лекција 1: Дизајн AI Агента
 
 Добродошли у прву лекцију курса "Изградња AI Агента од нуле до продукције"!

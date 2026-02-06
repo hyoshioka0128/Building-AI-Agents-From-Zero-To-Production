@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7229f7490ea61a04330b79651ac4d37e",
-  "translation_date": "2025-12-12T16:46:46+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "id"
-}
--->
 ## Keamanan
 
 Microsoft sangat memperhatikan keamanan produk dan layanan perangkat lunak kami, yang mencakup semua repositori kode sumber di organisasi GitHub kami.

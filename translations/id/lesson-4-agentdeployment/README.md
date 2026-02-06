@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:10:18+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "id"
-}
--->
 # Pelajaran 4: Penyebaran Agen dengan Azure AI Foundry Hosted Agents + ChatKit
 
 Pelajaran ini menunjukkan cara menyebarkan alur kerja multi-agen ke Azure AI Foundry sebagai agen yang dihosting dan membuat frontend berbasis ChatKit untuk berinteraksi dengannya.

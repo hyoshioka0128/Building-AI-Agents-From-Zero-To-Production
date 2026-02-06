@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T18:56:48+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "ko"
-}
--->
 # Lesson 4: Azure AI Foundry 호스티드 에이전트 + ChatKit을 사용한 에이전트 배포
 
 이 수업에서는 다중 에이전트 워크플로우를 Azure AI Foundry에 호스티드 에이전트로 배포하고, 이를 상호작용할 수 있는 ChatKit 기반 프런트엔드를 만드는 방법을 보여줍니다.

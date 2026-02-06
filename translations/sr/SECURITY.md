@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "7229f7490ea61a04330b79651ac4d37e",
-  "translation_date": "2025-12-12T16:47:43+00:00",
-  "source_file": "SECURITY.md",
-  "language_code": "sr"
-}
--->
 ## Безбедност
 
 Microsoft озбиљно схвата безбедност наших софтверских производа и услуга, што укључује све репозиторијуме изворног кода у нашим GitHub организацијама.

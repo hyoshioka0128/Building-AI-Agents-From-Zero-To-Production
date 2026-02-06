@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:16:12+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "sr"
-}
--->
 # Lesson 4: Распоређивање агента са Azure AI Foundry Hosted Agents + ChatKit
 
 Ова лекција показује како да распоредите мулти-агентски ток рада у Azure AI Foundry као хостованог агента и креирате ChatKit-базирани фронтенд за интеракцију са њим.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:25:54+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "th"
-}
--->
 # TODO: ผู้ดูแลรักษารีโปนี้ยังไม่ได้แก้ไขไฟล์นี้
 
 **เจ้าของรีโป**: คุณต้องการการสนับสนุน Customer Service & Support (CSS) สำหรับผลิตภัณฑ์/โครงการนี้หรือไม่?

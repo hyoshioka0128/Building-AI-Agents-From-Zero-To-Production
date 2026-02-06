@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:27:41+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "vi"
-}
--->
 # TODO: Người duy trì kho lưu trữ này chưa chỉnh sửa tệp này
 
 **CHỦ SỞ HỮU KHO LƯU TRỮ**: Bạn có muốn nhận hỗ trợ Dịch vụ & Hỗ trợ Khách hàng (CSS) cho sản phẩm/dự án này không?

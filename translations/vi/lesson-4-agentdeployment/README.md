@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:09:43+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "vi"
-}
--->
 # Bài học 4: Triển khai Agent với Azure AI Foundry Hosted Agents + ChatKit
 
 Bài học này trình bày cách triển khai một quy trình làm việc đa agent lên Azure AI Foundry dưới dạng một hosted agent và tạo một frontend dựa trên ChatKit để tương tác với nó.

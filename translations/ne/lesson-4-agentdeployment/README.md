@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T18:59:45+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "ne"
-}
--->
 # पाठ ४: Azure AI Foundry होस्ट गरिएको एजेन्टहरू + ChatKit सँग एजेन्ट परिनियोजन
 
 यस पाठले कसरी बहु-एजेन्ट कार्यप्रवाहलाई Azure AI Foundry मा होस्ट गरिएको एजेन्टको रूपमा परिनियोजन गर्ने र यससँग अन्तरक्रिया गर्न ChatKit-आधारित फ्रन्टएन्ड सिर्जना गर्ने देखाउँछ।

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:23:51+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "kn"
-}
--->
 # ಪಾಠ 4: Azure AI Foundry ಹೋಸ್ಟ್ ಮಾಡಿದ ಏಜೆಂಟ್‌ಗಳೊಂದಿಗೆ ಏಜೆಂಟ್ ನಿಯೋಜನೆ + ChatKit
 
 ಈ ಪಾಠವು ಬಹು ಏಜೆಂಟ್ ವರ್ಕ್‌ಫ್ಲೋವನ್ನು Azure AI Foundry ಗೆ ಹೋಸ್ಟ್ ಮಾಡಿದ ಏಜೆಂಟ್ ಆಗಿ ನಿಯೋಜಿಸುವುದನ್ನು ಮತ್ತು ಅದಕ್ಕೆ ಸಂವಹನ ಮಾಡಲು ChatKit ಆಧಾರಿತ ಫ್ರಂಟ್‌ಎಂಡ್ ಅನ್ನು ರಚಿಸುವುದನ್ನು ತೋರಿಸುತ್ತದೆ.

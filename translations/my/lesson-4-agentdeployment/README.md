@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:18:17+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "my"
-}
--->
 # သင်ခန်းစာ ၄: Azure AI Foundry Hosted Agents + ChatKit ဖြင့် Agent တပ်ဆင်ခြင်း
 
 ဤသင်ခန်းစာသည် multi-agent workflow ကို Azure AI Foundry တွင် hosted agent အဖြစ် တပ်ဆင်ပြီး ChatKit အခြေပြု frontend တစ်ခုကို ဖန်တီးကာ အပြန်အလှန် ဆက်သွယ်နိုင်ရန် ပြသသည်။

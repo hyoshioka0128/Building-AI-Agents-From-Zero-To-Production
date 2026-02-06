@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:28:26+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "hu"
-}
--->
 # TODO: Ennek a tárolónak a karbantartója még nem szerkesztette ezt a fájlt
 
 **TÁROLÓ TULAJDONOS**: Szeretne Ügyfélszolgálati és Támogatási (CSS) támogatást ehhez a termékhez/projekthez?

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T18:51:50+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "ar"
-}
--->
 # الدرس 4: نشر الوكيل مع وكلاء Azure AI Foundry المستضافين + ChatKit
 
 يُظهر هذا الدرس كيفية نشر سير عمل متعدد الوكلاء إلى Azure AI Foundry كوكيل مستضاف وإنشاء واجهة أمامية تعتمد على ChatKit للتفاعل معه.

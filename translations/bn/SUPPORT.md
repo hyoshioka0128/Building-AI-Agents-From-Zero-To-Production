@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "b7244261ee19497082edf33bcce64717",
-  "translation_date": "2025-12-12T16:24:08+00:00",
-  "source_file": "SUPPORT.md",
-  "language_code": "bn"
-}
--->
 # TODO: এই রেপোর মেইনটেইনার এখনও এই ফাইলটি সম্পাদনা করেননি
 
 **REPO OWNER**: আপনি কি এই পণ্য/প্রকল্পের জন্য কাস্টমার সার্ভিস ও সাপোর্ট (CSS) সাপোর্ট চান?

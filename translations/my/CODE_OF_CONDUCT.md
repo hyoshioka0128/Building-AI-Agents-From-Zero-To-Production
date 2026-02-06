@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "763a733399ea9f55f6418d1efe13c12b",
-  "translation_date": "2025-12-12T16:41:07+00:00",
-  "source_file": "CODE_OF_CONDUCT.md",
-  "language_code": "my"
-}
--->
 # Microsoft Open Source ကိုးဒ်အပြုအမူ စည်းကမ်းချက်
 
 ဤပရောဂျက်သည် [Microsoft Open Source ကိုးဒ်အပြုအမူ စည်းကမ်းချက်](https://opensource.microsoft.com/codeofconduct/) ကို လက်ခံအသုံးပြုထားသည်။

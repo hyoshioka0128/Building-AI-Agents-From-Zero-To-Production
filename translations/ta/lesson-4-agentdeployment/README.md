@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3454eeec0053596d08ce81335a963ac6",
-  "translation_date": "2025-12-12T19:20:28+00:00",
-  "source_file": "lesson-4-agentdeployment/README.md",
-  "language_code": "ta"
-}
--->
 # பாடம் 4: Azure AI Foundry ஹோஸ்ட் செய்யப்பட்ட முகவர்களுடன் முகவர் 배치 + ChatKit
 
 இந்த பாடம் ஒரு பன்முகவர் வேலைப்பாட்டை Azure AI Foundry-க்கு ஹோஸ்ட் செய்யப்பட்ட முகவராக 배치 செய்வது மற்றும் அதனுடன் தொடர்பு கொள்ள ChatKit அடிப்படையிலான முன்னணி உருவாக்குவது எப்படி என்பதை காட்டுகிறது.
