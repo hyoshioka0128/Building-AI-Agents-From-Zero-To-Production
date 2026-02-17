@@ -16,7 +16,7 @@ Začnimo z določanjem, kaj je agent in zakaj jih uporabljamo v aplikaciji.
 
 ## Kaj so AI Agenti?
 
-![Kaj so AI Agenti?](../../../translated_images/sl/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
+![Kaj so AI Agenti?](../../../translated_images/sl/what-are-ai-agents.47a544a1d03481ab.webp)
 
 Če prvič raziskujete, kako zgraditi AI Agenta, imate morda vprašanja, kako natančno definirati, kaj je AI Agent.
 
@@ -30,7 +30,7 @@ Preprosta definicija AI Agenta temelji na komponentah, ki ga sestavljajo:
 
 ## Naš primer uporabe AI Agenta
 
-![Kaj gradimo?](../../../translated_images/sl/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
+![Kaj gradimo?](../../../translated_images/sl/what-are-we-building.1ff3b9a752eb8570.webp)
 
 Za ta tečaj bomo zgradili AI Agent aplikacijo, ki pomaga novim razvijalcem pri vključevanju v našo razvojno ekipo AI Agentov!
 
@@ -52,7 +52,7 @@ Ta proces spada v kategorijo inženiringa konteksta, saj se bomo osredotočili n
 
 Pojdimo scenarij za scenarijem in izvedimo dobro agentno oblikovanje tako, da navedemo naloge, orodja in želene rezultate vsakega agenta.
 
-![Oblikovanje agenta](../../../translated_images/sl/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
+![Oblikovanje agenta](../../../translated_images/sl/agent-design.07edb7ae37f47803.webp)
 
 ### Scenarij 1 - Agent za iskanje zaposlenih
 
@@ -82,7 +82,7 @@ Pojdimo scenarij za scenarijem in izvedimo dobro agentno oblikovanje tako, da na
 
 Zdaj, ko smo definirali vsakega od naših agentov, ustvarimo arhitekturni diagram, ki nam bo pomagal razumeti, kako bodo agenti delovali skupaj in ločeno glede na nalogo:
 
-![Arhitektura agenta](../../../translated_images/sl/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
+![Arhitektura agenta](../../../translated_images/sl/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Naslednji koraki
 
