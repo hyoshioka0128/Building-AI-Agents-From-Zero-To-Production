@@ -16,7 +16,7 @@ Să începem prin a defini ce este un agent și de ce am folosi agenți într-o 
 
 ## Ce Sunt Agenții AI?
 
-![Ce Sunt Agenții AI?](../../../translated_images/ro/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
+![Ce Sunt Agenții AI?](../../../translated_images/ro/what-are-ai-agents.47a544a1d03481ab.webp)
 
 Dacă este prima dată când explorați cum să construiți un Agent AI, este posibil să aveți întrebări despre cum să definiți exact ce este un Agent AI.
 
@@ -30,7 +30,7 @@ O modalitate simplă de a defini ce este un Agent AI este prin componentele care
 
 ## Cazul nostru de utilizare AI Agent
 
-![Ce Construim?](../../../translated_images/ro/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
+![Ce Construim?](../../../translated_images/ro/what-are-we-building.1ff3b9a752eb8570.webp)
 
 Pentru acest curs, vom construi o aplicație Agent AI care ajută noii dezvoltatori să se integreze în echipa noastră de dezvoltare AI Agent!
 
@@ -52,7 +52,7 @@ Acest proces intră în categoria Ingineriei Contextului, deoarece ne vom concen
 
 Să facem acest lucru scenariu cu scenariu și să realizăm un design agentic bun listând sarcina fiecărui agent, uneltele și rezultatele dorite.
 
-![Proiectarea Agentului](../../../translated_images/ro/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
+![Proiectarea Agentului](../../../translated_images/ro/agent-design.07edb7ae37f47803.webp)
 
 ### Scenariul 1 - Agent de Căutare Angajați
 
@@ -82,7 +82,7 @@ Să facem acest lucru scenariu cu scenariu și să realizăm un design agentic b
 
 Acum că am definit fiecare dintre Agenții noștri, să creăm un diagramă de arhitectură care ne va ajuta să înțelegem cum va funcționa fiecare agent împreună și separat, în funcție de sarcină:
 
-![Arhitectura Agentului](../../../translated_images/ro/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
+![Arhitectura Agentului](../../../translated_images/ro/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Pașii următori
 
