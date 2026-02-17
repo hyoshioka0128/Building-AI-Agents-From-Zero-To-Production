@@ -16,7 +16,7 @@
 
 ## AIエージェントとは？
 
-![What Are AI Agents?](../../../translated_images/ja/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
+![What Are AI Agents?](../../../translated_images/ja/what-are-ai-agents.47a544a1d03481ab.webp)
 
 もしAIエージェントの構築を初めて探求するなら、AIエージェントを正確に定義する方法について疑問があるかもしれません。
 
@@ -30,7 +30,7 @@ AIエージェントを構成する要素によって簡単に定義すると：
 
 ## 私たちのAIエージェントのユースケース
 
-![What Are We Building?](../../../translated_images/ja/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
+![What Are We Building?](../../../translated_images/ja/what-are-we-building.1ff3b9a752eb8570.webp)
 
 このコースでは、新しい開発者が私たちのAIエージェント開発チームにオンボードするのを支援するAIエージェントアプリケーションを構築します！
 
@@ -52,7 +52,7 @@ AIエージェントを構成する要素によって簡単に定義すると：
 
 シナリオごとに進めて、各エージェントのタスク、ツール、望ましい成果をリストアップして良いエージェント設計を行いましょう。
 
-![Agent Design](../../../translated_images/ja/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
+![Agent Design](../../../translated_images/ja/agent-design.07edb7ae37f47803.webp)
 
 ### シナリオ 1 - 従業員検索エージェント
 
@@ -82,7 +82,7 @@ AIエージェントを構成する要素によって簡単に定義すると：
 
 各エージェントを定義したので、次に各エージェントがタスクに応じてどのように連携し、または独立して動作するかを理解するためのアーキテクチャ図を作成しましょう：
 
-![Agent Architecture](../../../translated_images/ja/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
+![Agent Architecture](../../../translated_images/ja/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## 次のステップ
 
