@@ -16,7 +16,7 @@ Låt oss börja med att definiera vad en agent är och varför vi skulle använd
 
 ## Vad är AI-agenter?
 
-![Vad är AI-agenter?](../../../translated_images/sv/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
+![Vad är AI-agenter?](../../../translated_images/sv/what-are-ai-agents.47a544a1d03481ab.webp)
 
 Om detta är första gången du utforskar hur man bygger en AI-agent, kan du ha frågor om hur man exakt definierar vad en AI-agent är.
 
@@ -30,7 +30,7 @@ Ett enkelt sätt att definiera vad en AI-agent är utifrån de komponenter som u
 
 ## Vårt AI-agentanvändningsfall
 
-![Vad bygger vi?](../../../translated_images/sv/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
+![Vad bygger vi?](../../../translated_images/sv/what-are-we-building.1ff3b9a752eb8570.webp)
 
 För denna kurs ska vi bygga en AI-agentapplikation som hjälper nya utvecklare att komma igång i vårt AI-agentutvecklingsteam!
 
@@ -52,7 +52,7 @@ Denna process faller under kategorin Kontextteknik eftersom vi kommer att fokuse
 
 Låt oss göra detta scenario för scenario och utföra bra agentdesign genom att lista varje agents uppgift, verktyg och önskade resultat.
 
-![Agentdesign](../../../translated_images/sv/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
+![Agentdesign](../../../translated_images/sv/agent-design.07edb7ae37f47803.webp)
 
 ### Scenario 1 - Agent för anställdssökning
 
@@ -82,7 +82,7 @@ Låt oss göra detta scenario för scenario och utföra bra agentdesign genom at
 
 Nu när vi har definierat var och en av våra agenter, låt oss skapa ett arkitekturdiagram som hjälper oss att förstå hur varje agent kommer att arbeta tillsammans och separat beroende på uppgiften:
 
-![Agentarkitektur](../../../translated_images/sv/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
+![Agentarkitektur](../../../translated_images/sv/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Nästa steg
 
