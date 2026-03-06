@@ -16,7 +16,7 @@ Lad os starte med at definere, hvad en agent er, og hvorfor vi vil bruge dem i e
 
 ## Hvad er AI-agenter?
 
-![Hvad er AI-agenter?](../../../translated_images/da/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
+![Hvad er AI-agenter?](../../../translated_images/da/what-are-ai-agents.47a544a1d03481ab.webp)
 
 Hvis det er første gang, du udforsker, hvordan man bygger en AI Agent, kan du have spørgsmål om, hvordan man præcist definerer, hvad en AI Agent er.
 
@@ -30,7 +30,7 @@ En simpel måde at definere, hvad en AI Agent er, er ved de komponenter, der udg
 
 ## Vores AI Agent Use Case
 
-![Hvad bygger vi?](../../../translated_images/da/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
+![Hvad bygger vi?](../../../translated_images/da/what-are-we-building.1ff3b9a752eb8570.webp)
 
 Til dette kursus vil vi bygge en AI Agent-applikation, der hjælper nye udviklere med at komme ombord på vores AI Agent-udviklingsteam!
 
@@ -52,7 +52,7 @@ Denne proces falder ind under kategorien Context Engineering, da vi vil fokusere
 
 Lad os gøre dette scenarie for scenarie og udføre god agentisk design ved at liste hver agents opgave, værktøjer og ønskede resultater.
 
-![Agent Design](../../../translated_images/da/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
+![Agent Design](../../../translated_images/da/agent-design.07edb7ae37f47803.webp)
 
 ### Scenario 1 - Medarbejdersøgningsagent
 
@@ -82,7 +82,7 @@ Lad os gøre dette scenarie for scenarie og udføre god agentisk design ved at l
 
 Nu hvor vi har defineret hver af vores agenter, lad os skabe et arkitekturdiagram, der vil hjælpe os med at forstå, hvordan hver agent vil arbejde sammen og separat afhængigt af opgaven:
 
-![Agent Arkitektur](../../../translated_images/da/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
+![Agent Arkitektur](../../../translated_images/da/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Næste skridt
 

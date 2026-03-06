@@ -16,7 +16,7 @@ Začněme definováním, co je agent a proč bychom je používali v aplikaci.
 
 ## Co jsou AI agenti?
 
-![Co jsou AI agenti?](../../../translated_images/cs/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
+![Co jsou AI agenti?](../../../translated_images/cs/what-are-ai-agents.47a544a1d03481ab.webp)
 
 Pokud je to vaše první setkání s tím, jak postavit AI agenta, můžete mít otázky, jak přesně definovat, co AI agent je.
 
@@ -30,7 +30,7 @@ Jednoduchý způsob, jak definovat, co AI agent je, je podle komponent, které h
 
 ## Náš případ použití AI agenta
 
-![Co stavíme?](../../../translated_images/cs/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
+![Co stavíme?](../../../translated_images/cs/what-are-we-building.1ff3b9a752eb8570.webp)
 
 Pro tento kurz postavíme AI agentní aplikaci, která pomůže novým vývojářům začlenit se do našeho týmu pro vývoj AI agentů!
 
@@ -52,7 +52,7 @@ Tento proces spadá do kategorie inženýrství kontextu, protože se zaměřím
 
 Pojďme to udělat scénář po scénáři a provést dobrý agentní návrh tím, že vyjmenujeme úkoly, nástroje a požadované výsledky každého agenta.
 
-![Návrh agenta](../../../translated_images/cs/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
+![Návrh agenta](../../../translated_images/cs/agent-design.07edb7ae37f47803.webp)
 
 ### Scénář 1 – Agent pro vyhledávání zaměstnanců
 
@@ -82,7 +82,7 @@ Pojďme to udělat scénář po scénáři a provést dobrý agentní návrh tí
 
 Nyní, když jsme definovali každého z našich agentů, vytvořme architektonický diagram, který nám pomůže pochopit, jak budou jednotliví agenti spolupracovat a pracovat samostatně v závislosti na úkolu:
 
-![Architektura agenta](../../../translated_images/cs/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
+![Architektura agenta](../../../translated_images/cs/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Další kroky
 

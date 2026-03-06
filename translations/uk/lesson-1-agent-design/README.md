@@ -16,7 +16,7 @@
 
 ## Що таке AI Агенти?
 
-![What Are AI Agents?](../../../translated_images/uk/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
+![What Are AI Agents?](../../../translated_images/uk/what-are-ai-agents.47a544a1d03481ab.webp)
 
 Якщо ви вперше досліджуєте, як створити AI Агента, у вас можуть виникнути питання, як саме визначити, що таке AI Агент.
 
@@ -30,7 +30,7 @@
 
 ## Наш випадок використання AI Агента
 
-![What Are We Building?](../../../translated_images/uk/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
+![What Are We Building?](../../../translated_images/uk/what-are-we-building.1ff3b9a752eb8570.webp)
 
 Для цього курсу ми створимо AI Агентський застосунок, який допомагає новим розробникам приєднатися до нашої команди розробки AI Агентів!
 
@@ -52,7 +52,7 @@
 
 Розглянемо це сценарій за сценарієм і виконаємо якісний агентський дизайн, перелічуючи завдання, інструменти та бажані результати кожного агента.
 
-![Agent Design](../../../translated_images/uk/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
+![Agent Design](../../../translated_images/uk/agent-design.07edb7ae37f47803.webp)
 
 ### Сценарій 1 - Агент пошуку співробітників
 
@@ -82,7 +82,7 @@
 
 Тепер, коли ми визначили кожного з наших агентів, створимо діаграму архітектури, яка допоможе нам зрозуміти, як кожен агент працюватиме разом і окремо залежно від завдання:
 
-![Agent Architecture](../../../translated_images/uk/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
+![Agent Architecture](../../../translated_images/uk/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Наступні кроки
 

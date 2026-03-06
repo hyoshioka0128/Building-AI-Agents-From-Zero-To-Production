@@ -16,7 +16,7 @@ Laten we beginnen met het definiëren wat een agent is en waarom we ze in een to
 
 ## Wat zijn AI-agenten?
 
-![Wat zijn AI-agenten?](../../../translated_images/nl/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
+![Wat zijn AI-agenten?](../../../translated_images/nl/what-are-ai-agents.47a544a1d03481ab.webp)
 
 Als dit de eerste keer is dat je onderzoekt hoe je een AI-agent bouwt, heb je misschien vragen over hoe je precies definieert wat een AI-agent is.
 
@@ -30,7 +30,7 @@ Een eenvoudige manier om te definiëren wat een AI-agent is, is door de componen
 
 ## Onze AI-agent use case
 
-![Wat bouwen we?](../../../translated_images/nl/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
+![Wat bouwen we?](../../../translated_images/nl/what-are-we-building.1ff3b9a752eb8570.webp)
 
 Voor deze cursus gaan we een AI-agenttoepassing bouwen die nieuwe ontwikkelaars helpt om aan boord te komen bij ons AI-agentontwikkelingsteam!
 
@@ -52,7 +52,7 @@ Dit proces valt onder de categorie Context Engineering, omdat we ons gaan richte
 
 Laten we dit scenario per scenario doen en goed agentontwerp toepassen door de taak, tools en gewenste uitkomsten van elke agent op te sommen.
 
-![Agentontwerp](../../../translated_images/nl/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
+![Agentontwerp](../../../translated_images/nl/agent-design.07edb7ae37f47803.webp)
 
 ### Scenario 1 - Medewerkerzoekagent
 
@@ -82,7 +82,7 @@ Laten we dit scenario per scenario doen en goed agentontwerp toepassen door de t
 
 Nu we elk van onze agenten hebben gedefinieerd, laten we een architectuurdiagram maken dat ons helpt te begrijpen hoe elke agent samen en afzonderlijk zal werken, afhankelijk van de taak:
 
-![Agentarchitectuur](../../../translated_images/nl/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
+![Agentarchitectuur](../../../translated_images/nl/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Volgende stappen
 

@@ -16,7 +16,7 @@
 
 ## ਏਆਈ ਏਜੰਟ ਕੀ ਹਨ?
 
-![What Are AI Agents?](../../../translated_images/pa/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
+![What Are AI Agents?](../../../translated_images/pa/what-are-ai-agents.47a544a1d03481ab.webp)
 
 ਜੇ ਇਹ ਤੁਹਾਡਾ ਪਹਿਲਾ ਵਾਰ ਹੈ ਕਿ ਤੁਸੀਂ ਏਆਈ ਏਜੰਟ ਬਣਾਉਣ ਬਾਰੇ ਖੋਜ ਕਰ ਰਹੇ ਹੋ, ਤਾਂ ਤੁਹਾਡੇ ਮਨ ਵਿੱਚ ਇਹ ਸਵਾਲ ਹੋ ਸਕਦੇ ਹਨ ਕਿ ਏਆਈ ਏਜੰਟ ਨੂੰ ਕਿਵੇਂ ਸਹੀ ਤਰੀਕੇ ਨਾਲ ਪਰਿਭਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇ।
 
@@ -30,7 +30,7 @@
 
 ## ਸਾਡਾ ਏਆਈ ਏਜੰਟ ਉਪਯੋਗ ਕੇਸ
 
-![What Are We Building?](../../../translated_images/pa/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
+![What Are We Building?](../../../translated_images/pa/what-are-we-building.1ff3b9a752eb8570.webp)
 
 ਇਸ ਕੋਰਸ ਲਈ, ਅਸੀਂ ਇੱਕ ਏਆਈ ਏਜੰਟ ਐਪਲੀਕੇਸ਼ਨ ਬਣਾਉਣ ਜਾ ਰਹੇ ਹਾਂ ਜੋ ਨਵੇਂ ਡਿਵੈਲਪਰਾਂ ਨੂੰ ਸਾਡੇ ਏਆਈ ਏਜੰਟ ਵਿਕਾਸ ਟੀਮ ਵਿੱਚ ਸ਼ਾਮਿਲ ਹੋਣ ਵਿੱਚ ਮਦਦ ਕਰੇਗਾ!
 
@@ -52,7 +52,7 @@
 
 ਆਓ ਇਹ ਸਥਿਤੀ ਦਰ ਸਥਿਤੀ ਕਰੀਏ ਅਤੇ ਹਰ ਏਜੰਟ ਦੇ ਕੰਮ, ਟੂਲ ਅਤੇ ਚਾਹੁੰਦੇ ਨਤੀਜੇ ਲਿਖ ਕੇ ਵਧੀਆ ਏਜੰਟਿਕ ਡਿਜ਼ਾਈਨ ਕਰੀਏ।
 
-![Agent Design](../../../translated_images/pa/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
+![Agent Design](../../../translated_images/pa/agent-design.07edb7ae37f47803.webp)
 
 ### ਸਥਿਤੀ 1 - ਕਰਮਚਾਰੀ ਖੋਜ ਏਜੰਟ
 
@@ -82,7 +82,7 @@
 
 ਹੁਣ ਜਦੋਂ ਕਿ ਅਸੀਂ ਆਪਣੇ ਹਰ ਏਜੰਟ ਨੂੰ ਪਰਿਭਾਸ਼ਿਤ ਕਰ ਲਿਆ ਹੈ, ਆਓ ਇੱਕ ਆਰਕੀਟੈਕਚਰ ਡਾਇਗ੍ਰਾਮ ਬਣਾਈਏ ਜੋ ਸਾਨੂੰ ਸਮਝਣ ਵਿੱਚ ਮਦਦ ਕਰੇਗਾ ਕਿ ਹਰ ਏਜੰਟ ਕਿਵੇਂ ਇਕੱਠੇ ਅਤੇ ਵੱਖ-ਵੱਖ ਕੰਮ ਕਰੇਗਾ ਕੰਮ ਦੇ ਅਨੁਸਾਰ:
 
-![Agent Architecture](../../../translated_images/pa/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
+![Agent Architecture](../../../translated_images/pa/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## ਅਗਲੇ ਕਦਮ
 

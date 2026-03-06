@@ -1,50 +1,60 @@
-# Изградња AI Агентa од Нула до Продукције
+# Изградња AI агената од нуле до продукције
 
-![Изградња AI Агентa од Нула до Продукције](../../translated_images/sr/repo-thumbnail.083b24afed61b6dd.webp)
+![Изградња AI агената од нуле до продукције](../../translated_images/sr/repo-thumbnail.083b24afed61b6dd.webp)
 
 ### 🌐 Подршка за више језика
 
-#### Подржано путем GitHub Акције (Аутоматизовано и увек ажурирано)
+#### Подржано путем GitHub акције (аутоматски и увек ажурирано)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Арапски](../ar/README.md) | [Бенгалски](../bn/README.md) | [Бугарски](../bg/README.md) | [Бурмански (Мјанмар)](../my/README.md) | [Кинески (поједностављени)](../zh-CN/README.md) | [Кинески (традиционални, Хонг Конг)](../zh-HK/README.md) | [Кинески (традиционални, Макао)](../zh-MO/README.md) | [Кинески (традиционални, Тајван)](../zh-TW/README.md) | [Хрватски](../hr/README.md) | [Чешки](../cs/README.md) | [Дански](../da/README.md) | [Холандски](../nl/README.md) | [Естонски](../et/README.md) | [Фински](../fi/README.md) | [Француски](../fr/README.md) | [Немачки](../de/README.md) | [Грчки](../el/README.md) | [Хебрејски](../he/README.md) | [Хинди](../hi/README.md) | [Мађарски](../hu/README.md) | [Индионежански](../id/README.md) | [Италијански](../it/README.md) | [Јапански](../ja/README.md) | [Каннада](../kn/README.md) | [Корејски](../ko/README.md) | [Литвански](../lt/README.md) | [Малајски](../ms/README.md) | [Малајалам](../ml/README.md) | [Марати](../mr/README.md) | [Непалски](../ne/README.md) | [Нигеријски Пиджин](../pcm/README.md) | [Норвешки](../no/README.md) | [Персијски (Фарси)](../fa/README.md) | [Пољски](../pl/README.md) | [Португалски (Бразил)](../pt-BR/README.md) | [Португалски (Португал)](../pt-PT/README.md) | [Пунџаби (Гурмукхи)](../pa/README.md) | [Румунски](../ro/README.md) | [Руски](../ru/README.md) | [Српски (ћирилица)](./README.md) | [Словачки](../sk/README.md) | [Словеначки](../sl/README.md) | [Шпански](../es/README.md) | [Свахили](../sw/README.md) | [Шведски](../sv/README.md) | [Тагалог (Филипински)](../tl/README.md) | [Тамилски](../ta/README.md) | [Телугу](../te/README.md) | [Тајландски](../th/README.md) | [Турски](../tr/README.md) | [Украјински](../uk/README.md) | [Урду](../ur/README.md) | [Вијетнамски](../vi/README.md)
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](./README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **Више волите да клонирате локално?**
-
-> Овај репозиторijум садржи преводе на више од 50 језика што значајно повећава величину преузимања. Да бисте клонирали без превода, користите sparse checkout:
+> **Преферирате да клонирате локално?**
+>
+> Овај репозиторијум укључује преко 50 превода на језике што значајно повећава величину преузимања. Да бисте клонирали без превода, користите sparse checkout:
+>
+> **Bash / macOS / Linux:**
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production.git
 > cd Building-AI-Agents-From-Zero-To-Production
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> Ово вам даје све што вам је потребно да завршите курс знатно брже.
+>
+> **CMD (Windows):**
+> ```cmd
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production.git
+> cd Building-AI-Agents-From-Zero-To-Production
+> git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
+> ```
+>
+> Ово вам даје све што вам је потребно да завршите курс са много бржим преузимањем.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
 ## Курс који вас учи основама животног циклуса развоја AI агената
 
-[![GitHub дозвола](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
+[![GitHub лиценца](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
 [![GitHub сарадници](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
 [![GitHub проблеми](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
-[![ПР добро дошли](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
+[![GitHub захтеви за спајање](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
+[![PRs Добродошли](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
 ## 🌱 Почетак
 
-Овај курс садржи лекције које обухватају основе израде и примене AI агената.
+Овај курс има лекције које покривају основе изградње и имплементације AI агената.
 
-Свака лекција надовезује се на претходну, па препоручујемо да почнете од почетка и напредујете до краја.
+Свака лекција се наслања на претходну, па вам препоручујемо да започнете од почетка и радите корак по корак до краја.
 
-Ако желите да истражите више о темама AI агената, можете проверити [Курс за почетнике у AI агената](https://aka.ms/ai-agents-beginners).
+Ако желите да сазнате више о темама везаним за AI агенте, можете погледати курс [AI Aгенти за почетнике](https://aka.ms/ai-agents-beginners).
 
-### Упознајте друге полазнике, добијте одговоре на своја питања
+### Упознајте друге учеснике, добијте одговоре на своја питања
 
-Ако заглупите или имате питања о изградњи AI агената, придружите се нашем посвећеном Discord каналу у [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
+Ако застанете или имате питања у вези са изградњом AI агената, придружите се нашем посебном Discord каналу у [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
 
-### Шта вам је потребно
+### Шта вам треба
 
-Свака лекција има свој узорак кода који можете покренути локално. Можете [форкати овај репозиторijум](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) да направите своју копију.
+Свака лекција има свој пример кода који можете покренути локално. Можете [форкирати овај репо](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) да бисте направили своју копију.
 
 Овај курс тренутно користи следеће:
 
@@ -53,21 +63,20 @@
 - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-foundry/models/openai)
 - [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
 
-Обавезно проверите да имате приступ овим услугама пре почетка.
+Молимо вас да се уверите да имате приступ овим услугама пре него што започнете.
 
-Ускоро ће бити доступне и друге опције за хостовање модела и услуге.
+Више опција у вези са хостовањем модела и услугама ће ускоро бити доступно.
 
 ## 🗃️ Лекције
 
-| **Лекција**         | **Опис**                                                                                  |
-|--------------------|--------------------------------------------------------------------------------------------------|
-| [Дизајн агента](./lesson-1-agent-design/README.md)       | Увод у наш случај употребе "Обука развојног програмера" и како дизајнирати ефикасне агенте  |
-| [Развој агента](./lesson-2-agent-development/README.md)  | Коришћењем Microsoft Agent Framework (MAF), креирајте 3 агента који помажу новим програмерима.       |
-| [Евалуације агената](./lesson-3-agent-evals/README.md)  | Коришћењем Microsoft Foundry, сазнајте колико добро наши AI агенти раде и како их побољшати. |
-| [Деплој агената](./lesson-4-agent-deployment/README.md)   | Коришћењем Hosting агената и OpenAI Chatkit, погледајте како распоредити AI агента у продукцију.       |
+| **Лекција**         | **Опис**                                                                                       |
+|--------------------|-------------------------------------------------------------------------------------------------|
+| [Дизајн агента](./lesson-1-agent-design/README.md)       | Увод у наш случај коришћења "Упознавање програмера" и како дизајнирати ефективне агенте         |
+| [Развој агента](./lesson-2-agent-development/README.md)  | Користећи Microsoft Agent Framework (MAF), направите 3 агента да помогну новим програмерима у упознавању.       |
+| [Евалуација агената](./lesson-3-agent-evals/README.md)  | Користећи Microsoft Foundry, сазнајте како наши AI агенти раде и како их побољшати.             |
+| [Деплој агената](./lesson-4-agent-deployment/README.md)   | Користећи Hostovane агенте и OpenAI Chatkit, видите како да имплементирате AI агента у продукцију.|
 
-
-## 🎒 Остали курсеви
+## 🎒 Други курсеви
 
 Наш тим производи и друге курсеве! Погледајте:
 
@@ -78,15 +87,15 @@
 [![LangChain за почетнике](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
-### Azure / Edge / MCP / Агенти
+### Azure / Edge / MCP / Агентi
 [![AZD за почетнике](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Edge AI за почетнике](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![MCP за почетнике](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI Агенти за почетнике](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI агенти за почетнике](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### Серия генеративних AI
+### Серия генеративног AI
 [![Генеративни AI за почетнике](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Генеративни AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Генеративни AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
@@ -96,57 +105,56 @@
  
 ### Основно учење
 [![Машинско учење за почетнике](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![Наука о подацима за почетнике](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI za početnike](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![Cyberbezbednost za početnike](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![Web razvoj za početnike](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![IoT za početnike](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![XR razvoj za početnike](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### Copilot serija
-[![Copilot za AI programsko uparivanje](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot za C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![Copilot avantura](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+### Сериија Копилот
+[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## Doprinos
+## Допринос
 
-Ovaj projekat pozdravlja doprinose i predloge. Većina doprinosa zahteva da se složite sa
-Ugovorom o licenci za doprinos (CLA) kojim izjavljujete da imate pravo i da zaista dajete
-nam prava da koristimo vaš doprinos. Za detalje posetite <https://cla.opensource.microsoft.com>.
+Овај пројекат добродошлице доприносе и предлоге. Већина доприноса захтева да се сложите са
+Уговором о лиценцирању сарадника (CLA) којим изјављујете да имате право и заиста дајете
+нама права да користимо ваш допринос. За детаље посетите <https://cla.opensource.microsoft.com>.
 
-Kada podnesete zahtev za uključenje (pull request), CLA bot će automatski odrediti da li treba da
-priložite CLA i odgovarajuće označiti PR (npr. proveru statusa, komentar). Jednostavno sledite uputstva
-koja vam bot pruži. Ovo ćete morati da uradite samo jednom za sve repozitorijume koji koriste naš CLA.
+Када пошаљете захтев за повлачење (pull request), CLA бота ће аутоматски одредити да ли морате
+да доставите CLA и одговарајуће означи PR (нпр. провера стања, коментар). Једноставно следите упутства
+која пружа бот. Биће потребно да то урадите само једном на свим репозиторима који користе наш CLA.
 
-Ovaj projekat je usvojio [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-Za više informacija pogledajte [FAQ o Kodeksu ponašanja](https://opensource.microsoft.com/codeofconduct/faq/) ili
-kontaktirajte [opencode@microsoft.com](mailto:opencode@microsoft.com) za dodatna pitanja ili komentare.
+Овај пројекат је усвојио [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+За више информација погледајте [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) или
+контактирајте [opencode@microsoft.com](mailto:opencode@microsoft.com) за додатна питања или коментаре.
 
-## Zaštitni znaci
+## Заштитни знакови
 
-Ovaj projekat može sadržati zaštitne znake ili logoe za projekte, proizvode ili usluge. Ovlašćena
-upotreba Microsoft zaštitnih znakova ili logoa podleže i mora slediti
-[Microsoft-ove smernice za zaštitne znakove i brendove](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
-Upotreba Microsoft zaštitnih znakova ili logoa u modifikovanim verzijama ovog projekta ne sme
-izazvati zabunu niti implicirati sponzorstvo od strane Microsoft-a.
-Svaka upotreba zaštitnih znakova ili logoa trećih strana podleže politikama tih trećih strana.
+Овај пројекат може садржати заштитне знакове или логотипе за пројекте, производе или услуге. Овлашћена употреба Microsoft
+заштитних знакова или логотипа подлеже и мора се придржавати
+[Microsoft-ових смерница за коришћење заштитних знакова и брендова](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
+Употреба Microsoft заштитних знакова или логотипа у модификованим верзијама овог пројекта не сме да изазове конфузију нити да имплицира Microsoft-ово спонзорство.
+Свака употреба заштитних знакова или логотипа трећих страна подлеже политикама тих трећих страна.
 
-## Dobijanje pomoći
+## Добијање помоћи
 
-Ukoliko zapnete ili imate pitanja o pravljenju AI aplikacija, pridružite se:
+Ако запнете или имате питања о развоју AI апликација, придружите се:
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-Ako imate povratne informacije o proizvodu ili greške tokom izrade, posetite:
+Ако имате повратне информације о производу или грешке током развоја посетите:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Ограничење одговорности**:  
-Овај документ је преведен коришћењем AI сервиса за превођење [Co-op Translator](https://github.com/Azure/co-op-translator). Иако тежимо тачности, молимо имајте у виду да аутоматски преводи могу садржати грешке или нетачности. Изворни документ на његовом оригиналном језику треба сматрати ауторитетом. За критичне информације препоручује се професионални људски превод. Нисмо одговорни за било какве неспоразуме или погрешне тумачења проистекла из коришћења овог превода.
+**Искључење одговорности**:
+Овај документ је преведен помоћу AI преводилачке услуге [Co-op Translator](https://github.com/Azure/co-op-translator). Иако тежимо тачности, молимо вас да имате у виду да аутоматски преводи могу садржати грешке или нетачности. Оригинални документ на његовом изворном језику треба сматрати ауторитетним извором. За критичне информације препоручује се професионални људски превод. Ми нисмо одговорни за било каква неразумевања или погрешна тумачења која произилазе из коришћења овог превода.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

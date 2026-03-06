@@ -4,72 +4,82 @@
 
 ### 🌐 Podpora více jazyků
 
-#### Podporováno přes GitHub Action (automatizované a vždy aktuální)
+#### Podporováno pomocí GitHub Action (automatizováno a vždy aktuální)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabština](../ar/README.md) | [Bengálština](../bn/README.md) | [Bulharština](../bg/README.md) | [Barmsky (Myanmar)](../my/README.md) | [Čínština (zjednodušená)](../zh-CN/README.md) | [Čínština (tradiční, Hong Kong)](../zh-HK/README.md) | [Čínština (tradiční, Macao)](../zh-MO/README.md) | [Čínština (tradiční, Taiwan)](../zh-TW/README.md) | [Chorvatština](../hr/README.md) | [Čeština](./README.md) | [Dánština](../da/README.md) | [Nizozemština](../nl/README.md) | [Estonština](../et/README.md) | [Finština](../fi/README.md) | [Francouzština](../fr/README.md) | [Němčina](../de/README.md) | [Řečtina](../el/README.md) | [Hebrejština](../he/README.md) | [Hindština](../hi/README.md) | [Maďarština](../hu/README.md) | [Indonéština](../id/README.md) | [Italština](../it/README.md) | [Japonština](../ja/README.md) | [Kannadština](../kn/README.md) | [Korejština](../ko/README.md) | [Litevština](../lt/README.md) | [Malajština](../ms/README.md) | [Malajalámština](../ml/README.md) | [Maráthština](../mr/README.md) | [Nepálština](../ne/README.md) | [Nigerijský pidžin](../pcm/README.md) | [Norština](../no/README.md) | [Perština (Farsi)](../fa/README.md) | [Polština](../pl/README.md) | [Portugalština (Brazílie)](../pt-BR/README.md) | [Portugalština (Portugalsko)](../pt-PT/README.md) | [Paňdžábština (Gurmukhí)](../pa/README.md) | [Rumunština](../ro/README.md) | [Ruština](../ru/README.md) | [Srbština (cyrilice)](../sr/README.md) | [Slovenština](../sk/README.md) | [Slovinština](../sl/README.md) | [Španělština](../es/README.md) | [Swahilština](../sw/README.md) | [Švédština](../sv/README.md) | [Tagalog (filipínština)](../tl/README.md) | [Tamilština](../ta/README.md) | [Telugština](../te/README.md) | [Thajština](../th/README.md) | [Turečtina](../tr/README.md) | [Ukrajinština](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamština](../vi/README.md)
+[Arabsky](../ar/README.md) | [Bengálsky](../bn/README.md) | [Bulharsky](../bg/README.md) | [Barmsky (Myanmar)](../my/README.md) | [Čínsky (zjednodušený)](../zh-CN/README.md) | [Čínsky (tradiční, Hongkong)](../zh-HK/README.md) | [Čínsky (tradiční, Macao)](../zh-MO/README.md) | [Čínsky (tradiční, Taiwan)](../zh-TW/README.md) | [Chorvatsky](../hr/README.md) | [Česky](./README.md) | [Dánsky](../da/README.md) | [Nizozemsky](../nl/README.md) | [Estonsky](../et/README.md) | [Finsky](../fi/README.md) | [Francouzsky](../fr/README.md) | [Německy](../de/README.md) | [Řecky](../el/README.md) | [Hebrejsky](../he/README.md) | [Hindsky](../hi/README.md) | [Maďarsky](../hu/README.md) | [Indonésky](../id/README.md) | [Italsky](../it/README.md) | [Japonsky](../ja/README.md) | [Kannadsky](../kn/README.md) | [Korejsky](../ko/README.md) | [Litevsky](../lt/README.md) | [Malajsky](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathsky](../mr/README.md) | [Nepálsky](../ne/README.md) | [Nigérijský pidžin](../pcm/README.md) | [Norsky](../no/README.md) | [Perzsky (Farsi)](../fa/README.md) | [Polsky](../pl/README.md) | [Portugalština (Brazílie)](../pt-BR/README.md) | [Portugalština (Portugalsko)](../pt-PT/README.md) | [Paňdžábsky (Gurmukhi)](../pa/README.md) | [Rumunsky](../ro/README.md) | [Rusky](../ru/README.md) | [Srbsky (cyrilice)](../sr/README.md) | [Slovensky](../sk/README.md) | [Slovinsky](../sl/README.md) | [Španělsky](../es/README.md) | [Swahili](../sw/README.md) | [Švédsky](../sv/README.md) | [Tagalog (filipínsky)](../tl/README.md) | [Tamilsky](../ta/README.md) | [Telugsky](../te/README.md) | [Thajsky](../th/README.md) | [Turecky](../tr/README.md) | [Ukrajinsky](../uk/README.md) | [Urdsky](../ur/README.md) | [Vietnamština](../vi/README.md)
 
-> **Preferujete klonovat lokálně?**
-
-> Tento repozitář zahrnuje více než 50 překladů jazyků, což výrazně zvyšuje velikost stahování. Pro klonování bez překladů použijte sparse checkout:
+> **Raději klonovat lokálně?**
+>
+> Tento repozitář obsahuje více než 50 překladů jazyků, což značně zvětšuje velikost stahování. Pro klonování bez překladů použijte sparse checkout:
+>
+> **Bash / macOS / Linux:**
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production.git
 > cd Building-AI-Agents-From-Zero-To-Production
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> To vám poskytne vše potřebné k dokončení kurzu s mnohem rychlejším stažením.
+>
+> **CMD (Windows):**
+> ```cmd
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production.git
+> cd Building-AI-Agents-From-Zero-To-Production
+> git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
+> ```
+>
+> Takto získáte vše potřebné k dokončení kurzu s mnohem rychlejším stahováním.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-## Kurz, který vás naučí základy životního cyklu vývoje AI agentů
+## Kurz vyučující základy životního cyklu vývoje AI agentů
 
 [![GitHub licence](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
 [![GitHub přispěvatelé](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
+[![GitHub issue](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
+[![PRs vítány](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
 ## 🌱 Začínáme
 
-Tento kurz obsahuje lekce pokrývající základy tvorby a nasazení AI agentů.
+Tento kurz obsahuje lekce, které pokrývají základy vytváření a nasazení AI agentů.
 
 Každá lekce navazuje na předchozí, proto doporučujeme začít od začátku a postupovat až do konce.
 
-Pokud chcete prozkoumat více témat o AI agentech, můžete se podívat na [Kurz AI agentů pro začátečníky](https://aka.ms/ai-agents-beginners).
+Pokud chcete prozkoumat více témat týkajících se AI agentů, můžete se podívat na [Kurz AI agentů pro začátečníky](https://aka.ms/ai-agents-beginners).
 
-### Seznamte se s dalšími studenty, získejte odpovědi na vaše otázky
+### Seznamte se s ostatními studenty a nechte si odpovědět na své otázky
 
-Pokud budete mít potíže nebo otázky týkající se tvorby AI agentů, připojte se k našemu vyhrazenému Discord kanálu na [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
+Pokud narazíte na problémy nebo máte otázky ohledně tvorby AI agentů, připojte se k našemu specializovanému kanálu na Discordu v [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
 
 ### Co potřebujete
 
-Každá lekce má svůj vlastní ukázkový kód, který můžete spustit lokálně. Můžete si [forkovat tento repozitář](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) a vytvořit si tak vlastní kopii.
+Každá lekce má svůj vlastní ukázkový kód, který můžete spustit lokálně. Můžete si [zalomit tento repozitář](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) a vytvořit si tak svou vlastní kopii.
 
-Tento kurz aktuálně využívá:
+Tento kurz momentálně využívá následující:
 
 - [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
 - [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry)
 - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-foundry/models/openai)
 - [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
 
-Před zahájením se, prosím, ujistěte, že máte přístup k těmto službám.
+Před zahájením se prosím ujistěte, že máte přístup k těmto službám.
 
-Brzy budou k dispozici další možnosti týkající se hostování modelů a služeb.
+Brzy budou k dispozici další možnosti ohledně hostování modelů a služeb.
 
 ## 🗃️ Lekce
 
-| **Lekce**                     | **Popis**                                                                                         |
-|-------------------------------|-------------------------------------------------------------------------------------------------|
-| [Návrh agenta](./lesson-1-agent-design/README.md)             | Úvod do naší případové studie „Zaškolení vývojáře“ s AI agentem a jak navrhnout efektivní agenty |
-| [Vývoj agenta](./lesson-2-agent-development/README.md)        | Pomocí Microsoft Agent Framework (MAF) vytvořte 3 agenty, kteří pomohou novým vývojářům s onboardingu. |
-| [Hodnocení agenta](./lesson-3-agent-evals/README.md)          | Pomocí Microsoft Foundry zjistěte, jak dobře naše AI agenti fungují a jak je vylepšit.            |
-| [Nasazení agenta](./lesson-4-agent-deployment/README.md)      | Pomocí hostovaných agentů a OpenAI Chatkit se podívejte, jak nasadit AI agenta do produkce.      |
+| **Lekce**         | **Popis**                                                                                  |
+|--------------------|--------------------------------------------------------------------------------------------------|
+| [Návrh agenta](./lesson-1-agent-design/README.md)       | Úvod do našeho případu použití „Developer Onboarding“ a jak navrhnout efektivní agenty  |
+| [Vývoj agenta](./lesson-2-agent-development/README.md)  | Pomocí Microsoft Agent Framework (MAF) vytvořte 3 agenty, kteří pomáhají novým vývojářům při onboardingu.       |
+| [Hodnocení agentů](./lesson-3-agent-evals/README.md)  | Pomocí Microsoft Foundry zjistěte, jak si naše AI agenty vedou a jak je možné je zlepšit. |
+| [Nasazení agentů](./lesson-4-agent-deployment/README.md)   | Pomocí Hostovaných agentů a OpenAI Chatkitu uvidíte, jak nasadit AI agenta do produkce.       |
 
 
-## 🎒 Další kurzy
+## 🎒 Ostatní kurzy
 
-Náš tým vytváří i další kurzy! Podívejte se na:
+Náš tým vytváří i jiné kurzy! Podívejte se na:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -82,7 +92,7 @@ Náš tým vytváří i další kurzy! Podívejte se na:
 [![AZD pro začátečníky](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Edge AI pro začátečníky](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![MCP pro začátečníky](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI agenti pro začátečníky](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI Agenti pro začátečníky](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
@@ -94,9 +104,9 @@ Náš tým vytváří i další kurzy! Podívejte se na:
 
 ---
  
-### Základní vzdělávání
-[![ML pro začátečníky](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![Data Science pro začátečníky](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+### Základní učení
+[![Strojové učení pro začátečníky](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
 [![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
 [![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
@@ -113,33 +123,26 @@ Náš tým vytváří i další kurzy! Podívejte se na:
 
 ## Přispívání
 
-Tento projekt vítá příspěvky a návrhy. Většina příspěvků vyžaduje, abyste souhlasili s
-Licenční smlouvou přispěvatele (CLA), která deklaruje, že máte právo a skutečně nám
-udělujete práva k použití vašeho příspěvku. Podrobnosti naleznete na <https://cla.opensource.microsoft.com>.
+Tento projekt vítá příspěvky a návrhy. Většina příspěvků vyžaduje, abyste souhlasili s licenční smlouvou přispěvatele (CLA), ve které prohlašujete, že máte právo a skutečně nám udělujete práva k používání vašeho příspěvku. Podrobnosti naleznete na <https://cla.opensource.microsoft.com>.
 
-Když odešlete pull request, bot CLA automaticky zjistí, zda musíte poskytnout
-CLA, a příslušným způsobem označí PR (např. kontrola stavu, komentář). Jednoduše postupujte podle pokynů,
-které vám bot poskytne. Tento krok budete muset provést pouze jednou napříč všemi repozitáři používajícími náš CLA.
+Když podáte pull request, bot CLA automaticky určí, zda musíte poskytnout CLA a příslušně označí PR (např. kontrola stavu, komentář). Jednoduše dodržujte pokyny, které vám bot poskytne. Toto bude třeba udělat pouze jednou pro všechny repozitáře používající náš CLA.
 
 Tento projekt přijal [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-Pro více informací viz [Často kladené otázky k chování](https://opensource.microsoft.com/codeofconduct/faq/) nebo
-kontaktujte [opencode@microsoft.com](mailto:opencode@microsoft.com) s dalšími otázkami či připomínkami.
+Pro více informací si přečtěte [Často kladené dotazy k Chování](https://opensource.microsoft.com/codeofconduct/faq/) nebo kontaktujte [opencode@microsoft.com](mailto:opencode@microsoft.com) s dalšími otázkami nebo připomínkami.
 
 ## Ochranné známky
 
-Tento projekt může obsahovat ochranné známky nebo loga projektů, produktů nebo služeb. Autorizované použití ochranných známek nebo log Microsoftu
-musí dodržovat a řídit se
-[Pravidly ohledně ochranných známek a značek Microsoftu](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
-Použití ochranných známek nebo log Microsoftu v upravených verzích tohoto projektu nesmí způsobit záměnu ani naznačovat sponzorství Microsoftem.
-Jakékoliv použití ochranných známek nebo log třetích stran podléhá pravidlům těchto třetích stran.
+Tento projekt může obsahovat ochranné známky nebo loga projektů, produktů či služeb. Autorizované používání ochranných známek nebo log Microsoftu podléhá a musí dodržovat [Směrnice Microsoftu pro ochranné známky a značky](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
+Používání ochranných známek nebo log Microsoftu v upravených verzích tohoto projektu nesmí způsobit zmatek ani neimplikovat sponzorství Microsoftem.
+Jakékoli použití ochranných známek či log třetích stran podléhá pravidlům daných třetích stran.
 
 ## Získání pomoci
 
-Pokud budete mít potíže nebo otázky ohledně tvorby AI aplikací, připojte se:
+Pokud narazíte na problém nebo máte otázky ohledně tvorby AI aplikací, připojte se:
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-Pokud máte zpětnou vazbu k produktu nebo narazíte na chyby během vývoje, navštivte:
+Pokud máte zpětnou vazbu k produktu nebo při vývoji narazíte na chyby, navštivte:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
@@ -147,5 +150,5 @@ Pokud máte zpětnou vazbu k produktu nebo narazíte na chyby během vývoje, na
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Prohlášení o vyloučení odpovědnosti**:
-Tento dokument byl přeložen pomocí AI překladatelské služby [Co-op Translator](https://github.com/Azure/co-op-translator). Přestože usilujeme o přesnost, mějte prosím na paměti, že automatizované překlady mohou obsahovat chyby nebo nepřesnosti. Originální dokument v jeho rodném jazyce by měl být považován za závazný zdroj. Pro důležité informace se doporučuje využít profesionální lidský překlad. Nejsme odpovědní za jakékoliv nedorozumění nebo chybné výklady vyplývající z použití tohoto překladu.
+Tento dokument byl přeložen pomocí AI překladatelské služby [Co-op Translator](https://github.com/Azure/co-op-translator). I když usilujeme o přesnost, mějte prosím na paměti, že automatické překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho rodném jazyce by měl být považován za autoritativní zdroj. Pro důležité informace se doporučuje profesionální lidský překlad. Neneseme odpovědnost za jakékoli nedorozumění nebo mylné výklady vzniklé použitím tohoto překladu.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

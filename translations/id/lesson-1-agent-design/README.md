@@ -16,7 +16,7 @@ Mari kita mulai dengan mendefinisikan apa itu agen dan mengapa kita menggunakann
 
 ## Apa Itu Agen AI?
 
-![Apa Itu Agen AI?](../../../translated_images/id/what-are-ai-agents.47a544a1d03481abc57de0fdf861c26082c15e55234ab176ddfda09df0f202e6.png)
+![Apa Itu Agen AI?](../../../translated_images/id/what-are-ai-agents.47a544a1d03481ab.webp)
 
 Jika ini adalah pertama kalinya Anda mengeksplorasi cara membangun Agen AI, Anda mungkin memiliki pertanyaan tentang bagaimana tepatnya mendefinisikan apa itu Agen AI.
 
@@ -30,7 +30,7 @@ Cara sederhana untuk mendefinisikan apa itu Agen AI adalah dengan komponen yang 
 
 ## Kasus Penggunaan Agen AI Kami
 
-![Apa yang Kami Bangun?](../../../translated_images/id/what-are-we-building.1ff3b9a752eb85702151a950705bab534fd1c4c764fdea5a63b13f0159860455.png)
+![Apa yang Kami Bangun?](../../../translated_images/id/what-are-we-building.1ff3b9a752eb8570.webp)
 
 Untuk kursus ini, kita akan membangun aplikasi Agen AI yang membantu pengembang baru bergabung dengan Tim Pengembangan Agen AI kami!
 
@@ -52,7 +52,7 @@ Proses ini termasuk dalam kategori Rekayasa Konteks karena kita akan fokus memas
 
 Mari kita lakukan ini skenario demi skenario dan lakukan desain agen yang baik dengan mencantumkan tugas, alat, dan hasil yang diinginkan untuk setiap agen.
 
-![Desain Agen](../../../translated_images/id/agent-design.07edb7ae37f4780351b1c76e8ea015c0e3f7526417b7e63c3622053b62dfdfee.png)
+![Desain Agen](../../../translated_images/id/agent-design.07edb7ae37f47803.webp)
 
 ### Skenario 1 - Agen Pencari Karyawan
 
@@ -82,7 +82,7 @@ Mari kita lakukan ini skenario demi skenario dan lakukan desain agen yang baik d
 
 Sekarang kita telah mendefinisikan setiap Agen kita, mari buat diagram arsitektur yang akan membantu kita memahami bagaimana setiap agen akan bekerja bersama dan secara terpisah tergantung pada tugasnya:
 
-![Arsitektur Agen](../../../translated_images/id/agent-architecture.4fd5efa371e77a3c25fbc1427c733d2ff3301ff4ebf2eda2ec52d5284b467e14.png)
+![Arsitektur Agen](../../../translated_images/id/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Langkah Selanjutnya
 
