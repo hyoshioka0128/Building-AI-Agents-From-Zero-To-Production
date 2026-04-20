@@ -4,14 +4,14 @@
 
 ### 🌐 دعم متعدد اللغات
 
-#### مدعوم عبر إجراء GitHub (آلي ودائمًا محدث)
+#### مدعوم عبر إجراء GitHub (آلي ودائم التحديث)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[العربية](./README.md) | [البنغالية](../bn/README.md) | [البلغارية](../bg/README.md) | [البورمية (ميانمار)](../my/README.md) | [الصينية (المبسطة)](../zh-CN/README.md) | [الصينية (التقليدية، هونغ كونغ)](../zh-HK/README.md) | [الصينية (التقليدية، ماكاو)](../zh-MO/README.md) | [الصينية (التقليدية، تايوان)](../zh-TW/README.md) | [الكرواتية](../hr/README.md) | [التشيكية](../cs/README.md) | [الدنماركية](../da/README.md) | [الهولندية](../nl/README.md) | [الإستونية](../et/README.md) | [الفنلندية](../fi/README.md) | [الفرنسية](../fr/README.md) | [الألمانية](../de/README.md) | [اليونانية](../el/README.md) | [العبرية](../he/README.md) | [الهندية](../hi/README.md) | [الهنغارية](../hu/README.md) | [الإندونيسية](../id/README.md) | [الإيطالية](../it/README.md) | [اليابانية](../ja/README.md) | [الكانادا](../kn/README.md) | [الكورية](../ko/README.md) | [الليتوانية](../lt/README.md) | [الماليزية](../ms/README.md) | [المالايالامية](../ml/README.md) | [الماراثي](../mr/README.md) | [النيبالية](../ne/README.md) | [نيجيري بيدجين](../pcm/README.md) | [النرويجية](../no/README.md) | [الفارسية (اللغة الفارسية)](../fa/README.md) | [البولندية](../pl/README.md) | [البرتغالية (البرازيل)](../pt-BR/README.md) | [البرتغالية (البرتغال)](../pt-PT/README.md) | [البنجابية (غورموخي)](../pa/README.md) | [الرومانية](../ro/README.md) | [الروسية](../ru/README.md) | [الصربية (السيريلية)](../sr/README.md) | [السلوفاكية](../sk/README.md) | [السلوفينية](../sl/README.md) | [الإسبانية](../es/README.md) | [السواحيلية](../sw/README.md) | [السويدية](../sv/README.md) | [التاغالوغ (الفلبينية)](../tl/README.md) | [التاميل](../ta/README.md) | [التيلجو](../te/README.md) | [التايلاندية](../th/README.md) | [التركية](../tr/README.md) | [الأوكرانية](../uk/README.md) | [الأردو](../ur/README.md) | [الفيتنامية](../vi/README.md)
+[العربية](./README.md) | [البنغالية](../bn/README.md) | [البلغارية](../bg/README.md) | [البورمية (ميانمار)](../my/README.md) | [الصينية (المبسطة)](../zh-CN/README.md) | [الصينية (التقليدية، هونغ كونغ)](../zh-HK/README.md) | [الصينية (التقليدية، ماكاو)](../zh-MO/README.md) | [الصينية (التقليدية، تايوان)](../zh-TW/README.md) | [الكرواتية](../hr/README.md) | [التشيكية](../cs/README.md) | [الدانماركية](../da/README.md) | [الهولندية](../nl/README.md) | [الإستونية](../et/README.md) | [الفنلندية](../fi/README.md) | [الفرنسية](../fr/README.md) | [الألمانية](../de/README.md) | [اليونانية](../el/README.md) | [العبرية](../he/README.md) | [الهندية](../hi/README.md) | [الهنغارية](../hu/README.md) | [الإندونيسية](../id/README.md) | [الإيطالية](../it/README.md) | [اليابانية](../ja/README.md) | [الكانادية](../kn/README.md) | [الخمرية](../km/README.md) | [الكورية](../ko/README.md) | [الليتوانية](../lt/README.md) | [الماليزية](../ms/README.md) | [المالايالامية](../ml/README.md) | [الماراثية](../mr/README.md) | [النيبالية](../ne/README.md) | [النيريجية بيدجين](../pcm/README.md) | [النرويجية](../no/README.md) | [الفارسية (اللغة الفارسية)](../fa/README.md) | [البولندية](../pl/README.md) | [البرتغالية (البرازيل)](../pt-BR/README.md) | [البرتغالية (البرتغال)](../pt-PT/README.md) | [البنجابية (غورموخي)](../pa/README.md) | [الرومانية](../ro/README.md) | [الروسية](../ru/README.md) | [الصربية (السيريلية)](../sr/README.md) | [السلوفاكية](../sk/README.md) | [السلوفينية](../sl/README.md) | [الإسبانية](../es/README.md) | [السواحيلية](../sw/README.md) | [السويدية](../sv/README.md) | [التاغالوغ (الفلبينية)](../tl/README.md) | [التاميل](../ta/README.md) | [التلغو](../te/README.md) | [التايلاندية](../th/README.md) | [التركية](../tr/README.md) | [الأوكرانية](../uk/README.md) | [الأردية](../ur/README.md) | [الفيتنامية](../vi/README.md)
 
-> **تفضل النسخ محليًا؟**
+> **فضلت الاستنساخ محليًا؟**
 >
-> يتضمن هذا المستودع أكثر من 50 ترجمة للغات مما يزيد بشكل كبير من حجم التحميل. لنسخ المستودع بدون الترجمات، استخدم سحب اختيار ضيق:
+> يتضمن هذا المستودع أكثر من 50 ترجمة للغات مما يزيد بشكل كبير من حجم التنزيل. لاستنساخ بدون الترجمات، استخدم السحب الجزئي:
 >
 > **Bash / macOS / Linux:**
 > ```bash
@@ -27,34 +27,34 @@
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
 >
-> هذا يعطيك كل ما تحتاجه لإكمال الدورة مع تحميل أسرع بكثير.
+> هذا يمنحك كل ما تحتاجه لإكمال الدورة بتنزيل أسرع بكثير.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
 ## دورة تعلمك أساسيات دورة حياة تطوير وكلاء الذكاء الاصطناعي
 
-[![رخصة GitHub](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
-[![مساهمو GitHub](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
-[![مشكلات GitHub](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
+[![ترخيص GitHub](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
+[![المساهمون على GitHub](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
+[![قضايا GitHub](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
 [![طلبات السحب في GitHub](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
-[![طلبات السحب مرحب بها](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
+[![مرحبًا بطلبات السحب](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-## 🌱 البداية
+## 🌱 بدء الاستخدام
 
-تشمل هذه الدورة دروسًا تغطي أساسيات بناء ونشر وكلاء الذكاء الاصطناعي.
+تشتمل هذه الدورة على دروس تغطي أساسيات بناء ونشر وكلاء الذكاء الاصطناعي.
 
-كل درس يبني على الذي قبله، لذلك نوصي بالبدء من البداية والعمل حتى النهاية.
+كل درس يبني على الدرس السابق، لذا نوصي بالبدء من البداية والعمل وصولاً إلى النهاية.
 
-إذا أردت استكشاف المزيد حول موضوعات وكلاء الذكاء الاصطناعي، يمكنك الاطلاع على [دورة وكلاء الذكاء الاصطناعي للمبتدئين](https://aka.ms/ai-agents-beginners).
+إذا كنت ترغب في معرفة المزيد حول موضوعات وكلاء الذكاء الاصطناعي، يمكنك الاطلاع على [دورة وكلاء الذكاء الاصطناعي للمبتدئين](https://aka.ms/ai-agents-beginners).
 
 ### تعرف على متعلمين آخرين، واحصل على إجابات لأسئلتك
 
-إذا واجهتك أية عقبات أو كانت لديك أسئلة حول بناء وكلاء الذكاء الاصطناعي، انضم إلى قناة Discord المخصصة لنا في [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
+إذا واجهت مشكلة أو كان لديك أي أسئلة حول بناء وكلاء الذكاء الاصطناعي، انضم إلى قناة Discord المخصصة لنا في [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
 
-### ما تحتاج إليه
+### ما تحتاجه
 
-كل درس لديه مثال برمجي خاص يمكن تشغيله محليًا. يمكنك [تشعب هذا المستودع](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) لإنشاء نسختك الخاصة.
+كل درس يحتوي على نموذج كود خاص يمكنك تشغيله محليًا. يمكنك [استنساخ هذا المستودع](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) لإنشاء نسخة خاصة بك.
 
 تستخدم هذه الدورة حاليًا ما يلي:
 
@@ -63,23 +63,22 @@
 - [خدمة Azure OpenAI](https://azure.microsoft.com/products/ai-foundry/models/openai)
 - [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
 
-يرجى التأكد من أن لديك حق الوصول إلى هذه الخدمات قبل البدء.
+يرجى التأكد من حصولك على إمكانية الوصول إلى هذه الخدمات قبل البدء.
 
-خيارات أخرى حول استضافة النماذج والخدمات قادمة قريبًا.
+خيارات إضافية حول استضافة النماذج والخدمات قادمة قريبًا.
 
 ## 🗃️ الدروس
 
-| **الدرس**         | **الوصف**                                                                                     |
-|--------------------|--------------------------------------------------------------------------------------------------|
-| [تصميم الوكيل](./lesson-1-agent-design/README.md)       | مقدمة عن حالة استخدام "الانضمام للمطور" لوكلائنا وكيفية تصميم وكلاء فعّالين  |
-| [تطوير الوكيل](./lesson-2-agent-development/README.md)  | باستخدام إطار عمل وكلاء مايكروسوفت (MAF)، أنشئ 3 وكلاء لمساعدة المطورين الجدد على الانضمام.       |
-| [تقييم الوكلاء](./lesson-3-agent-evals/README.md)  | باستخدام Microsoft Foundry، تعرّف على مدى أداء وكلاء الذكاء الاصطناعي لدينا وكيفية تحسينهم. |
-| [نشر الوكيل](./lesson-4-agent-deployment/README.md)   | باستخدام وكلاء مستضافين و OpenAI Chatkit، شاهد كيفية نشر وكيل ذكاء اصطناعي للإنتاج.       |
-
+| **الدرس**         | **الوصف**                                                                                  |
+|--------------------|--------------------------------------------------------------------------------------------|
+| [تصميم الوكيل](./lesson-1-agent-design/README.md)       | مقدمة لاستخدام وكيل "توجيه المطورين" الخاص بنا وكيفية تصميم وكلاء فعالين                   |
+| [تطوير الوكيل](./lesson-2-agent-development/README.md)  | باستخدام إطار عمل وكلاء مايكروسوفت (MAF)، أنشئ 3 وكلاء لمساعدة المطورين الجدد على البدء.      |
+| [تقييم الوكلاء](./lesson-3-agent-evals/README.md)  | باستخدام Microsoft Foundry، اكتشف مدى أداء وكلاء الذكاء الاصطناعي لدينا وكيفية تحسينهم.       |
+| [نشر الوكيل](./lesson-4-agent-deployment/README.md)   | باستخدام وكلاء مستضافين وOpenAI Chatkit، تعرف على كيفية نشر وكيل الذكاء الاصطناعي في الإنتاج. |
 
 ## 🎒 دورات أخرى
 
-ينتج فريقنا دورات أخرى! اطلع على:
+فريقنا ينتج دورات أخرى! تحقق من:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -88,19 +87,19 @@
 [![LangChain للمبتدئين](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
-### Azure / Edge / MCP / وكلاء
+### Azure / Edge / MCP / الوكلاء
 [![AZD للمبتدئين](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Edge AI للمبتدئين](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![MCP للمبتدئين](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI Agents للمبتدئين](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![وكلاء الذكاء الاصطناعي للمبتدئين](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### سلسلة الذكاء الاصطناعي التوليدي
 [![الذكاء الاصطناعي التوليدي للمبتدئين](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![الذكاء الاصطناعي التوليدي (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
-[![الذكاء الاصطناعي التوليدي (جافا)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
-[![الذكاء الاصطناعي التوليدي (جافا سكريبت)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+[![الذكاء الاصطناعي التوليدي (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+[![الذكاء الاصطناعي التوليدي (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
  
@@ -115,41 +114,41 @@
 
 ---
  
-### سلسلة كوبايلوت
-[![كوبايلوت للبرمجة المشتركة بالذكاء الاصطناعي](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![كوبايلوت للغة C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![مغامرة كوبايلوت](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+### سلسلة مساعد المبرمج
+[![مساعد المبرمج للبرمجة التشاركية بالذكاء الاصطناعي](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![مساعد المبرمج لـ C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![مغامرة مساعد المبرمج](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
 ## المساهمة
 
-يرحب هذا المشروع بالمساهمات والاقتراحات. تتطلب معظم المساهمات موافقتك على اتفاقية ترخيص المساهمين (CLA) التي تعلن بموجبها أن لديك الحق، وأنك بالفعل تمنحنا حقوق استخدام مساهمتك. لمزيد من التفاصيل، قم بزيارة <https://cla.opensource.microsoft.com>.
+يرحب هذا المشروع بالمساهمات والاقتراحات. معظم المساهمات تتطلب منك الموافقة على اتفاقية ترخيص المساهم (CLA) التي تعلن بأن لديك الحق، وأنك بالفعل تمنحنا الحقوق لاستخدام مساهمتك. للتفاصيل، زر <https://cla.opensource.microsoft.com>.
 
-عند تقديم طلب سحب (Pull Request)، سيحدد روبوت CLA تلقائيًا ما إذا كنت بحاجة إلى تقديم CLA ويزين الطلب بطريقة مناسبة (مثل: فحص الحالة، تعليق). ما عليك سوى اتباع التعليمات المقدمة من الروبوت. ستحتاج إلى القيام بذلك مرة واحدة فقط عبر جميع المستودعات التي تستخدم CLA الخاصة بنا.
+عندما ترسل طلب سحب، سيقرر بوت CLA تلقائيًا ما إذا كنت بحاجة لتقديم اتفاقية CLA ويزين طلب السحب بشكل مناسب (مثل: فحص الحالة، تعليق). ما عليك سوى اتباع التعليمات التي يقدمها البوت. سيتعين عليك القيام بهذا مرة واحدة فقط عبر جميع المستودعات التي تستخدم اتفاقياتنا.
 
-اعتمد هذا المشروع على [مدونة قواعد السلوك مفتوحة المصدر من مايكروسوفت](https://opensource.microsoft.com/codeofconduct/).
-للحصول على مزيد من المعلومات، راجع [الأسئلة الشائعة حول قواعد السلوك](https://opensource.microsoft.com/codeofconduct/faq/) أو اتصل بـ [opencode@microsoft.com](mailto:opencode@microsoft.com) لأي أسئلة أو تعليقات إضافية.
+هذا المشروع اعتمد [ميثاق سلوك المصدر المفتوح من مايكروسوفت](https://opensource.microsoft.com/codeofconduct/).
+لمزيد من المعلومات، راجع [الأسئلة الشائعة حول ميثاق السلوك](https://opensource.microsoft.com/codeofconduct/faq/) أو اتصل بـ [opencode@microsoft.com](mailto:opencode@microsoft.com) لأي أسئلة أو تعليقات إضافية.
 
 ## العلامات التجارية
 
-قد يحتوي هذا المشروع على علامات تجارية أو شعارات لمشروعات أو منتجات أو خدمات. يخضع الاستخدام المصرح به لعلامات أو شعارات Microsoft لما يحدده ويتعين اتباعه وفقًا لـ
-[إرشادات علامة Microsoft التجارية والعلامة التجارية](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
-يجب ألا يتسبب استخدام علامات أو شعارات Microsoft في إصدارات معدلة من هذا المشروع في حدوث ارتباك أو التعبير ضمنيًا عن رعاية Microsoft.
-أي استخدام لعلامات تجارية أو شعارات طرف ثالث يخضع لسياسات تلك الأطراف الثالثة.
+قد يحتوي هذا المشروع على علامات تجارية أو شعارات لمشاريع أو منتجات أو خدمات. الاستخدام المخول لعلامات مايكروسوفت التجارية أو شعاراتها يخضع ويجب أن يتبع
+[إرشادات العلامات التجارية والهوية لمايكروسوفت](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
+استخدام علامات مايكروسوفت التجارية أو شعاراتها في نسخ معدلة من هذا المشروع يجب ألا يسبب ارتباكًا أو يوحي برعاية مايكروسوفت.
+أي استخدام لعلامات تجارية أو شعارات جهات خارجية يخضع لسياسات تلك الجهات الخارجية.
 
 ## الحصول على المساعدة
 
 إذا واجهت صعوبة أو كان لديك أي أسئلة حول بناء تطبيقات الذكاء الاصطناعي، انضم إلى:
 
-[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
+[![مايكروسوفت فاوندري ديسكورد](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
 إذا كان لديك ملاحظات على المنتج أو أخطاء أثناء البناء، زر:
 
-[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![منتدى مطوري مايكروسوفت فاوندري على GitHub](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**إخلاء المسؤولية**:  
-تمت ترجمة هذا المستند باستخدام خدمة الترجمة الآلية [Co-op Translator](https://github.com/Azure/co-op-translator). رغم سعينا لتحقيق الدقة، يرجى ملاحظة أن الترجمات الآلية قد تحتوي على أخطاء أو عدم دقة. يجب اعتبار المستند الأصلي بلغته الأصلية المصدر المعتمد. للمعلومات الحساسة أو الهامة، يُنصح بالاعتماد على الترجمة المهنية البشرية. نحن غير مسؤولين عن أي سوء فهم أو تفسير ناتج عن استخدام هذه الترجمة.
+**إخلاء مسؤولية**:  
+تمت ترجمة هذا المستند باستخدام خدمة الترجمة الآلية [Co-op Translator](https://github.com/Azure/co-op-translator). بينما نسعى لتحقيق الدقة، يرجى العلم أن الترجمات الآلية قد تحتوي على أخطاء أو عدم دقة. يجب اعتبار المستند الأصلي بلغته الأصلية المصدر الموثوق به. للمعلومات الحساسة، يُنصح بالترجمة البشرية المهنية. نحن غير مسؤولين عن أي سوء فهم أو تفسير ناتج عن استخدام هذه الترجمة.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
