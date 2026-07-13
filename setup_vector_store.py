@@ -20,7 +20,7 @@ load_dotenv()
 async def setup():
     """Upload file and create vector store, print the ID for .env"""
     
-    endpoint = os.environ["AZURE_AI_PROJECT_ENDPOINT"]
+    endpoint = os.environ.get("FOUNDRY_PROJECT_ENDPOINT") or os.environ["AZURE_AI_PROJECT_ENDPOINT"]
     
     async with AzureCliCredential() as creds:
         async with AgentsClient(endpoint=endpoint, credential=creds) as client:

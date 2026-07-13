@@ -1,0 +1,16 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^https?://localhost" },
+    { "pattern": "^https?://127\\.0\\.0\\.1" },
+    { "pattern": "0\\.0\\.0\\.0" },
+    { "pattern": "<[^>]+>" },
+    { "pattern": "your-acr" },
+    { "pattern": "example\\.com" },
+    { "pattern": "\\.azurecr\\.io" },
+    { "pattern": "services\\.ai\\.azure\\.com/api/projects" }
+  ],
+  "aliveStatusCodes": [200, 206, 429],
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "30s"
+}

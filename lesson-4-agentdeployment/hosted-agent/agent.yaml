@@ -15,13 +15,13 @@ template:
     protocols:
         - protocol: responses
     environment_variables:
-        - name: AZURE_OPENAI_ENDPOINT
-          value: ${AZURE_OPENAI_ENDPOINT}
-        - name: AZURE_OPENAI_CHAT_DEPLOYMENT_NAME
+        - name: AZURE_AI_PROJECT_ENDPOINT
+          value: ${AZURE_AI_PROJECT_ENDPOINT}
+        - name: MODEL_DEPLOYMENT
           value: "{{chat}}"
         - name: VECTOR_STORE_ID
           value: ${VECTOR_STORE_ID}
 resources:
     - kind: model
-      id: gpt-4o
+      id: gpt-5.1
       name: chat

@@ -418,3 +418,41 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# macOS finder metadata
+.DS_Store
+**/.DS_Store
+
+## ---------------------------------------------------------------------------
+## Course-specific (Python / notebooks / secrets / OS)
+## Added for public sharing of "Building AI Agents From Zero To Production".
+## ---------------------------------------------------------------------------
+
+# Secrets & local environment (NEVER commit real values — only *.env.example is tracked)
+.env
+.env.*
+!*.env.example
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.python-version
+.tox/
+
+# Virtual environments
+env/
+ENV/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# OS metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini

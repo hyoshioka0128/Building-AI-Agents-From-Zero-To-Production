@@ -1,7 +1,7 @@
 # Dockerfile for Developer Onboarding Multi-Agent Hosted Agent
 # 
 # This container runs the multi-agent workflow as a hosted agent
-# on Azure AI Foundry. The agent server listens on port 8088.
+# on Microsoft Foundry. The agent server listens on port 8088.
 
 FROM python:3.12-slim
 

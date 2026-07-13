@@ -1,10 +1,10 @@
 """
-Deploy Hosted Agent to Azure AI Foundry
+Deploy Hosted Agent to Microsoft Foundry
 
 This script deploys the multi-agent workflow as a hosted agent using the
 Azure AI Projects SDK. It handles:
 1. Building and pushing the Docker image to ACR
-2. Creating the hosted agent version in Azure AI Foundry
+2. Creating the hosted agent version in Microsoft Foundry
 3. Starting the agent deployment
 
 Prerequisites:
@@ -27,7 +27,8 @@ import subprocess
 import sys
 from azure.ai.projects import AIProjectClient
 from azure.ai.projects.models import (
-    ImageBasedHostedAgentDefinition,
+    HostedAgentDefinition,
+    ContainerConfiguration,
     ProtocolVersionRecord,
     AgentProtocol,
 )
@@ -38,9 +39,9 @@ PROJECT_ENDPOINT = os.environ.get("AZURE_AI_PROJECT_ENDPOINT")
 ACR_NAME = os.environ.get("ACR_NAME", "your-acr-name")
 IMAGE_NAME = os.environ.get("IMAGE_NAME", "developer-onboarding-agent")
 IMAGE_TAG = os.environ.get("IMAGE_TAG", "latest")
-AGENT_NAME = os.environ.get("AGENT_NAME", "developer-onboarding-workflow")
+AGENT_NAME = os.environ.get("HOSTED_AGENT_NAME") or os.environ.get("AGENT_NAME", "dev-onboarding")
 VECTOR_STORE_ID = os.environ.get("VECTOR_STORE_ID")
-MODEL_DEPLOYMENT = os.environ.get("MODEL_DEPLOYMENT", "gpt-4o")
+MODEL_DEPLOYMENT = os.environ.get("MODEL_DEPLOYMENT", "gpt-5.1")
 
 # Resource allocation
 CPU = os.environ.get("AGENT_CPU", "1")
@@ -114,9 +115,9 @@ def build_and_push_image():
 
 
 def create_agent_version(image_url: str):
-    """Create a new hosted agent version in Azure AI Foundry."""
+    """Create a new hosted agent version in Microsoft Foundry."""
     print("\n" + "=" * 60)
-    print("Creating hosted agent version in Azure AI Foundry")
+    print("Creating hosted agent version in Microsoft Foundry")
     print("=" * 60)
     
     print(f"\n📋 Configuration:")
@@ -136,7 +137,7 @@ def create_agent_version(image_url: str):
     print(f"\n🚀 Creating agent version...")
     agent = client.agents.create_version(
         agent_name=AGENT_NAME,
-        definition=ImageBasedHostedAgentDefinition(
+        definition=HostedAgentDefinition(
             container_protocol_versions=[
                 ProtocolVersionRecord(
                     protocol=AgentProtocol.RESPONSES,
@@ -145,7 +146,7 @@ def create_agent_version(image_url: str):
             ],
             cpu=CPU,
             memory=MEMORY,
-            image=image_url,
+            container_configuration=ContainerConfiguration(image=image_url),
             environment_variables={
                 "AZURE_AI_PROJECT_ENDPOINT": PROJECT_ENDPOINT,
                 "VECTOR_STORE_ID": VECTOR_STORE_ID or "",
@@ -188,7 +189,7 @@ def start_agent():
     
     if result.returncode != 0:
         print(f"❌ Failed to start agent:\n{result.stderr}")
-        print("\n💡 You may need to start the agent from the Azure AI Foundry portal")
+        print("\n💡 You may need to start the agent from the Microsoft Foundry portal")
         return False
     
     print("✅ Agent deployment started!")
@@ -233,7 +234,7 @@ def get_agent_status():
     )
     
     try:
-        agent = client.agents.retrieve(agent_name=AGENT_NAME)
+        agent = client.agents.get(agent_name=AGENT_NAME)
         print(f"\n✅ Agent found:")
         print(f"   Name: {agent.name}")
         print(f"   ID: {agent.id}")
@@ -288,7 +289,7 @@ def test_agent():
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Deploy and manage hosted agents on Azure AI Foundry"
+        description="Deploy and manage hosted agents on Microsoft Foundry"
     )
     parser.add_argument(
         "--build", action="store_true",
@@ -325,12 +326,12 @@ def main():
     if args.build:
         image_url = build_and_push_image()
         create_agent_version(image_url)
-        print("\n💡 Next step: Start the agent with --start or from Azure AI Foundry portal")
+        print("\n💡 Next step: Start the agent with --start or from Microsoft Foundry portal")
         
     elif args.deploy:
         image_url = get_full_image_url()
         create_agent_version(image_url)
-        print("\n💡 Next step: Start the agent with --start or from Azure AI Foundry portal")
+        print("\n💡 Next step: Start the agent with --start or from Microsoft Foundry portal")
         
     elif args.start:
         start_agent()

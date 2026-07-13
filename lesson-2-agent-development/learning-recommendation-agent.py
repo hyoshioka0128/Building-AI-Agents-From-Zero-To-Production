@@ -16,13 +16,10 @@ Usage:
 Then open http://localhost:8091 in your browser.
 """
 
-import asyncio
-
 from azure.identity.aio import AzureCliCredential
 from dotenv import load_dotenv
 
-from agent_framework import ChatAgent, MCPStreamableHTTPTool
-from agent_framework.azure import AzureAIAgentClient
+from agent_framework.foundry import FoundryChatClient
 
 # Load environment variables from .env file
 load_dotenv()
@@ -58,23 +55,20 @@ When a user asks about learning something or creating a training plan, follow th
 Be encouraging and adapt the plan to the user's stated experience level and time constraints."""
 
 
-# Create the Microsoft Learn MCP tool
-learn_mcp_tool = MCPStreamableHTTPTool(
-    name="Microsoft Learn MCP",
-    url="https://learn.microsoft.com/api/mcp",
-)
+# Create the Microsoft Foundry chat client
+client = FoundryChatClient(credential=AzureCliCredential())
 
-# Connect to MCP server (must be done before creating agent)
-asyncio.get_event_loop().run_until_complete(learn_mcp_tool.connect())
-print("Connected to Microsoft Learn MCP Server!")
-print(f"Available tools: {[f.name for f in learn_mcp_tool.functions]}")
-
-# Create the agent with the connected MCP tool
-agent = ChatAgent(
-    chat_client=AzureAIAgentClient(async_credential=AzureCliCredential()),
+# Create the agent with a hosted Microsoft Learn MCP tool.
+# The MCP connection is handled server-side by the Microsoft Foundry Agent Service,
+# so there is no manual connect() step.
+agent = client.as_agent(
     name="LearningPathAgent",
     instructions=AGENT_INSTRUCTIONS,
-    tools=learn_mcp_tool,
+    tools=client.get_mcp_tool(
+        name="Microsoft Learn MCP",
+        url="https://learn.microsoft.com/api/mcp",
+        approval_mode="never_require",
+    ),
 )
 
 if __name__ == "__main__":

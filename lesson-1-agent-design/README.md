@@ -14,6 +14,13 @@ In this lesson we will cover:
   
 Let's start by defining the what are agent and why we would use them inside an application.
 
+> **Before you start the course.** This first lesson is conceptual — there is no code to run.
+> From [Lesson 2](../lesson-2-agent-development/README.md) onward you will need: an **Azure
+> subscription** with access to **Microsoft Foundry**, a deployed **GPT-5 series model** (for
+> example `gpt-5.1` — avoid the retired GPT-4o / GPT-4.1), **Python 3.12+**, and the **Azure CLI**
+> (`az login`). See [What You Need](../README.md#what-you-need) in the course README for the full
+> list and links.
+
 ## What Are AI Agents?
 
 ![What Are AI Agents?](./images/what-are-ai-agents.png)

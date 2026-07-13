@@ -7,7 +7,7 @@ optimized for code generation tasks.
 
 Prerequisites:
 1. Ensure you have Azure CLI credentials configured (run `az login`)
-2. Ensure you have access to the gpt-5-codex model deployment in Azure AI Foundry
+2. Ensure you have access to the gpt-5-codex model deployment in Microsoft Foundry
 
 Usage:
     python coding-agent.py
@@ -20,7 +20,7 @@ import logging
 from azure.identity.aio import AzureCliCredential
 from dotenv import load_dotenv
 
-from agent_framework.azure import AzureAIClient
+from agent_framework.foundry import FoundryChatClient
 
 # Enable logging to see agent activity
 logging.basicConfig(level=logging.INFO)
@@ -72,15 +72,15 @@ Supported tasks:
 
 Always prioritize code correctness, readability, and maintainability."""
 
-# Create credential and client
+# Create credential and Microsoft Foundry chat client.
+# The model is set on the client (GPT-5-Codex, optimised for code generation).
 credential = AzureCliCredential()
-client = AzureAIClient(async_credential=credential)
+client = FoundryChatClient(credential=credential, model="gpt-5-codex")
 
-# Create agent using gpt-5-codex model for code generation
-agent = client.create_agent(
+# Create the coding agent
+agent = client.as_agent(
     name="CodingAgent",
     instructions=AGENT_INSTRUCTIONS,
-    model="gpt-5-codex",  # Use GPT-5-Codex model optimized for code generation
 )
 
 if __name__ == "__main__":

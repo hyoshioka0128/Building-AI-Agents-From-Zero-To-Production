@@ -30,13 +30,8 @@ import os
 from azure.identity.aio import AzureCliCredential
 from dotenv import load_dotenv
 
-from agent_framework import (
-    HandoffBuilder,
-    HostedFileSearchTool,
-    HostedMCPTool,
-    HostedVectorStoreContent,
-)
-from agent_framework.azure import AzureAIClient
+from agent_framework.orchestrations import HandoffBuilder
+from agent_framework.foundry import FoundryChatClient
 
 # Enable logging to see orchestration activity
 logging.basicConfig(level=logging.INFO)
@@ -48,16 +43,18 @@ load_dotenv()
 # Create credential at module level (same pattern as coding-agent.py)
 credential = AzureCliCredential()
 
-# Create separate client for each agent
-triage_client = AzureAIClient(async_credential=credential)
-employee_client = AzureAIClient(async_credential=credential)
-learning_client = AzureAIClient(async_credential=credential)
-coding_client = AzureAIClient(async_credential=credential)
+# Create a separate Microsoft Foundry chat client for each agent.
+# The coding client uses GPT-5-Codex; the model is set on the client.
+triage_client = FoundryChatClient(credential=credential)
+employee_client = FoundryChatClient(credential=credential)
+learning_client = FoundryChatClient(credential=credential)
+coding_client = FoundryChatClient(credential=credential, model="gpt-5-codex")
 
 # TRIAGE AGENT - The Coordinator
-triage_agent = triage_client.create_agent(
+triage_agent = triage_client.as_agent(
     id="triage-agent",
     name="triage-agent",
+    require_per_service_call_history_persistence=True,
     instructions="""You are the Developer Onboarding Assistant - a friendly coordinator helping new developers get settled at their new company.
 
 Your role is to understand what the new developer needs and route them to the right specialist:
@@ -96,17 +93,14 @@ Handoff tools available:
 )
 
 # EMPLOYEE SEARCH AGENT - Organizational Knowledge Specialist
-file_search_tool = HostedFileSearchTool(
-    inputs=[
-        HostedVectorStoreContent(
-            vector_store_id=os.environ["VECTOR_STORE_ID"]
-        )
-    ]
+file_search_tool = employee_client.get_file_search_tool(
+    vector_store_ids=[os.environ["VECTOR_STORE_ID"]]
 )
 
-employee_search_agent = employee_client.create_agent(
+employee_search_agent = employee_client.as_agent(
     id="employee-search-agent",
     name="employee-search-agent",
+    require_per_service_call_history_persistence=True,
     instructions="""You are the Employee Search Specialist for the Developer Onboarding program at Zava, a software company.
 
 You help new developers learn about their coworkers and the organization structure.
@@ -134,15 +128,16 @@ After answering organizational questions, ask if they need help with anything el
 )
 
 # LEARNING AGENT - Training & Documentation Specialist
-mcp_tool = HostedMCPTool(
+mcp_tool = learning_client.get_mcp_tool(
     name="Microsoft Learn MCP",
     url="https://learn.microsoft.com/api/mcp",
     approval_mode="never_require",
 )
 
-learning_agent = learning_client.create_agent(
+learning_agent = learning_client.as_agent(
     id="learning-agent",
     name="learning-agent",
+    require_per_service_call_history_persistence=True,
     instructions="""You are the Learning Path Specialist for the Developer Onboarding program.
 
 Use the Microsoft Learn MCP tool to find relevant documentation and learning resources.
@@ -183,10 +178,10 @@ Be encouraging and adapt to the user's stated experience level!""",
 
 # CODING AGENT - Code Generation Specialist
 # NOTE: This is the END of the handoff chain - coding_agent responds directly to user
-coding_agent = coding_client.create_agent(
+coding_agent = coding_client.as_agent(
     id="coding-agent",
     name="coding-agent",
-    model="gpt-5-codex",  # Use GPT-5-Codex model optimized for code generation
+    require_per_service_call_history_persistence=True,
     instructions="""You are the Code Generation Specialist for the Developer Onboarding program.
 
 You generate high-quality code samples to help new developers get started quickly.
@@ -242,12 +237,14 @@ workflow = (
         name="developer_onboarding_workflow",
         participants=[triage_agent, employee_search_agent, learning_agent, coding_agent],
     )
-    .set_coordinator(triage_agent)
+    .with_start_agent(triage_agent)
     .add_handoff(triage_agent, [employee_search_agent, learning_agent, coding_agent])
     .add_handoff(learning_agent, [coding_agent])  # Learning -> Coding (one-way, coding is END)
     # NO reverse handoff: coding_agent does NOT hand back to learning_agent
     .with_termination_condition(
-        lambda conv: sum(1 for msg in conv if msg.role.value == "user") >= 20
+        lambda conv: sum(
+            1 for msg in conv if getattr(msg.role, "value", msg.role) == "user"
+        ) >= 20
     )
     .build()
 )

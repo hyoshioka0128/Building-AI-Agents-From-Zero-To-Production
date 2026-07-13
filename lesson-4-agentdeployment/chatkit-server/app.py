@@ -2,7 +2,7 @@
 ChatKit Server for Developer Onboarding Multi-Agent Workflow
 
 This FastAPI server provides a ChatKit-compatible interface to interact with
-the hosted multi-agent workflow on Azure AI Foundry. It handles:
+the hosted multi-agent workflow on Microsoft Foundry. It handles:
 - Thread management (create, list, load)
 - Message persistence via SQLite
 - Streaming responses from the hosted workflow agent
@@ -17,7 +17,6 @@ from typing import Any
 import uvicorn
 from azure.identity import DefaultAzureCredential
 from azure.ai.projects import AIProjectClient
-from azure.ai.projects.models import AgentReference
 from chatkit.server import ChatKitServer
 from chatkit.types import (
     AssistantMessageItem,
@@ -43,13 +42,14 @@ SERVER_PORT = int(os.environ.get("SERVER_PORT", "8001"))
 # Database configuration
 DATABASE_PATH = os.environ.get("DATABASE_PATH", "chatkit_onboarding.db")
 
-# Azure AI Foundry Project configuration
-PROJECT_ENDPOINT = os.environ.get(
-    "PROJECT_ENDPOINT",
-    "https://koreyst-3816-resource.services.ai.azure.com/api/projects/koreyst-3816"
+# Microsoft Foundry Project configuration
+PROJECT_ENDPOINT = (
+    os.environ.get("AZURE_AI_PROJECT_ENDPOINT")
+    or os.environ.get("PROJECT_ENDPOINT")
+    or "https://your-account.services.ai.azure.com/api/projects/your-project"
 )
-AGENT_NAME = os.environ.get("AGENT_NAME", "agent-with-hosted-mcp")
-AGENT_VERSION = os.environ.get("AGENT_VERSION", "1")
+AGENT_NAME = os.environ.get("HOSTED_AGENT_NAME") or os.environ.get("AGENT_NAME", "dev-onboarding")
+AGENT_VERSION = os.environ.get("HOSTED_AGENT_VERSION") or os.environ.get("AGENT_VERSION", "1")
 
 # User context
 DEFAULT_USER_ID = "demo_user"
@@ -74,8 +74,9 @@ logger = logging.getLogger(__name__)
 class OnboardingChatKitServer(ChatKitServer[dict[str, Any]]):
     """ChatKit server that communicates with the hosted multi-agent workflow.
     
-    This server integrates with a hosted agent on Azure AI Foundry using
-    AIProjectClient and AgentReference for proper authentication.
+    This server integrates with a hosted agent on Microsoft Foundry using
+    AIProjectClient and the ``agent_reference`` responses extra-body field
+    for proper authentication.
     """
 
     def __init__(self, data_store: SQLiteStore):
@@ -119,14 +120,19 @@ class OnboardingChatKitServer(ChatKitServer[dict[str, Any]]):
         
         logger.debug(f"Calling agent with {len(input_messages)} messages")
         
-        # Call the agent using the OpenAI responses API
+        # Call the agent using the OpenAI responses API. Hosted agents are
+        # referenced through the ``agent_reference`` extra-body field (the
+        # standalone ``AgentReference`` model was removed from azure-ai-projects;
+        # you now pass a plain dict). ``version`` pins to a specific agent
+        # version — omit it to always target the latest.
         response = self.openai_client.responses.create(
             input=input_messages,
             extra_body={
-                "agent": AgentReference(
-                    name=self.agent.name,
-                    version=AGENT_VERSION
-                ).as_dict()
+                "agent_reference": {
+                    "type": "agent_reference",
+                    "name": self.agent.name,
+                    "version": AGENT_VERSION,
+                }
             }
         )
         
@@ -308,7 +314,7 @@ class OnboardingChatKitServer(ChatKitServer[dict[str, Any]]):
 
 app = FastAPI(
     title="Developer Onboarding ChatKit Server",
-    description="ChatKit interface for the multi-agent onboarding workflow hosted on Azure AI Foundry",
+    description="ChatKit interface for the multi-agent onboarding workflow hosted on Microsoft Foundry",
     version="1.0.0",
 )
 

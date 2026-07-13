@@ -1,0 +1,70 @@
+{
+  "//": "Smoke-test catalog for the Developer Onboarding hosted agent (Lesson 4).",
+  "//_runner": "Consumed by the JFolberth/ai-smoketest GitHub Action, which POSTs each prompt to POST {project_endpoint}/agents/{agent_name}/endpoint/protocols/openai/responses and asserts on the reply text.",
+  "//_assertions": "Assertions are case-insensitive substring checks. contains_any = at least one must appear; contains_all = every one must appear; contains_none = none may appear. Data-dependent steps (e.g. employee search) assert only status=200 because the reply depends on your vector-store contents.",
+  "tests": [
+    {
+      "id": "reachability",
+      "description": "Agent is reachable, follows its onboarding system prompt, and returns non-empty text.",
+      "prompt": "Hello! I'm a new developer joining the team. What can you help me with?",
+      "assertions": {
+        "status": 200,
+        "contains_any": ["onboard", "learn", "cod", "connect", "team", "help"]
+      }
+    },
+    {
+      "id": "employee-search",
+      "description": "Employee search domain: agent invokes the file-search tool. Reply text is data-dependent, so only assert a healthy 200 (non-empty text is enforced by the runner).",
+      "prompt": "Who should I connect with about Azure Functions?",
+      "assertions": {
+        "status": 200
+      }
+    },
+    {
+      "id": "learning-path",
+      "description": "Learning domain: agent should echo the requested topic and produce a learning-path style answer.",
+      "prompt": "Create a learning path for Kubernetes.",
+      "assertions": {
+        "status": 200,
+        "contains_any": ["kubernetes", "learn", "module", "path", "certif"]
+      }
+    },
+    {
+      "id": "coding-assistance",
+      "description": "Coding domain: agent should return a code-shaped answer for a Python request.",
+      "prompt": "Write Python code to connect to Azure Cosmos DB.",
+      "assertions": {
+        "status": 200,
+        "contains_any": ["import", "cosmos", "client", "python", "def "]
+      }
+    },
+    {
+      "id": "prompt-adherence-offtopic",
+      "description": "Prompt adherence: off-topic request should be redirected to the onboarding scope rather than answered in detail.",
+      "prompt": "Give me a full recipe for chocolate cake with exact quantities.",
+      "assertions": {
+        "status": 200,
+        "contains_none": ["preheat", "grams of flour", "tablespoons of sugar"]
+      }
+    },
+    {
+      "id": "threading-turn-1",
+      "description": "Multi-turn threading (setup): introduce a fact and save the response id for the next turn.",
+      "prompt": "My name is Sam and I work on the Payments team.",
+      "assertions": {
+        "status": 200
+      },
+      "save_response_id_as": "intro"
+    },
+    {
+      "id": "threading-turn-2",
+      "description": "Multi-turn threading (assertion): agent should recall the team from the previous turn via previous_response_id.",
+      "prompt": "Which team did I say I work on?",
+      "use_previous_response_id": "intro",
+      "assertions": {
+        "status": 200,
+        "contains_any": ["payments"]
+      }
+    }
+  ]
+}
