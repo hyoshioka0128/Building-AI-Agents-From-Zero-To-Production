@@ -20,8 +20,7 @@ lesson-6-toolbox/                 Microsoft Toolbox: define + govern tools centr
 lesson-7-multi-agent-a2a/         Multi-agent orchestration over the A2A protocol
 ```
 
-Root docs: `README.md` (start here), `MODERNIZATION-REPORT.md` (gap analysis + validation matrix),
-`MIGRATION-GUIDE.md` (SDK migration detail), `CHANGELOG.md`.
+Root docs: `README.md` (start here), `MIGRATION-GUIDE.md` (SDK migration detail), `CHANGELOG.md`.
 
 ## Golden rules
 

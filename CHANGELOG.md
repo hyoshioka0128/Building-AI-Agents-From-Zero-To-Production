@@ -16,14 +16,15 @@ by the date a set of changes landed rather than by a semantic version number.
   files.
 
 ### Changed
-- Scrubbed personal and live-environment identifiers (account, project, resource-group and
-  identity names) from `MODERNIZATION-REPORT.md` so the repo is safe to publish.
+- Prepared the repository for public sharing: scrubbed personal and live-environment identifiers
+  (account, project, resource-group and identity names) from published docs, and moved the internal
+  modernisation/gap-analysis report out of the repository (its learner-facing summary lives in this
+  changelog).
 
 ## [2026 Foundry modernisation]
 
 A complete technical, terminology and curriculum refresh aligning the course with the
-**Microsoft Foundry 2026** platform. See `MODERNIZATION-REPORT.md` for the full gap analysis and
-validation matrix, and `MIGRATION-GUIDE.md` for the code-level migration details.
+**Microsoft Foundry 2026** platform. See `MIGRATION-GUIDE.md` for the code-level migration details.
 
 ### Added
 - **Lesson 5 – Production Hosted Agents** (`lesson-5-hosted-agents-production/`): Hosted Agents vs
@@ -44,7 +45,7 @@ validation matrix, and `MIGRATION-GUIDE.md` for the code-level migration details
   action against a deployed hosted agent (OIDC, `workflow_dispatch`).
 - **Prerequisites and setup guidance** added to every lesson and to the root README
   (Python 3.12+, `az login`, model guidance, cost & cleanup).
-- **New flagship docs**: `MODERNIZATION-REPORT.md`, `MIGRATION-GUIDE.md`.
+- **New flagship doc**: `MIGRATION-GUIDE.md`.
 
 ### Changed
 - **Rebrand**: *Azure AI Foundry* → **Microsoft Foundry** throughout the course.

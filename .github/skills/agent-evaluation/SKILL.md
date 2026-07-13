@@ -36,4 +36,4 @@ Guidance for measuring and improving agents (Lesson 3).
 
 ## References
 - `lesson-3-agent-evals/README.md`
-- `MODERNIZATION-REPORT.md` (validation approach)
+- `MIGRATION-GUIDE.md` (current SDK patterns)
