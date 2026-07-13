@@ -418,3 +418,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# macOS finder metadata
+.DS_Store
+**/.DS_Store

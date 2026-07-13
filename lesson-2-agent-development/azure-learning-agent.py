@@ -19,8 +19,7 @@ import logging
 from azure.identity.aio import AzureCliCredential
 from dotenv import load_dotenv
 
-from agent_framework import HostedMCPTool
-from agent_framework.azure import AzureAIClient
+from agent_framework.foundry import FoundryChatClient
 
 # Enable logging to see tool calls
 logging.basicConfig(level=logging.INFO)
@@ -56,16 +55,16 @@ When a user asks about learning something or creating a training plan, follow th
 
 Be encouraging and adapt the plan to the user's stated experience level and time constraints."""
 
-# Create credential and client
+# Create credential and Microsoft Foundry chat client
 credential = AzureCliCredential()
-client = AzureAIClient(async_credential=credential)
+client = FoundryChatClient(credential=credential)
 
-# Create agent using the client's create_agent method with HostedMCPTool
-# The MCP connection is handled server-side by Azure AI Agent Service
-agent = client.create_agent(
+# Create agent with a hosted MCP tool.
+# The MCP connection is handled server-side by the Microsoft Foundry Agent Service.
+agent = client.as_agent(
     name="LearningPathAgent",
     instructions=AGENT_INSTRUCTIONS,
-    tools=HostedMCPTool(
+    tools=client.get_mcp_tool(
         name="Microsoft Learn MCP",
         url="https://learn.microsoft.com/api/mcp",
         approval_mode="never_require",

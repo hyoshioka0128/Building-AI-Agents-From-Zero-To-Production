@@ -1,9 +1,9 @@
 # Azure AI Agent Server Framework - Required for hosted agent
 azure-ai-agentserver-agentframework==1.0.0b3
 
-# Microsoft Agent Framework - Core framework for multi-agent orchestration
-# Use --pre flag or specify beta version explicitly
-agent-framework --pre
+# Microsoft Agent Framework - Core framework + Foundry client surface
+agent-framework==1.2.0
+agent-framework-foundry==1.2.0
 
 # Azure AI Projects SDK - For creating agents and tools
 azure-ai-projects>=1.0.0b1

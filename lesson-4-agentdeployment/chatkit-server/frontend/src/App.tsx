@@ -8,7 +8,7 @@ const CHATKIT_API_DOMAIN_KEY = "domain_pk_localhost_dev";
  * Developer Onboarding Assistant
  *
  * This ChatKit-based UI connects to the hosted multi-agent workflow
- * on Azure AI Foundry. Users can:
+ * on Microsoft Foundry. Users can:
  * - Search for colleagues and team members
  * - Get personalized learning recommendations
  * - Request coding help and examples
@@ -67,7 +67,7 @@ export default function App() {
           </ul>
         </div>
         <div className="sidebar-footer">
-          <p>Powered by Azure AI Foundry</p>
+          <p>Powered by Microsoft Foundry</p>
         </div>
       </aside>
 

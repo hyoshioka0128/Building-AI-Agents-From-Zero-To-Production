@@ -2,28 +2,34 @@
 
 import os
 
-from agent_framework import HostedMCPTool, HostedFileSearchTool, HostedVectorStoreContent
-from agent_framework.azure import AzureOpenAIChatClient
+from agent_framework.foundry import FoundryChatClient
 # pyright: ignore[reportUnknownVariableType]
 from azure.ai.agentserver.agentframework import from_agent_framework
 from azure.identity import DefaultAzureCredential
 
-# Get vector store ID from environment
+# Configuration from environment (set by the deployment; see .env.example)
+PROJECT_ENDPOINT = os.environ.get("AZURE_AI_PROJECT_ENDPOINT")
+MODEL_DEPLOYMENT = os.environ.get("MODEL_DEPLOYMENT", "gpt-5.1")
 VECTOR_STORE_ID = os.environ.get("VECTOR_STORE_ID")
 
 
 def main():
-    # Create the file search tool for employee directory
-    file_search_tool = HostedFileSearchTool(
-        inputs=[
-            HostedVectorStoreContent(
-                vector_store_id=VECTOR_STORE_ID
-            )
-        ]
+    # Create the Microsoft Foundry chat client. Endpoint and model are read from
+    # the same environment variables the deployment provides (AZURE_AI_PROJECT_ENDPOINT,
+    # MODEL_DEPLOYMENT) so local runs and hosted runs stay consistent.
+    client = FoundryChatClient(
+        project_endpoint=PROJECT_ENDPOINT,
+        model=MODEL_DEPLOYMENT,
+        credential=DefaultAzureCredential(),
+    )
+
+    # Create the hosted file search tool for the employee directory
+    file_search_tool = client.get_file_search_tool(
+        vector_store_ids=[VECTOR_STORE_ID]
     )
 
     # Create a single Developer Onboarding Agent with MCP and File Search tools
-    agent = AzureOpenAIChatClient(credential=DefaultAzureCredential()).create_agent(
+    agent = client.as_agent(
         name="DevOnboardingAgent",
         instructions="""You are a comprehensive Developer Onboarding Assistant. You help new developers with three key areas:
 
@@ -55,9 +61,10 @@ Use the Microsoft Learn MCP tool for:
 Always be welcoming, helpful, and provide actionable recommendations.""",
         tools=[
             file_search_tool,
-            HostedMCPTool(
+            client.get_mcp_tool(
                 name="Microsoft Learn MCP",
                 url="https://learn.microsoft.com/api/mcp",
+                approval_mode="never_require",
             ),
         ],
     )

@@ -1,0 +1,98 @@
+name: Agent CI (static + smoke)
+
+# This workflow has two jobs:
+#   1. static  — a fast, no-Azure gate (py_compile + Markdown link check) that runs
+#      on every pull request and push so contributors get feedback without any secrets.
+#   2. smoke   — the Azure-connected smoke test that POSTs the prompts in
+#      lesson-4-agentdeployment/hosted-agent/tests/smoke-tests.json to the agent's
+#      Foundry Responses endpoint. It runs on demand (workflow_dispatch) because it
+#      needs a deployed hosted agent and OIDC credentials.
+#
+# The smoke test complements (does not replace) the full agent evaluations in Lesson 3.
+#
+# Docs: https://github.com/marketplace/actions/ai-smoke-test
+
+on:
+  # Fast static gate for contributors — no Azure required.
+  pull_request:
+  push:
+    branches: [main]
+  # Azure-connected smoke test, on demand from the Actions tab.
+  workflow_dispatch:
+    inputs:
+      agent_name:
+        description: "Deployed hosted agent name (must match your Foundry deployment)."
+        required: false
+        default: "dev-onboarding"
+  # Optionally chain the smoke test after your deploy workflow completes, e.g.:
+  # workflow_run:
+  #   workflows: ["Deploy Hosted Agent"]
+  #   types: [completed]
+
+permissions:
+  contents: read
+
+jobs:
+  static:
+    name: Static gate (py_compile + link check)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile all Python sources (excludes translations)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t files < <(find . -type f -name '*.py' \
+            -not -path './translations/*' \
+            -not -path '*/__pycache__/*')
+          echo "Compiling ${#files[@]} Python file(s):"
+          printf '  %s\n' "${files[@]}"
+          python -m py_compile "${files[@]}"
+
+      - name: Check Markdown links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: "yes"
+          use-verbose-mode: "yes"
+          config-file: ".github/workflows/markdown-link-check-config.json"
+          # On PRs only re-check changed Markdown — keeps the gate fast and
+          # naturally skips the untouched translations/ tree.
+          check-modified-files-only: "yes"
+          base-branch: "main"
+
+  smoke:
+    name: Smoke test hosted agent (Azure)
+    # Only run the Azure-connected smoke test on demand — PRs from forks have no secrets.
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write   # required for azure/login OIDC
+      contents: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # Acquires a Foundry data-plane token (audience https://ai.azure.com/) via OIDC.
+      # The federated identity needs the "Azure AI User" role at Foundry project scope.
+      - name: Azure login (OIDC)
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Smoke-test the Developer Onboarding hosted agent
+        uses: JFolberth/ai-smoketest@v1
+        with:
+          # e.g. https://<account>.services.ai.azure.com/api/projects/<project>
+          project_endpoint: ${{ vars.FOUNDRY_PROJECT_ENDPOINT }}
+          agent_name: ${{ inputs.agent_name || vars.HOSTED_AGENT_NAME || 'dev-onboarding' }}
+          tests_file: lesson-4-agentdeployment/hosted-agent/tests/smoke-tests.json
+          timeout: "120"

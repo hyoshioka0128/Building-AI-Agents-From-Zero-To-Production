@@ -38,22 +38,9 @@ from azure.identity import DefaultAzureCredential
 from azure.identity.aio import DefaultAzureCredential as AsyncDefaultAzureCredential
 from dotenv import load_dotenv
 
-from agent_framework import (
-    AgentRunUpdateEvent,
-    AgentRunResponseUpdate,
-    ChatMessage,
-    HandoffBuilder,
-    HandoffUserInputRequest,
-    HostedFileSearchTool,
-    HostedMCPTool,
-    HostedVectorStoreContent,
-    RequestInfoEvent,
-    Role,
-    WorkflowOutputEvent,
-    WorkflowStatusEvent,
-    WorkflowRunState,
-)
-from agent_framework.azure import AzureAIClient
+from agent_framework import AgentResponseUpdate
+from agent_framework.orchestrations import HandoffBuilder, HandoffSentEvent
+from agent_framework.foundry import FoundryChatClient
 
 load_dotenv()
 
@@ -67,41 +54,46 @@ def print_section(title: str):
 
 async def create_agents(project_client, credential):
     """Create all specialized agents for the onboarding workflow.
-    
-    Each agent gets its own AzureAIClient instance with store=True to ensure
-    responses are persisted in Azure AI for evaluation.
+
+    Each agent gets its own FoundryChatClient instance. Handoff participants are
+    created with require_per_service_call_history_persistence=True so responses are
+    persisted server-side in Microsoft Foundry for later evaluation.
     """
 
-    # Create separate client for each agent (required for proper response tracking)
-    triage_client = AzureAIClient(
+    default_model = os.environ.get("FOUNDRY_MODEL", "gpt-5.1")
+
+    # Create a separate Microsoft Foundry chat client for each agent
+    # (required for proper per-agent response tracking). The coding client uses
+    # GPT-5-Codex; the model is set on the client.
+    triage_client = FoundryChatClient(
         project_client=project_client,
-        async_credential=credential,
-        agent_name="triage-agent"
+        credential=credential,
+        model=default_model,
     )
 
-    employee_client = AzureAIClient(
+    employee_client = FoundryChatClient(
         project_client=project_client,
-        async_credential=credential,
-        agent_name="employee-search-agent"
+        credential=credential,
+        model=default_model,
     )
 
-    learning_client = AzureAIClient(
+    learning_client = FoundryChatClient(
         project_client=project_client,
-        async_credential=credential,
-        agent_name="learning-agent"
+        credential=credential,
+        model=default_model,
     )
 
-    coding_client = AzureAIClient(
+    coding_client = FoundryChatClient(
         project_client=project_client,
-        async_credential=credential,
-        agent_name="coding-agent"
+        credential=credential,
+        model="gpt-5-codex",
     )
 
     # TRIAGE AGENT - The Coordinator
-    triage_agent = triage_client.create_agent(
+    triage_agent = triage_client.as_agent(
         id="triage-agent",
         name="triage-agent",
-        store=True,
+        require_per_service_call_history_persistence=True,
         instructions="""You are the Developer Onboarding Assistant - a friendly coordinator helping new developers get settled at their new company.
 
 Your role is to understand what the new developer needs and route them to the right specialist:
@@ -140,19 +132,15 @@ Handoff tools available:
     )
 
     # Create the file search tool with pre-created vector store
-    file_search_tool = HostedFileSearchTool(
-        inputs=[
-            HostedVectorStoreContent(
-                vector_store_id=os.environ["VECTOR_STORE_ID"]
-            )
-        ]
+    file_search_tool = employee_client.get_file_search_tool(
+        vector_store_ids=[os.environ["VECTOR_STORE_ID"]]
     )
 
     # EMPLOYEE SEARCH AGENT - Organizational Knowledge Specialist
-    employee_search_agent = employee_client.create_agent(
+    employee_search_agent = employee_client.as_agent(
         id="employee-search-agent",
         name="employee-search-agent",
-        store=True,
+        require_per_service_call_history_persistence=True,
         instructions="""You are the Employee Search Specialist for the Developer Onboarding program at Zava, a software company.
 
 You help new developers learn about their coworkers and the organization structure.
@@ -180,16 +168,16 @@ After answering organizational questions, ask if they need help with anything el
     )
 
     # LEARNING AGENT - Training & Documentation Specialist
-    mcp_tool = HostedMCPTool(
+    mcp_tool = learning_client.get_mcp_tool(
         name="Microsoft Learn MCP",
         url="https://learn.microsoft.com/api/mcp",
         approval_mode="never_require",
     )
 
-    learning_agent = learning_client.create_agent(
+    learning_agent = learning_client.as_agent(
         id="learning-agent",
         name="learning-agent",
-        store=True,
+        require_per_service_call_history_persistence=True,
         instructions="""You are the Learning Path Specialist for the Developer Onboarding program.
 
 You help new developers create personalized training plans and find relevant documentation.
@@ -227,11 +215,10 @@ Be encouraging and adapt to the user's stated experience level!""",
     )
 
     # CODING AGENT - Code Generation Specialist
-    coding_agent = coding_client.create_agent(
+    coding_agent = coding_client.as_agent(
         id="coding-agent",
         name="coding-agent",
-        model="gpt-5-codex",  # Use GPT-5-Codex model optimized for code generation
-        store=True,
+        require_per_service_call_history_persistence=True,
         instructions="""You are the Code Generation Specialist for the Developer Onboarding program.
 
 You generate high-quality code samples to help new developers get started quickly.
@@ -284,13 +271,13 @@ def build_handoff_workflow(triage, employee_search, learning, coding):
             name="developer_onboarding_workflow",
             participants=[triage, employee_search, learning, coding],
         )
-        .set_coordinator(triage)
+        .with_start_agent(triage)
         .add_handoff(triage, [employee_search, learning, coding])
         .add_handoff(learning, [coding])
         .add_handoff(coding, [learning])
         .with_termination_condition(
             lambda conv: sum(
-                1 for msg in conv if msg.role.value == "user") >= 20
+                1 for msg in conv if getattr(msg.role, "value", msg.role) == "user") >= 20
         )
         .build()
     )
@@ -298,20 +285,29 @@ def build_handoff_workflow(triage, employee_search, learning, coding):
 
 
 def _track_agent_ids(event, agent: str, response_ids: dict, conversation_ids: dict):
-    """Track agent response and conversation IDs from AgentRunUpdateEvent."""
-    if isinstance(event.data, AgentRunResponseUpdate):
-        if hasattr(event.data, 'raw_representation') and event.data.raw_representation:
-            raw = event.data.raw_representation
+    """Track agent response and conversation IDs from an AgentResponseUpdate event.
 
-            if hasattr(raw, 'conversation_id') and raw.conversation_id:
-                if raw.conversation_id not in conversation_ids[agent]:
-                    conversation_ids[agent].append(raw.conversation_id)
+    In Microsoft Agent Framework 1.x the workflow emits ``WorkflowEvent`` objects
+    whose ``.data`` is an ``AgentResponseUpdate``. The underlying OpenAI Responses
+    API object is reachable via ``update.raw_representation.raw_representation.response``.
+    """
+    update = event.data
+    if not isinstance(update, AgentResponseUpdate):
+        return
 
-            if hasattr(raw, 'raw_representation') and raw.raw_representation:
-                openai_event = raw.raw_representation
-                if hasattr(openai_event, 'response') and hasattr(openai_event.response, 'id'):
-                    if openai_event.response.id not in response_ids[agent]:
-                        response_ids[agent].append(openai_event.response.id)
+    raw = getattr(update, "raw_representation", None)
+    if raw is None:
+        return
+
+    conversation_id = getattr(raw, "conversation_id", None)
+    if conversation_id and conversation_id not in conversation_ids[agent]:
+        conversation_ids[agent].append(conversation_id)
+
+    openai_event = getattr(raw, "raw_representation", None)
+    response = getattr(openai_event, "response", None) if openai_event is not None else None
+    response_id = getattr(response, "id", None) if response is not None else None
+    if response_id and response_id not in response_ids[agent]:
+        response_ids[agent].append(response_id)
 
 
 async def run_workflow_with_response_tracking(query: str) -> dict:
@@ -327,7 +323,7 @@ async def run_workflow_with_response_tracking(query: str) -> dict:
 
     async with AsyncDefaultAzureCredential() as credential:
         project_client = AsyncAIProjectClient(
-            endpoint=os.environ["AZURE_AI_PROJECT_ENDPOINT"],
+            endpoint=os.environ.get("FOUNDRY_PROJECT_ENDPOINT") or os.environ["AZURE_AI_PROJECT_ENDPOINT"],
             credential=credential,
             api_version="2025-11-15-preview",
         )
@@ -339,48 +335,45 @@ async def run_workflow_with_response_tracking(query: str) -> dict:
             workflow = build_handoff_workflow(
                 triage, employee_search, learning, coding)
 
-            initial_message = ChatMessage(role=Role.USER, text=query)
-            events = workflow.run_stream([initial_message])
+            # Stream workflow events. run(..., stream=True) returns a ResponseStream
+            # that yields WorkflowEvent objects and exposes get_final_response().
+            stream = workflow.run(query, stream=True, include_status_events=True)
 
-            async for event in events:
-                print(f"[Event Type]: {type(event).__name__}")
+            async for event in stream:
+                update = getattr(event, "data", None)
 
-                if isinstance(event, WorkflowOutputEvent):
-                    workflow_output = event.data
-                    if isinstance(event.data, list):
-                        conversation_messages = event.data
-                        for msg in reversed(event.data):
-                            if hasattr(msg, 'role') and msg.role == Role.ASSISTANT and msg.text:
-                                print(
-                                    f"\n[Workflow Output]: {msg.text[:500]}...")
-                                break
-                    else:
-                        print(f"\n[Workflow Output]: {event.data}")
+                if isinstance(update, AgentResponseUpdate):
+                    try:
+                        agent_name = event.executor_id
+                    except Exception:
+                        agent_name = getattr(update, "author_name", None) or "unknown"
+                    _track_agent_ids(event, agent_name, response_ids, conversation_ids)
 
-                elif isinstance(event, RequestInfoEvent):
-                    if isinstance(event.data, HandoffUserInputRequest):
-                        conversation_messages = event.data.conversation
-                        print(
-                            f"\n[Agent Conversation Captured]: {len(conversation_messages)} messages")
+                elif isinstance(update, HandoffSentEvent):
+                    print(f"[Handoff]: {getattr(update, 'source_id', '?')} -> {getattr(update, 'target_id', '?')}")
 
-                        for msg in conversation_messages:
-                            if hasattr(msg, 'author_name') and msg.author_name and hasattr(msg, 'text') and msg.text:
-                                agent_name = msg.author_name
-                                if agent_name not in ["user", None]:
-                                    print(
-                                        f"  - {agent_name}: {msg.text[:100]}...")
+            # Collect the final workflow output (list of conversation messages)
+            result = await stream.get_final_response()
+            try:
+                outputs = result.get_outputs()
+            except Exception:
+                outputs = list(result)
 
-                elif isinstance(event, AgentRunUpdateEvent):
-                    agent_name = event.executor_id if hasattr(
-                        event, 'executor_id') else "unknown"
-                    print(f"[Agent Update]: {agent_name}")
+            for item in outputs:
+                if isinstance(item, list):
+                    conversation_messages = item
+                    workflow_output = item
+                else:
+                    workflow_output = item
 
-                    if hasattr(event, 'data'):
-                        _track_agent_ids(event, agent_name,
-                                         response_ids, conversation_ids)
-
-                elif isinstance(event, WorkflowStatusEvent):
-                    print(f"[Status]: {event.state.name}")
+            if conversation_messages:
+                for msg in reversed(conversation_messages):
+                    role = getattr(msg, "role", None)
+                    role = getattr(role, "value", role)
+                    text = getattr(msg, "text", None)
+                    if role == "assistant" and text:
+                        print(f"\n[Workflow Output]: {text[:500]}...")
+                        break
 
     output_data = {
         "agents": {},
@@ -443,10 +436,26 @@ def fetch_agent_responses(openai_client, workflow_data: dict, agent_names: list)
         try:
             response = openai_client.responses.retrieve(
                 response_id=final_response_id)
-            content = response.output[-1].content[-1].text
-            truncated = content[:300] + \
-                "..." if len(content) > 300 else content
-            print(f"  Content preview: {truncated}")
+            # A response's output may contain tool/function-call items (e.g. a
+            # handoff) as well as text. Find the first item that carries text.
+            content = None
+            for item in reversed(getattr(response, "output", []) or []):
+                parts = getattr(item, "content", None)
+                if not parts:
+                    continue
+                for part in reversed(parts):
+                    text = getattr(part, "text", None)
+                    if text:
+                        content = text
+                        break
+                if content:
+                    break
+            if content:
+                truncated = content[:300] + \
+                    "..." if len(content) > 300 else content
+                print(f"  Content preview: {truncated}")
+            else:
+                print("  (no text output - agent emitted a tool/handoff call)")
         except Exception as e:
             print(f"  Error: {e}")
 
@@ -571,7 +580,7 @@ async def run_evaluation_workflow():
     display_response_summary(workflow_data)
 
     project_client = AIProjectClient(
-        endpoint=os.environ["AZURE_AI_PROJECT_ENDPOINT"],
+        endpoint=os.environ.get("FOUNDRY_PROJECT_ENDPOINT") or os.environ["AZURE_AI_PROJECT_ENDPOINT"],
         credential=DefaultAzureCredential(),
         api_version="2025-11-15-preview"
     )
@@ -582,8 +591,10 @@ async def run_evaluation_workflow():
 
     fetch_agent_responses(openai_client, workflow_data, agents_to_evaluate)
 
-    model_deployment = os.environ.get(
-        "AZURE_AI_MODEL_DEPLOYMENT_NAME", "gpt-4o")
+    model_deployment = (
+        os.environ.get("AZURE_AI_MODEL_DEPLOYMENT_NAME")
+        or os.environ.get("FOUNDRY_MODEL", "gpt-5.1")
+    )
     eval_object = create_evaluation(openai_client, model_deployment)
 
     eval_run = run_evaluation(

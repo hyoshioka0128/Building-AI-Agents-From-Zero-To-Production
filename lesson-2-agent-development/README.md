@@ -26,7 +26,7 @@ The agent code samples in this course are setup to use OpenAI models through [Mi
 
 Use this guide to learn how to deploy a model using Foundry: [Deploy Microsoft Foundry Models in the Foundry portal](https://learn.microsoft.com/azure/ai-foundry/foundry-models/how-to/deploy-foundry-models?view=foundry-classic)
 
-Choose one GPT-4.1 or later model for this course.
+Choose one GPT-5 series model (for example `gpt-5.1`) for this course. Avoid retired models such as GPT-4o and GPT-4.1, which reach end of life in 2026.
 
 ### Microsoft Agent Framework
 

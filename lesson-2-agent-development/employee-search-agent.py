@@ -16,23 +16,20 @@ import os
 from azure.identity.aio import AzureCliCredential
 from dotenv import load_dotenv
 
-from agent_framework import ChatAgent, HostedFileSearchTool, HostedVectorStoreContent
-from agent_framework.azure import AzureAIAgentClient
+from agent_framework.foundry import FoundryChatClient
 
 load_dotenv()
 
-# Create the file search tool with pre-created vector store
-file_search_tool = HostedFileSearchTool(
-    inputs=[
-        HostedVectorStoreContent(
-            vector_store_id=os.environ["VECTOR_STORE_ID"]
-        )
-    ]
+# Create the Microsoft Foundry chat client
+client = FoundryChatClient(credential=AzureCliCredential())
+
+# Create the hosted file search tool bound to the pre-created vector store
+file_search_tool = client.get_file_search_tool(
+    vector_store_ids=[os.environ["VECTOR_STORE_ID"]]
 )
 
 # Create the agent
-agent = ChatAgent(
-    chat_client=AzureAIAgentClient(async_credential=AzureCliCredential()),
+agent = client.as_agent(
     instructions="""You are an employee search assistant for Zava, a software company.
 
 Use the file search tool to find information about employees when asked questions like:

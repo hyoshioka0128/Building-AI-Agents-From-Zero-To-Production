@@ -3,7 +3,7 @@
 name: devagent
 services:
     dev-onboarding:
-        project: src/dev-onboarding
+        project: .
         host: azure.ai.agent
         language: docker
         docker:
@@ -19,9 +19,9 @@ services:
             deployments:
                 - model:
                     format: OpenAI
-                    name: gpt-4o
-                    version: "2024-11-20"
-                  name: gpt-4o
+                    name: gpt-5.1
+                    version: "2025-11-13"
+                  name: gpt-5.1
                   sku:
                     capacity: 10
                     name: GlobalStandard
