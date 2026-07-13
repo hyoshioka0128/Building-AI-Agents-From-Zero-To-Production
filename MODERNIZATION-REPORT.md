@@ -138,9 +138,9 @@ no code change on their side. **Pin explicit versions.**
 ### 4.5 Live validation matrix (executed against a real Microsoft Foundry project)
 
 The static gaps in §4.4 were subsequently closed by provisioning a live project and running
-the samples end-to-end. Environment: resource group `rg-bami-validate`, Foundry account
-`bami-validate-foundry`, project `bami-course`, model deployments `gpt-5.1` (chat/eval) and
-`gpt-5-codex` (coding), plus a populated vector store. Identity: `leestott@…onmicrosoft.com`.
+the samples end-to-end. Environment: a dedicated resource group and Microsoft Foundry project
+with model deployments `gpt-5.1` (chat/eval) and `gpt-5-codex` (coding), plus a populated vector
+store, accessed with a standard developer identity holding the **Azure AI User** role.
 
 | Sample | Result | Evidence |
 |--------|--------|----------|
