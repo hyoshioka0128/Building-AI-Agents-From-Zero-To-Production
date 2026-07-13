@@ -1,9 +1,10 @@
 """
-Azure Learning Agent - Uses Microsoft Learn MCP Server with AzureAIClient and DevUI
+Microsoft Learn Agent - Uses the Microsoft Learn MCP Server with FoundryChatClient and DevUI
 
 This agent helps developers create personalized learning plans based on their
-interests and goals. It uses the HostedMCPTool pattern with AzureAIClient
-which handles MCP connections server-side through Azure AI Agent Service.
+interests and goals. It uses the Microsoft Foundry hosted MCP tool
+(`client.get_mcp_tool(...)`) with `FoundryChatClient`, which handles MCP
+connections server-side through Microsoft Foundry Agent Service.
 
 Prerequisites:
 1. Ensure you have Azure CLI credentials configured (run `az login`)

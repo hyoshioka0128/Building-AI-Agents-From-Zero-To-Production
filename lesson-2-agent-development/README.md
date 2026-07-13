@@ -32,11 +32,25 @@ Choose one GPT-5 series model (for example `gpt-5.1`) for this course. Avoid ret
 
 As mentioned earlier, we will be using the [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) to both create and orchestrate our AI Agents.
 
-To install the Microsoft Agent Framework and other required packages, run the following command while in the root directory of this project:
+You will need **Python 3.12 or later**. To install the Microsoft Agent Framework and other required packages, run the following command while in the root directory of this project:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+### Authenticate with Azure
+
+The agents authenticate to Microsoft Foundry using your Azure CLI credentials
+(`AzureCliCredential`), so you must sign in before running any sample:
+
+```bash
+az login
+# If you have more than one subscription, select the one with your Foundry project:
+az account set --subscription "<your-subscription-id>"
+```
+
+Make sure your account has the **Azure AI User** role (or equivalent) on the Foundry
+project so it can call the model and agent APIs.
 
 ### Setup .env Variables
 
@@ -47,5 +61,33 @@ To make it easier, you can copy the provided `.env.example` file:
 ```bash
 cp .env.example .env
 ``` 
+
+Then fill in the two variables the agents read (the `FoundryChatClient` picks these up
+automatically):
+
+| Variable | What it is | Where to find it |
+|----------|------------|------------------|
+| `FOUNDRY_PROJECT_ENDPOINT` | Your Foundry **project** endpoint, ending in `/api/projects/<project>` | Foundry portal → your project → **Overview** → *Endpoints* |
+| `FOUNDRY_MODEL` | The model deployment name your agents run on (for example `gpt-5.1`) | Foundry portal → **Models + endpoints** |
+
+### Create the employee vector store
+
+One sample — the **Employee Search Agent** — searches an employee directory held in a
+Microsoft Foundry **vector store**. Create it once and copy the ID it prints into your `.env`
+as `VECTOR_STORE_ID` (run from the repository root so it picks up your `.env`):
+
+```bash
+python lesson-2-agent-development/setup_vector_store.py
+```
+
+### Run a sample
+
+Each agent runs its own local DevUI. For example:
+
+```bash
+python lesson-2-agent-development/employee-search-agent.py
+```
+
+Then open the printed `http://localhost:<port>` URL in your browser to chat with the agent.
 
 

@@ -24,6 +24,23 @@ By the end of this lesson you will be able to:
 
 ---
 
+## Prerequisites
+
+1. Completed [Lesson 4](../lesson-4-agentdeployment/README.md) — you have a hosted agent deployed.
+2. A **Microsoft Foundry** project, and an Azure account with permission to create resources
+   (Cosmos DB, Storage, Azure AI Search) and assign roles in the subscription/resource group.
+3. **Azure CLI** authenticated: `az login` (and `az account set --subscription <id>` if you have
+   more than one subscription).
+4. **Azure Developer CLI** (`azd`) installed — used for the standard-setup provisioning flow.
+5. **Python 3.12+** with the course dependencies installed (`pip install -r ../requirements.txt`).
+6. A current, non-retired model deployment (for example `gpt-5.1`). Avoid retired GPT-4o / GPT-4.1.
+
+> This lesson is mostly conceptual and control-plane focused. You can read it end-to-end without
+> provisioning anything, then use the hands-on exercises when you are ready to configure a
+> standard setup.
+
+---
+
 ## 1. Hosted Agents: what Foundry manages for you
 
 A **Hosted Agent** is an agent whose *execution environment* is fully managed by Microsoft

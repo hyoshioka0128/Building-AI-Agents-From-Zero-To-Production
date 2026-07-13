@@ -23,6 +23,18 @@ By the end of this lesson you will be able to:
 
 ---
 
+## Prerequisites
+
+1. Completed [Lesson 4](../lesson-4-agentdeployment/README.md) and ideally
+   [Lesson 5](../lesson-5-hosted-agents-production/README.md).
+2. A **Microsoft Foundry** project with permission to create and manage toolbox resources.
+3. **Azure CLI** authenticated: `az login`. The Foundry toolbox APIs require the
+   `https://ai.azure.com/.default` token scope (shown in the code below).
+4. **Python 3.12+** with the course dependencies installed (`pip install -r ../requirements.txt`).
+5. A current, non-retired model deployment (for example `gpt-5.1`). Avoid retired GPT-4o / GPT-4.1.
+
+---
+
 ## 1. The problem: tool sprawl
 
 A single agent can depend on many tools — REST APIs, MCP servers, connectors, and flows — each

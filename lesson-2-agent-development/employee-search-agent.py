@@ -1,5 +1,8 @@
 """
-Employee Search Agent - Uses HostedFileSearchTool with DevUI
+Employee Search Agent - Uses the Microsoft Foundry hosted file search tool with DevUI
+
+This agent uses `FoundryChatClient.get_file_search_tool(...)` to search an
+employee directory stored in a Microsoft Foundry vector store.
 
 Prerequisites:
 1. Run setup_vector_store.py first to create the vector store

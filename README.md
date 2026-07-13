@@ -59,11 +59,17 @@ Each Lesson has its own code sample that you can run locally. You can [fork this
 This course currently uses the following:
 
 - [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
-- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry)
+- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry) — a project with a deployed **GPT-5 series** model (for example `gpt-5.1`). Do **not** use the retired GPT-4o / GPT-4.1 models.
 - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-foundry/models/openai)
-- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
+- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest) — sign in with `az login` before running any sample
+- **Python 3.12 or later**
 
 Please ensure you have access to these services before getting started.
+
+> **Note on models.** This course serves all models through **Microsoft Foundry**. It does **not**
+> use *GitHub Models*, which is being retired on **July 30, 2026** — Microsoft Foundry is the
+> official migration path. If you have older code that calls GitHub Models, point it at a Foundry
+> model deployment instead.
 
 More options around model hosting and services coming soon. 
 

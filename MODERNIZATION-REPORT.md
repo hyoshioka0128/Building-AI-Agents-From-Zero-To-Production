@@ -114,6 +114,10 @@ no code change on their side. **Pin explicit versions.**
 
 ### 4.4 Static validation matrix (what was checkable without an Azure subscription)
 
+> **Note (superseded).** The ❌ marks below capture the **pre-migration** state — the
+> broken imports as originally shipped. Every one of these has since been migrated and
+> re-validated live; see **§4.5 Live validation matrix** for the current PASS results.
+
 | Sample | Imports resolve (current pkgs) | `py_compile` | End-to-end run |
 |--------|-------------------------------|--------------|----------------|
 | `setup_vector_store.py` | Uses `azure.ai.agents` — verify vs current | ✅ | ⛔ needs Azure |
