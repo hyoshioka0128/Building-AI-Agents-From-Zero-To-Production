@@ -66,6 +66,18 @@ This course currently uses the following:
 
 Please ensure you have access to these services before getting started.
 
+> **💰 Cost & cleanup.** The hands-on lessons create real Azure resources — a Microsoft Foundry
+> project, a model deployment, a vector store, and (in Lessons 4–6) hosted agents and toolboxes.
+> These can incur cost while they exist. When you finish a lesson — or the course — delete the
+> resources you no longer need. The simplest approach is to put everything in a dedicated resource
+> group and delete the whole group when you're done:
+>
+> ```bash
+> az group delete --name <your-resource-group> --yes --no-wait
+> ```
+>
+> You can also delete individual agents, vector stores, and toolboxes from the Foundry portal.
+
 > **Note on models.** This course serves all models through **Microsoft Foundry**. It does **not**
 > use *GitHub Models*, which is being retired on **July 30, 2026** — Microsoft Foundry is the
 > official migration path. If you have older code that calls GitHub Models, point it at a Foundry
@@ -78,7 +90,7 @@ More options around model hosting and services coming soon.
 | **Lesson**         | **Description**                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------|
 | [Agent Design](./lesson-1-agent-design/README.md)       | An introduction to our "Developer Onboarding" Agent Use Case and how to design effective agents  |
-| [Agent Development](./lesson-2-agent-development/README.md)  | Using the Microsoft Agent Framework (MAF), create 3 agents to help new developers onboard.       |
+| [Agent Development](./lesson-2-agent-development/README.md)  | Using the Microsoft Agent Framework (MAF), build a set of specialised agents to help new developers onboard.       |
 | [Agent Evaluations](./lesson-3-agent-evals/README.md)  | Using Microsoft Foundry, find out how well our AI Agents are performing and how to improve them. |
 | [Agent Deployment](./lesson-4-agentdeployment/README.md)   | Using Microsoft Foundry hosted agents and OpenAI ChatKit, see how to deploy an AI Agent into production.       |
 | [Production Hosted Agents](./lesson-5-hosted-agents-production/README.md)   | Take a hosted agent to enterprise production: Hosted Agents vs Capability Hosts, bring-your-own storage, memory, and governance.       |
