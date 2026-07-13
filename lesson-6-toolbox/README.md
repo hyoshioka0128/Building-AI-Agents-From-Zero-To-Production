@@ -142,6 +142,13 @@ print(f"Created toolbox: {toolbox_version.name}, version: {toolbox_version.versi
 Notice what you **don't** do: no secrets in the agent. Credentials are held by a Foundry
 **connection** (`project_connection_id`) and injected by the platform at call time.
 
+> **Preview note.** Toolbox **management** (creating/updating versions) is a preview capability.
+> The `project.toolboxes.*` operations shown above ship in preview SDK builds, the REST API, `azd`,
+> and the **Foundry Toolkit for VS Code** — they are **not** in the pinned `azure-ai-projects` used
+> elsewhere in this course. Treat the snippet above as the shape of the Build step; for a
+> click-through path, create the toolbox in the **Foundry portal** or the **Foundry Toolkit**. The
+> **Consume** step below works with the course's pinned SDK today.
+
 ---
 
 ## 4. Consume a toolbox from your agent
@@ -199,6 +206,21 @@ AZURE_AI_MODEL_DEPLOYMENT_NAME=gpt-5.1
 
 > **Verify first.** Before wiring the full agent, connect an MCP client SDK (`pip install mcp`) to
 > the **version-specific** endpoint and list the tools to confirm they load as expected.
+
+### Run the consume sample
+
+This lesson ships a runnable consume-side sample, [`toolbox_agent.py`](./toolbox_agent.py). It uses
+the same `FoundryChatClient.get_mcp_tool(...)` pattern you learned in Lesson 2, but points the one
+MCP tool at your **toolbox** endpoint — so the agent gets every governed tool in the toolbox:
+
+```bash
+# In your .env, set TOOLBOX_ENDPOINT to your toolbox consumer endpoint, then:
+python lesson-6-toolbox/toolbox_agent.py
+```
+
+Open the printed `http://localhost:8096` URL and ask a question that exercises one of your
+toolbox's tools. Add or upgrade a tool in the toolbox and ask again — **without changing this
+code** — to see central governance and versioning in action.
 
 ---
 
@@ -266,3 +288,4 @@ Toolbox is **governed by default**. The governance levers you should know:
 ---
 
 **Previous:** [Lesson 5 — Production Hosted Agents](../lesson-5-hosted-agents-production/README.md)
+&nbsp;·&nbsp; **Next:** [Lesson 7 — Multi-Agent & A2A](../lesson-7-multi-agent-a2a/README.md)

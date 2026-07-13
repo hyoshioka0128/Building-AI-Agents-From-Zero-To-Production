@@ -95,6 +95,7 @@ More options around model hosting and services coming soon.
 | [Agent Deployment](./lesson-4-agentdeployment/README.md)   | Using Microsoft Foundry hosted agents and OpenAI ChatKit, see how to deploy an AI Agent into production.       |
 | [Production Hosted Agents](./lesson-5-hosted-agents-production/README.md)   | Take a hosted agent to enterprise production: Hosted Agents vs Capability Hosts, bring-your-own storage, memory, and governance.       |
 | [Microsoft Toolbox](./lesson-6-toolbox/README.md)   | Define tools once and govern them centrally: build a toolbox, consume it from an agent via one MCP endpoint, and version tools safely.       |
+| [Multi-Agent & A2A](./lesson-7-multi-agent-a2a/README.md)   | Compose agents as networked services: expose an agent over the open Agent-to-Agent (A2A) protocol and consume a remote agent as a peer.       |
 
 
 ## 🎒 Other Courses

@@ -21,3 +21,11 @@ azure-ai-agents
 
 # Environment variable management
 python-dotenv
+
+# Lesson 7 (Agent-to-Agent) — expose/consume agents over the open A2A protocol.
+# The A2A extra is currently a PREVIEW build, so it is pinned exactly. It brings
+# agent_framework.a2a (A2AAgent, A2AExecutor); a2a-sdk provides the server app and
+# Agent Card types; uvicorn serves the A2A HTTP application.
+agent-framework-a2a==1.0.0b260424
+a2a-sdk
+uvicorn
