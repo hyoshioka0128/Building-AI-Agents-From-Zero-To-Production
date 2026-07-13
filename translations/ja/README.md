@@ -151,6 +151,6 @@ Contributor License Agreement (CLA) への同意が必要です。詳細は <htt
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**免責事項**:  
-本書類は AI 翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確さを追求していますが、自動翻訳には誤りや不正確な箇所が含まれる可能性があることをご理解ください。原文の言語での文書が正式な情報源とみなされます。重要な情報については、専門の人間による翻訳を推奨します。本翻訳の使用により生じたいかなる誤解や誤訳についても、当方は責任を負いかねます。
+**免責事項**：
+本書類はAI翻訳サービス「[Co-op Translator](https://github.com/Azure/co-op-translator)」を使用して翻訳されました。当サービスは正確さを期しておりますが、自動翻訳には誤りや不正確な部分が含まれる可能性があります。原文は各言語における公式な版を優先してください。重要な情報については、専門の翻訳者による翻訳を推奨します。本翻訳の利用に起因するいかなる誤解や誤訳に対しても、当方は一切の責任を負いかねます。
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
