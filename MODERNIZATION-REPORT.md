@@ -155,6 +155,10 @@ the samples end-to-end. Environment: resource group `rg-bami-validate`, Foundry 
 | `lesson-4/hosted-agent/deploy.py` | ✅ **PASS (import)** | Migrated `ImageBasedHostedAgentDefinition`→`HostedAgentDefinition`+`ContainerConfiguration`; `agents.retrieve`→`agents.get`. |
 | `lesson-4/hosted-agent/main.py` | ⚠️ **PASS (static)** | Own code current; full import blocked only by pre-release `azure-ai-agentserver-agentframework 1.0.0b10` incompatibility with `agent-framework 1.2.0` (third-party packaging bug). |
 | `lesson-4/chatkit-server/app.py` | ⚠️ **PASS (static)** | Migrated removed `AgentReference` model to the `agent_reference` responses extra-body dict (per Learn migration guide); full import needs the `chatkit` dependency. |
+| `lesson-2/task-recommendation-agent.py` | ⚠️ **PASS (static)** | **New sample** — implements Lesson 1 Scenario 2 via GitHub remote MCP (`get_mcp_tool(headers=Bearer PAT)`). py_compile + import build verified; live run needs a GitHub PAT. |
+| `lesson-6/toolbox_agent.py` | ⚠️ **PASS (static)** | **New sample** — consumes a toolbox via one hosted MCP endpoint. Import build verified; live run needs a created toolbox. |
+| `lesson-7/a2a_server.py` | ✅ **PASS (live)** | **New sample** — exposes a Foundry agent as an A2A service (`A2AExecutor` + `A2AStarletteApplication` + Agent Card, uvicorn:9000). |
+| `lesson-7/a2a_client.py` | ✅ **PASS (live)** | **New sample** — `A2AAgent(url)` discovered + called the remote agent over the A2A protocol; returned a real `gpt-5-codex` response end-to-end. |
 
 **Confirmed current-SDK facts (agent-framework 1.2.0 / azure-ai-projects 2.1.0):**
 - Workflow streaming: `run_stream()` is gone → use `workflow.run(msg, stream=True)` returning a
@@ -166,6 +170,11 @@ the samples end-to-end. Environment: resource group `rg-bami-validate`, Foundry 
 - Hosted-agent invocation uses `extra_body={"agent_reference": {"type": "agent_reference", "name": …}}`.
 - Two env conventions: `FoundryChatClient` reads `FOUNDRY_PROJECT_ENDPOINT`/`FOUNDRY_MODEL`; the
   `azure-ai-projects` helpers read `AZURE_AI_PROJECT_ENDPOINT`. Samples now fall back across both.
+- Agent-to-Agent (Lesson 7): `agent_framework.a2a` provides `A2AExecutor` (serve an agent) and
+  `A2AAgent(url=…)` (consume one); the `a2a-sdk` provides `AgentCard`/`A2AStarletteApplication`/
+  `DefaultRequestHandler`/`InMemoryTaskStore`. The A2A extra is a **preview** build.
+- Toolbox (Lesson 6): the **consume** path works on the pinned SDK via `get_mcp_tool(url=toolbox)`;
+  toolbox **management** (`project.toolboxes.*`) is preview and not in `azure-ai-projects 2.1.0`.
 
 ---
 
