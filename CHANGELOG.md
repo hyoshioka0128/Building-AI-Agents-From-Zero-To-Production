@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 This course is a living curriculum rather than a versioned software package, so entries are grouped
 by the date a set of changes landed rather than by a semantic version number.
 
-## [Unreleased]
+## 13th July 2026
 
 ### Added
 - **Repository hygiene for public sharing** — hardened `.gitignore` with a dedicated
