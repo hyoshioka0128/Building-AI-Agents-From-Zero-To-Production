@@ -1,4 +1,10 @@
 {
+  "AGENTS.md": {
+    "original_hash": "f0b1a0bf6debb012dfd5dc27a88c8b66",
+    "translation_date": "2026-07-13T18:25:52+00:00",
+    "source_file": "AGENTS.md",
+    "language_code": "lt"
+  },
   "CODE_OF_CONDUCT.md": {
     "original_hash": "763a733399ea9f55f6418d1efe13c12b",
     "translation_date": "2025-12-12T16:41:35+00:00",
@@ -6,8 +12,8 @@
     "language_code": "lt"
   },
   "README.md": {
-    "original_hash": "4f1c710bc0e4c350cd10e219368114b9",
-    "translation_date": "2026-04-06T16:16:49+00:00",
+    "original_hash": "23cd701286d472214a288c29cc065ecb",
+    "translation_date": "2026-07-13T18:14:48+00:00",
     "source_file": "README.md",
     "language_code": "lt"
   },
@@ -23,6 +29,52 @@
     "source_file": "SUPPORT.md",
     "language_code": "lt"
   },
+  "__translation_failures__": {
+    "lesson-2-agent-development/README.md": {
+      "original_hash": "1a8fdc7dd1e2544bbb5d29392dc364db",
+      "source_file": "lesson-2-agent-development/README.md",
+      "language_code": "lt",
+      "failure_date": "2026-07-13T18:15:40+00:00",
+      "status": "failed",
+      "error_type": "TranslationIncompleteError",
+      "error_message": "Markdown translation remained incomplete for chunk 1 of 'README.md', and the chunk could not be split further.",
+      "translator_version": "0.20.0",
+      "failure_policy_version": 1
+    },
+    "MIGRATION-GUIDE.md": {
+      "original_hash": "c56b05e323092430d64f4dee16434704",
+      "source_file": "MIGRATION-GUIDE.md",
+      "language_code": "lt",
+      "failure_date": "2026-07-13T18:23:50+00:00",
+      "status": "failed",
+      "error_type": "TranslationIncompleteError",
+      "error_message": "Markdown translation remained incomplete for chunk 1 of 'MIGRATION-GUIDE.md', and the chunk could not be split further.",
+      "translator_version": "0.20.0",
+      "failure_policy_version": 1
+    },
+    "CHANGELOG.md": {
+      "original_hash": "c3510e503b2abebde02da3eefb5f6f15",
+      "source_file": "CHANGELOG.md",
+      "language_code": "lt",
+      "failure_date": "2026-07-13T18:28:21+00:00",
+      "status": "failed",
+      "error_type": "TranslationIncompleteError",
+      "error_message": "Markdown translation remained incomplete for chunk 1 of 'CHANGELOG.md', and the chunk could not be split further.",
+      "translator_version": "0.20.0",
+      "failure_policy_version": 1
+    },
+    "lesson-6-toolbox/README.md": {
+      "original_hash": "220b874e98bee8615d2033460688d29a",
+      "source_file": "lesson-6-toolbox/README.md",
+      "language_code": "lt",
+      "failure_date": "2026-07-13T18:41:03+00:00",
+      "status": "failed",
+      "error_type": "TranslationIncompleteError",
+      "error_message": "Markdown translation remained incomplete for chunk 1.1.2 of 'README.md', and the chunk could not be split further.",
+      "translator_version": "0.20.0",
+      "failure_policy_version": 1
+    }
+  },
   "data/employees.md": {
     "original_hash": "d29cdaa139788b02f8b4d8fbb7ed7b6b",
     "translation_date": "2025-12-12T18:05:53+00:00",
@@ -30,8 +82,8 @@
     "language_code": "lt"
   },
   "lesson-1-agent-design/README.md": {
-    "original_hash": "99c07849641a850775c188c9333f31e5",
-    "translation_date": "2025-12-12T18:44:26+00:00",
+    "original_hash": "aa3ee7cc3f4ecc906ff982e404ced572",
+    "translation_date": "2026-07-13T18:17:45+00:00",
     "source_file": "lesson-1-agent-design/README.md",
     "language_code": "lt"
   },
@@ -42,14 +94,14 @@
     "language_code": "lt"
   },
   "lesson-3-agent-evals/README.md": {
-    "original_hash": "d41d8cd98f00b204e9800998ecf8427e",
-    "translation_date": "2026-01-29T15:46:39+00:00",
+    "original_hash": "38e7ffd3083d4be9c1a7b7dc1bc6de39",
+    "translation_date": "2026-07-13T18:22:08+00:00",
     "source_file": "lesson-3-agent-evals/README.md",
     "language_code": "lt"
   },
   "lesson-4-agentdeployment/README.md": {
-    "original_hash": "3454eeec0053596d08ce81335a963ac6",
-    "translation_date": "2025-12-12T19:19:48+00:00",
+    "original_hash": "9b2403da4dd044b81c3d1604afc6447d",
+    "translation_date": "2026-07-13T18:17:19+00:00",
     "source_file": "lesson-4-agentdeployment/README.md",
     "language_code": "lt"
   },
@@ -57,6 +109,18 @@
     "original_hash": "c66e79243b2f1c2bd8ba0105275c427e",
     "translation_date": "2025-12-12T19:47:27+00:00",
     "source_file": "lesson-4-agentdeployment/hosted-agent/next-steps.md",
+    "language_code": "lt"
+  },
+  "lesson-5-hosted-agents-production/README.md": {
+    "original_hash": "f208b35e2bd4cbc540d98df1a3649d67",
+    "translation_date": "2026-07-13T18:55:41+00:00",
+    "source_file": "lesson-5-hosted-agents-production/README.md",
+    "language_code": "lt"
+  },
+  "lesson-7-multi-agent-a2a/README.md": {
+    "original_hash": "6454e3754f81331cf79a1d998e6e4491",
+    "translation_date": "2026-07-13T19:02:30+00:00",
+    "source_file": "lesson-7-multi-agent-a2a/README.md",
     "language_code": "lt"
   }
 }

@@ -59,11 +59,29 @@ Each Lesson has its own code sample that you can run locally. You can [fork this
 This course currently uses the following:
 
 - [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
-- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry)
+- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry) — a project with a deployed **GPT-5 series** model (for example `gpt-5.1`). Do **not** use the retired GPT-4o / GPT-4.1 models.
 - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-foundry/models/openai)
-- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
+- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest) — sign in with `az login` before running any sample
+- **Python 3.12 or later**
 
 Please ensure you have access to these services before getting started.
+
+> **💰 Cost & cleanup.** The hands-on lessons create real Azure resources — a Microsoft Foundry
+> project, a model deployment, a vector store, and (in Lessons 4–6) hosted agents and toolboxes.
+> These can incur cost while they exist. When you finish a lesson — or the course — delete the
+> resources you no longer need. The simplest approach is to put everything in a dedicated resource
+> group and delete the whole group when you're done:
+>
+> ```bash
+> az group delete --name <your-resource-group> --yes --no-wait
+> ```
+>
+> You can also delete individual agents, vector stores, and toolboxes from the Foundry portal.
+
+> **Note on models.** This course serves all models through **Microsoft Foundry**. It does **not**
+> use *GitHub Models*, which is being retired on **July 30, 2026** — Microsoft Foundry is the
+> official migration path. If you have older code that calls GitHub Models, point it at a Foundry
+> model deployment instead.
 
 More options around model hosting and services coming soon. 
 
@@ -72,9 +90,12 @@ More options around model hosting and services coming soon.
 | **Lesson**         | **Description**                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------|
 | [Agent Design](./lesson-1-agent-design/README.md)       | An introduction to our "Developer Onboarding" Agent Use Case and how to design effective agents  |
-| [Agent Development](./lesson-2-agent-development/README.md)  | Using the Microsoft Agent Framework (MAF), create 3 agents to help new developers onboard.       |
+| [Agent Development](./lesson-2-agent-development/README.md)  | Using the Microsoft Agent Framework (MAF), build a set of specialised agents to help new developers onboard.       |
 | [Agent Evaluations](./lesson-3-agent-evals/README.md)  | Using Microsoft Foundry, find out how well our AI Agents are performing and how to improve them. |
-| [Agent Deployment](./lesson-4-agent-deployment/README.md)   | Using the Hosted Agents and OpenAI Chatkit, see how to deploy an AI Agent into production.       |
+| [Agent Deployment](./lesson-4-agentdeployment/README.md)   | Using Microsoft Foundry hosted agents and OpenAI ChatKit, see how to deploy an AI Agent into production.       |
+| [Production Hosted Agents](./lesson-5-hosted-agents-production/README.md)   | Take a hosted agent to enterprise production: Hosted Agents vs Capability Hosts, bring-your-own storage, memory, and governance.       |
+| [Microsoft Toolbox](./lesson-6-toolbox/README.md)   | Define tools once and govern them centrally: build a toolbox, consume it from an agent via one MCP endpoint, and version tools safely.       |
+| [Multi-Agent & A2A](./lesson-7-multi-agent-a2a/README.md)   | Compose agents as networked services: expose an agent over the open Agent-to-Agent (A2A) protocol and consume a remote agent as a peer.       |
 
 
 ## 🎒 Other Courses
@@ -97,6 +118,7 @@ Our team produces other courses! Check out:
 ---
  
 ### Generative AI Series
+
 [![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)

@@ -1,96 +1,103 @@
-# Õppetund 1: AI Agendi Disain
+# Õppetund 1: Tehisintellekti agendi disain
 
-Tere tulemast kursuse "AI Agendi loomine nullist tootmisse" esimesse õppetundi!
+Tere tulemast kursuse "Tehisintellekti agendi loomine nullist tootmisse" esimesele õppetunnile!
 
 Selles õppetunnis käsitleme:
 
-- AI Agentide määratlemist
+- Tehisintellekti agentide määratlemist  
   
-- Arutleme AI Agendi rakenduse üle, mida me ehitame  
+- Arutelu agendi rakenduse üle, mida me ehitame  
 
-- Määratleme iga agendi jaoks vajalikud tööriistad ja teenused
+- Iga agendi vajalike tööriistade ja teenuste identifitseerimist  
   
-- Kujundame oma Agendi Rakenduse arhitektuuri
+- Meie agendi rakenduse arhitektuuri  
   
 Alustame agendi mõiste määratlemisest ja sellest, miks me neid rakenduses kasutame.
 
-## Mis on AI Agendid?
+> **Enne kursuse alustamist.** See esimene õppetund on kontseptuaalne — siin ei ole koodi, mida jooksutada.
+> Alates [2. õppetunnist](../lesson-2-agent-development/README.md) vajate: **Azure'i tellimust**, millel on juurdepääs **Microsoft Foundry’le**, juurutatud **GPT-5 seeria mudelit** (näiteks `gpt-5.1` — vältige pensionile läinud GPT-4o / GPT-4.1 mudeleid), **Python 3.12+** ja **Azure CLI** (`az login`). Vaadake kursuse README-st [Mida vajate](../README.md#what-you-need) täielikku nimekirja ja linke.
 
-![Mis on AI Agendid?](../../../translated_images/et/what-are-ai-agents.47a544a1d03481ab.webp)
 
-Kui see on sinu esimene kord uurida, kuidas AI Agenti ehitada, võivad sul tekkida küsimused, kuidas täpselt määratleda, mis on AI Agent.
 
-Lihtsustatult saab AI Agendi määratleda selle komponentide kaudu:
 
-**Suur Keelemudel** - LLM annab võime töödelda kasutaja loomulikku keelt, et mõista ülesannet, mida nad soovivad täita, ning tõlgendada tööriistade kirjeldusi, mis on saadaval nende ülesannete täitmiseks.
 
-**Tööriistad** - Need on funktsioonid, API-d, andmehoidlad ja muud teenused, mida LLM saab valida kasutamiseks kasutaja poolt nõutud ülesannete täitmiseks.
+## Mis on tehisintellekti agendid?
 
-**Mälu** - See on viis, kuidas me salvestame nii lühiajalisi kui ka pikaajalisi interaktsioone AI Agendi ja kasutaja vahel. Selle info salvestamine ja tagasivõtmine on oluline täiustuste tegemiseks ja kasutaja eelistuste säilitamiseks aja jooksul.
+![Mis on tehisintellekti agendid?](../../../translated_images/et/what-are-ai-agents.47a544a1d03481ab.webp)
 
-## Meie AI Agendi Kasutusjuhtum
+Kui see on teie esimene kord uurida, kuidas tehisintellekti agenti ehitada, võite küsida, kuidas täpselt määratleda, mis on tehisintellekti agent.
+
+Lihtsaim viis määratleda, mis on tehisintellekti agent, on vaadata selle mooduleid:
+
+**Suur keelemudel** – LLM annab võimsuse nii kasutaja loomuliku keele töötlemiseks, et mõista soovi täita ülesannet, kui ka tööriistade kirjelduste tõlgendamiseks, mis on saadaval ülesannete täitmiseks.
+
+**Tööriistad** – Need on funktsioonid, API-d, andmehoidlad ja teised teenused, mida LLM saab valida kasutamiseks kasutaja poolt taotletud ülesannete täitmiseks.
+
+**Mälu** – Siin salvestame nii lühiajalised kui ka pikaajalised suhtlused AI agendi ja kasutaja vahel. Selle info salvestamine ja tagasivõtmine on oluline täiustuste tegemiseks ja kasutaja eelistuste säilitamiseks aja jooksul.
+
+## Meie AI agendi kasutusjuhtum
 
 ![Mida me ehitame?](../../../translated_images/et/what-are-we-building.1ff3b9a752eb8570.webp)
 
-Selle kursuse raames ehitame AI Agendi rakenduse, mis aitab uutel arendajatel meie AI Agendi Arendusmeeskonnaga liituda!
+Selle kursuse raames loome AI agendi rakenduse, mis aitab uutel arendajatel liituda meie AI agendi arendusmeeskonnaga!
 
-Enne arendustöö alustamist on esimene samm edukas AI Agendi rakenduse loomisel selgete stsenaariumite määratlemine selle kohta, kuidas me ootame, et kasutajad meie AI Agentidega töötavad.
+Enne arendustööde alustamist on esimene samm edukaks AI agendi rakenduseks selgete stsenaariumite määratlemine, kuidas me ootame, et kasutajad meie AI agentidega töötavad.
 
-Selle rakenduse jaoks töötame järgmiste stsenaariumitega:
+Selle rakenduse puhul töötame järgmiste stsenaariumitega:
 
-**Stsenaarium 1**: Uus töötaja liitub meie organisatsiooniga ja soovib rohkem teada saada meeskonnast, kuhu ta liitus, ning kuidas nendega ühendust võtta.
+**Stsenaarium 1**: Uus töötaja liitub meie organisatsiooniga ja soovib rohkem teada saada meeskonna kohta, kuhu ta liitus, ning kuidas nendega ühendust võtta.
 
-**Stsenaarium 2:** Uus töötaja soovib teada, milline oleks parim esimene ülesanne, millega alustada.
+**Stsenaarium 2:** Uus töötaja tahab teada, milline oleks parim esimene ülesanne, mille kallal alustada töötamist.
 
-**Stsenaarium 3:** Uus töötaja soovib koguda õppematerjale ja koodinäiteid, mis aitaksid tal selle ülesande täitmist alustada.
+**Stsenaarium 3:** Uus töötaja soovib koguda õppematerjale ja koodinäiteid, mis aitavad tal selle ülesande täitmist alustada.
 
-## Tööriistade ja Teenuste Määratlemine
+## Tööriistade ja teenuste kindlakstegemine
 
-Nüüd, kui meil on need stsenaariumid loodud, on järgmine samm kaardistada need tööriistadele ja teenustele, mida meie AI agendid vajavad nende ülesannete täitmiseks.
+Nüüd kui meil on need stsenaariumid paigas, on järgmine samm seostada need tööriistade ja teenustega, mida meie AI agendid vajavad nende ülesannete täitmiseks.
 
-See protsess kuulub konteksti insenerinduse valdkonda, kuna keskendume sellele, et meie AI Agentidel oleks õige kontekst õigeaegselt ülesannete täitmiseks.
+See protsess kuulub kontekstitehnika valdkonda, kuna keskendume sellele, et meie AI agentidel oleks õige kontekst õigeaegselt, et ülesanded täita.
 
-Teeme seda stsenaariumite kaupa ja teostame head agendi disaini, loetledes iga agendi ülesande, tööriistad ja soovitud tulemused.
+Teeme selle stsenaariumipõhiselt ning teostame hea agentide disaini, pannes kirja iga agendi ülesande, tööriistad ja soovitud tulemused.
 
-![Agendi Disain](../../../translated_images/et/agent-design.07edb7ae37f47803.webp)
+![Agendi disain](../../../translated_images/et/agent-design.07edb7ae37f47803.webp)
 
-### Stsenaarium 1 - Töötajate Otsingu Agent
+### Stsenaarium 1 - Töötajate otsinguagent
 
-**Ülesanne** - Vastata küsimustele organisatsiooni töötajate kohta, nagu liitumiskuupäev, praegune meeskond, asukoht ja viimane ametikoht.
+**Ülesanne** – Vastata küsimustele organisatsiooni töötajate kohta, näiteks liitumiskuupäev, praegune meeskond, asukoht ja viimane ametikoht.
 
-**Tööriistad** - Praeguse töötajate nimekirja ja organisatsiooniskeemi andmehoidla
+**Tööriistad** – Andmebaas praeguste töötajate nimekirjast ja organisatsiooni struktuuri skeem
 
-**Tulemused** - Võime hankida teavet andmehoidlast, et vastata üldistele organisatsiooniküsimustele ja konkreetsetele töötajate küsimustele.
+**Tulemused** – Võimalus võõrdatabaasist informatsiooni leida ja vastata üldküsimustele organisatsiooni kohta ning konkreetsetele küsimustele töötajate kohta.
 
-### Stsenaarium 2 - Ülesannete Soovitamise Agent
+### Stsenaarium 2 - Ülesannete soovituste agent
 
-**Ülesanne** - Uue töötaja arendajakogemuse põhjal pakkuda välja 1-3 ülesannet, millega uus töötaja saab töötada.
+**Ülesanne** – Uue töötaja arenduskogemuse põhjal välja pakkuda 1–3 probleemi, mille kallal uus töötaja saab töötada.
 
-**Tööriistad** - GitHub MCP server avatud probleemide saamiseks ja arendajaprofiili koostamiseks
+**Tööriistad** – GitHub MCP server, et saada avatud probleemid ja koostada arendajaprofiil
 
-**Tulemused** - Võime lugeda GitHub profiili viimaseid 5 commit'i ja avatud probleeme GitHub projektis ning teha soovitusi vastavalt sobivusele.
+**Tulemused** – Võime lugeda viimaseid 5 commit’i GitHubi profiilist ja avatud probleeme GitHubi projektis ning teha soovitusi vastavalt sobivusele
 
-### Stsenaarium 3 - Koodi Abiline Agent
+### Stsenaarium 3 - Koodi abistaja agent
 
-**Ülesanne** - Põhinedes "Ülesannete Soovitamise" Agendi poolt soovitatud avatud probleemidel, uurida ja pakkuda ressursse ning genereerida koodinäiteid, mis aitavad töötajal.
+**Ülesanne** – "Ülesannete soovituste" agendi poolt soovitatud avatud probleemide põhjal uurida ja pakkuda ressursse ning genereerida koodinäited töötaja abistamiseks.
 
-**Tööriistad** - Microsoft Learn MCP ressursside leidmiseks ja Koodi Tõlgendaja kohandatud koodinäidete genereerimiseks.
+**Tööriistad** – Microsoft Learn MCP ressursside leidmiseks ja Koodi Tõlgendaja kohandatud koodilõikude genereerimiseks
 
-**Tulemused** - Kui kasutaja palub täiendavat abi, peaks töövoog kasutama Learn MCP serverit linkide ja näidiste pakkumiseks ning seejärel andma üle Koodi Tõlgendaja agendile, et genereerida väikseid koodinäiteid koos selgitustega.
+**Tulemused** – Kui kasutaja küsib täiendavat abi, peaks töövoog kasutama Learn MCP serverit, et pakkuda linke ja koodilõike ning seejärel üle andma Koodi Tõlgendaja agendile väikeste koodilõikude genereerimiseks koos selgitustega.
 
-## Meie Agendi Rakenduse Arhitektuur
+## Meie agendi rakenduse arhitektuur
 
-Nüüd, kui oleme määratlenud iga meie Agendi, loome arhitektuuri diagrammi, mis aitab meil mõista, kuidas iga agent töötab koos ja eraldi sõltuvalt ülesandest:
+Nüüd kui oleme määratlenud iga agendi, loome arhitektuuri diagrammi, mis aitab meil mõista, kuidas iga agent töötab koos ja eraldi sõltuvalt ülesandest:
 
-![Agendi Arhitektuur](../../../translated_images/et/agent-architecture.4fd5efa371e77a3c.webp)
+![Agendi arhitektuur](../../../translated_images/et/agent-architecture.4fd5efa371e77a3c.webp)
 
-## Järgmised Sammud
+## Järgmised sammud
 
-Nüüd, kui oleme disaininud iga agendi ja meie agendi süsteemi, liigume järgmisse õppetundi, kus arendame iga neist agentidest!
+Nüüd kui oleme disaininud iga agendi ja meie agendisüsteemi, liigume järgmisse õppetundi, kus arendame iga neist agentidest!
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Vastutusest loobumine**:
-See dokument on tõlgitud kasutades tehisintellektil põhinevat tõlketeenust [Co-op Translator](https://github.com/Azure/co-op-translator). Kuigi püüame tagada täpsust, palun arvestage, et automaatsed tõlked võivad sisaldada vigu või ebatäpsusi. Originaaldokument selle emakeeles tuleks pidada autoriteetseks allikaks. Olulise teabe puhul soovitatakse kasutada professionaalset inimtõlget. Me ei vastuta selle tõlke kasutamisest tulenevate arusaamatuste või valesti mõistmiste eest.
+**Lahtiütlus**:
+See dokument on tõlgitud kasutades AI tõlketeenust [Co-op Translator](https://github.com/Azure/co-op-translator). Kuigi me püüdleme täpsuse poole, palun pange tähele, et automatiseeritud tõlgetes võib esineda vigu või ebatäpsusi. Originaaldokument selle emakeeles tuleks pidada autoriteetseks allikaks. Olulise teabe puhul soovitatakse kasutada professionaalset inimtõlget. Me ei vastuta selle tõlkega seotud eksimustest või valesti mõistmistest.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

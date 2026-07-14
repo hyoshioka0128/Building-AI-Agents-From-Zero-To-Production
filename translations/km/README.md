@@ -1,17 +1,17 @@
-# ការបង្កើតភ្នាក់ងារបញ្ញាសិប្បនិម្មិតពីចូរ​ដល់ផលិតកម្ម
+# ការបង្កើតភ្នាក់ងារតន្ត្រីករពីសូន្យដល់ផលិតកម្ម
 
-![ការបង្កើតភ្នាក់ងារបញ្ញាសិប្បនិម្មិតពីចូរ​ដល់ផលិតកម្ម](../../translated_images/km/repo-thumbnail.083b24afed61b6dd.webp)
+![ការបង្កើតភ្នាក់ងារតន្ត្រីករពីសូន្យដល់ផលិតកម្ម](../../translated_images/km/repo-thumbnail.083b24afed61b6dd.webp)
 
 ### 🌐 ការគាំទ្រភាសាច្រើន
 
-#### គាំទ្រដោយ GitHub Action (ស្វ័យប្រវត្តិ & តែងតែទាន់សម័យ)
+#### គាំទ្រដោយ GitHub Action (ដោយស្វ័យប្រវត្តិ & មានការធ្វើបច្ចុប្បន្នភាពជានិរន្ត)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[អារ៉ាប់](../ar/README.md) | [បង់្គាលី](../bn/README.md) | [ប៊ូលគារីយ៉ាន់](../bg/README.md) | [ភាសាប៊ឺម៉ាស្ស៊ែរ (ភូមា)](../my/README.md) | [ចិន (សាមញ្ញ)](../zh-CN/README.md) | [ចិន (ប្រពៃណី ហុងកុង)](../zh-HK/README.md) | [ចិន (ប្រពៃណី ម៉ាកាវ)](../zh-MO/README.md) | [ចិន (ប្រពៃណី តៃវ៉ាន់)](../zh-TW/README.md) | [ក្រូអាត](../hr/README.md) | [ឆេក](../cs/README.md) | [ដាណីស](../da/README.md) | [ហូឡង់](../nl/README.md) | [អេស្តូន្យា](../et/README.md) | [ហ្វាំងឡែន](../fi/README.md) | [បារាំង](../fr/README.md) | [អាល្លឺម៉ង់](../de/README.md) | [ក្រិក](../el/README.md) | [ហេប្រ៊ូ](../he/README.md) | [ហិណ្ឌី](../hi/README.md) | [ហុងគ្រី](../hu/README.md) | [ឥណ្ឌូនេស៊ី](../id/README.md) | [អ៊ីតាលី](../it/README.md) | [ជប៉ុន](../ja/README.md) | [កណ្ណាដា](../kn/README.md) | [ខ្មែរ](./README.md) | [កូរ៉េ](../ko/README.md) | [លីទូវ៉ានី](../lt/README.md) | [ម៉ាឡេ](../ms/README.md) | [ម៉ាឡាឡម](../ml/README.md) | [ម៉ារ៉ាត៊ី](../mr/README.md) | [ណេប៉ាល](../ne/README.md) | [ភីឌហ្ស៊ីន នីហ្សេរី](../pcm/README.md) | [ន័រវេ](../no/README.md) | [បាស្ស៊ី (ហ្វារីស៊ី)](../fa/README.md) | [ប៉ូឡូញ](../pl/README.md) | [ព័រទុយហ្កាល់ (ប្រេស៊ីល)](../pt-BR/README.md) | [ព័រទុយហ្កាល់ (ព័រទុយហ្កាល់)](../pt-PT/README.md) | [ប៉ុនជាអ៊ី (គួមុខី)](../pa/README.md) | [រូម៉ានី](../ro/README.md) | [រុស្ស៊ី](../ru/README.md) | [ស៊ើប៊ី (ស៊ីរីលីច)](../sr/README.md) | [ស្គូវ៉ាក់](../sk/README.md) | [ស្លូវ៉ានី](../sl/README.md) | [អេស្ប៉ាញ](../es/README.md) | [ស្វាហ៊ីលី](../sw/README.md) | [ស្វែឌិន](../sv/README.md) | [តាឡាហូក (ហ្វីលីពីន)](../tl/README.md) | [តាមីល](../ta/README.md) | [តេលូហ្គូ](../te/README.md) | [ថៃ](../th/README.md) | [ទួរគី](../tr/README.md) | [អ៊ុយក្រែន](../uk/README.md) | [អ៊៊ួដូ](../ur/README.md) | [វៀតណាម](../vi/README.md)
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Khmer](./README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **ចូលចិត្តក្លូននៅក្នុងម៉ាស៊ីនថេបតไหม?**
+> **ចូលចិត្តចម្លងក្នុងកុំព្យូទ័រផ្ទាល់ខ្លួន?**
 >
-> ឃ្លាំងនេះរួមមានការបកប្រែភាសាជាង ៥០ ដែលបង្កើនទំហំទាញយកយ៉ាងខ្លាំង។ ដើម្បីក្លូនដោយមិនមានការបកប្រែ អ្នកអាចប្រើ sparse checkout:
+> ឃ្លាំងរបស់នេះមានការប្រែប្រាស់ជាភាសាជាង ៥០ ដែលបង្កើនទំហំទាញយកយ៉ាងខ្លាំង។ ដើម្បីចម្លងដោយគ្មានការប្រែប្រាស់ សូមប្រើ sparse checkout:
 >
 > **Bash / macOS / Linux:**
 > ```bash
@@ -27,59 +27,80 @@
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
 >
-> នេះនឹងផ្តល់អ្វីគ្រប់យ៉ាងដែលអ្នកត្រូវការ ដើម្បីបញ្ចប់វគ្គសិក្សា ជាមួយការទាញយកលឿនជាង។
+> នេះផ្តល់ឲ្យអ្នកមានអ្វីៗទាំងអស់ដែលអ្នកត្រូវការដើម្បីបញ្ចប់វគ្គសិក្សាជាមួយនឹងការទាញយកលឿនជាងមុន។
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-## វគ្គសិក្សាមួយបង្រៀនអ្នកអំពីមូលដ្ឋាននៃជីវចរណ៍ការអភិវឌ្ឍភ្នាក់ងារបញ្ញាសិប្បនិម្មិត
+## វគ្គសិក្សាដែលបង្រៀនអ្នកពីមូលដ្ឋាននៃជីវចក្រអភិវឌ្ឍន៍ភ្នាក់ងារតន្ត្រីករ
 
-[![អាជ្ញាប័ណ្ណ GitHub](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
-[![អ្នករួមចំណែក GitHub](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
-[![បញ្ហា GitHub](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
-[![ការស្នើសុំតាម Pull GitHub](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
-[![ស្វាគមន៍ PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
+[![GitHub license](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/issues/?WT.mc_id=academic-105485-koreyst)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/pulls/?WT.mc_id=academic-105485-koreyst)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-## 🌱 ចាប់ផ្តើម
+## 🌱 ការចាប់ផ្តើម
 
-វគ្គសិក្សានេះមានមេរៀនគ្របដណ្តប់មូលដ្ឋាននៃការបង្កើត និងចេញផ្សាយភ្នាក់ងារបញ្ញាសិប្បនិម្មិត។
+វគ្គសិក្សានេះមានមេរៀនគ្របដណ្តប់លើមូលដ្ឋាននៃការបង្កើត និងដាក់ឲ្យដំណើរការ ភ្នាក់ងារតន្ត្រីករ។
 
-មេរៀននីមួយៗសាងសង់លើមេរៀនមុន ហើយយើងផ្តល់អនុសាសន៍ឱ្យចាប់ផ្តើមពីដើម ហើយធ្វើការដល់ចប់។
+មេរៀនមួយៗបង្កើតលើមេរៀនមុន ដូច្នេះយើងសូមណែនាំឲ្យចាប់ផ្តើមពីដើម និងដំណើរការតាមដំណាក់កាលរហូតដល់ចុង។
 
-បើអ្នកចង់ស្វែងយល់បន្ថែមអំពីប្រធានបទភ្នាក់ងារបញ្ញាសិប្បនិម្មិត អ្នកអាចពិនិត្យមើល [វគ្គសិក្សាភ្នាក់ងារបញ្ញាសម្រាប់អ្នកចាប់ផ្តើម](https://aka.ms/ai-agents-beginners)។
+ប្រសិនបើអ្នកចង់ស្វែងយល់បន្ថែមអំពីប្រធានបទភ្នាក់ងារតន្ត្រីករ អ្នកអាចពិនិត្យមើល [វគ្គសិក្សាអ្នកចាប់ផ្តើមសម្រាប់ភ្នាក់ងារតន្ត្រីករ](https://aka.ms/ai-agents-beginners)។
 
-### ជួបជាមួយអ្នកសិក្សាពីម្ខាងទៀត ទទួលបានការឆ្លើយតបសំណួររបស់អ្នក
+### ជួបជាមួយអ្នករៀនផ្សេងទៀត សួរឆ្លើយសំណួររបស់អ្នក
 
-បើអ្នកមានបញ្ហា ឬមានសំណួរអំពីការបង្កើតភ្នាក់ងារបញ្ញាសិប្បនិម្មិត ចូលរួមឆានែល Discord ផ្តាច់មុខរបស់យើងនៅ [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6)។
+ប្រសិនបើអ្នកជាប់ឬមានសំណួរអំពីការបង្កើតភ្នាក់ងារតន្ត្រីករ សូមចូលរួមចំណែកនៅក្នុងឆានែល Discord ពិសេសរបស់យើងនៅ [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6)។
 
-### អ្វីដែលអ្នកត្រូវការ
+### អ្វីដែលអ្នកត្រូវការប្រើប្រាស់
 
-មេរៀននីមួយៗមានគំរូកូដផ្ទាល់ខ្លួនដែលអ្នកអាចរត់នៅក្នុងម៉ាស៊ីនផ្ទាល់។ អ្នកអាច [fork ឃ្លាំងនេះ](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) ដើម្បីបង្កើតច្បាប់ផ្ទាល់ខ្លួនរបស់អ្នក។
+មេរៀននីមួយៗមានកូដឧទាហរណ៍ផ្ទាល់ខ្លួនដែលអ្នកអាចរត់នៅក្នុងកុំព្យូទ័រផ្ទាល់ខ្លួន។ អ្នកអាច [fork ឃ្លាំងនេះ](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) ដើម្បីបង្កើតច្បាប់ផ្ទាល់ខ្លួន។
 
-វគ្គសិក្សានេះប្រើប្រាស់បច្ចុប្បន្ន៖
+វគ្គសិក្សានេះប្រើប្រាស់អ្វីខ្លះ:
 
 - [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
-- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry)
+- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry) — គម្រោងដែលមានម៉ូដែល **ជួរដំណើរការ GPT-5** (ឧទាហរណ៍ `gpt-5.1`) រត់ហើយ។ សូមកុំប្រើម៉ូដែល GPT-4o / GPT-4.1 ដែលបានផ្អាក។
 - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-foundry/models/openai)
-- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
+- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest) — ចូលប្រើជាមួយ `az login` មុននឹងរត់គំរូណាមួយ
+- **Python 3.12 ឬកំណែថ្មីជាងនេះ**
 
-សូមធានាថាអ្នកមានការចូលប្រើប្រាស់សេវាកម្មទាំងនេះ មុនការចាប់ផ្តើម។
+សូមប្រាកដថាអ្នកមានការចូលប្រើសេវាកម្មទាំងនេះមុនចាប់ផ្តើម។
 
-ជម្រើសបន្ថែមសម្រាប់បម្រើម៉ូដែលនិងសេវាកម្មនានា កំពុងមកដល់ក្នុងពេលឆាប់ៗនេះ។
+> **💰 ការចំណាយ និងការលុបចោល។** មេរៀនអនុវត្តបង្កើតធនធាន Azure ពិតប្រាកដ — គម្រោង Microsoft Foundry
+> ការដាក់ម៉ូដែល, ហាងទិន្នន័យវ៉ិចទ័រ, និង (នៅក្នុងមេរៀនទី៤-៦) ភ្នាក់ងារហូសទីភ្នាក់ងារ និងប្រអប់ឧបករណ៍។
+> ធនធានទាំងនេះអាចបង្កការចំណាយសមាហរណៈនៅពេលមានវា។ ពេលអ្នកបញ្ចប់មេរៀន — ឬវគ្គសិក្សា — សូមលុប
+> ធនធានដែលអ្នកមិនចាំបាច់ប្រើបន្ថែមទៀត។ វិធីសាស្រ្តសាមញ្ញជាងគេគឺដាក់អ្វីៗគ្រប់យ៉ាងនៅក្នុងក្រុមធនធានពិសេសមួយ
+> ហើយលុបក្រុមទាំងមូលពេលដែលអ្នកបញ្ចប់:
+>
+> ```bash
+> az group delete --name <your-resource-group> --yes --no-wait
+> ```
+>
+> អ្នកក៏អាចលុបភ្នាក់ងារផ្ទាល់ខ្លួន, ហាងទិន្នន័យវ៉ិចទ័រ, និងប្រអប់ឧបករណ៍ពីទ្វារចូល Foundry ផងដែរ។
+
+> **មតិយោបល់អំពីម៉ូដែល។** វគ្គសិក្សានេះផ្តល់ម៉ូដែលទាំងអស់តាមរយៈ **Microsoft Foundry** ។ វាមិនប្រើ
+> *GitHub Models* ទេ ដែលនឹងផ្អាកនៅថ្ងៃទី **៣០ ខែកក្កដា ឆ្នាំ ២០២៦** — Microsoft Foundry គឺ
+> ផ្លូវការសម្រាប់ផ្លាស់ទី។ ប្រសិនបើអ្នកមានកូដចាស់ដែលហៅប្រើ GitHub Models សូមបញ្ជូនទៅកាន់
+> ការដាក់ម៉ូដែល Foundry ជំនួស។
+
+ជម្រើសផ្សេងទៀតអំពីការផ្តល់ម៉ូដែល និងសេវាកម្មនឹងមកនាពេលខាងមុខ។
 
 ## 🗃️ មេរៀន
 
 | **មេរៀន**         | **ការពិពណ៌នា**                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------|
-| [ការរចនាភ្នាក់ងារ](./lesson-1-agent-design/README.md)       | ការណែនាំពីករណីប្រើប្រាស់ "អ្នកអភិវឌ្ឍន៍លើកដំបូង" របស់យើង និងរបៀបរចនាភ្នាក់ងារដែលមានប្រសិទ្ធភាព  |
-| [ការអភិវឌ្ឍភ្នាក់ងារ](./lesson-2-agent-development/README.md)  | ប្រើ Microsoft Agent Framework (MAF) ដើម្បីបង្កើតភ្នាក់ងារ ៣ រូប ជួយអ្នកអភិវឌ្ឍថ្មីចាប់ផ្តើមបានយ៉ាងលឿន។       |
-| [ការវាយតម្លៃភ្នាក់ងារ](./lesson-3-agent-evals/README.md)  | ប្រើ Microsoft Foundry ដើម្បីស្វែងរកថាភ្នាក់ងារបញ្ញាសិប្បនិម្មិតរបស់យើងធ្វើបានយ៉ាងដូចម្តេច និងត្រូវធ្វើបែបណាឲ្យប្រសើរឡើង។ |
-| [ការចេញផ្សាយភ្នាក់ងារ](./lesson-4-agent-deployment/README.md)   | ប្រើភ្នាក់ងារចាប់ផ្តើមទុកលើម៉ាស៊ីន និង OpenAI Chatkit ដើម្បីឲ្យឃើញរបៀបចេញផ្សាយភ្នាក់ងារបញ្ញាសិប្បនិម្មិតទៅផលិតកម្ម។       |
+| [រចនាភ្នាក់ងារ](./lesson-1-agent-design/README.md)       | ការណែនាំអំពីករណីប្រើប្រាស់ភ្នាក់ងារ "ការចូលរួមអភិវឌ្ឍករ" និងរបៀបរចនាភ្នាក់ងារដែលមានប្រសិទ្ធភាព  |
+| [អភិវឌ្ឍភ្នាក់ងារ](./lesson-2-agent-development/README.md)  | ប្រើ Microsoft Agent Framework (MAF) ដើម្បីបង្កើតក្រុមភ្នាក់ងារប្រក специализирован មួយសម្រាប់ជួយអភិវឌ្ឍករថ្មីៗចូលរួម។       |
+| [ការវាយតម្លៃភ្នាក់ងារ](./lesson-3-agent-evals/README.md)  | ប្រើ Microsoft Foundry ដើម្បីរកឃើញរបៀបដែលភ្នាក់ងារតន្ត្រីករយើងដំណើរការល្អ និងរបៀបធ្វើឲ្យប្រសើរឡើង។ |
+| [ការដាក់ភ្នាក់ងារតន្ត្រីករ](./lesson-4-agentdeployment/README.md)   | ប្រើ Microsoft Foundry ភ្នាក់ងារហូសទីភ្នាក់ងារ និង OpenAI ChatKit ដើម្បីមើលរបៀបដាក់ភ្នាក់ងារតន្ត្រីករចូលផលិតកម្ម។       |
+| [ភ្នាក់ងារនៅផលិតកម្ម](./lesson-5-hosted-agents-production/README.md)   | យកភ្នាក់ងារ Hosted agent ទៅផលិតកម្មសម្រាប់សហគ្រាស: Hosted Agents ជាមួយ Capability Hosts, ប្រើដាក់ទុកផ្ទាល់ខ្លួន, ការចងចាំ និងការគ្រប់គ្រង។       |
+| [ប្រអប់ឧបករណ៍ Microsoft](./lesson-6-toolbox/README.md)   | កំណត់ឧបករណ៍មួយដង និងគ្រប់គ្រងពួកវាតាមកណ្តាល: បង្កើតប្រអប់ឧបករណ៍, ប្រើវាពីភ្នាក់ងារតាមផ្លូវចូល MCP តែមួយ និងបង្កប់ការផ្លាស់ប្តូរឧបករណ៍យ៉ាងសុវត្ថិភាព។       |
+| [ភ្នាក់ងារច្រើន & A2A](./lesson-7-multi-agent-a2a/README.md)   | បង្កើតភ្នាក់ងារជាសេវាកម្មបណ្តាញ: បង្ហាញភ្នាក់ងារមួយតាមរយៈពិធីករណ៍ Agent-to-Agent (A2A) បើក និងប្រើភ្នាក់ងារពីចម្ងាយជាដៃគូ។       |
 
 
-## 🎒 វគ្គសិក្សាផ្សេងៗទៀត
+## 🎒 វគ្គសិក្សាផ្សេងទៀត
 
-ក្រុមរបស់យើងផលិតវគ្គសិក្សាផ្សេងទៀតផងដែរ! សូមពិនិត្យមើល៖
+ក្រុមការងារយើងបង្កើតវគ្គសិក្សាផ្សេងទៀត! សូមពិនិត្យមើល:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -92,70 +113,71 @@
 [![AZD សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Edge AI សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![MCP សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![ភ្នាក់ងារបញ្ញាសម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![ភ្នាក់ងារតន្ត្រីករសម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### ជំនួស Generative AI
-[![Generative AI សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+### ស៊េរី AI បង្កើតច្នៃ
+
+[![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### ការរៀនមូលដ្ឋាន
-[![ML សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![វិទ្យាសាស្ត្រទិន្នន័យសម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![បញ្ញាសិប្បនិម្មិតសម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![សុវត្ថិភាពអ៊ីនធឺណិតសម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![ការអwickសម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![IoT សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![ការអwick XR សម្រាប់អ្នកចាប់ផ្តើម](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+### ការសិក្សាផ្នែកមូលដ្ឋាន
+[![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
-
+ 
 ### ស៊េរី Copilot
-[![Copilot សម្រាប់កម្មវិធី AI និងការសរសេរកម្មវិធីរួម](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot សម្រាប់ C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## ការចូលរួម
+## ការរួមចំណែក
 
-គម្រោងនេះស្វាគមន៍ការចូលរួម និងមតិយោបល់។ ការចូលរួមភាគច្រើនត្រូវការឲ្យអ្នកយល់ព្រមលើ
-កិច្ចសន្យាអ្នកចូលរួម (Contributor License Agreement - CLA) ដែលបញ្ជាក់ថាអ្នកមានសិទ្ធិ និងពិតជាផ្តល់
-សិទ្ធិដល់យើងក្នុងការប្រើប្រាស់ការចូលរួមរបស់អ្នក។ សម្រាប់ព័ត៌មានលម្អិត សូមចូលមើល <https://cla.opensource.microsoft.com>។
+គម្រោងនេះត្រូវបានស្វាគមន៍ការរួមចំណែក និងយោបល់។ ការរួមចំណែកភាគច្រើនតម្រូវឱ្យអ្នកយល់ព្រមនឹង
+កិច្ចព្រមព្រៀងអាជ្ញាប័ណ្ណអ្នករួមចំណែក (CLA) ដែលបញ្ជាក់ថាអ្នកមានសិទ្ធិ និងពិតជាបានផ្តល់សិទ្ធិដល់យើង
+ក្នុងការប្រើប្រាស់ការរួមចំណែករបស់អ្នក។ សម្រាប់ព័ត៌មានលម្អិត អ្នកអាចចូលទៅ <https://cla.opensource.microsoft.com>។
 
-ពេលអ្នកដាក់ស្នើ pull request, បុត CLA នឹងកំណត់ដោយស្វ័យប្រវត្តិថាតើអ្នកត្រូវផ្តល់ CLA ឬអត់
-ហើយតំណាងសម្រាប់ PR ឲ្យសមរម្យ (ឧ. ចន្លោះទម្រង់ស្ថានភាព, មតិយោបល់)។ តម្រូវឲ្យអ្នកអនុវត្តបញ្ជា
-ដែលគ្រប់គ្រងដោយបុត។ អ្នកត្រូវធ្វើរឿងនេះលើកដំបូងតែម្ដងសម្រាប់គ្រប់ repositories ដែលប្រើ CLA នេះ។
+នៅពេលអ្នកដាក់ស្នើសំណើបញ្ចូលទិន្នន័យ (pull request) ប្រព័ន្ធ CLA bot នឹងកំណត់ដោយស្វ័យប្រវត្តិនៅតើអ្នកត្រូវតែផ្តល់
+CLA ដែរឬទេ ហើយតែងតាំងស្ទីកเกอร์សម្រាប់ PR (ឧ. ការត្រួតពិនិត្យស្ថានភាព, យោបល់)។ តែត្រូវគោរពតាមការណែនាំ
+ដែលប្រព័ន្ធ bot ផ្តល់។ អ្នកត្រូវធ្វើបែបនេះតែម្តងនៅក្នុងគ្រប់ repo ដែលប្រើ CLA របស់យើង។
 
-គម្រោងនេះបានអនុម័ត៣នយោបាយ [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)។
-សម្រាប់ព័ត៌មានបន្ថែម សូមមើល [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) ឬ
-ទំនាក់ទំនង [opencode@microsoft.com](mailto:opencode@microsoft.com) ប្រសិនបើមានសំណួរឬមតិយោបល់បន្ថែម។
+គម្រោងនេះបានអនុម័ត [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)។
+សម្រាប់ព័ត៌មានបន្ថែមមើល [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) ឬ
+សូមទាក់ទង [opencode@microsoft.com](mailto:opencode@microsoft.com) ប្រសិនបើមានសំណួរឬយោបល់បន្ថែមណាមួយ។
 
-## រចនាសញ្ញា
+## សញ្ញាសម្គាល់ពាណិជ្ជកម្ម
 
-គម្រោងនេះអាចមានរចនាសញ្ញា ឬរូបតំណាងសម្រាប់គម្រោង ពាណិជ្ជកម្ម ឬសេវាកម្ម។ ការប្រើប្រាស់យ៉ាងត្រឹមត្រូវ
-នៃរចនាសញ្ញា ឬរូបតំណាង Microsoft ត្រូវបានគោរព និងតម្រូវឲ្យគោរព
+គម្រោងនេះអាចមានសញ្ញាសម្គាល់ពាណិជ្ជកម្ម ឬរូបសញ្ញាសម្រាប់គម្រោង ផលិតផល ឬសេវាកម្ម។ ការប្រើប្រាស់ដោយមានអាជ្ញាប័ណ្ណលើ
+សញ្ញាសម្គាល់ពាណិជ្ជកម្ម របស់ Microsoft ឬរូបសញ្ញា ត្រូវតែគោរពនិងតាមដាន
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general)។
-ការប្រើរចនាសញ្ញា ឬរូបតំណាង Microsoft ក្នុងកំណែបានបន្ថែមឬកែប្រែគម្រោងនេះមិនគួរធ្វើឲ្យមានការភាន់ច្រឡំ
-ឬអោយមានន័យថា Microsoft គាំទ្រ។ ការប្រើប្រាស់រចនាសញ្ញា ឬរូបតំណាងបុគ្គលទីបី ត្រូវបានគោរពតាមគោលការណ៍របស់ពួកគេ។
+ការប្រើប្រាស់សញ្ញាសម្គាល់ពាណិជ្ជកម្ម ឬរូបសញ្ញារបស់ Microsoft នៅក្នុងកំណែដែលបានកែប្រែរបស់គម្រោងនេះ មិនត្រូវបង្កើតភាពច្របូកច្របល់ ឬជាក់ស្តែងថា Microsoft គាំទ្រ។
+ការប្រើប្រាស់សញ្ញាសម្គាល់ពាណិជ្ជកម្ម ឬរូបសញ្ញារបស់ខាងក្រៅ គឺត្រូវគោរពតាមគោលនយោបាយរបស់ភាគីទាំងនោះ។
 
-## ជំនួយរបស់យើង
+## ទទួលបានជំនួយ
 
-បើអ្នករងចាំ ឬមានសំណួរអំពីការថែទាំកម្មវិធី AI សូមចូលរួម៖
+ប្រសិនបើអ្នកជួបបញ្ហា ឬមានសំណួរអំពីការបង្កើតកម្មវិធី AI សូមចូលរួម:
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-បើអ្នកមានមតិយោបល់ដល់ផលិតផល ឬកំហុសពេលកំពុងបង្កើត កុំឲ្យខកខានចូលរួម៖
+ប្រសិនបើអ្នកមានមតិយោបល់ផលិតផល ឬកំហុសនៅពេលកំពុងសាងសង់ សូមចូលមើលៈ
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**ការបដិសេធ**៖  
-ឯកសារនេះត្រូវបានបកប្រែដោយប្រើសេវាកម្មបកប្រែ AI [Co-op Translator](https://github.com/Azure/co-op-translator)។ ខណៈពេលយើងខិតខំសម្រាប់ភាពត្រឹមត្រូវ សូមយល់អំពីថាបកប្រែដោយស្វ័យប្រវត្តិនោះអាចមានកំហុសឬការខ្វះខាត។ ឯកសារដើមជាភាសាមែនត្រូវបានគេចាត់ទុកជាមូលដ្ឋានដែលទុកចិត្តបាន។ សម្រាប់ព័ត៌មានសំខាន់ៗ សូមណែនាំឱ្យប្រើការបកប្រែដោយមនុស្សជំនាញវិជ្ជាជីវៈ។ យើងមិនទទួលបន្ទុកចំពោះការយល់ច្រឡំ ឬការបកស្រាយខុសបណ្តាលមកពីការប្រើប្រាស់ការបកប្រែនេះនោះឡើយ។
+**ការបដិសេធ**:
+ឯកសារនេះត្រូវបានបម្លែងភាសា ដោយប្រើសេវាបម្លែងភាសា AI [Co-op Translator](https://github.com/Azure/co-op-translator)។ ទោះយើងខ្ញុំមានក្តីប្រាថ្នាឱ្យបានច្បាស់លាស់ តែសូមយល់ដឹងថាការបម្លែងដោយស្វ័យប្រវត្តិក៏អាចមានកំហុសឬភាពមិនត្រឹមត្រូវ។ ឯកសារដើមជាភាសាទីតាំងគួរត្រូវបានគេប្រើជាប្រភពច្បាស់លាស់។ សម្រាប់ព័ត៌មានសំខាន់ៗ សូមណែនាំឱ្យប្រើប្រាស់ការប្រែដោយមនុស្សជំនាញ។ យើងខ្ញុំមិនទទួលខុសត្រូវចំពោះការយល់ច្រឡំ ឬការបកស្រាយខុសបន្ទាប់ពីការប្រើប្រាស់ការបម្លែងនេះនោះទេ។
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

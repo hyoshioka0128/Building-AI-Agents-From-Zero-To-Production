@@ -12,7 +12,14 @@ In this lesson we will cover:
   
 - Architect our Agent Application
   
-Let's start by defining what an agent is and why we would use them inside an application.
+Let's start by defining what agents are and why we would use them inside an application.
+
+> **Before you start the course.** This first lesson is conceptual — there is no code to run.
+> From [Lesson 2](../lesson-2-agent-development/README.md) onward you will need: an **Azure
+> subscription** with access to **Microsoft Foundry**, a deployed **GPT-5 series model** (for
+> example `gpt-5.1` — avoid the retired GPT-4o / GPT-4.1), **Python 3.12+**, and the **Azure CLI**
+> (`az login`). See [What You Need](../README.md#what-you-need) in the course README for the full
+> list and links.
 
 ## What Are AI Agents?
 
@@ -76,7 +83,7 @@ Let's do this scenario by scenario and perform good agentic design by listing ea
 
 **Tools** - Microsoft Learn MCP to find resources and Code Interpreter to generate custom code snippets.
 
-**Outcomes** - If the user asks for additional help, the workflow should use the Learn MCP Server to provide links and snippets to resources and then handoff to the Code Interpreter agent to generate small code snippets with explanations.
+**Outcomes** - If the user asks for additional help, the workflow should use the Learn MCP Server to provide links and snippets to resources and then hand off to the Code Interpreter agent to generate small code snippets with explanations.
 
 ## Architecting our Agent Application
 
@@ -92,5 +99,5 @@ Now that we have designed each agent and our agentic system, let's move on to th
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Disclaimer**:
-This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+This document has been translated using AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

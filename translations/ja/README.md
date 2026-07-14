@@ -1,17 +1,17 @@
-# ゼロから実践までのAIエージェント構築
+# ゼロから本番までのAIエージェント構築
 
-![ゼロから実践までのAIエージェント構築](../../translated_images/ja/repo-thumbnail.083b24afed61b6dd.webp)
+![ゼロから本番までのAIエージェント構築](../../translated_images/ja/repo-thumbnail.083b24afed61b6dd.webp)
 
-### 🌐 多言語対応
+### 🌐 多言語サポート
 
-#### GitHub Actionで対応（自動化＆常に最新）
+#### GitHub Actionsによるサポート（自動化＆常に最新）
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[アラビア語](../ar/README.md) | [ベンガル語](../bn/README.md) | [ブルガリア語](../bg/README.md) | [ビルマ語（ミャンマー）](../my/README.md) | [中国語（簡体字）](../zh-CN/README.md) | [中国語（繁体字、香港）](../zh-HK/README.md) | [中国語（繁体字、マカオ）](../zh-MO/README.md) | [中国語（繁体字、台湾）](../zh-TW/README.md) | [クロアチア語](../hr/README.md) | [チェコ語](../cs/README.md) | [デンマーク語](../da/README.md) | [オランダ語](../nl/README.md) | [エストニア語](../et/README.md) | [フィンランド語](../fi/README.md) | [フランス語](../fr/README.md) | [ドイツ語](../de/README.md) | [ギリシャ語](../el/README.md) | [ヘブライ語](../he/README.md) | [ヒンディー語](../hi/README.md) | [ハンガリー語](../hu/README.md) | [インドネシア語](../id/README.md) | [イタリア語](../it/README.md) | [日本語](./README.md) | [カンナダ語](../kn/README.md) | [クメール語](../km/README.md) | [韓国語](../ko/README.md) | [リトアニア語](../lt/README.md) | [マレー語](../ms/README.md) | [マラヤーラム語](../ml/README.md) | [マラーティー語](../mr/README.md) | [ネパール語](../ne/README.md) | [ナイジェリア・ピジン語](../pcm/README.md) | [ノルウェー語](../no/README.md) | [ペルシャ語（ファルシ）](../fa/README.md) | [ポーランド語](../pl/README.md) | [ポルトガル語（ブラジル）](../pt-BR/README.md) | [ポルトガル語（ポルトガル）](../pt-PT/README.md) | [パンジャーブ語（グルムキー）](../pa/README.md) | [ルーマニア語](../ro/README.md) | [ロシア語](../ru/README.md) | [セルビア語（キリル）](../sr/README.md) | [スロバキア語](../sk/README.md) | [スロベニア語](../sl/README.md) | [スペイン語](../es/README.md) | [スワヒリ語](../sw/README.md) | [スウェーデン語](../sv/README.md) | [タガログ語（フィリピン）](../tl/README.md) | [タミル語](../ta/README.md) | [テルグ語](../te/README.md) | [タイ語](../th/README.md) | [トルコ語](../tr/README.md) | [ウクライナ語](../uk/README.md) | [ウルドゥー語](../ur/README.md) | [ベトナム語](../vi/README.md)
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](./README.md) | [Kannada](../kn/README.md) | [Khmer](../km/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **ローカルでクローンしたいですか？**
+> **ローカルでクローンしたい場合？**
 >
-> このリポジトリには50以上の言語翻訳が含まれており、ダウンロードサイズが大きくなります。翻訳なしでクローンするにはスパースチェックアウトを使用してください：
+> このリポジトリは50以上の言語翻訳を含んでいるため、ダウンロードサイズが大きくなります。翻訳なしでクローンするにはスパースチェックアウトを使ってください。
 >
 > **Bash / macOS / Linux:**
 > ```bash
@@ -27,10 +27,10 @@
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
 >
-> これによりコース修了に必要なすべてを、より速いダウンロードで入手できます。
+> これにより、コースを完了するために必要なものがすべて含まれ、より高速にダウンロード可能です。
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-## AIエージェント開発ライフサイクルの基礎を教えるコース
+## AIエージェント開発ライフサイクルの基礎を学ぶコース
 
 [![GitHub license](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
 [![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
@@ -42,43 +42,67 @@
 
 ## 🌱 はじめに
 
-このコースはAIエージェントの構築とデプロイの基本について学べるレッスンで構成されています。
+このコースでは、AIエージェントの構築とデプロイの基礎を学べます。
 
-各レッスンは前のレッスンを基にして進むため、最初から順番に最後まで学習することをお勧めします。
+各レッスンは前の内容に基づいているため、最初から順に進めることをおすすめします。
 
-AIエージェントに関するより詳しいトピックを探りたい場合は、[AI Agents For Beginners Course](https://aka.ms/ai-agents-beginners)をご覧ください。
+AIエージェントに関するより多くのトピックを探求したい場合は、[AIエージェント入門コース](https://aka.ms/ai-agents-beginners)をご覧ください。
 
-### 他の学習者と交流し、質問に答えてもらう
+### 他の学習者と交流し、質問を解決
 
-AIエージェント構築で困ったことや疑問があれば、[Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6)の専用Discordチャンネルに参加してください。
+AIエージェントの構築で行き詰まったり質問があれば、[Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6)の専用Discordチャンネルに参加してください。
 
 ### 必要なもの
 
-各レッスンにはローカルで実行できるコードサンプルがあります。このリポジトリは[フォーク](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork)して自分用に複製できます。
 
-現在このコースでは以下を使用しています：
+各レッスンにはローカルで実行できる独自のコードサンプルがあります。自分用のコピーを作るには、[このリポジトリをフォーク](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork)してください。
+
+本コースでは現在、以下を使用しています：
 
 - [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
-- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry)
+- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry) — 展開された<strong>GPT-5シリーズ</strong>モデル（例：`gpt-5.1`）を含むプロジェクトです。廃止されたGPT-4o / GPT-4.1モデルは<strong>使用しないでください</strong>。
 - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-foundry/models/openai)
-- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
+- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest) — サンプルを実行する前に`az login`でサインインしてください
+- **Python 3.12以上**
 
-開始する前にこれらのサービスにアクセスできることを確認してください。
+これらのサービスにアクセスできることを確認してください。
 
-モデルホスティングやサービスに関するより多くのオプションがまもなく登場予定です。
+> **💰 コストとクリーンアップ。** ハンズオンレッスンでは実際のAzureリソースを作成します — Microsoft Foundry
+> プロジェクト、モデル展開、ベクターストア、そして（レッスン4–6では）ホストされたエージェントやツールボックスです。
+> これらは存在している間、コストが発生します。レッスンやコースを終了したら不要な
+> リソースを削除してください。最も簡単な方法は、すべてを専用のリソースグループにまとめ、
+> 終了後にグループごと削除することです。
+>
+> ```bash
+> az group delete --name <your-resource-group> --yes --no-wait
+> ```
+>
+> Foundryポータルから個別のエージェント、ベクターストア、ツールボックスを削除することもできます。
 
-## 🗃️ レッスン一覧
+> **モデルに関する注意。** 本コースではすべてのモデルを<strong>Microsoft Foundry</strong>経由で提供します。<em>GitHub Models</em>は<strong>2026年7月30日</strong>に廃止予定であり、利用していません。Microsoft Foundryは公式の移行パスです。もし古いコードでGitHub Modelsを呼び出している場合は、Foundryのモデル展開に切り替えてください。
+
+
+
+
+モデルホスティングやサービスに関する追加のオプションは近日公開予定です。 
+
+## 🗃️ レッスン
 
 | <strong>レッスン</strong>         | <strong>説明</strong>                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------|
-| [エージェント設計](./lesson-1-agent-design/README.md)       | 「開発者オンボーディング」エージェントユースケースの紹介と効果的なエージェント設計方法  |
-| [エージェント開発](./lesson-2-agent-development/README.md)  | Microsoft Agent Framework (MAF)を使い、新しい開発者のオンボーディングを支援する3つのエージェントを作成 |
-| [エージェント評価](./lesson-3-agent-evals/README.md)  | Microsoft Foundryを使用してAIエージェントの性能を調査・改善方法を学ぶ |
-| [エージェントデプロイ](./lesson-4-agent-deployment/README.md)   | ホストされたエージェントとOpenAI Chatkitを使い、AIエージェントを本番環境へデプロイする方法 |
+| [Agent Design](./lesson-1-agent-design/README.md)       | 「Developer Onboarding」エージェントのユースケース紹介と効果的なエージェント設計方法  |
+| [Agent Development](./lesson-2-agent-development/README.md)  | Microsoft Agent Framework（MAF）を用い、新人開発者のオンボーディング支援のための専門エージェントを構築します。       |
+| [Agent Evaluations](./lesson-3-agent-evals/README.md)  | Microsoft Foundryを活用し、AIエージェントのパフォーマンス評価と改善方法を学びます。 |
+| [Agent Deployment](./lesson-4-agentdeployment/README.md)   | Microsoft FoundryホストエージェントとOpenAI ChatKitを使い、AIエージェントの本番展開方法を確認します。       |
+| [Production Hosted Agents](./lesson-5-hosted-agents-production/README.md)   | ホストエージェントを企業の本番環境に導入：ホストエージェントとCapability Hostsの違い、持ち込みストレージ、メモリ、ガバナンス。       |
 
-## 🎒 他のコース
+| [Microsoft Toolbox](./lesson-6-toolbox/README.md)   | ツールを一度定義し中央で管理：ツールボックスを構築し、1つのMCPエンドポイント経由でエージェントから利用し、ツールのバージョン管理を安全に行います。       |
+| [Multi-Agent & A2A](./lesson-7-multi-agent-a2a/README.md)   | エージェントをネットワーク化されたサービスとして構成：オープンなAgent-to-Agent (A2A)プロトコルでエージェントを公開し、リモートのエージェントをピアとして利用します。       |
 
-私たちのチームは他にもコースを制作しています！ぜひチェックしてください：
+
+## 🎒 その他のコース
+
+私たちのチームは他にもコースを制作しています！ぜひご覧ください：
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -95,56 +119,64 @@ AIエージェント構築で困ったことや疑問があれば、[Microsoft F
 
 ---
  
-### ジェネレーティブAIシリーズ
-[![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+### 生成AIシリーズ
+
+[![初心者のための生成AI](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![生成AI（.NET）](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
+[![生成AI（Java）](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+[![生成AI（JavaScript）](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### コア学習
-[![機械学習初心者向け](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![初心者向け機械学習](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![初心者向けデータサイエンス](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![初心者向けAI](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
 [![初心者向けサイバーセキュリティ](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![初心者向けWeb開発](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![初心者向けIoT](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![初心者向けXR開発](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+
+[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### Copilot シリーズ
-[![AIペアプログラミング向けCopilot](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![C#/.NET向けCopilot](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![Copilot アドベンチャー](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+### Copilotシリーズ
+[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## 貢献について
+## コントリビューション
 
-このプロジェクトでは、貢献や提案を歓迎しています。ほとんどの貢献には、あなたが権利を有し、実際に私たちに貢献物の利用権を付与することを宣言する
-Contributor License Agreement (CLA) への同意が必要です。詳細は <https://cla.opensource.microsoft.com> を参照してください。
+このプロジェクトは、コントリビューションや提案を歓迎します。ほとんどのコントリビューションでは、
+コントリビューションの権利を付与する権限があることを宣言するContributor License Agreement (CLA)の同意が必要です。
+詳細については <https://cla.opensource.microsoft.com> をご覧ください。
 
-プルリクエストを提出する際、CLAボットが自動的にあなたがCLAを提供する必要があるか判別し、PRに適切な装飾（例：ステータスチェック、コメント）をします。
-ボットの指示に従うだけで問題ありません。この手順は私たちのCLAを使用しているすべてのリポジトリで一度だけ行えば十分です。
+プルリクエストを送信すると、CLAボットが自動的にCLAの提出が必要かどうかを判定し、
+PRに適切な装飾（ステータスチェック、コメントなど）を行います。ボットの指示に従ってください。
+これらの手続きは当社のCLAを採用しているすべてのリポジトリで一度だけ行えば十分です。
 
-このプロジェクトでは [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) を採用しています。
-詳細は [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) をご覧いただくか、質問やコメントは [opencode@microsoft.com](mailto:opencode@microsoft.com) までお問い合わせください。
+このプロジェクトは、[Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)を採用しています。
+詳細は[行動規範FAQ](https://opensource.microsoft.com/codeofconduct/faq/)をご覧いただくか、
+追加の質問やコメントがある場合は [opencode@microsoft.com](mailto:opencode@microsoft.com) までお問い合わせください。
 
-## 商標について
+## 商標
 
-このプロジェクトには、プロジェクト、製品、サービスの商標またはロゴが含まれている場合があります。Microsoftの商標またはロゴの許可された使用は、  
-[Microsoft の商標＆ブランドガイドライン](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general) に準拠しなければなりません。  
-本プロジェクトの改変版におけるMicrosoft商標またはロゴの使用は、混同を招いたりMicrosoftの後援を示唆してはなりません。  
-また、第三者の商標またはロゴの使用は、それら第三者のポリシーに従う必要があります。
 
-## サポートについて
+このプロジェクトには、プロジェクト、製品、またはサービスの商標やロゴが含まれている場合があります。Microsoft の商標またはロゴの正当な使用は、
+[Microsoftの商標およびブランド ガイドライン](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general) の規則に従う必要があります。
 
-作成中に行き詰まったり、AIアプリの構築について質問がある場合は、こちらに参加してください：
+このプロジェクトの改変版における Microsoft の商標またはロゴの使用は、混乱を招いたり Microsoft の後援を示唆したりしてはなりません。
+
+第三者の商標またはロゴの使用は、これら第三者のポリシーに従います。
+
+## ヘルプを得る
+
+AIアプリの構築で困ったり質問がある場合は、以下に参加してください：
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-製品のフィードバックや構築中のエラーについては、こちらをご利用ください：
+製品のフィードバックや構築時のエラーに関しては、以下をご利用ください：
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
@@ -152,5 +184,5 @@ Contributor License Agreement (CLA) への同意が必要です。詳細は <htt
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **免責事項**：
-本書類はAI翻訳サービス「[Co-op Translator](https://github.com/Azure/co-op-translator)」を使用して翻訳されました。当サービスは正確さを期しておりますが、自動翻訳には誤りや不正確な部分が含まれる可能性があります。原文は各言語における公式な版を優先してください。重要な情報については、専門の翻訳者による翻訳を推奨します。本翻訳の利用に起因するいかなる誤解や誤訳に対しても、当方は一切の責任を負いかねます。
+本書類は AI 翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を期していますが、自動翻訳には誤りや不正確な部分が含まれる可能性があることをご承知おきください。原文の原語版が正式な情報源とみなされるべきです。重要な情報については、専門の人間による翻訳を推奨します。本翻訳の利用により生じたいかなる誤解や解釈違いについても、当方は責任を負いかねます。
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
