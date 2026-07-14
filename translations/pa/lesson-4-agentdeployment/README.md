@@ -1,48 +1,30 @@
-# Lesson 4: Agent Deployment with Azure AI Foundry Hosted Agents + ChatKit
+# Lesson 4: Agent Deployment with Microsoft Foundry Hosted Agents + ChatKit
 
-ਇਸ ਪਾਠ ਵਿੱਚ ਦਿਖਾਇਆ ਗਿਆ ਹੈ ਕਿ ਕਿਵੇਂ ਇੱਕ ਬਹੁ-ਏਜੰਟ ਵਰਕਫਲੋ ਨੂੰ Azure AI Foundry ਵਿੱਚ ਇੱਕ ਹੋਸਟ ਕੀਤੇ ਏਜੰਟ ਵਜੋਂ ਤਾਇਨਾਤ ਕੀਤਾ ਜਾਵੇ ਅਤੇ ਇਸ ਨਾਲ ਇੰਟਰੈਕਟ ਕਰਨ ਲਈ ChatKit-ਅਧਾਰਿਤ ਫਰੰਟਐਂਡ ਬਣਾਇਆ ਜਾਵੇ।
+This lesson demonstrates how to deploy a tool-using agent to Microsoft Foundry as a hosted agent and create a ChatKit-based frontend to interact with it.
 
 ## Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                         User's Browser                               │
-│                    (ChatKit React Frontend)                          │
-│                      localhost:3000                                  │
-└───────────────────────────┬─────────────────────────────────────────┘
-                            │ HTTP/SSE
-                            ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                     ChatKit Backend Server                           │
-│                    (FastAPI + SQLite Store)                          │
-│                      localhost:8001                                  │
-└───────────────────────────┬─────────────────────────────────────────┘
-                            │ Azure AI Responses API
-                            ▼
-┌─────────────────────────────────────────────────────────────────────┐
-│                    Azure AI Foundry                                  │
-│  ┌───────────────────────────────────────────────────────────────┐  │
-│  │               Hosted Multi-Agent Workflow                      │  │
-│  │  ┌─────────────┐  ┌──────────────────┐  ┌───────────────┐     │  │
-│  │  │   Triage    │──│ Employee Search  │  │   Learning    │     │  │
-│  │  │   Agent     │  │     Agent        │  │    Agent      │     │  │
-│  │  │(Coordinator)│  │ (Vector Store)   │  │ (MCP Tool)    │     │  │
-│  │  └──────┬──────┘  └──────────────────┘  └───────────────┘     │  │
-│  │         │         ┌──────────────────┐                         │  │
-│  │         └─────────│  Coding Agent    │                         │  │
-│  │                   │ (Code Generation)│                         │  │
-│  │                   └──────────────────┘                         │  │
-│  └───────────────────────────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────────────┘
+The hosted agent is a **single `DevOnboardingAgent`** (running on `gpt-5.1`) that answers developer-onboarding questions using two hosted tools: a **File Search** tool over the employee-directory vector store, and the **Microsoft Learn MCP** tool. A ChatKit React frontend talks to a FastAPI backend, which calls the agent through the Foundry **Responses API**.
+
+```mermaid
+flowchart TD
+    U["User's Browser<br/>ChatKit React frontend<br/>localhost:3000"] -->|HTTP / SSE| B["ਚੈਟਕਿਟ ਬੈਕਐਂਡ<br/>FastAPI + SQLite ਸਟੋਰ<br/>localhost:8001"]
+    B -->|Foundry ਜਵਾਬਾਂ API| A
+
+    subgraph F["Microsoft Foundry (ਹੋਸਟ ਕੀਤਾ ਏਜੰਟ)"]
+        A["DevOnboardingAgent<br/>model: gpt-5.1"]
+        A --> T1["ਫਾਇਲ ਖੋਜ ਟੂਲ<br/>employee-directory ਵੇਕਟਰ ਸਟੋਰ"]
+        A --> T2["Microsoft Learn MCP ਟੂਲ<br/>learn.microsoft.com/api/mcp"]
+    end
 ```
 
 ## Prerequisites
 
-1. **Azure AI Foundry Project** ਉੱਤਰ ਮੱਧ US ਖੇਤਰ ਵਿੱਚ
-2. **Azure CLI** ਪ੍ਰਮਾਣਿਤ (`az login`)
-3. **Azure Developer CLI** (`azd`) ਇੰਸਟਾਲ ਕੀਤਾ ਹੋਇਆ
-4. **Python 3.12+** ਅਤੇ **Node.js 18+**
-5. **Vector Store** ਕਰਮਚਾਰੀ ਡੇਟਾ ਨਾਲ ਬਣਾਇਆ ਗਿਆ
+1. **Microsoft Foundry Project** in North Central US region
+2. **Azure CLI** authenticated (`az login`)
+3. **Azure Developer CLI** (`azd`) installed
+4. **Python 3.12+** and **Node.js 18+**
+5. **Vector Store** created with employee data
 
 ## Quick Start
 
@@ -51,7 +33,7 @@
 ```bash
 cd lesson-4-agentdeployment
 cp .env.example .env
-# ਆਪਣੇ Azure AI Foundry ਪ੍ਰੋਜੈਕਟ ਵੇਰਵਿਆਂ ਨਾਲ .env ਨੂੰ ਸੰਪਾਦਿਤ ਕਰੋ
+# ਆਪਣੇ Microsoft Foundry ਪ੍ਰੋਜੈਕਟ ਦੇ ਵੇਰਵੇ .env ਫਾਈਲ ਵਿੱਚ ਸੋਧੋ
 ```
 
 ### 2. Deploy the Hosted Agent
@@ -75,11 +57,11 @@ docker build -t developer-onboarding-agent:latest .
 # ACR ਲਈ ਟੈਗ
 docker tag developer-onboarding-agent:latest <your-acr>.azurecr.io/developer-onboarding-agent:latest
 
-# ACR 'ਤੇ ਧੱਕੋ
+# ACR ਤੇ ਪੁਸ਼ ਕਰੋ
 az acr login --name <your-acr>
 docker push <your-acr>.azurecr.io/developer-onboarding-agent:latest
 
-# Azure AI Foundry ਪੋਰਟਲ ਜਾਂ SDK ਰਾਹੀਂ ਤਾਇਨਾਤ ਕਰੋ
+# Microsoft Foundry ਪੋਰਟਲ ਜਾਂ SDK ਰਾਹੀਂ ਤੈਨਾਤ ਕਰੋ
 ```
 
 ### 3. Start the ChatKit Backend
@@ -87,12 +69,12 @@ docker push <your-acr>.azurecr.io/developer-onboarding-agent:latest
 ```bash
 cd chatkit-server
 python -m venv .venv
-source .venv/bin/activate  # Windows 'ਤੇ: .venv\Scripts\activate
+source .venv/bin/activate  # ਵਿੰਡੋਜ਼ 'ਤੇ: .venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 ```
 
-ਸਰਵਰ `http://localhost:8001` 'ਤੇ ਸ਼ੁਰੂ ਹੋਵੇਗਾ
+The server will start on `http://localhost:8001`
 
 ### 4. Start the ChatKit Frontend
 
@@ -102,26 +84,26 @@ npm install
 npm run dev
 ```
 
-ਫਰੰਟਐਂਡ `http://localhost:3000` 'ਤੇ ਸ਼ੁਰੂ ਹੋਵੇਗਾ
+The frontend will start on `http://localhost:3000`
 
 ### 5. Test the Application
 
-ਆਪਣੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ `http://localhost:3000` ਖੋਲ੍ਹੋ ਅਤੇ ਇਹਨਾਂ ਪ੍ਰਸ਼ਨਾਂ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ:
+Open `http://localhost:3000` in your browser and try these queries:
 
-**ਕਰਮਚਾਰੀ ਖੋਜ:**
-- "ਮੈਂ ਇੱਥੇ ਨਵਾਂ ਹਾਂ! ਕੀ ਕਿਸੇ ਨੇ Microsoft ਵਿੱਚ ਕੰਮ ਕੀਤਾ ਹੈ?"
-- "ਕਿਸ ਕੋਲ Azure Functions ਦਾ ਅਨੁਭਵ ਹੈ?"
+**Employee Search:**
+- "I'm new here! Has anyone worked at Microsoft?"
+- "Who has experience with Azure Functions?"
 
-**ਸਿੱਖਣ ਦੇ ਸਰੋਤ:**
-- "Kubernetes ਲਈ ਸਿੱਖਣ ਦਾ ਰਸਤਾ ਬਣਾਓ"
-- "ਕਲਾਉਡ ਆਰਕੀਟੈਕਚਰ ਲਈ ਮੈਂ ਕਿਹੜੀਆਂ ਸਰਟੀਫਿਕੇਸ਼ਨਾਂ ਕਰਾਂ?"
+**Learning Resources:**
+- "Create a learning path for Kubernetes"
+- "What certifications should I pursue for cloud architecture?"
 
-**ਕੋਡਿੰਗ ਸਹਾਇਤਾ:**
-- "CosmosDB ਨਾਲ ਜੁੜਨ ਲਈ Python ਕੋਡ ਲਿਖਣ ਵਿੱਚ ਮਦਦ ਕਰੋ"
-- "ਮੈਨੂੰ ਦਿਖਾਓ ਕਿ ਕਿਵੇਂ ਇੱਕ Azure Function ਬਣਾਈਏ"
+**Coding Help:**
+- "Help me write Python code for connecting to CosmosDB"
+- "Show me how to create an Azure Function"
 
-**ਬਹੁ-ਏਜੰਟ ਪ੍ਰਸ਼ਨ:**
-- "ਮੈਂ ਕਲਾਉਡ ਇੰਜੀਨੀਅਰ ਵਜੋਂ ਸ਼ੁਰੂ ਕਰ ਰਿਹਾ ਹਾਂ। ਮੈਨੂੰ ਕਿਸ ਨਾਲ ਜੁੜਨਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਕੀ ਸਿੱਖਣਾ ਚਾਹੀਦਾ ਹੈ?"
+**Multi-Agent Queries:**
+- "I'm starting as a cloud engineer. Who should I connect with and what should I learn?"
 
 ## Project Structure
 
@@ -130,7 +112,7 @@ lesson-4-agentdeployment/
 ├── .env.example                 # Environment variables template
 ├── implementation-plan.md       # Detailed implementation guide
 ├── README.md                    # This file
-├── hosted-agent/               # Azure AI Foundry hosted agent
+├── hosted-agent/               # Microsoft Foundry hosted agent
 │   ├── main.py                 # Multi-agent workflow implementation
 │   ├── requirements.txt        # Python dependencies
 │   ├── Dockerfile              # Container definition
@@ -151,46 +133,136 @@ lesson-4-agentdeployment/
             └── index.css
 ```
 
-## The Multi-Agent Workflow
+## The Agent and Its Tools
 
-ਹੋਸਟ ਕੀਤੇ ਏਜੰਟ **HandoffBuilder** ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਨ ਜੋ ਚਾਰ ਵਿਸ਼ੇਸ਼ ਏਜੰਟਾਂ ਨੂੰ ਸਮਨਵਿਤ ਕਰਦਾ ਹੈ:
+The hosted agent is a **single agent** (`DevOnboardingAgent`, defined in `hosted-agent/main.py`) that handles three onboarding domains. Rather than orchestrating separate sub-agents, it exposes each capability as a tool (or relies on the model directly):
 
-| ਏਜੰਟ | ਭੂਮਿਕਾ | ਸੰਦ |
-|-------|---------|-------|
-| **Triage Agent** | ਕੋਆਰਡੀਨੇਟਰ - ਪ੍ਰਸ਼ਨਾਂ ਨੂੰ ਵਿਸ਼ੇਸ਼ਜ્ઞਾਂ ਵੱਲ ਭੇਜਦਾ ਹੈ | ਕੋਈ ਨਹੀਂ |
-| **Employee Search Agent** | ਸਹਿਕਰਮੀ ਅਤੇ ਟੀਮ ਮੈਂਬਰ ਲੱਭਦਾ ਹੈ | HostedFileSearchTool (Vector Store) |
-| **Learning Agent** | ਸਿੱਖਣ ਦੇ ਰਸਤੇ ਅਤੇ ਸਿਫਾਰਸ਼ਾਂ ਬਣਾਉਂਦਾ ਹੈ | HostedMCPTool (Microsoft Learn) |
-| **Coding Agent** | ਕੋਡ ਨਮੂਨੇ ਅਤੇ ਮਦਦ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ | ਕੋਈ ਨਹੀਂ |
+| Capability | How it's handled | Tool |
+|-----------|------------------|------|
+| **Employee search & connections** | Foundry hosted File Search over the employee-directory vector store | `client.get_file_search_tool(vector_store_ids=[...])` |
+| **Learning & training** | Microsoft Learn MCP server (hosted MCP tool) | `client.get_mcp_tool(url="https://learn.microsoft.com/api/mcp")` |
+| **Coding assistance** | Handled by the `gpt-5.1` model directly — no external tool | — |
 
-ਵਰਕਫਲੋ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ:
-- Triage → ਕਿਸੇ ਵੀ ਵਿਸ਼ੇਸ਼ਜ્ઞ ਨੂੰ
-- ਵਿਸ਼ੇਸ਼ਜ्ञ → ਹੋਰ ਵਿਸ਼ੇਸ਼ਜ्ञਾਂ ਨੂੰ (ਸੰਬੰਧਿਤ ਪ੍ਰਸ਼ਨਾਂ ਲਈ)
-- ਵਿਸ਼ੇਸ਼ਜ्ञ → Triage ਨੂੰ (ਨਵੇਂ ਵਿਸ਼ਿਆਂ ਲਈ)
+The agent is created with `client.as_agent(name="DevOnboardingAgent", instructions=..., tools=[file_search_tool, learn_mcp_tool])` and served with `from_agent_framework(agent).run()`.
+
+> **Design note.** Earlier drafts of this lesson used a `HandoffBuilder` multi-agent workflow (Triage → specialists). The shipped agent is a single tool-using agent, which is simpler to deploy and reason about for onboarding-style Q&A. For an example of multi-agent orchestration and handoffs, see Lesson 2 and Lesson 3.
+
+## Smoke Testing the Hosted Agent (CI Gate)
+
+Deploying a hosted agent "successfully" only proves the control plane accepted the
+definition — it does **not** prove the agent actually answers. A missing dependency,
+bad model routing, or an expired connection can leave a green-but-silent agent.
+
+This lesson ships a lightweight **smoke test** that acts as a fast, cheap post-deploy
+gate. It uses the [AI Smoke Test](https://github.com/marketplace/actions/ai-smoke-test)
+GitHub Action to POST prompts to the agent's Foundry **Responses** endpoint
+(`POST {project_endpoint}/agents/{agent_name}/endpoint/protocols/openai/responses`)
+and assert on the returned text. It catches broken deployments, auth regressions,
+system-prompt drift, and threading breakage in seconds.
+
+> Smoke tests are **not** a replacement for the full evaluations in
+> [Lesson 3](../lesson-3-agent-evals/README.md) — they are a complement. Smoke tests
+> answer *"is the agent reachable, responding, and following basic prompt expectations?"*;
+> evaluations answer *"how good is the response?"*. Run the cheap gate on every deploy.
+
+### What gets tested
+
+The catalog lives at [`hosted-agent/tests/smoke-tests.json`](../../../lesson-4-agentdeployment/hosted-agent/tests/smoke-tests.json)
+and exercises the agent's three domains plus prompt adherence and multi-turn threading:
+
+| Test | What it verifies |
+|------|------------------|
+| `reachability` | Agent responds with non-empty, on-scope text |
+| `employee-search` | File-search domain returns a healthy `200` (reply is data-dependent) |
+| `learning-path` | Learning domain echoes the topic and produces a path-style answer |
+| `coding-assistance` | Coding domain returns a code-shaped Python answer |
+| `prompt-adherence-offtopic` | Off-topic request is redirected, not answered in detail |
+| `threading-turn-1/2` | Conversation state is retained across turns via `previous_response_id` |
+
+### Run it in CI
+
+The workflow at [`.github/workflows/smoke-test-hosted-agent.yml`](../../../.github/workflows/smoke-test-hosted-agent.yml)
+has two jobs:
+
+- **`static`** — a fast, no-Azure gate that runs on every pull request and push:
+  it compiles all Python sources (`py_compile`) and checks Markdown links. No secrets
+  required, so it works on fork PRs.
+- **`smoke`** — the Azure-connected smoke test below. It runs on demand
+  (Actions → **Agent CI (static + smoke)** → Run workflow) and can be chained after your
+  deploy workflow.
+
+Configure these repository **variables** and **secrets** for the smoke job:
+
+| Kind | Name | Value |
+|------|------|-------|
+| Variable | `FOUNDRY_PROJECT_ENDPOINT` | `https://<account>.services.ai.azure.com/api/projects/<project>` |
+| Variable | `HOSTED_AGENT_NAME` | Deployed agent name (e.g. `dev-onboarding` — must match your deployment) |
+| Secret | `AZURE_CLIENT_ID` / `AZURE_TENANT_ID` / `AZURE_SUBSCRIPTION_ID` | OIDC federated identity for `azure/login` |
+
+The runner identity needs the **`Azure AI User`** role at **Foundry project scope** so it can
+call the Responses (and conversations) data-plane endpoints. Grant it with:
+
+```bash
+az role assignment create \
+  --assignee <object-id-or-appId-of-runner-identity> \
+  --role "Azure AI User" \
+  --scope "/subscriptions/<sub>/resourceGroups/<rg>/providers/Microsoft.CognitiveServices/accounts/<account>/projects/<project>"
+```
+
+### Run it locally
+
+You can run the same catalog before pushing. Acquire a data-plane token scoped to
+`https://ai.azure.com/` and point the runner at your deployment:
+
+```bash
+# Audience ਨੂੰ https://ai.azure.com/ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ (cognitiveservices.azure.com ਵਾਲੇ ਟੋਕਨ ਰੱਦ ਕੀਤੇ ਜਾਂਦੇ ਹਨ)
+export FOUNDRY_TOKEN=$(az account get-access-token --resource https://ai.azure.com/ --query accessToken -o tsv)
+
+git clone https://github.com/JFolberth/ai-smoketest && cd ai-smoketest
+python runner.py \
+  --project-endpoint "https://<account>.services.ai.azure.com/api/projects/<project>" \
+  --agent-name dev-onboarding \
+  --tests-file ../lesson-4-agentdeployment/hosted-agent/tests/smoke-tests.json
+```
+
+Exit codes: `0` all passed, `1` an assertion failed, `2` runner error (bad catalog / token).
 
 ## Troubleshooting
 
-### ਏਜੰਟ ਜਵਾਬ ਨਹੀਂ ਦੇ ਰਿਹਾ
-- ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਹੋਸਟ ਕੀਤਾ ਏਜੰਟ Azure AI Foundry ਵਿੱਚ ਤਾਇਨਾਤ ਅਤੇ ਚੱਲ ਰਿਹਾ ਹੈ
-- `HOSTED_AGENT_NAME` ਅਤੇ `HOSTED_AGENT_VERSION` ਤੁਹਾਡੇ ਤਾਇਨਾਤ ਨਾਲ ਮੇਲ ਖਾਂਦੇ ਹਨ ਜਾਂ ਨਹੀਂ ਜਾਂਚੋ
+### Agent not responding
+- Verify the hosted agent is deployed and running in Microsoft Foundry
+- Check the `HOSTED_AGENT_NAME` and `HOSTED_AGENT_VERSION` match your deployment
 
-### Vector store ਦੀਆਂ ਗਲਤੀਆਂ
-- ਯਕੀਨੀ ਬਣਾਓ ਕਿ `VECTOR_STORE_ID` ਸਹੀ ਤਰੀਕੇ ਨਾਲ ਸੈੱਟ ਹੈ
-- ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਵੈਕਟਰ ਸਟੋਰ ਵਿੱਚ ਕਰਮਚਾਰੀ ਡੇਟਾ ਹੈ
+### Vector store errors
+- Ensure `VECTOR_STORE_ID` is set correctly
+- Verify the vector store contains the employee data
 
-### ਪ੍ਰਮਾਣਿਕਤਾ ਦੀਆਂ ਗਲਤੀਆਂ
-- `az login` ਚਲਾਓ ਤਾਂ ਜੋ ਪ੍ਰਮਾਣ ਪੱਤਰ ਤਾਜ਼ਾ ਹੋ ਜਾਣ
-- ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਹਾਡੇ ਕੋਲ Azure AI Foundry ਪ੍ਰੋਜੈਕਟ ਦੀ ਪਹੁੰਚ ਹੈ
+### Authentication errors
+- Run `az login` to refresh credentials
+- Ensure you have access to the Microsoft Foundry project
 
 ## Resources
 
-- [Azure AI Foundry Hosted Agents Documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/concepts/hosted-agents)
+- [Microsoft Foundry Hosted Agents Documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/concepts/hosted-agents)
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
 - [ChatKit Integration Sample](https://github.com/microsoft/agent-framework/tree/main/python/samples/demos/chatkit-integration)
 - [Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/overview)
+- [AI Smoke Test GitHub Action](https://github.com/marketplace/actions/ai-smoke-test)
+- [Smoke Test Microsoft Foundry Agents with GitHub Actions (blog)](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/smoke-test-microsoft-foundry-agents-with-github-actions/4531912)
+
+---
+
+## Next Steps
+
+Your agent runs on Microsoft-managed infrastructure. To take it to enterprise production —
+controlling where its data lives (data sovereignty, private networking, bring-your-own Azure
+Cosmos DB / Storage / AI Search) and governing its tools — continue to
+**[Lesson 5: Production Hosted Agents](../lesson-5-hosted-agents-production/README.md)**, which
+explains the crucial difference between **Hosted Agents** and **Capability Hosts**.
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**ਅਸਵੀਕਾਰੋਪੱਤਰ**:  
-ਇਹ ਦਸਤਾਵੇਜ਼ AI ਅਨੁਵਾਦ ਸੇਵਾ [Co-op Translator](https://github.com/Azure/co-op-translator) ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ ਹੈ। ਜਦੋਂ ਕਿ ਅਸੀਂ ਸਹੀਤਾ ਲਈ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ, ਕਿਰਪਾ ਕਰਕੇ ਧਿਆਨ ਵਿੱਚ ਰੱਖੋ ਕਿ ਸਵੈਚਾਲਿਤ ਅਨੁਵਾਦਾਂ ਵਿੱਚ ਗਲਤੀਆਂ ਜਾਂ ਅਸਮਰਥਤਾਵਾਂ ਹੋ ਸਕਦੀਆਂ ਹਨ। ਮੂਲ ਦਸਤਾਵੇਜ਼ ਆਪਣੀ ਮੂਲ ਭਾਸ਼ਾ ਵਿੱਚ ਪ੍ਰਮਾਣਿਕ ਸਰੋਤ ਮੰਨਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ। ਮਹੱਤਵਪੂਰਨ ਜਾਣਕਾਰੀ ਲਈ, ਪੇਸ਼ੇਵਰ ਮਨੁੱਖੀ ਅਨੁਵਾਦ ਦੀ ਸਿਫਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਅਸੀਂ ਇਸ ਅਨੁਵਾਦ ਦੀ ਵਰਤੋਂ ਤੋਂ ਉਤਪੰਨ ਕਿਸੇ ਵੀ ਗਲਤਫਹਿਮੀ ਜਾਂ ਗਲਤ ਵਿਆਖਿਆ ਲਈ ਜ਼ਿੰਮੇਵਾਰ ਨਹੀਂ ਹਾਂ।
+**ਅਸਵੀਕਾਰੋਪਣ**:
+ਇਸ ਦਸਤਾਵੇਜ਼ ਦਾ ਅਨੁਵਾਦ ਏਆਈ ਅਨੁਵਾਦ ਸੇਵਾ [Co-op Translator](https://github.com/Azure/co-op-translator) ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਕੀਤਾ ਗਿਆ ਹੈ। ਜਦੋਂ ਕਿ ਅਸੀਂ ਸਹੀਤਾਵਾਂ ਲਈ ਯਤਨਸ਼ੀਲ ਹਾਂ, ਕਿਰਪਾ ਕਰਕੇ ਧਿਆਨ ਰੱਖੋ ਕਿ ਸਵੈਚਾਲਿਤ ਅਨੁਵਾਦਾਂ ਵਿੱਚ ਗਲਤੀਆਂ ਜਾਂ ਅਸਮੱਤਿਆਵਾਂ ਹੋ ਸਕਦੀਆਂ ਹਨ। ਮੂਲ ਦਸਤਾਵੇਜ਼ ਆਪਣੀ ਮੂਲ ਭਾਸ਼ਾ ਵਿੱਚ ਅਧਿਕਾਰਕ ਸਰੋਤ ਮੰਨਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ। ਜਰੂਰੀ ਜਾਣਕਾਰੀ ਲਈ, ਪੇਸ਼ੇਵਰ ਮਨੁੱਖੀ ਅਨੁਵਾਦ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਅਸੀਂ ਇਸ ਅਨੁਵਾਦ ਦੇ ਉਪਯੋਗ ਤੋਂ ਪੈਦਾ ਹੋਣ ਵਾਲੀਆਂ ਕਿਸੇ ਵੀ ਗਲਤਫਹਿਮੀਆਂ ਜਾਂ ਗਲਤ ਵਿਆਖਿਆਵਾਂ ਲਈ ਜਵਾਬਦੇਹ ਨਹੀਂ ਹਾਂ।
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
