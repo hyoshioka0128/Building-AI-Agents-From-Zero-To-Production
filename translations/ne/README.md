@@ -1,17 +1,17 @@
-# शून्यबाट उत्पादनसम्म AI एजेन्टहरू निर्माण गर्नुहोस्
+# शून्यदेखि उत्पादनसम्म एआई एजेन्टहरू बनाउने
 
-![शून्यबाट उत्पादनसम्म AI एजेन्टहरू निर्माण गर्दै](../../translated_images/ne/repo-thumbnail.083b24afed61b6dd.webp)
+![शून्यदेखि उत्पादनसम्म एआई एजेन्टहरू बनाउने](../../translated_images/ne/repo-thumbnail.083b24afed61b6dd.webp)
 
-### 🌐 बहुभाषीय समर्थन
+### 🌐 बहुभाषी समर्थन
 
-#### GitHub Action मार्फत समर्थित (स्वचालित र सधैं अद्यावधिक)
+#### GitHub Action मार्फत समर्थित (स्वचालित र सँधै अद्यावधिक)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[अरेबिक](../ar/README.md) | [बंगाली](../bn/README.md) | [बुल्गेरियन](../bg/README.md) | [बर्मी (म्यानमार)](../my/README.md) | [चिनियाँ (सरलीकृत)](../zh-CN/README.md) | [चिनियाँ (परम्परागत, हङ कङ)](../zh-HK/README.md) | [चिनियाँ (परम्परागत, मकाओ)](../zh-MO/README.md) | [चिनियाँ (परम्परागत, ताइवान)](../zh-TW/README.md) | [क्रोशियाई](../hr/README.md) | [चेक](../cs/README.md) | [डेनिश](../da/README.md) | [डच](../nl/README.md) | [एस्टोनियाली](../et/README.md) | [फिनिश](../fi/README.md) | [फ्रेन्च](../fr/README.md) | [जर्मन](../de/README.md) | [ग्रीक](../el/README.md) | [हेब्रू](../he/README.md) | [हिन्दी](../hi/README.md) | [हंगेरीयन](../hu/README.md) | [इन्डोनेसियन](../id/README.md) | [इटालियन](../it/README.md) | [जापानी](../ja/README.md) | [कन्नड](../kn/README.md) | [खमेर](../km/README.md) | [कोरियन](../ko/README.md) | [लिथुआनियाली](../lt/README.md) | [मलय](../ms/README.md) | [मलयालम](../ml/README.md) | [मराठी](../mr/README.md) | [नेपाली](./README.md) | [नाइजेरियन पिजिन](../pcm/README.md) | [नर्वेजियन](../no/README.md) | [फारसी (पर्शियन)](../fa/README.md) | [पोलिश](../pl/README.md) | [पोर्तुगाली (ब्राजिल)](../pt-BR/README.md) | [पोर्तुगाली (पोर्तुगल)](../pt-PT/README.md) | [पंजाबी (गुरुमुखी)](../pa/README.md) | [रोमानियन](../ro/README.md) | [रूसी](../ru/README.md) | [सर्बियाली (सिरिलिक)](../sr/README.md) | [स्लोभाक](../sk/README.md) | [स्लोभेनियाली](../sl/README.md) | [स्पेनी](../es/README.md) | [स्वाहिली](../sw/README.md) | [स्विडिश](../sv/README.md) | [टागालोग (फिलिपिनो)](../tl/README.md) | [तमिल](../ta/README.md) | [तेलुगु](../te/README.md) | [थाई](../th/README.md) | [टर्किश](../tr/README.md) | [युक्रेनी](../uk/README.md) | [उर्दू](../ur/README.md) | [भियतनामी](../vi/README.md)
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Khmer](../km/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](./README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **स्थानीय रूपमा क्लोन गर्न प्राथमिकता दिनुहुन्छ?**
+> **स्थानीय रूपमा क्लोन गर्न चाहनुहुन्छ?**
 >
-> यस रिपोजिटरीमा ५०+ भाषा अनुवादहरू समावेश छन् जसले डाउनलोड साइजलाई धेरै बढाउँछ। अनुवादहरू बिना क्लोन गर्न, sparse checkout प्रयोग गर्नुहोस्:
+> यस रिपोजिटरीमा ५० भन्दा बढी भाषा अनुवादहरू समावेश गरिएको छ जसले डाउनलोड आकारमा उल्लेखनीय वृद्धि गर्छ। अनुवाद बिना क्लोन गर्न, sparse checkout प्रयोग गर्नुहोस्:
 >
 > **Bash / macOS / Linux:**
 > ```bash
@@ -27,10 +27,10 @@
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
 >
-> यसले तपाईलाई छिटो डाउनलोडको साथ पाठ्यक्रम पूरा गर्न आवश्यक सबै सामग्री प्रदान गर्दछ।
+> यसले तपाईंलाई कोर्स पूरा गर्न आवश्यक सबै कुरा छिटो डाउनलोडसहित प्रदान गर्छ।
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-## एआई एजेन्ट विकास जीवनचक्रका आधारभूत सिद्धान्तहरू सिकाउने कोर्स
+## एआई एजेन्ट विकास जीवनचक्रका आधारहरू सिकाउने कोर्स
 
 [![GitHub license](https://img.shields.io/github/license/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
 [![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Building-AI-Agents-From-Zero-To-Production.svg)](https://GitHub.com/microsoft/Building-AI-Agents-From-Zero-To-Production/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
@@ -40,46 +40,69 @@
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-## 🌱 सुरु गर्न
+## 🌱 आरम्भ कसरी गर्ने
 
-यस कोर्समा AI एजेन्टहरू निर्माण र परिनियोजन गर्ने आधारभूत कुरा सिकाइन्छ।
+यो कोर्सले AI एजेन्टहरू निर्माण र विकास गर्ने आधारभूत अवधारणाहरू समेट्छ।
 
-प्रत्येक पाठले अघिल्लो पाठमा आधारित हुन्छ, त्यसैले हामी सुरुबाटै सुरु गरी अन्त्यसम्म जान सिफारिस गर्दछौं।
+हरेक पाठले अघिल्लो पाठलाई आधार मान्छ, त्यसैले हामी सिफारिस गर्छौं कि तपाईं सुरुबाट सुरु गरेर अन्तसम्म पढ्नुहोस्।
 
-यदि तपाईं AI एजेन्ट विषयहरूमा धेरै जान्न चाहनुहुन्छ भने, तपाईं [AI एजेन्टहरूका लागि शुरुआत गर्ने कोर्स](https://aka.ms/ai-agents-beginners) जाँच्न सक्नुहुन्छ।
+यदि तपाईं AI एजेन्ट विषयहरूमा अझ बढी खोजी गर्न चाहनुहुन्छ भने, तपाईं [AI एजेन्टहरूका लागि शुरुआतीहरूको कोर्स](https://aka.ms/ai-agents-beginners) हेर्न सक्नुहुन्छ।
 
-### अन्य सिक्नेहरु भेट्नुहोस्, तपाईंका प्रश्नहरूको उत्तर प्राप्त गर्नुहोस्
+### अन्य सिक्नेहरूलाई भेट्नुहोस्, तपाईंका प्रश्नहरूको उत्तर पाउनुहोस्
 
-यदि तपाईं आलमल्लिनु भयो वा AI एजेन्टहरू निर्माण बारे कुनै प्रश्न छ भने, हाम्रो विशेष Discord च्यानल [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6) मा सामेल हुनुहोस्।
+यदि तपाईं फसेका हुनुहुन्छ वा AI एजेन्टहरू बनाउने बारे कुनै प्रश्न छ भने, हाम्रो समर्पित Discord च्यानल [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6) मा सामेल हुनुहोस्।
 
-### के तपाईंलाई चाहिन्छ
+### तपाईंलाई के आवश्यक छ
 
-प्रत्येक पाठसँग आफ्नो कोड नमूना छ जुन तपाईं स्थानीय रूपमा चलाउन सक्नुहुन्छ। तपाईं [यस रिपो फोर्क](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) गरेर आफ्नो प्रतिलिपि बनाउन सक्नुहुन्छ।
 
-यस कोर्सले हाल निम्न प्रयोग गर्दछ:
+प्रत्येक पाठसँग आफ्नै कोड नमुना हुन्छ जुन तपाईं स्थानीय रूपमा चलाउन सक्नुहुन्छ। तपाईं आफ्नो प्रतिलिपि बनाउन [यस रिपोfork गर्नुहोस्](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork)।
 
-- [Microsoft एजेन्ट फ्रेमवर्क (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
-- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry)
-- [Azure OpenAI सेवा](https://azure.microsoft.com/products/ai-foundry/models/openai)
-- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
+यो कोर्स हाल निम्नलिखित प्रयोग गर्दछ:
 
-कृपया सुरु गर्नु अघि यी सेवाहरूको पहुँच सुनिश्चित गर्नुहोस्।
+- [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
+- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry) — एक प्रोजेक्ट जसमा **GPT-5 श्रेणी** मोडेल (जस्तै `gpt-5.1`) लागू गरिएको छ। कृपया सेवानिवृत्त GPT-4o / GPT-4.1 मोडेलहरू प्रयोग नगर्नुहोस्।
+- [Azure OpenAI Service](https://azure.microsoft.com/products/ai-foundry/models/openai)
+- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest) — कुनै पनि नमुना चलाउनु अघि `az login` सँग साइन इन गर्नुहोस्
+- **Python 3.12 वा पछि**
 
-मोडेल होस्टिंग र सेवाहरू सम्बन्धि थप विकल्पहरू चाँडै आउनेछन्।
+कृपया सुरु गर्नु अघि यी सेवाहरूमा तपाईंको पहुँच सुनिश्चित गर्नुहोस्।
+
+> **💰 लागत र सफाई।** व्यावहारिक पाठहरूले वास्तविक Azure संसाधनहरू सिर्जना गर्छन् — एउटा Microsoft Foundry
+> प्रोजेक्ट, मोडेल डिप्लोयमेन्ट, भेक्टर स्टोर, र (पाठहरू ४–६ मा) होस्ट गरिएका एजेन्टहरू र उपकरण बक्सहरू।
+> यी अस्तित्वमा हुँदा लागत लाग्न सक्छ। जब तपाईंले पाठ — वा कोर्स — समाप्त गर्नुहुन्छ भने,
+> तपाईलाई आवश्यक नहुने संसाधनहरू मेटाउनुहोस्। सबै कुरा एक समर्पित स्रोत समूहमा राखेर
+> पूरा समूह मेटाउने सबैभन्दा सरल उपाय हो:
+>
+> ```bash
+> az group delete --name <your-resource-group> --yes --no-wait
+> ```
+>
+> तपाईं फाउन्ड्री पोर्टलबाट व्यक्तिगत एजेन्टहरू, भेक्टर स्टोरहरू, र उपकरण बक्सहरू पनि मेटाउन सक्नुहुन्छ।
+
+> **मोडेलहरूमा टिप्पणी।** यो कोर्स सबै मोडेलहरू **Microsoft Foundry** मार्फत सेवा दिन्छ। यसले *GitHub Models* प्रयोग गर्दैन,
+> जुन **जुलाई ३०, २०२६** मा सेवानिवृत्त हुँदैछ — Microsoft Foundry आधिकारिक माइग्रेशन मार्ग हो।
+> यदि तपाईं संग पुरानो कोड छ जसले GitHub Models लाई कल गर्छ, त्यसलाई Foundry
+> मोडेल डिप्लोयमेन्टतर्फ संकेत गर्नुहोस्।
+
+मोडेल होस्टिङ र सेवाहरूका लागि थप विकल्पहरू चाँडै आउँँदै छन्।
 
 ## 🗃️ पाठहरू
 
-| **पाठ**             | **विवरण**                                                                                             |
-|--------------------|-------------------------------------------------------------------------------------------------------|
-| [एजेन्ट डिजाइन](./lesson-1-agent-design/README.md)       | हाम्रो "डेभलपर अनबोर्डिङ" एजेन्ट प्रयोग मामिला र प्रभावकारी एजेन्टहरू डिजाइन कसरी गर्ने बारे परिचय  |
-| [एजेन्ट विकास](./lesson-2-agent-development/README.md)  | माइक्रोसफ्ट एजेन्ट फ्रेमवर्क (MAF) प्रयोग गरी नयाँ विकासकर्ताहरूको लागि ३ एजेन्टहरू सिर्जना गर्नुहोस्।  |
-| [एजेन्ट मूल्याङ्कन](./lesson-3-agent-evals/README.md)  | Microsoft Foundry प्रयोग गरेर हाम्रा AI एजेन्टहरू कति राम्रो प्रदर्शन गर्दैछन् र कसरी सुधार गर्ने।          |
-| [एजेन्ट परिनियोजन](./lesson-4-agent-deployment/README.md)   | होस्टेड एजेन्ट र OpenAI Chatkit प्रयोग गरेर AI एजेन्टलाई उत्पादनमा कसरी परिनियोजन गर्ने।               |
+| **पाठ**         | **विवरण**                                                                                      |
+|--------------------|--------------------------------------------------------------------------------------------------|
+| [Agent Design](./lesson-1-agent-design/README.md)       | हाम्रो "डेभलपर अनबोर्डिङ" एजेन्ट प्रयोग केस र प्रभावकारी एजेन्टहरू डिजाइन गर्ने तरिका परिचय  |
+| [Agent Development](./lesson-2-agent-development/README.md)  | Microsoft Agent Framework (MAF) प्रयोग गरी नयाँ डेवेलपरहरूलाई सहयोग गर्ने विशेष एजेन्टहरू बनाउने।       |
+| [Agent Evaluations](./lesson-3-agent-evals/README.md)  | Microsoft Foundry प्रयोग गरी हाम्रा AI एजेन्टहरू कत्तिको राम्रो प्रदर्शन गर्दैछन् र सुधार कसरी गर्ने। |
+| [Agent Deployment](./lesson-4-agentdeployment/README.md)   | Microsoft Foundry होस्ट गरिएका एजेन्टहरू र OpenAI ChatKit प्रयोग गरी AI एजेन्ट उत्पादनमा कसरी तैनाथ गर्ने।       |
+| [Production Hosted Agents](./lesson-5-hosted-agents-production/README.md)   | एक होस्ट गरिएको एजेन्टलाई उद्यम उत्पादनमा लैजाने: होस्टेड एजेन्टहरू बनाम क्षमता होस्टहरू, ल्याउनुहोस् आफ्नो संग्रह, मेमोरी, र शासन।       |
+
+| [Microsoft Toolbox](./lesson-6-toolbox/README.md)   | उपकरणहरू एक पटक परिभाषित गर्नुहोस् र तिनीहरूलाई केन्द्रिय रूपमा नियन्त्रित गर्नुहोस्: एउटा टुलबक्स बनाउनुहोस्, एजेन्टबाट एक MCP अन्तबिन्दु मार्फत यसलाई उपभोग गर्नुहोस्, र उपकरणहरूलाई सुरक्षित रूपमा संस्करण गर्नुहोस्।       |
+| [Multi-Agent & A2A](./lesson-7-multi-agent-a2a/README.md)   | एजेन्टहरूलाई नेटवर्क सेवाहरूको रूपमा संयोजन गर्नुहोस्: खुल्ला एजेन्ट-देखि-एजेन्ट (A2A) प्रोटोकल मार्फत एजेन्टलाई प्रदर्शन गर्नुहोस् र एक रिमोट एजेन्टलाई सहकर्मीको रूपमा उपभोग गर्नुहोस्।       |
 
 
-## 🎒 अन्य कोर्सहरू
+## 🎒 अन्य पाठ्यक्रमहरू
 
-हाम्रो टोलीले अन्य कोर्सहरू पनि उत्पादन गर्छ! जाँच गर्नुस्:
+हाम्रो टोलीले अन्य पाठ्यक्रमहरू उत्पादन गर्दछ! जाँच गर्नुहोस्:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -88,7 +111,7 @@
 [![LangChain for Beginners](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
-### Azure / Edge / MCP / Agents
+### Azure / Edge / MCP / एजेन्टहरू
 [![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Edge AI for Beginners](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![MCP for Beginners](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -96,7 +119,8 @@
 
 ---
  
-### Generative AI Series
+### जेनेरेटिभ AI श्रृंखला
+
 [![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
@@ -104,7 +128,7 @@
 
 ---
  
-### कोर शिक्षा
+### मुख्य सिकाइ
 [![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
@@ -115,40 +139,47 @@
 
 ---
  
-### Copilot श्रृंखला
+### कोपिलट श्रृंखला
 [![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
 [![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## योगदान
+## योगदान गर्ने
 
-यो परियोजनाले योगदान र सुझावहरूलाई स्वागत गर्दछ। अधिकांश योगदानहरूका लागि तपाईंले योगदानकर्ताको लाइसेन्स सम्झौता (CLA) मा सहमति जनाउनुपर्छ जुन तपाईंलाई तपाईंको योगदान प्रयोग गर्ने अधिकार दिने कुरा पुष्टि गर्छ। थप जानकारीका लागि भ्रमण गर्नुहोस् <https://cla.opensource.microsoft.com>।
+यस परियोजनाले योगदानहरू र सुझावहरूलाई स्वागत गर्दछ। अधिकांश योगदानहरूका लागि तपाईँले
+Contributor License Agreement (CLA) सँग सहमत हुनुपर्ने हुन्छ जसले तपाईँसँग अधिकार छ भनेर घोषणा गर्दछ,
+र वास्तवमै हामीलाई तपाईँको योगदान प्रयोग गर्ने अधिकार दिनुहुन्छ। विस्तृत जानकारीको लागि <https://cla.opensource.microsoft.com> मा जानुहोस्।
 
-जब तपाईंले पुल अनुरोध पेश गर्नुहुन्छ, CLA बोटले स्वचालित रूपमा निर्धारण गर्दछ कि तपाईंलाई CLA आवश्यक छ वा छैन र PR लाई उपयुक्त रूपमा चिन्हित गर्दछ (जस्तै, स्थिति जाँच, टिप्पणी)। बोटले दिएको निर्देशनहरूलाई पालना गर्नुहोस्। तपाईंले हाम्रो CLA प्रयोग गर्ने सबै रिपोजहरूमा एकपटक मात्र यो गर्नुपर्छ।
+जब तपाईँ पुल अनुरोध पेश गर्नुहुन्छ, CLA बोटले स्वचालित रूपमा निर्धारण गर्नेछ कि तपाईँले CLA प्रदान गर्न आवश्यक छ वा छैन
+र उपयुक्त रूपमा PR लाई सजाउनेछ (जस्तै, स्थिति जाँच, टिप्पणी)। दिइएका निर्देशहरू पालना गर्नुहोस्।
+तपाईँलाई हाम्रा सबै रिपोजहरूमा यो एक पटक मात्र गर्नुपर्नेछ जसले हाम्रो CLA प्रयोग गर्दछ।
 
-यस परियोजनाले [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) अपनाएको छ। थप जानकारीका लागि हेर्नुहोस् [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) वा कुनै अतिरिक्त प्रश्न वा टिप्पणीहरूको लागि [opencode@microsoft.com](mailto:opencode@microsoft.com) मा सम्पर्क गर्नुहोस्।
+यस परियोजनाले [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) अपनाएको छ।
+थप जानकारीको लागि [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) हेर्नुहोस् वा
+थप प्रश्न वा टिप्पणीहरूको लागि [opencode@microsoft.com](mailto:opencode@microsoft.com) मा सम्पर्क गर्नुहोस्।
 
 ## ट्रेडमार्कहरू
 
-यस परियोजनामा परियोजनाहरू, उत्पादनहरू, वा सेवाहरूका ट्रेडमार्कहरू वा लोगोहरू हुन सक्छन्। Microsoft ट्रेडमार्क वा लोगोहरूको आधिकारिक प्रयोग यसमा उल्लेखित र पालन गर्नुपर्नेछ
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general) अनुसार।
-यस परियोजनाका परिवर्तित संस्करणहरूमा Microsoft ट्रेडमार्क वा लोगोहरूको प्रयोगले भ्रम उत्पन्न गर्नु वा Microsoft प्रायोजन संकेत गर्नु हुँदैन।
-तेस्रो पक्षका ट्रेडमार्क वा लोगोहरूको कुनै पनि प्रयोग तिनका नीति अनुसार हुनुपर्छ।
+यस परियोजनामा परियोजना, उत्पादन, वा सेवाहरूका ट्रेडमार्क वा लोगोहरू समावेश हुन सक्छन्।
+Microsoft ट्रेडमार्क वा लोगोहरूको अधिकृत प्रयोग
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general) अनुसरण गर्नुपर्छ।
+यस परियोजनाको परिमार्जित संस्करणहरूमा Microsoft ट्रेडमार्क वा लोगोहरूको प्रयोगले भ्रम नपरोस् वा Microsoft प्रायोजनको संकेत नदिनुहोस्।
+तेस्रो पक्षका ट्रेडमार्क वा लोगोहरूको कुनै पनि प्रयोग तिनका नीतिहरूमा आधारित हुनेछ।
 
-## मद्दत लिनुहोस्
+## सहायता प्राप्त गर्ने
 
-यदि तपाईं अड्कनु भएको छ वा AI अनुप्रयोगहरू निर्माण बारे कुनै प्रश्न छ भने, सामेल हुनुहोस्:
+यदि तपाईँ अड्कनुभयो वा AI एपहरू निर्माण गर्दा कुनै प्रश्न छ भने, यो समूहमा सामेल हुनुहोस्:
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-यदि तपाईंलाई उत्पादन प्रतिक्रिया वा निर्माणका क्रममा त्रुटि भएमा भ्रमण गर्नुहोस्:
+यदि तपाईँसँग उत्पादन प्रतिक्रियाहरू वा निर्माण गर्दा त्रुटिहरू छन् भने, भ्रमण गर्नुहोस्:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**अस्वीकरण**:  
-यस दस्तावेजलाई AI अनुवाद सेवा [Co-op Translator](https://github.com/Azure/co-op-translator) प्रयोग गरी अनुवाद गरिएको हो। हामी सटीकताको प्रयास गर्छौं, तर कृपया सम्झनुहोस् कि स्वचालित अनुवादमा त्रुटि वा अशुद्धता हुन सक्छ। मूल दस्तावेज यसको मूल भाषामा आधिकारिक स्रोत मानिनुपर्छ। महत्वपूर्ण जानकारीको लागि व्यावसायिक मानव अनुवाद सुझाइएको छ। यस अनुवादको प्रयोगबाट उत्पन्न कुनै पनि गलतफहमी वा गलत व्याख्याको लागि हामी जिम्मेवार छैनौं।
+**अस्वीकरण**:
+यो दस्तावेज़ AI अनुवाद सेवा [Co-op Translator](https://github.com/Azure/co-op-translator) प्रयोग गरेर अनुवाद गरिएको हो। हामी सही हुन प्रयास गर्छौं, तर कृपया जानकार हुनुस् कि स्वचालित अनुवादमा त्रुटिहरू वा अशुद्धताहरू हुन सक्छन्। मूल दस्तावेज़ यसको मूल भाषामा आधिकारिक स्रोत मानिनुपर्छ। महत्वपूर्ण जानकारीका लागि व्यावसायिक मानव अनुवाद सिफारिस गरिन्छ। यस अनुवादको प्रयोगबाट उत्पन्न कुनै पनि गलत बुझाइ वा त्रुटिको लागि हामी जिम्मेवार छैनौं।
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
