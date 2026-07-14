@@ -1,96 +1,103 @@
 # Lekce 1: Návrh AI agenta
 
-Vítejte v první lekci kurzu „Budování AI agenta od nuly do produkce“!
+Vítejte u první lekce kurzu „Vytváření AI agenta od nuly do produkce“!
 
-V této lekci pokryjeme:
+V této lekci se budeme věnovat:
 
 - Definování, co jsou AI agenti
   
-- Diskuzi o AI agentní aplikaci, kterou budujeme  
+- Diskuzi o aplikaci AI agenta, kterou budujeme  
 
-- Identifikaci potřebných nástrojů a služeb pro každého agenta
+- Identifikaci potřebných nástrojů a služeb pro každý agent
   
-- Architekturu naší agentní aplikace
+- Návrhu naší Agentní aplikace
   
-Začněme definováním, co je agent a proč bychom je používali v aplikaci.
+Začněme definováním, co je agent a proč bychom ho v aplikaci používali.
+
+> **Než začnete kurz.** Tato první lekce je koncepční — není zde žádný kód k spuštění.
+> Od [Lekce 2](../lesson-2-agent-development/README.md) dál budete potřebovat: **předplatné Azure** s přístupem k **Microsoft Foundry**, nasazený **model řady GPT-5** (například `gpt-5.1` — vyhněte se ukončeným GPT-4o / GPT-4.1), **Python 3.12+** a **Azure CLI** (`az login`). Viz [Co potřebujete](../README.md#what-you-need) v README kurzu pro úplný seznam a odkazy.
+
+
+
+
 
 ## Co jsou AI agenti?
 
 ![Co jsou AI agenti?](../../../translated_images/cs/what-are-ai-agents.47a544a1d03481ab.webp)
 
-Pokud je to vaše první setkání s tím, jak postavit AI agenta, můžete mít otázky, jak přesně definovat, co AI agent je.
+Pokud je to vaše první seznámení s tvorbou AI agenta, možná si kladete otázky, jak přesně definovat, co AI agent je.
 
-Jednoduchý způsob, jak definovat, co AI agent je, je podle komponent, které ho tvoří:
+Jednoduchý způsob, jak definovat AI agenta podle komponent, které ho tvoří:
 
-**Velký jazykový model** – LLM bude pohánět jak schopnost zpracovávat přirozený jazyk od uživatele k interpretaci úkolu, který chce dokončit, tak i interpretovat popisy nástrojů dostupných k dokončení těchto úkolů.
+**Velký jazykový model** - LLM umožňuje jak zpracování přirozeného jazyka od uživatele k pochopení úkolu, který chce splnit, tak i interpretaci popisů nástrojů dostupných k jeho dokončení.
 
-**Nástroje** – To budou funkce, API, datové úložiště a další služby, které LLM může zvolit k použití pro dokončení úkolů požadovaných uživatelem.
+**Nástroje** - Jsou to funkce, API, datové úložiště a další služby, které LLM může zvolit pro splnění zadaných úkolů.
 
-**Paměť** – Takto ukládáme jak krátkodobé, tak dlouhodobé interakce mezi AI agentem a uživatelem. Ukládání a vyhledávání těchto informací je důležité pro zlepšování a ukládání uživatelských preferencí v průběhu času.
+**Paměť** - Zde uchováváme krátkodobé i dlouhodobé interakce mezi AI agentem a uživatelem. Ukládání a získávání těchto informací je důležité pro zlepšování a uchovávání uživatelských preferencí v průběhu času.
 
 ## Náš případ použití AI agenta
 
-![Co stavíme?](../../../translated_images/cs/what-are-we-building.1ff3b9a752eb8570.webp)
+![Co budujeme?](../../../translated_images/cs/what-are-we-building.1ff3b9a752eb8570.webp)
 
-Pro tento kurz postavíme AI agentní aplikaci, která pomůže novým vývojářům začlenit se do našeho týmu pro vývoj AI agentů!
+Pro tento kurz vytvoříme aplikaci AI agenta, která pomáhá novým vývojářům nastoupit do našeho týmu vývoje AI agentů!
 
-Než začneme s vývojem, prvním krokem k vytvoření úspěšné AI agentní aplikace je definovat jasné scénáře, jak očekáváme, že naši uživatelé budou s AI agenty pracovat.
+Než začneme s vývojem, prvním krokem k vytvoření úspěšné aplikace AI agenta je definovat jasné scénáře, jak očekáváme, že naši uživatelé budou s našimi AI agenty pracovat.
 
 Pro tuto aplikaci budeme pracovat s těmito scénáři:
 
-**Scénář 1**: Nový zaměstnanec nastoupí do naší organizace a chce se dozvědět více o týmu, do kterého nastoupil, a jak se s nimi spojit.
+**Scénář 1:** Nový zaměstnanec nastoupí do naší organizace a chce získat více informací o týmu, do kterého se přidal, a jak se s nimi spojit.
 
-**Scénář 2:** Nový zaměstnanec chce vědět, jaký by byl nejlepší první úkol, na kterém by mohl začít pracovat.
+**Scénář 2:** Nový zaměstnanec chce zjistit, jaký by byl nejlepší první úkol, na kterém by začal pracovat.
 
-**Scénář 3:** Nový zaměstnanec chce shromáždit vzdělávací zdroje a ukázky kódu, které mu pomohou začít s dokončením tohoto úkolu.
+**Scénář 3:** Nový zaměstnanec chce sbírat vzdělávací materiály a ukázky kódu, které mu pomohou začít s dokončením tohoto úkolu.
 
 ## Identifikace nástrojů a služeb
 
-Nyní, když máme tyto scénáře vytvořené, dalším krokem je namapovat je na nástroje a služby, které naši AI agenti budou potřebovat k dokončení těchto úkolů.
+Nyní, když máme tyto scénáře vytvořené, dalším krokem je mapovat je na nástroje a služby, které naši AI agenti budou potřebovat k dokončení těchto úkolů.
 
-Tento proces spadá do kategorie inženýrství kontextu, protože se zaměříme na to, aby naši AI agenti měli správný kontext ve správný čas k dokončení úkolů.
+Tento proces spadá do kategorie inženýrství kontextu, protože se zaměříme na to, aby naši AI agenti měli správný kontext ve správný čas pro splnění úkolů.
 
-Pojďme to udělat scénář po scénáři a provést dobrý agentní návrh tím, že vyjmenujeme úkoly, nástroje a požadované výsledky každého agenta.
+Pojďme na to scénář po scénáři a proveďme dobrý agentní návrh tím, že vypíšeme úkoly, nástroje a očekávané výsledky každého agenta.
 
 ![Návrh agenta](../../../translated_images/cs/agent-design.07edb7ae37f47803.webp)
 
-### Scénář 1 – Agent pro vyhledávání zaměstnanců
+### Scénář 1 - Agent pro vyhledávání zaměstnanců
 
-**Úkol** – Odpovídat na otázky o zaměstnancích v organizaci, jako je datum nástupu, aktuální tým, lokalita a poslední pozice.
+**Úkol** - Odpovídat na otázky o zaměstnancích v organizaci, jako je datum přijetí, aktuální tým, lokalita a poslední pozice.
 
-**Nástroje** – Databáze aktuálního seznamu zaměstnanců a organizační schéma
+**Nástroje** - Databáze aktuálního seznamu zaměstnanců a organizační schéma
 
-**Výsledky** – Schopnost získat informace z databáze k odpovědi na obecné organizační otázky a specifické otázky o zaměstnancích.
+**Výsledky** - Schopnost získat informace z databáze pro odpovědi na obecné organizační otázky a specifické otázky o zaměstnancích.
 
-### Scénář 2 – Agent pro doporučení úkolů
+### Scénář 2 - Agent pro doporučení úkolů
 
-**Úkol** – Na základě vývojářských zkušeností nového zaměstnance navrhnout 1–3 problémy, na kterých může nový zaměstnanec pracovat.
+**Úkol** - Na základě vývojářských zkušeností nového zaměstnance navrhnout 1-3 úkoly, na kterých může nový zaměstnanec pracovat.
 
-**Nástroje** – GitHub MCP server pro získání otevřených problémů a vytvoření vývojářského profilu
+**Nástroje** - GitHub MCP server pro získání otevřených problémů a vytvoření vývojářského profilu
 
-**Výsledky** – Schopnost přečíst posledních 5 commitů GitHub profilu a otevřené problémy na GitHub projektu a na základě shody udělat doporučení
+**Výsledky** - Schopnost přečíst posledních 5 commitů na GitHub profilu a otevřené problémy na GitHub projektu a doporučit úkoly na základě shody
 
-### Scénář 3 – Agent asistent kódu
+### Scénář 3 - Agent asistenta pro kódování
 
-**Úkol** – Na základě otevřených problémů doporučených agentem „Doporučení úkolů“ vyhledat zdroje a poskytnout zdroje a generovat ukázky kódu, které pomohou zaměstnanci.
+**Úkol** - Na základě otevřených problémů doporučených agentem „Doporučení úkolů“ vyhledávat a poskytovat zdroje a generovat útržky kódu, které pomohou zaměstnanci.
 
-**Nástroje** – Microsoft Learn MCP pro vyhledání zdrojů a Code Interpreter pro generování vlastních ukázek kódu.
+**Nástroje** - Microsoft Learn MCP k nalezení zdrojů a Code Interpreter k generování vlastních útržků kódu.
 
-**Výsledky** – Pokud uživatel požádá o další pomoc, workflow by měl použít Learn MCP server k poskytnutí odkazů a ukázek zdrojů a poté předat agentovi Code Interpreter generování malých ukázek kódu s vysvětleními.
+**Výsledky** - Pokud uživatel požádá o další pomoc, workflow by měl použít Learn MCP server k poskytnutí odkazů a útržků ke zdrojům a poté předat další zpracování agentovi Code Interpreter generujícímu malé útržky kódu s vysvětlením.
 
-## Architektura naší agentní aplikace
+## Návrh architektury naší Agentní aplikace
 
-Nyní, když jsme definovali každého z našich agentů, vytvořme architektonický diagram, který nám pomůže pochopit, jak budou jednotliví agenti spolupracovat a pracovat samostatně v závislosti na úkolu:
+Nyní, když jsme definovali každého agenta, vytvořme architektonický diagram, který nám pomůže pochopit, jak budou jednotliví agenti spolupracovat i samostatně podle úkolu:
 
 ![Architektura agenta](../../../translated_images/cs/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Další kroky
 
-Nyní, když jsme navrhli každého agenta a náš agentní systém, pojďme přejít k další lekci, kde vyvineme každého z těchto agentů!
+Nyní, když jsme navrhli každého agenta a náš agentní systém, přejděme k další lekci, kde vyvineme každého z těchto agentů!
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Prohlášení o vyloučení odpovědnosti**:  
-Tento dokument byl přeložen pomocí AI překladatelské služby [Co-op Translator](https://github.com/Azure/co-op-translator). Přestože usilujeme o přesnost, mějte prosím na paměti, že automatizované překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho mateřském jazyce by měl být považován za autoritativní zdroj. Pro důležité informace se doporučuje profesionální lidský překlad. Nejsme odpovědní za jakékoliv nedorozumění nebo nesprávné výklady vyplývající z použití tohoto překladu.
+**Prohlášení o omezení odpovědnosti**:
+Tento dokument byl přeložen pomocí AI překladatelské služby [Co-op Translator](https://github.com/Azure/co-op-translator). Přestože usilujeme o co největší přesnost, mějte prosím na paměti, že automatizované překlady mohou obsahovat chyby nebo nepřesnosti. Originální dokument v jeho mateřském jazyce by měl být považován za autoritativní zdroj. Pro kritické informace se doporučuje profesionální lidský překlad. Nejsme odpovědní za jakékoli nedorozumění nebo nesprávné interpretace vzniklé použitím tohoto překladu.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
