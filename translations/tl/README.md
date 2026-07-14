@@ -1,17 +1,17 @@
-# Pagbuo ng mga AI Agent mula Simula hanggang Produksyon
+# Paggawa ng AI Agents mula Zero hanggang Production
 
-![Pagbuo ng mga AI Agent mula Simula hanggang Produksyon](../../translated_images/tl/repo-thumbnail.083b24afed61b6dd.webp)
+![Building AI Agents from Zero to Production](../../translated_images/tl/repo-thumbnail.083b24afed61b6dd.webp)
 
 ### 🌐 Suporta sa Maramihang Wika
 
-#### Sinusuportahan sa pamamagitan ng GitHub Action (Awtomatikong at Palaging Napapanahon)
+#### Sinusuportahan sa pamamagitan ng GitHub Action (Awtomatiko at Laging Napapanahon)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Khmer](../km/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](./README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **Mas gusto mo bang i-clone nang Lokal?**
+> **Mas gusto mo bang Mag-clone nang Lokal?**
 >
-> Kasama sa repository na ito ang 50+ na pagsasalin ng wika na malaki ang dagdag sa laki ng pag-download. Para mag-clone nang walang mga pagsasalin, gamitin ang sparse checkout:
+> Kasama sa repositoryong ito ang 50+ na pagsasalin ng wika na malaki ang dagdag sa laki ng download. Para mag-clone nang walang mga pagsasalin, gamitin ang sparse checkout:
 >
 > **Bash / macOS / Linux:**
 > ```bash
@@ -27,7 +27,7 @@
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
 >
-> Magbibigay ito sa iyo ng lahat ng kailangan mo upang matapos ang kurso nang mas mabilis ang pag-download.
+> Bibigyan ka nito ng lahat ng kailangan mo upang makumpleto ang kurso nang mas mabilis ang pag-download.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
 ## Isang kurso na nagtuturo sa iyo ng mga pundasyon ng AI Agent Development Lifecycle
@@ -42,43 +42,65 @@
 
 ## 🌱 Pagsisimula
 
-Ang kursong ito ay may mga aralin na sumasaklaw sa mga pundasyon ng pagbuo at pag-deploy ng AI Agents.
+May mga aralin ang kursong ito na sumasaklaw sa mga pundasyon ng paggawa at pag-deploy ng AI Agents.
 
-Bawat aralin ay nakabatay sa naunang aralin, kaya inirerekomenda namin na magsimula ka sa simula at sundan hanggang sa katapusan.
+Bawat aralin ay bumubuo mula sa naunang aralin, kaya inirerekumenda naming magsimula ka mula sa simula at sundin hanggang sa katapusan.
 
-Kung gusto mong tuklasin pa ang tungkol sa mga paksa ng AI Agent, maaari mong tingnan ang [AI Agents For Beginners Course](https://aka.ms/ai-agents-beginners).
+Kung nais mong tuklasin pa ang tungkol sa mga paksa ng AI Agent, maaari mong tingnan ang [AI Agents For Beginners Course](https://aka.ms/ai-agents-beginners).
 
-### Makipagkita sa Iba pang mga Nag-aaral, Sagutin ang Iyong mga Tanong
+### Makilala ang Ibang mga Nag-aaral, Sagutin ang Iyong Mga Tanong
 
-Kung ikaw ay natigil o may mga tanong tungkol sa pagbuo ng AI Agents, sumali sa aming dedikadong Discord Channel sa [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
+Kung ikaw ay maipit o may mga tanong tungkol sa paggawa ng AI Agents, sumali sa aming dedikadong Discord Channel sa [Microsoft Foundry Discord](https://discord.gg/Kuaw3ktsu6).
 
-### Mga Kailangan Mo
+### Ano ang Kailangan Mo
 
-Bawat aralin ay may sariling halimbawa ng code na maaari mong patakbuhin nang lokal. Maaari mong [i-fork ang repo na ito](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) para gumawa ng sarili mong kopya.
+Bawat Aralin ay may sariling sample code na maaari mong patakbuhin nang lokal. Maaari mong [i-fork ang repo na ito](https://github.com/microsoft/Building-AI-Agents-From-Zero-To-Production/fork) upang gumawa ng sarili mong kopya.
 
-Gamit ang kursong ito sa kasalukuyan ang mga sumusunod:
+Sa kasalukuyan, ginagamit ng kursong ito ang mga sumusunod:
 
 - [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-beginners/agent-framework)
-- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry)
+- [Microsoft Foundry](https://azure.microsoft.com/products/ai-foundry) — isang proyekto na may naka-deploy na **GPT-5 serye** na modelo (halimbawa `gpt-5.1`). Huwag gamitin ang mga retiradong GPT-4o / GPT-4.1 na mga modelo.
 - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-foundry/models/openai)
-- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
+- [Azure CLI](https://learn.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest) — mag-sign in gamit ang `az login` bago patakbuhin ang anumang sample
+- **Python 3.12 o mas bago**
 
-Pakitiyak na may access ka sa mga serbisyong ito bago magsimula.
+Mangyaring siguraduhin na mayroon kang access sa mga serbisyong ito bago magsimula.
 
-Higit pang mga opsyon tungkol sa pagho-host ng modelo at mga serbisyo ay darating pa.
+> **💰 Gastos at paglilinis.** Ang mga hands-on na aralin ay lumilikha ng mga tunay na Azure resources — isang Microsoft Foundry
+> proyekto, isang deployment ng modelo, isang vector store, at (sa Lessons 4–6) mga hosted agents at mga toolbox.
+> Ang mga ito ay maaaring magdulot ng gastos habang umiiral. Kapag natapos mo ang isang aralin — o ang kurso — burahin ang
+> mga resources na hindi mo na kailangan. Ang pinakasimpleng paraan ay ilagay lahat sa isang dedikadong resource
+> group at burahin ang buong grupo kapag tapos ka na:
+>
+> ```bash
+> az group delete --name <your-resource-group> --yes --no-wait
+> ```
+>
+> Maaari mo ring burahin ang mga indibidwal na agents, vector stores, at mga toolbox mula sa Foundry portal.
+
+> **Paalala tungkol sa mga modelo.** Ang kursong ito ay nagseserbisyo sa lahat ng mga modelo sa pamamagitan ng **Microsoft Foundry**. Hindi nito ginagamit ang *GitHub Models*, na ireretiro sa **Hulyo 30, 2026** — ang Microsoft Foundry ang opisyal na landas ng migrasyon. Kung mayroon kang mas lumang code na tumatawag sa GitHub Models, ituro ito sa isang deployment ng modelo sa Foundry.
+
+
+
+
+Mas marami pang mga opsyon tungkol sa pagho-host ng modelo at mga serbisyo ay paparating na. 
 
 ## 🗃️ Mga Aralin
 
-| **Aralin**            | **Paglalarawan**                                                                                  |
-|-----------------------|-------------------------------------------------------------------------------------------------|
-| [Disenyo ng Agent](./lesson-1-agent-design/README.md)       | Isang pagpapakilala sa aming "Developer Onboarding" na Use Case ng Agent at kung paano magdisenyo ng epektibong mga agent  |
-| [Pagbuo ng Agent](./lesson-2-agent-development/README.md)   | Gamit ang Microsoft Agent Framework (MAF), gumawa ng 3 agent upang tumulong sa bagong mga developer na mag-onboard.       |
-| [Pagsusuri ng Agent](./lesson-3-agent-evals/README.md)      | Gamit ang Microsoft Foundry, tuklasin kung gaano kahusay ang pagganap ng aming mga AI Agents at paano sila mapapabuti.      |
-| [Pag-deploy ng Agent](./lesson-4-agent-deployment/README.md)| Gamit ang Hosted Agents at OpenAI Chatkit, tingnan kung paano i-deploy ang AI Agent sa produksyon.                          |
+| **Aralin**         | **Deskripsyon**                                                                                  |
+|--------------------|--------------------------------------------------------------------------------------------------|
+| [Agent Design](./lesson-1-agent-design/README.md)       | Isang pagpapakilala sa aming "Developer Onboarding" Agent Use Case at kung paano magdisenyo ng epektibong mga agent  |
+| [Agent Development](./lesson-2-agent-development/README.md)  | Gamitin ang Microsoft Agent Framework (MAF), bumuo ng isang hanay ng mga espesyal na agent upang tumulong sa pag-onboard ng mga bagong developer.       |
+| [Agent Evaluations](./lesson-3-agent-evals/README.md)  | Gamit ang Microsoft Foundry, alamin kung gaano kahusay ang performance ng aming AI Agents at kung paano ito mapapabuti. |
+| [Agent Deployment](./lesson-4-agentdeployment/README.md)   | Gamit ang Microsoft Foundry hosted agents at OpenAI ChatKit, tingnan kung paano i-deploy ang isang AI Agent sa produksyon.       |
+| [Production Hosted Agents](./lesson-5-hosted-agents-production/README.md)   | Dalhin ang hosted agent sa enterprise production: Hosted Agents kumpara sa Capability Hosts, gamit ang sariling storage, memory, at pamamahala.       |
+| [Microsoft Toolbox](./lesson-6-toolbox/README.md)   | Magtakda ng mga tool nang minsan lang at pamahalaan ito nang sentralisado: bumuo ng isang toolbox, gamitin ito mula sa isang agent sa pamamagitan ng isang MCP endpoint, at ligtas na i-version ang mga tool.       |
+| [Multi-Agent & A2A](./lesson-7-multi-agent-a2a/README.md)   | Bumuo ng mga agent bilang mga networked service: i-expose ang isang agent sa bukas na Agent-to-Agent (A2A) protocol at gamitin ang isang remote agent bilang kapwa.       |
 
-## 🎒 Iba pang mga Kurso
 
-Ang aming koponan ay gumagawa rin ng iba pang mga kurso! Tingnan ang:
+## 🎒 Iba Pang Mga Kurso
+
+Gumagawa ang aming koponan ng iba pang mga kurso! Tingnan ang:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -96,6 +118,7 @@ Ang aming koponan ay gumagawa rin ng iba pang mga kurso! Tingnan ang:
 ---
  
 ### Generative AI Series
+
 [![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
@@ -103,7 +126,7 @@ Ang aming koponan ay gumagawa rin ng iba pang mga kurso! Tingnan ang:
 
 ---
  
-### Core Learning
+### Pangunahing Pag-aaral
 [![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
@@ -120,41 +143,41 @@ Ang aming koponan ay gumagawa rin ng iba pang mga kurso! Tingnan ang:
 [![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## Pagsusumite ng Ambag
+## Pakikibahagi
 
-Malugod na tinatanggap ng proyektong ito ang mga ambag at mungkahi. Karamihan sa mga ambag ay nangangailangan na sumang-ayon ka sa isang
-Contributor License Agreement (CLA) na nagsasabing mayroon kang karapatan at tunay na binibigay sa amin
-ang mga karapatan na gamitin ang iyong ambag. Para sa mga detalye, bisitahin ang <https://cla.opensource.microsoft.com>.
+Malugod na tinatanggap ng proyektong ito ang mga kontribusyon at suhestiyon. Karamihan sa mga kontribusyon ay nangangailangan na sumang-ayon ka sa isang
+Contributor License Agreement (CLA) na nagsasaad na mayroon kang karapatan, at talagang binibigyan mo kami ng
+mga karapatan na gamitin ang iyong kontribusyon. Para sa mga detalye, bisitahin ang <https://cla.opensource.microsoft.com>.
 
-Kapag nagsumite ka ng pull request, awtomatikong tutuklasin ng isang CLA bot kung kailangan mong magbigay
-ng CLA at ilalagay ang tamang dekorasyon sa PR (halimbawa, status check, komento). Sundin lamang ang mga tagubiling
-ibinigay ng bot. Gagawin mo lamang ito minsan sa lahat ng mga repo na gumagamit ng aming CLA.
+Kapag nagsumite ka ng pull request, awtomatikong tutukoy ang isang CLA bot kung kailangan mong magbigay ng
+CLA at bibigyan ng kaukulang dekorasyon ang PR (hal. status check, komento). Sundin lamang ang mga tagubiling
+ibinigay ng bot. Isang beses mo lamang ito kailangang gawin para sa lahat ng repos na gumagamit ng aming CLA.
 
 Inampon ng proyektong ito ang [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 Para sa karagdagang impormasyon, tingnan ang [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) o
-kontakin ang [opencode@microsoft.com](mailto:opencode@microsoft.com) para sa anumang karagdagang tanong o komento.
+kontakin ang [opencode@microsoft.com](mailto:opencode@microsoft.com) para sa anumang karagdagang mga tanong o komento.
 
-## Tatak-Pangkalakal
+## Mga Tatak ng Kalakal
 
-Maaaring maglaman ang proyektong ito ng mga tatak-pangkalakal o mga logo para sa mga proyekto, produkto, o serbisyo. Ang awtorisadong paggamit ng Microsoft
-mga tatak-pangkalakal o logo ay napapailalim at dapat sumunod sa
+Maaaring naglalaman ang proyektong ito ng mga tatak ng kalakal o logo para sa mga proyekto, produkto, o serbisyo. Ang awtorisadong paggamit ng mga
+tatak ng kalakal o logo ng Microsoft ay napapailalim at dapat sumunod sa
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
-Ang paggamit ng mga tatak-pangkalakal o logo ng Microsoft sa mga binagong bersyon ng proyektong ito ay hindi dapat magdulot ng kalituhan o magpahiwatig ng pagsuporta ng Microsoft.
-Anumang paggamit ng mga tatak-pangkalakal o logo ng ikatlong partido ay napapailalim sa mga patakaran ng mga nasabing ikatlong partido.
+Ang paggamit ng mga tatak ng kalakal o logo ng Microsoft sa mga binagong bersyon ng proyektong ito ay hindi dapat magdulot ng kalituhan o magpahiwatig ng pag-sponsor ng Microsoft.
+Ang anumang paggamit ng mga tatak ng kalakal o logo ng third-party ay napapailalim sa mga patakaran ng mga third-party na iyon.
 
 ## Pagkuha ng Tulong
 
-Kung ikaw ay natigil o may anumang mga tanong tungkol sa paggawa ng AI apps, sumali sa:
+Kung matigil ka o may mga tanong tungkol sa paggawa ng mga AI app, sumali sa:
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/Kuaw3ktsu6)
 
-Kung mayroon kang mga puna sa produkto o mga errors habang nagtatayo, bisitahin ang:
+Kung mayroon kang feedback tungkol sa produkto o mga error habang bumubuo, bisitahin:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Paunawa**:  
-Ang dokumentong ito ay isinalin gamit ang AI translation service na [Co-op Translator](https://github.com/Azure/co-op-translator). Bagamat nagsusumikap kami para sa katumpakan, mangyaring tandaan na ang mga awtomatikong pagsasalin ay maaaring maglaman ng mga error o kamalian. Ang orihinal na dokumento sa kanyang likas na wika ang dapat ituring na pinagtibay na pinagmulan. Para sa mahahalagang impormasyon, inirerekomenda ang propesyonal na pagsasalin ng tao. Hindi kami mananagot sa anumang hindi pagkakaunawaan o maling interpretasyon na nagmula sa paggamit ng pagsasaling ito.
+**Pagtatanggi**:
+Ang dokumentong ito ay isinalin gamit ang serbisyo ng AI translation na [Co-op Translator](https://github.com/Azure/co-op-translator). Bagama't nagsusumikap kami para sa katumpakan, pakatandaan na ang awtomatikong pagsasalin ay maaaring maglaman ng mga pagkakamali o hindi pagkakatugma. Ang orihinal na dokumento sa orihinal nitong wika ang dapat ituring na pangunahing sanggunian. Para sa mahahalagang impormasyon, inirerekomenda ang propesyonal na pagsasalin ng tao. Hindi kami mananagot sa anumang maling pagkakaintindi o maling interpretasyon na nagmula sa paggamit ng pagsasaling ito.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
