@@ -1,74 +1,74 @@
 # Changelog
 
-All beta change dem for **Building AI Agents from Zero to Production** dey inside here.
+All beta beta changes wey dey **Building AI Agents from Zero to Production** dem dey put for here.
 
-The format na based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
-Dis course na beta curriculum wey dem dey dey update live, no be software wey dem dey version am, so entries dey group
-by the date wey dem drop di changes instead of semantic version number.
+The format na from [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+Dis course na living curriculum no be versioned software package, so we go group entries
+by the date wey changes land instead of semantic version number.
 
-## [Unreleased]
+## 13th July 2026
 
 ### Added
-- **Repository hygiene for public sharing** — hardened `.gitignore` with dedicated
+- **Repository hygiene for public sharing** — we make `.gitignore` strong with dedicated
   Python / notebooks / secrets / OS section (env-file variants, `.pytest_cache/`, `.mypy_cache/`,
-  `.ruff_cache/`, `.ipynb_checkpoints/`, `*.egg-info/`), meanwhile we still dey keep each `*.env.example`
-  tracked. Add this `CHANGELOG.md`, an `AGENTS.md` contributor/agent guide, plus course skill
+  `.ruff_cache/`, `.ipynb_checkpoints/`, `*.egg-info/`), but we still dey keep every `*.env.example`
+  wey we dey track. Add this `CHANGELOG.md`, `AGENTS.md` contributor/agent guide, plus course skill
   files.
 
 ### Changed
-- Prepare di repository for public share: clean personal and live-environment identifiers
-  (account, project, resource-group and identity names) dem comot for published docs, plus move the internal
-  modernisation/gap-analysis report comot from the repository (the summary for learners dey inside this
+- We prepare repository for public; scrub all personal and live-environment identifiers
+  (account, project, resource-group and identity names) out from published docs, and move internal
+  modernisation/gap-analysis report comot for repository (the summary wey fain learner dey for this
   changelog).
 
 ## [2026 Foundry modernisation]
 
-Full technical, terminology and curriculum update wey align the course with
+Complete technical, terminology and curriculum refresh to align the course with the
 **Microsoft Foundry 2026** platform. Check `MIGRATION-GUIDE.md` for code-level migration details.
 
 ### Added
 - **Lesson 5 – Production Hosted Agents** (`lesson-5-hosted-agents-production/`): Hosted Agents vs
-  Capability Hosts, make your own Cosmos DB / Storage / AI Search, memory and thread persistence,
+  Capability Hosts, bring-your-own Cosmos DB / Storage / AI Search, memory and thread persistence,
   Hosted MCP approval workflows, and governance checklist.
 - **Lesson 6 – Microsoft Toolbox** (`lesson-6-toolbox/`): define tools once and govern dem
-  centrally, plus a runnable consume sample (`toolbox_agent.py`) wey fit reach toolbox through
-  one MCP endpoint.
-- **Lesson 7 – Multi-Agent & A2A** (`lesson-7-multi-agent-a2a/`): expose one agent for open
+  centrally, plus a runable consume sample (`toolbox_agent.py`) wey dey reach toolbox through one
+  MCP endpoint.
+- **Lesson 7 – Multi-Agent & A2A** (`lesson-7-multi-agent-a2a/`): expose agent over the open
   Agent-to-Agent (A2A) protocol (`a2a_server.py`) and consume remote agent as peer
-  (`a2a_client.py`). Validate live end-to-end.
+  (`a2a_client.py`). E don test live end-to-end.
 - **Task Recommendation Agent** (`lesson-2-agent-development/task-recommendation-agent.py`):
-  implement Lesson 1 Scenario 2 using GitHub remote MCP server as tool.
-- **Vector-store setup script** (`setup_vector_store.py`): create and fill vector store
-  wey employee-search agent depend on (before e dey referenced but e no dey).
+  e implement Lesson 1 Scenario 2 using GitHub remote MCP server as tool.
+- **Vector-store setup script** (`setup_vector_store.py`): e create and populate vector store
+  wey employee-search agent dey rely on (e dey referenced before but e bin dey miss).
 - **CI smoke + static gate** (`.github/workflows/smoke-test-hosted-agent.yml`): `static` job dey run
-  `py_compile` and markdown-link-check for every PR/push; `smoke` job run AI Smoke Test
+  `py_compile` and markdown-link-check on every PR/push; `smoke` job dey run AI Smoke Test
   action against deployed hosted agent (OIDC, `workflow_dispatch`).
-- **Prerequisites and setup guidance** added to all lesson and to root README
+- **Prerequisites and setup guidance** add for every lesson and for root README
   (Python 3.12+, `az login`, model guidance, cost & cleanup).
 - **New flagship doc**: `MIGRATION-GUIDE.md`.
 
 ### Changed
-- **Rebrand**: *Azure AI Foundry* → **Microsoft Foundry** for everywhere for course.
-- **SDK migration** to current Microsoft Agent Framework surface — samples dey use now
-  `agent-framework` `1.2.0` with `FoundryChatClient` and **Responses API**, replace
+- **Rebrand**: *Azure AI Foundry* → **Microsoft Foundry** all over di course.
+- **SDK migration** to current Microsoft Agent Framework surface — samples now dey use
+  `agent-framework` `1.2.0` with `FoundryChatClient` and **Responses API**, wey replace
   old `AzureAIClient` / `AzureAIAgentClient` / `AzureOpenAIChatClient` patterns.
-- **Pinned dependencies**: `requirements.txt` now fix `agent-framework`, `agent-framework-foundry`
-  and related packages so sample fit reproduce well, no install unpinned pre-releases.
-- **Environment variables** align for `deploy.py`, `agent.yaml`, `main.py` and
+- **Pinned dependencies**: `requirements.txt` now pin `agent-framework`, `agent-framework-foundry`
+  and related packages instead of installing unpinned pre-releases, to make samples reproducible.
+- **Environment variables** e align for `deploy.py`, `agent.yaml`, `main.py` and
   `.env.example` files.
-- README architecture diagrams and agent/scenario catalogue rewrite to match code wey dem ship.
+- README architecture diagrams and agent/scenario catalogue e rewrite to match shipped code.
 
 ### Fixed
-- Fix broken root-README link to Lesson 4 (`lesson-4-agentdeployment`).
-- Write previously empty Lesson 3 README (evaluations + observability).
-- Replace deprecated `asyncio.get_event_loop().run_until_complete` pattern for
+- We fix broken root-README link to Lesson 4 (`lesson-4-agentdeployment`).
+- We write the previously empty Lesson 3 README (evaluations + observability).
+- We replace deprecated `asyncio.get_event_loop().run_until_complete` pattern for
   learning-recommendation agent.
 
 ### Deprecated / Removed
-- Remove all use of retired **GPT-4o / GPT-4.1** models. Chat and evaluation samples now use
-  **gpt-5.1**; coding samples use **gpt-5-codex**.
-- Document say **GitHub Models** dey retired (July 30, 2026); course dey serve all models
-  through Microsoft Foundry and no depend on GitHub Models.
+- We remove all use of retired **GPT-4o / GPT-4.1** models. Chat and evaluation samples now dey use
+  **gpt-5.1**; coding samples dey use **gpt-5-codex**.
+- We document say **GitHub Models** dey retire (July 30, 2026); the course dey serve all models
+  through Microsoft Foundry and e no dey depend on GitHub Models.
 
 ---
 
