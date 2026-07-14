@@ -36,17 +36,6 @@
     "language_code": "de"
   },
   "__translation_failures__": {
-    "lesson-2-agent-development/README.md": {
-      "original_hash": "1a8fdc7dd1e2544bbb5d29392dc364db",
-      "source_file": "lesson-2-agent-development/README.md",
-      "language_code": "de",
-      "failure_date": "2026-07-14T03:43:22+00:00",
-      "status": "failed",
-      "error_type": "TranslationIncompleteError",
-      "error_message": "Markdown translation remained incomplete for chunk 1 of 'README.md', and the chunk could not be split further.",
-      "translator_version": "0.20.0",
-      "failure_policy_version": 1
-    },
     "AGENTS.md": {
       "original_hash": "f0b1a0bf6debb012dfd5dc27a88c8b66",
       "source_file": "AGENTS.md",
@@ -55,6 +44,17 @@
       "status": "failed",
       "error_type": "TranslationIncompleteError",
       "error_message": "Markdown translation remained incomplete for chunk 1 of 'AGENTS.md', and the chunk could not be split further.",
+      "translator_version": "0.20.0",
+      "failure_policy_version": 1
+    },
+    "CHANGELOG.md": {
+      "original_hash": "88c631d65a45582d0999fc4076ae226d",
+      "source_file": "CHANGELOG.md",
+      "language_code": "de",
+      "failure_date": "2026-07-14T21:10:48+00:00",
+      "status": "failed",
+      "error_type": "TranslationIncompleteError",
+      "error_message": "Markdown translation remained incomplete for chunk 1 of 'CHANGELOG.md', and the chunk could not be split further.",
       "translator_version": "0.20.0",
       "failure_policy_version": 1
     }
@@ -72,8 +72,8 @@
     "language_code": "de"
   },
   "lesson-2-agent-development/README.md": {
-    "original_hash": "5990c2d40039586841ab255e3395d805",
-    "translation_date": "2026-01-27T11:03:59+00:00",
+    "original_hash": "1a8fdc7dd1e2544bbb5d29392dc364db",
+    "translation_date": "2026-07-14T21:11:12+00:00",
     "source_file": "lesson-2-agent-development/README.md",
     "language_code": "de"
   },
