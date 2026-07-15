@@ -52,6 +52,17 @@
       "error_message": "Markdown translation remained incomplete for chunk 1.1.1 of 'README.md', and the chunk could not be split further.",
       "translator_version": "0.20.0",
       "failure_policy_version": 1
+    },
+    "CHANGELOG.md": {
+      "original_hash": "88c631d65a45582d0999fc4076ae226d",
+      "source_file": "CHANGELOG.md",
+      "language_code": "pt-PT",
+      "failure_date": "2026-07-15T00:29:01+00:00",
+      "status": "failed",
+      "error_type": "TranslationIncompleteError",
+      "error_message": "Markdown translation remained incomplete for chunk 1 of 'CHANGELOG.md', and the chunk could not be split further.",
+      "translator_version": "0.20.0",
+      "failure_policy_version": 1
     }
   },
   "data/employees.md": {
