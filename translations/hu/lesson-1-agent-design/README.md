@@ -1,96 +1,103 @@
-# 1. lecke: AI ügynök tervezés
+# 1. Lecke: MI ügynök tervezés
 
-Üdvözlünk a "Zero-tól a termelésig AI ügynök építése" tanfolyam első leckéjében!
+Üdvözlünk a "MI ügynök építése nulláról a termelésig" tanfolyam első leckéjében!
 
-Ebben a leckében a következőkről lesz szó:
+Ebben a leckében a következő témákat fogjuk érinteni:
 
-- Az AI ügynökök meghatározása
+- Az MI ügynökök meghatározása
+  
+- Az MI ügynök alkalmazás, amit építünk, bemutatása  
 
-- Az AI ügynök alkalmazásunk bemutatása
+- A szükséges eszközök és szolgáltatások azonosítása minden ügynökhöz
+  
+- Az ügynök alkalmazás megtervezése
+  
+Kezdjük azzal, hogy definiáljuk, mi is az az ügynök, és miért használjuk őket egy alkalmazáson belül.
 
-- A szükséges eszközök és szolgáltatások azonosítása minden ügynöknél
+> **Mielőtt elkezded a tanfolyamot.** Ez az első lecke fogalmi jellegű — nincs futtatandó kód.
+> A [2. leckétől](../lesson-2-agent-development/README.md) kezdve szükséged lesz egy **Azure előfizetésre**, amely hozzáfér Microsoft Foundry-hoz, egy telepített **GPT-5 sorozatú modellhez** (például `gpt-5.1` — kerüld a nyugdíjazott GPT-4o / GPT-4.1-et), **Python 3.12+-ra**, valamint az **Azure CLI-re** (`az login`). A teljes listát és linkeket a tanfolyam README-jében, a [Szükséges eszközök](../README.md#what-you-need) szakaszban találod.
 
-- Az ügynök alkalmazásunk architektúrájának megtervezése
 
-Kezdjük azzal, hogy meghatározzuk, mik az ügynökök, és miért használjuk őket egy alkalmazáson belül.
 
-## Mik azok az AI ügynökök?
 
-![Mik azok az AI ügynökök?](../../../translated_images/hu/what-are-ai-agents.47a544a1d03481ab.webp)
 
-Ha most először fedezed fel, hogyan építs AI ügynököt, lehet, hogy kérdéseid vannak arra vonatkozóan, pontosan hogyan definiáljuk az AI ügynököt.
+## Mik azok az MI ügynökök?
 
-Egy egyszerű módja annak, hogy meghatározzuk, mi az AI ügynök, az alkotóelemei alapján:
+![Mik azok az MI ügynökök?](../../../translated_images/hu/what-are-ai-agents.47a544a1d03481ab.webp)
 
-**Nagy Nyelvi Modell** – Az LLM biztosítja mind a természetes nyelv feldolgozásának képességét a felhasználótól, hogy értelmezze a végrehajtandó feladatot, mind pedig az elérhető eszközök leírásainak értelmezését a feladatok elvégzéséhez.
+Ha most találkozol először azzal, hogyan kell MI ügynököt építeni, lehet, hogy kérdéseid vannak arról, mi pontosan az az MI ügynök.
 
-**Eszközök** – Ezek funkciók, API-k, adattárolók és egyéb szolgáltatások, amelyeket az LLM választhat a felhasználó által kért feladatok elvégzéséhez.
+Egyszerű módon megfogalmazva, az MI ügynököt az alkotóelemei alapján határozhatjuk meg:
 
-**Memória** – Ez az, ahogyan tároljuk az AI ügynök és a felhasználó közötti rövid és hosszú távú interakciókat. Ennek az információnak a tárolása és előhívása fontos a fejlesztésekhez és a felhasználói preferenciák időbeli megőrzéséhez.
+**Nagy Nyelvi Modell** — Az LLM biztosítja a képességet, hogy a felhasználó természetes nyelvű utasításait feldolgozza, értelmezze az elvégzendő feladatot, valamint értelmezze azokat az eszközleírásokat, amelyeket a feladatok teljesítéséhez használhat.
 
-## Az AI ügynökünk használati esete
+**Eszközök** — Ezek lehetnek funkciók, API-k, adattárolók és más szolgáltatások, amelyeket az LLM kiválaszthat a felhasználótól kapott feladatok teljesítéséhez.
+
+**Memória** — Így tároljuk az MI ügynök és a felhasználó közötti rövid- és hosszú távú interakciókat. Az információ tárolása és visszakeresése fontos a fejlesztésekhez és a felhasználói preferenciák idővel történő megőrzéséhez.
+
+## A mi MI ügynök alkalmazásunk esete
 
 ![Mit építünk?](../../../translated_images/hu/what-are-we-building.1ff3b9a752eb8570.webp)
 
-Ehhez a tanfolyamhoz egy AI ügynök alkalmazást fogunk építeni, amely segíti az új fejlesztőket az AI ügynök fejlesztő csapatunkhoz való csatlakozásban!
+Ehhez a tanfolyamhoz egy olyan MI ügynök alkalmazást fogunk építeni, amely segíti az új fejlesztők beilleszkedését az MI ügynök fejlesztő csapatunkba!
 
-Mielőtt bármilyen fejlesztési munkába kezdenénk, az első lépés egy sikeres AI ügynök alkalmazás létrehozásához az, hogy világos forgatókönyveket határozzunk meg arra, hogyan várjuk el, hogy a felhasználóink dolgozzanak az AI ügynökeinkkel.
+Mielőtt fejlesztésbe kezdenénk, az első lépés egy sikeres MI ügynök alkalmazás létrehozásához az, hogy világos forgatókönyveket határozzunk meg, hogyan várjuk el, hogy a felhasználók dolgozzanak az MI ügynökeinkkel.
 
 Ehhez az alkalmazáshoz a következő forgatókönyvekkel dolgozunk:
 
-**1. forgatókönyv**: Egy új alkalmazott csatlakozik a szervezetünkhöz, és többet szeretne megtudni a csapatról, amelyhez csatlakozott, és arról, hogyan léphet kapcsolatba velük.
+**Forgatókönyv 1**: Egy új munkatárs csatlakozik a szervezetünkhöz, és többet szeretne tudni az őt körülvevő csapatról és arról, hogyan léphet kapcsolatba velük.
 
-**2. forgatókönyv:** Egy új alkalmazott szeretné megtudni, mi lenne a legjobb első feladat, amin elkezdhet dolgozni.
+**Forgatókönyv 2:** Egy új munkatárs szeretné megtudni, mi lenne a legjobb első feladat, amin elkezdhet dolgozni.
 
-**3. forgatókönyv:** Egy új alkalmazott tanulási forrásokat és kódmintákat szeretne gyűjteni, hogy segítsék őt a feladat elvégzésének megkezdésében.
+**Forgatókönyv 3:** Egy új munkatárs tanulási forrásokat és kódmintákat szeretne összegyűjteni, hogy segítsenek neki elindulni a feladat teljesítésében.
 
 ## Az eszközök és szolgáltatások azonosítása
 
-Most, hogy megvannak ezek a forgatókönyvek, a következő lépés az, hogy hozzárendeljük őket azokhoz az eszközökhöz és szolgáltatásokhoz, amelyekre az AI ügynökeinknek szükségük lesz a feladatok elvégzéséhez.
+Miután ezek a forgatókönyvek elkészültek, a következő lépés, hogy hozzárendeljük őket azokhoz az eszközökhöz és szolgáltatásokhoz, amelyeket az MI ügynököknek használniuk kell a feladatok teljesítéséhez.
 
-Ez a folyamat a Kontextus Mérnökség kategóriájába tartozik, mivel arra fogunk koncentrálni, hogy az AI ügynökeinknek a megfelelő kontextus álljon rendelkezésre a megfelelő időben a feladatok elvégzéséhez.
+Ez a folyamat a Kontextus Mérnökség (Context Engineering) kategóriájába tartozik, mert arra fókuszálunk, hogy az MI ügynökeink a megfelelő kontextussal rendelkezzenek a megfelelő időben a feladatok végrehajtásához.
 
-Tegyük ezt forgatókönyvenként, és végezzünk jó ügynök tervezést azzal, hogy felsoroljuk minden ügynök feladatát, eszközeit és kívánt eredményeit.
+Menjünk forgatókönyvenként végig, és végezzünk jó ügynöki tervezést az egyes ügynökök feladatai, eszközei és elvárt eredményei felsorolásával.
 
 ![Ügynök tervezés](../../../translated_images/hu/agent-design.07edb7ae37f47803.webp)
 
-### 1. forgatókönyv – Alkalmazott kereső ügynök
+### Forgatókönyv 1 - Munkatárs Kereső Ügynök
 
-**Feladat** – Válaszoljon kérdésekre a szervezet alkalmazottairól, például belépési dátum, jelenlegi csapat, helyszín és utolsó pozíció.
+**Feladat** — Válaszoljon kérdésekre a szervezet munkatársaival kapcsolatban, például csatlakozási dátum, aktuális csapat, helyszín és utolsó pozíció.
 
-**Eszközök** – Aktuális alkalmazotti lista és szervezeti ábra adattárolója
+**Eszközök** — Aktuális munkatársak listájának és szervezeti ábrának adattára
 
-**Eredmények** – Képes információt lekérni az adattárolóból általános szervezeti kérdésekre és konkrét alkalmazotti kérdésekre válaszolva.
+**Eredmények** — Képes legyen információkat lekérni az adattárból, hogy általános szervezeti és specifikus munkatársi kérdésekre válaszoljon.
 
-### 2. forgatókönyv – Feladat ajánló ügynök
+### Forgatókönyv 2 - Feladat Ajánló Ügynök
 
-**Feladat** – Az új alkalmazott fejlesztői tapasztalata alapján 1-3 olyan problémát javasolni, amin az új alkalmazott dolgozhat.
+**Feladat** — Az új munkatárs fejlesztői tapasztalata alapján találjon ki 1-3 olyan feladatot, amin dolgozhat.
 
-**Eszközök** – GitHub MCP szerver az nyitott problémák lekéréséhez és fejlesztői profil építéséhez
+**Eszközök** — GitHub MCP szerver az nyitott problémák lekéréséhez és fejlesztői profil építéséhez
 
-**Eredmények** – Képes elolvasni egy GitHub profil utolsó 5 commitját és egy GitHub projekt nyitott problémáit, majd ajánlásokat tenni a megfelelés alapján.
+**Eredmények** — Képes legyen elolvasni egy GitHub profil utolsó 5 commitját és a nyitott problémákat egy GitHub projektben, majd javaslatokat tenni egyezés alapján
 
-### 3. forgatókönyv – Kód asszisztens ügynök
+### Forgatókönyv 3 - Kód Asszisztens Ügynök
 
-**Feladat** – Az "Feladat ajánló" ügynök által javasolt nyitott problémák alapján kutatást végezni, forrásokat biztosítani és kódmintákat generálni az alkalmazott segítésére.
+**Feladat** — Az "Feladat Ajánló" Ügynök által javasolt nyitott problémák alapján kutasson forrásokat és generáljon kódmintákat a munkatárs segítésére.
 
-**Eszközök** – Microsoft Learn MCP a források megtalálásához és Kódértelmező egyedi kódminták generálásához.
+**Eszközök** — Microsoft Learn MCP forráskereséshez és Kódértelmező egyedi kódminták generálásához.
 
-**Eredmények** – Ha a felhasználó további segítséget kér, a munkafolyamat a Learn MCP szervert használja linkek és forrásokhoz tartozó kódminták biztosítására, majd átadja a Kódértelmező ügynöknek a kis kódminták magyarázatokkal történő generálásához.
+**Eredmények** — Ha a felhasználó további segítséget kér, a munkafolyamat használja a Learn MCP szervert, hogy linkeket és forrásokat biztosítson, majd adja át a Kódértelmező ügynöknek, hogy generáljon kis kódrészleteket magyarázatokkal.
 
-## Az ügynök alkalmazásunk architektúrája
+## Ügynök alkalmazásunk architektúrája
 
-Most, hogy meghatároztuk mindegyik ügynökünket, készítsünk egy architektúra diagramot, amely segít megérteni, hogyan működik együtt és külön-külön minden ügynök a feladattól függően:
+Most, hogy meghatároztuk az egyes ügynököket, hozzunk létre egy architektúrális diagramot, amely segít megérteni, hogyan dolgozik együtt és külön az egyes ügynök a feladattól függően:
 
 ![Ügynök architektúra](../../../translated_images/hu/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Következő lépések
 
-Most, hogy megterveztük mindegyik ügynököt és az ügynökrendszerünket, lépjünk tovább a következő leckére, ahol fejlesztjük ezeket az ügynököket!
+Most, hogy megterveztük az egyes ügynököket és az ügynöki rendszert, lépjünk tovább a következő leckére, ahol ezeket az ügynököket fejlesztjük majd!
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Jogi nyilatkozat**:
-Ezt a dokumentumot az AI fordító szolgáltatás, a [Co-op Translator](https://github.com/Azure/co-op-translator) segítségével fordítottuk le. Bár a pontosságra törekszünk, kérjük, vegye figyelembe, hogy az automatikus fordítások hibákat vagy pontatlanságokat tartalmazhatnak. Az eredeti dokumentum az anyanyelvén tekintendő hiteles forrásnak. Fontos információk esetén szakmai, emberi fordítást javaslunk. Nem vállalunk felelősséget a fordítás használatából eredő félreértésekért vagy félreértelmezésekért.
+Ez a dokumentum az AI fordítási szolgáltatás, a [Co-op Translator](https://github.com/Azure/co-op-translator) segítségével készült. Bár az pontosságra törekszünk, kérjük, vegye figyelembe, hogy az automatikus fordítások hibákat vagy pontatlanságokat tartalmazhatnak. Az eredeti dokumentum az anyanyelvén tekintendő hiteles forrásnak. Fontos információk esetén professzionális emberi fordítást javasolunk. Nem vállalunk felelősséget semmilyen félreértésért vagy téves értelmezésért, amely ebből a fordításból ered.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

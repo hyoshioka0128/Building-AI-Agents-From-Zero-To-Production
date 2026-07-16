@@ -30,25 +30,14 @@
     "language_code": "bg"
   },
   "__translation_failures__": {
-    "lesson-1-agent-design/README.md": {
-      "original_hash": "aa3ee7cc3f4ecc906ff982e404ced572",
-      "source_file": "lesson-1-agent-design/README.md",
-      "language_code": "bg",
-      "failure_date": "2026-07-13T15:49:26+00:00",
-      "status": "failed",
-      "error_type": "TranslationIncompleteError",
-      "error_message": "Markdown translation remained incomplete for chunk 1 of 'README.md', and the chunk could not be split further.",
-      "translator_version": "0.20.0",
-      "failure_policy_version": 1
-    },
     "lesson-3-agent-evals/README.md": {
       "original_hash": "38e7ffd3083d4be9c1a7b7dc1bc6de39",
       "source_file": "lesson-3-agent-evals/README.md",
       "language_code": "bg",
-      "failure_date": "2026-07-13T15:53:29+00:00",
+      "failure_date": "2026-07-14T20:48:42+00:00",
       "status": "failed",
       "error_type": "TranslationIncompleteError",
-      "error_message": "Markdown translation remained incomplete for chunk 1.1.2 of 'README.md', and the chunk could not be split further.",
+      "error_message": "Markdown translation remained incomplete for chunk 1.2.1 of 'README.md', and the chunk could not be split further.",
       "translator_version": "0.20.0",
       "failure_policy_version": 1
     },
@@ -64,10 +53,10 @@
       "failure_policy_version": 1
     },
     "CHANGELOG.md": {
-      "original_hash": "c3510e503b2abebde02da3eefb5f6f15",
+      "original_hash": "88c631d65a45582d0999fc4076ae226d",
       "source_file": "CHANGELOG.md",
       "language_code": "bg",
-      "failure_date": "2026-07-13T16:00:09+00:00",
+      "failure_date": "2026-07-14T20:50:49+00:00",
       "status": "failed",
       "error_type": "TranslationIncompleteError",
       "error_message": "Markdown translation remained incomplete for chunk 1 of 'CHANGELOG.md', and the chunk could not be split further.",
@@ -104,8 +93,8 @@
     "language_code": "bg"
   },
   "lesson-1-agent-design/README.md": {
-    "original_hash": "99c07849641a850775c188c9333f31e5",
-    "translation_date": "2025-12-12T18:39:51+00:00",
+    "original_hash": "aa3ee7cc3f4ecc906ff982e404ced572",
+    "translation_date": "2026-07-14T20:43:58+00:00",
     "source_file": "lesson-1-agent-design/README.md",
     "language_code": "bg"
   },
