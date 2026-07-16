@@ -1,96 +1,103 @@
-# Lekcja 1: Projektowanie Agenta AI
+# Lekcja 1: Projektowanie Agenta SI
 
-Witamy w pierwszej lekcji kursu "Budowanie Agenta AI od Zera do Produkcji"!
+Witamy w pierwszej lekcji kursu „Budowanie Agenta SI od zera do produkcji”!
 
 W tej lekcji omówimy:
 
-- Definicję, czym są Agenci AI
+- Definicję czym są Agenty SI
   
-- Omówimy aplikację Agenta AI, którą budujemy  
+- Omówienie aplikacji Agenta SI, którą budujemy  
 
-- Zidentyfikujemy wymagane narzędzia i usługi dla każdego agenta
+- Identyfikację wymaganych narzędzi i usług dla każdego agenta
   
-- Zaprojektujemy naszą aplikację Agenta
+- Architektura naszej aplikacji Agenta
   
-Zacznijmy od zdefiniowania, czym jest agent i dlaczego chcielibyśmy ich używać w aplikacji.
+Zacznijmy od zdefiniowania czym jest agent i dlaczego chcielibyśmy go używać w aplikacji.
 
-## Czym są Agenci AI?
+> **Zanim zaczniesz kurs.** Ta pierwsza lekcja jest koncepcyjna — nie ma żadnego kodu do uruchomienia.
+> Od [Lekcji 2](../lesson-2-agent-development/README.md) będziesz potrzebować: **subskrypcji Azure** z dostępem do **Microsoft Foundry**, wdrożonego modelu serii **GPT-5** (na przykład `gpt-5.1` — unikaj wycofanych modeli GPT-4o / GPT-4.1), **Python 3.12+** oraz **Azure CLI** (`az login`). Zobacz [Co jest potrzebne](../README.md#what-you-need) w README kursu, aby poznać pełną listę i linki.
 
-![Czym są Agenci AI?](../../../translated_images/pl/what-are-ai-agents.47a544a1d03481ab.webp)
 
-Jeśli to Twój pierwszy raz, gdy eksplorujesz, jak zbudować Agenta AI, możesz mieć pytania, jak dokładnie zdefiniować, czym jest Agent AI.
 
-Prosty sposób na zdefiniowanie Agenta AI to przez komponenty, które go tworzą:
 
-**Duży Model Językowy** - LLM będzie napędzał zarówno zdolność do przetwarzania języka naturalnego od użytkownika, aby zinterpretować zadanie, które chce wykonać, jak i interpretować opisy narzędzi dostępnych do realizacji tych zadań.
 
-**Narzędzia** - Będą to funkcje, API, magazyny danych i inne usługi, które LLM może wybrać do użycia, aby wykonać zadania zlecone przez użytkownika.
+## Czym są Agenty SI?
 
-**Pamięć** - To sposób, w jaki przechowujemy zarówno krótkoterminowe, jak i długoterminowe interakcje między Agentem AI a użytkownikiem. Przechowywanie i pobieranie tych informacji jest ważne dla wprowadzania ulepszeń i zapisywania preferencji użytkownika w czasie.
+![Czym są Agenty SI?](../../../translated_images/pl/what-are-ai-agents.47a544a1d03481ab.webp)
 
-## Nasz Przypadek Użycia Agenta AI
+Jeśli jest to Twój pierwszy raz, gdy poznajesz, jak budować Agenta SI, możesz mieć pytania, jak dokładnie zdefiniować, czym jest Agent SI.
 
-![Co Budujemy?](../../../translated_images/pl/what-are-we-building.1ff3b9a752eb8570.webp)
+Prosty sposób na zdefiniowanie Agenta SI przez składniki, z których się składa:
 
-W tym kursie zbudujemy aplikację Agenta AI, która pomaga nowym programistom wdrożyć się do naszego Zespołu Rozwoju Agentów AI!
+**Duży Model Językowy** - LLM zapewnia zarówno zdolność do przetwarzania języka naturalnego od użytkownika, aby zinterpretować zadanie, które chce wykonać, jak i interpretację opisów dostępnych narzędzi do realizacji tych zadań.
 
-Zanim rozpoczniemy prace programistyczne, pierwszym krokiem do stworzenia udanej aplikacji Agenta AI jest zdefiniowanie jasnych scenariuszy, jak oczekujemy, że nasi użytkownicy będą współpracować z naszymi Agentami AI.
+**Narzędzia** - Są to funkcje, API, magazyny danych i inne usługi, które LLM może wybrać do wykorzystania w celu wykonania zadań zleconych przez użytkownika.
+
+**Pamięć** - To sposób przechowywania zarówno krótkoterminowych, jak i długoterminowych interakcji między Agentem SI a użytkownikiem. Przechowywanie i odzyskiwanie tych informacji jest ważne dla dokonywania usprawnień i zapisywania preferencji użytkownika w czasie.
+
+## Nasz przypadek użycia Agenta SI
+
+![Co budujemy?](../../../translated_images/pl/what-are-we-building.1ff3b9a752eb8570.webp)
+
+W tym kursie zbudujemy aplikację Agenta SI, która pomaga nowym deweloperom dołączyć do naszego Zespołu Rozwoju Agentów SI!
+
+Zanim rozpoczniemy prace programistyczne, pierwszym krokiem do stworzenia udanej aplikacji Agenta SI jest określenie jasnych scenariuszy, jak oczekujemy, że nasi użytkownicy będą współpracować z naszymi Agentami SI.
 
 Dla tej aplikacji będziemy pracować z następującymi scenariuszami:
 
-**Scenariusz 1**: Nowy pracownik dołącza do naszej organizacji i chce dowiedzieć się więcej o zespole, do którego dołączył, oraz jak się z nim skontaktować.
+**Scenariusz 1**: Nowy pracownik dołącza do naszej organizacji i chce dowiedzieć się więcej o zespole, do którego dołączył, oraz jak się z nim połączyć.
 
-**Scenariusz 2:** Nowy pracownik chce wiedzieć, jakie będzie najlepsze pierwsze zadanie do rozpoczęcia pracy.
+**Scenariusz 2:** Nowy pracownik chce dowiedzieć się, jakie będzie najlepsze pierwsze zadanie do rozpoczęcia pracy.
 
-**Scenariusz 3:** Nowy pracownik chce zebrać zasoby edukacyjne i przykłady kodu, które pomogą mu zacząć realizować to zadanie.
+**Scenariusz 3:** Nowy pracownik chce zgromadzić materiały szkoleniowe i przykłady kodu, które pomogą mu rozpocząć realizację tego zadania.
 
-## Identyfikacja Narzędzi i Usług
+## Identyfikacja narzędzi i usług
 
-Teraz, gdy mamy stworzone te scenariusze, kolejnym krokiem jest przypisanie ich do narzędzi i usług, których nasi Agenci AI będą potrzebować do wykonania tych zadań.
+Teraz, gdy mamy te scenariusze, następnym krokiem jest dopasowanie ich do narzędzi i usług, które nasi Agenci SI będą potrzebować do realizacji tych zadań.
 
-Ten proces należy do kategorii Inżynierii Kontekstu, ponieważ skupimy się na zapewnieniu, że nasi Agenci AI mają odpowiedni kontekst w odpowiednim czasie, aby wykonać zadania.
+Ten proces zalicza się do kategorii Inżynierii Kontekstowej, ponieważ skupimy się na zapewnieniu, że nasze Agenty SI będą miały właściwy kontekst we właściwym czasie, aby wykonywać zadania.
 
-Zróbmy to scenariusz po scenariuszu i przeprowadźmy dobre projektowanie agentów, wymieniając zadania, narzędzia i oczekiwane rezultaty każdego agenta.
+Zróbmy to scenariusz po scenariuszu i dokonajmy dobrego projektu agentowego, wymieniając zadanie, narzędzia i oczekiwane wyniki każdego agenta.
 
-![Projekt Agenta](../../../translated_images/pl/agent-design.07edb7ae37f47803.webp)
+![Projektowanie Agenta](../../../translated_images/pl/agent-design.07edb7ae37f47803.webp)
 
-### Scenariusz 1 - Agent Wyszukiwania Pracowników
+### Scenariusz 1 - Agent wyszukiwania pracowników
 
-**Zadanie** - Odpowiadanie na pytania o pracowników w organizacji, takie jak data dołączenia, obecny zespół, lokalizacja i ostatnie stanowisko.
+**Zadanie** - Odpowiadanie na pytania o pracowników w organizacji, takie jak data dołączenia, aktualny zespół, lokalizacja i ostatnie stanowisko.
 
 **Narzędzia** - Magazyn danych z aktualną listą pracowników i schemat organizacyjny
 
-**Rezultaty** - Możliwość pobierania informacji z magazynu danych, aby odpowiadać na ogólne pytania organizacyjne i konkretne pytania o pracowników.
+**Wyniki** - Możliwość pobierania informacji z magazynu danych, aby odpowiadać na ogólne pytania organizacyjne oraz konkretne pytania o pracowników.
 
-### Scenariusz 2 - Agent Rekomendacji Zadań
+### Scenariusz 2 - Agent rekomendacji zadań
 
-**Zadanie** - Na podstawie doświadczenia programistycznego nowego pracownika, zaproponować 1-3 zadania, nad którymi nowy pracownik może pracować.
+**Zadanie** - Na podstawie doświadczenia dewelopera nowego pracownika, zaproponować 1-3 zadania, nad którymi nowy pracownik może pracować.
 
-**Narzędzia** - Serwer MCP GitHub do pobierania otwartych zgłoszeń i budowania profilu programisty
+**Narzędzia** - Serwer MCP GitHub do pobierania otwartych problemów i budowania profilu dewelopera
 
-**Rezultaty** - Możliwość odczytania ostatnich 5 commitów profilu GitHub oraz otwartych zgłoszeń w projekcie GitHub i dokonania rekomendacji na podstawie dopasowania
+**Wyniki** - Możliwość odczytania ostatnich 5 zatwierdzeń w profilu GitHub oraz otwartych problemów w projekcie GitHub i tworzenie rekomendacji na podstawie dopasowania
 
-### Scenariusz 3 - Agent Asystenta Kodowania
+### Scenariusz 3 - Agent asystenta kodu
 
-**Zadanie** - Na podstawie otwartych zgłoszeń rekomendowanych przez Agenta "Rekomendacji Zadań", wyszukiwać i dostarczać zasoby oraz generować fragmenty kodu, aby pomóc pracownikowi.
+**Zadanie** - Na podstawie otwartych problemów zalecanych przez agenta „Rekomendacja zadań”, wyszukiwanie i dostarczanie zasobów oraz generowanie fragmentów kodu, które pomogą pracownikowi.
 
-**Narzędzia** - Microsoft Learn MCP do znajdowania zasobów oraz Interpreter Kodów do generowania niestandardowych fragmentów kodu.
+**Narzędzia** - Microsoft Learn MCP do znalezienia zasobów oraz Interpreter kodu do generowania niestandardowych fragmentów kodu.
 
-**Rezultaty** - Jeśli użytkownik poprosi o dodatkową pomoc, przepływ pracy powinien użyć serwera Learn MCP, aby dostarczyć linki i fragmenty do zasobów, a następnie przekazać do agenta Interpreter Kodów, aby wygenerować małe fragmenty kodu z wyjaśnieniami.
+**Wyniki** - Jeśli użytkownik poprosi o dodatkową pomoc, przepływ pracy powinien użyć serwera Learn MCP do dostarczenia linków i fragmentów do zasobów, a następnie przekazać zadanie agentowi Interpreter kodu, aby wygenerować małe fragmenty kodu z wyjaśnieniami.
 
-## Projektowanie architektury naszej aplikacji Agenta
+## Architektura naszej aplikacji Agenta
 
-Teraz, gdy zdefiniowaliśmy każdego z naszych Agentów, stwórzmy diagram architektury, który pomoże nam zrozumieć, jak każdy agent będzie współpracował i działał osobno w zależności od zadania:
+Teraz, gdy zdefiniowaliśmy każdego z naszych agentów, stwórzmy diagram architektury, który pomoże nam zrozumieć, jak każdy agent będzie współdziałał i pracował oddzielnie w zależności od zadania:
 
 ![Architektura Agenta](../../../translated_images/pl/agent-architecture.4fd5efa371e77a3c.webp)
 
 ## Kolejne kroki
 
-Teraz, gdy zaprojektowaliśmy każdego agenta i nasz system agentowy, przejdźmy do następnej lekcji, w której opracujemy każdego z tych agentów!
+Teraz, gdy zaprojektowaliśmy każdego agenta i nasz system agentowy, przejdźmy do następnej lekcji, gdzie rozwiniemy każdego z tych agentów!
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Zastrzeżenie**:  
-Niniejszy dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mimo że dokładamy starań, aby tłumaczenie było jak najbardziej precyzyjne, prosimy mieć na uwadze, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w języku źródłowym należy traktować jako źródło wiarygodne i autorytatywne. W przypadku informacji o kluczowym znaczeniu zalecane jest skorzystanie z profesjonalnego tłumaczenia wykonanego przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z korzystania z tego tłumaczenia.
+**Zastrzeżenie**:
+Niniejszy dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Choć dążymy do dokładności, prosimy pamiętać, że automatyczne tłumaczenia mogą zawierać błędy lub niedokładności. Oryginalny dokument w jego języku źródłowym należy uznawać za autorytatywne źródło. W przypadku informacji krytycznych zalecane jest skorzystanie z profesjonalnego tłumaczenia wykonanego przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z użycia tego tłumaczenia.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
