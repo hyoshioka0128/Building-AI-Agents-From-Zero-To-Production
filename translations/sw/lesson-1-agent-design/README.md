@@ -1,96 +1,103 @@
-# Somo la 1: Ubunifu wa Wakala wa AI
+# Somo la 1: Muundo wa Wakala wa AI
 
-Karibu kwenye somo la kwanza la "Kozi ya Kujenga Wakala wa AI kutoka Mwanzo hadi Uzalishaji"!
+Karibu kwenye somo la kwanza la "Kozi ya Kujenga Wakala wa AI Kuanzia Sifuri hadi Uzalishaji"!
 
-Katika somo hili tutashughulikia:
+Katika somo hili tutazungumzia:
 
-- Kuelezea ni Wakala wa AI ni nini
+- Kufafanua ni nini Wakala wa AI
   
 - Kujadili Programu ya Wakala wa AI tunayoijenga  
 
 - Kutambua zana na huduma zinazohitajika kwa kila wakala
   
-- Kuunda usanifu wa Programu yetu ya Wakala
+- Kupanua Programu ya Wakala wetu
   
-Tuanze kwa kuelezea ni wakala ni nini na kwa nini tungetumia ndani ya programu.
+Hebu tuanze kwa kufafanua wakala ni nini na kwa nini tungetumia ndani ya programu.
+
+> **Kabla ya kuanza kozi.** Somo hili la kwanza ni la dhana — hakuna msimbo wowote wa kuendesha.
+> Kuanzia [Somo la 2](../lesson-2-agent-development/README.md) utahitaji: **usajili wa Azure** na ufikiaji wa **Microsoft Foundry**, mfano wa **mfululizo wa GPT-5 uliozinduliwa** (kwa mfano `gpt-5.1` — epuka GPT-4o / GPT-4.1 zilizotangazwa), **Python 3.12+**, na **Azure CLI** (`az login`). Angalia [Unachohitaji](../README.md#what-you-need) kwenye README ya kozi kwa orodha kamili na viungo.
+
+
+
+
 
 ## Wakala wa AI ni Nini?
 
 ![What Are AI Agents?](../../../translated_images/sw/what-are-ai-agents.47a544a1d03481ab.webp)
 
-Ikiwa huu ni mara yako ya kwanza kuchunguza jinsi ya kujenga Wakala wa AI, unaweza kuwa na maswali juu ya jinsi ya kuelezea hasa ni nini Wakala wa AI.
+Ikiwa huu ni wakati wako wa kwanza kuchunguza jinsi ya kujenga Wakala wa AI, unaweza kuwa na maswali juu ya jinsi ya kufafanua hasa ni nini Wakala wa AI.
 
-Njia rahisi ya kuelezea ni kwa vipengele vinavyounda:
+Kwa njia rahisi ya kufafanua Wakala wa AI ni kwa sehemu zinazounda:
 
-**Mfano Mkubwa wa Lugha** - LLM itakuwa na uwezo wa kuchakata lugha ya asili kutoka kwa mtumiaji ili kufasiri kazi wanayotaka kukamilisha pamoja na kufasiri maelezo ya zana zinazopatikana kukamilisha kazi hizo.
+**Mfano Mkubwa wa Lugha (LLM)** - LLM itatoa nguvu kwa uwezo wa kuchakata lugha ya asili kutoka kwa mtumiaji kuelewa kazi wanayotaka kufanya pamoja na kuelewa maelezo ya zana zinazopatikana kusaidia kukamilisha kazi hizo.
 
-**Zana** - Hizi zitakuwa ni kazi, API, hifadhidata na huduma nyingine ambazo LLM inaweza kuchagua kutumia kukamilisha kazi zinazotakiwa na mtumiaji.
+**Zana** - Hizi zitakuwa ni kazi, API, hifadhidata na huduma nyingine ambazo LLM inaweza kuchagua kutumia kukamilisha kazi zilizohitajiwa na mtumiaji.
 
-**Kumbukumbu** - Hii ni jinsi tunavyohifadhi mwingiliano wa muda mfupi na mrefu kati ya Wakala wa AI na mtumiaji. Kuhifadhi na kupata taarifa hii ni muhimu kwa kufanya maboresho na kuhifadhi mapendeleo ya mtumiaji kwa muda.
+**Kumbukumbu** - Hii ni jinsi tunavyohifadhi mwingiliano wa muda mfupi na mrefu kati ya Wakala wa AI na mtumiaji. Kuhifadhi na kutoa taarifa hii ni muhimu kwa kufanya maboresho na kuhifadhi mapendeleo ya mtumiaji kwa muda.
 
-## Mfano wa Matumizi ya Wakala wetu wa AI
+## Kesi Yetu ya Matumizi ya Wakala wa AI
 
 ![What Are We Building?](../../../translated_images/sw/what-are-we-building.1ff3b9a752eb8570.webp)
 
-Kwa kozi hii, tutajenga programu ya Wakala wa AI inayosaidia waendelezaji wapya kujiunga na Timu yetu ya Maendeleo ya Wakala wa AI!
+Kwa kozi hii, tutajenga programu ya Wakala wa AI inayosaidia watengenezaji wapya kujiunga na Timu yetu ya Maendeleo ya Wakala wa AI!
 
-Kabla ya kufanya kazi yoyote ya maendeleo, hatua ya kwanza ya kuunda programu ya Wakala wa AI yenye mafanikio, ni kufafanua hali wazi za jinsi tunavyotarajia watumiaji wetu kufanya kazi na Wakala wetu wa AI.
+Kabla ya kufanya kazi yoyote ya maendeleo, hatua ya kwanza ya kuunda programu ya Wakala wa AI yenye mafanikio ni kufafanua kwa uwazi matukio tunayotarajia watumiaji wetu kufanya kazi nao.
 
-Kwa programu hii, tutafanya kazi na hali hizi:
+Kwa programu hii, tutatumia matukio haya:
 
-**Hali 1**: Mfanyakazi mpya anaingia shirika letu na anataka kujua zaidi kuhusu timu aliyoiungana nayo na jinsi ya kuwasiliana nao.
+**Kesi ya Matukio 1**: Mfanyakazi mpya ana jiunga na shirika letu na anataka kujua zaidi kuhusu timu aliyoiandikishwa na jinsi ya kuungana nao.
 
-**Hali 2:** Mfanyakazi mpya anataka kujua ni kazi gani bora ya kwanza kwao kuanza kufanya kazi.
+**Kesi ya Matukio 2:** Mfanyakazi mpya anataka kujua ni kazi gani bora ya kwanza kwa ajili yao kuanza kufanya.
 
-**Hali 3:** Mfanyakazi mpya anataka kukusanya rasilimali za kujifunza na mifano ya msimbo kusaidia kuanza kukamilisha kazi hii.
+**Kesi ya Matukio 3:** Mfanyakazi mpya anataka kukusanya rasilimali za kujifunza na mifano ya msimbo kusaidia kuanza kukamilisha kazi hii.
 
 ## Kutambua Zana na Huduma
 
-Sasa tunapokuwa na hali hizi zilizoundwa, hatua inayofuata ni kuzibadilisha kuwa zana na huduma ambazo wakala wetu wa AI watahitaji kukamilisha kazi hizi.
+Sasa baada ya kuunda matukio haya, hatua inayofuata ni kuyalinganisha na zana na huduma ambazo wakala wetu wa AI atahitaji kukamilisha majukumu haya.
 
-Mchakato huu unaangukia katika kundi la Uhandisi wa Muktadha kwani tutazingatia kuhakikisha Wakala wetu wa AI wana muktadha sahihi kwa wakati sahihi kukamilisha kazi.
+Mchakato huu unashuka katika aina ya Uhandisi wa Muktadha ambapo tutazingatia kuhakikisha Wakala wetu wa AI wana muktadha sahihi kwa wakati unaofaa kukamilisha majukumu.
 
-Tufanye hivi hali kwa hali na kufanya ubunifu mzuri wa wakala kwa kuorodhesha kazi, zana na matokeo yanayotarajiwa ya kila wakala.
+Tufanye hili kesi kwa kesi na tufanye muundo mzuri wa wakala kwa kuorodhesha kila kazi ya wakala, zana na matokeo yanayotakiwa.
 
 ![Agent Design](../../../translated_images/sw/agent-design.07edb7ae37f47803.webp)
 
-### Hali 1 - Wakala wa Utafutaji wa Mfanyakazi
+### Kesi ya Matukio 1 - Wakala wa Utafutaji wa Mfanyakazi
 
-**Kazi** - Jibu maswali kuhusu wafanyakazi katika shirika kama tarehe ya kujiunga, timu ya sasa, eneo na nafasi ya mwisho.
+**Kazi** -  Kujibu maswali kuhusu wafanyakazi katika shirika kama tarehe ya kujiunga, timu ya sasa, eneo na nafasi ya mwisho.
 
 **Zana** - Hifadhidata ya orodha ya wafanyakazi wa sasa na chati ya shirika
 
-**Matokeo** - Kuweza kupata taarifa kutoka hifadhidata kujibu maswali ya jumla ya shirika na maswali maalum kuhusu wafanyakazi.
+**Matokeo** - Kuwa na uwezo wa kupata taarifa kutoka kwenye hifadhidata kujibu maswali ya jumla ya shirika na maswali ya wafanyakazi mahususi.
 
-### Hali 2 - Wakala wa Mapendekezo ya Kazi
+### Kesi ya Matukio 2 - Wakala wa Mapendekezo ya Kazi
 
-**Kazi** - Kulingana na uzoefu wa waendelezaji wa mfanyakazi mpya, toa masuala 1-3 ambayo mfanyakazi mpya anaweza kufanya kazi juu yake.
+**Kazi** - Kulingana na uzoefu wa mtengenezaji wa mfanyakazi mpya, kutoa masuala 1-3 ambayo mfanyakazi huyo anaweza kufanya kazi nayo.
 
-**Zana** - Seva ya MCP ya GitHub kupata masuala yaliyofunguliwa na kujenga wasifu wa mendelezaji
+**Zana** - GitHub MCP Server kupata masuala yaliyo wazi na kujenga wasifu wa mtengenezaji
 
-**Matokeo** - Kuweza kusoma mabadiliko 5 ya mwisho ya Wasifu wa GitHub na masuala yaliyofunguliwa kwenye mradi wa GitHub na kutoa mapendekezo kulingana na mechi
+**Matokeo** - Kuwa na uwezo wa kusoma marekebisho ya mwisho 5 ya Wasifu wa GitHub na masuala yaliyo wazi kwenye mradi wa GitHub na kutoa mapendekezo kulingana na mlingano
 
-### Hali 3 - Wakala Msaidizi wa Msimbo
+### Kesi ya Matukio 3 - Wakala Msaidizi wa Msimbo
 
-**Kazi** - Kulingana na Masuala ya Funguliwa yaliyopendekezwa na Wakala wa "Mapendekezo ya Kazi", fanya utafiti na toa rasilimali na tengeneza vipande vya msimbo kusaidia mfanyakazi.
+**Kazi** - Kulingana na Masuala ya wazi yaliyo pendekezwa na Wakala wa "Mapendekezo ya Kazi", fanya utafiti na toa rasilimali pamoja na tengeneza vipande vya msimbo kusaidia mfanyakazi.
 
-**Zana** - Microsoft Learn MCP kupata rasilimali na Mfasiri wa Msimbo kutengeneza vipande vya msimbo maalum.
+**Zana** - Microsoft Learn MCP kupata rasilimali na Code Interpreter kuunda vipande vya msimbo vya kibinafsi.
 
-**Matokeo** - Ikiwa mtumiaji ataomba msaada zaidi, mtiririko wa kazi unapaswa kutumia Seva ya Learn MCP kutoa viungo na vipande vya rasilimali kisha kuhamisha kwa wakala wa Mfasiri wa Msimbo kutengeneza vipande vidogo vya msimbo na maelezo.
+**Matokeo** - Ikiwa mtumiaji ataomba msaada zaidi, mchakato unapaswa kutumia Learn MCP Server kutoa viungo na vipande vya rasilimali kisha kuhamisha kwa wakala wa Code Interpreter kuunda vipande vidogo vya msimbo pamoja na maelezo.
 
-## Kuunda Usanifu wa Programu Yetu ya Wakala
+## Kupanua Programu Yetu ya Wakala
 
-Sasa tunapokuwa tumefafanua kila Wakala wetu, hebu tengeneze mchoro wa usanifu utakaotusaidia kuelewa jinsi kila wakala atakavyofanya kazi pamoja na kwa tofauti kulingana na kazi:
+Sasa baada ya kufafanua kila Wakala wetu, hebu tengeneze mchoro wa muundo utakaotuwezesha kuelewa jinsi wakala kila mmoja atakavyoshirikiana au kufanya kazi peke yake kulingana na kazi:
 
 ![Agent Architecture](../../../translated_images/sw/agent-architecture.4fd5efa371e77a3c.webp)
 
-## Hatua Zifuatazo
+## Hatua Zijazo
 
-Sasa tunapokuwa tumebuni kila wakala na mfumo wetu wa wakala, hebu tuende kwenye somo lijalo ambapo tutatengeneza kila mmoja wa wakala hawa!
+Sasa baada ya kubuni kila wakala na mfumo wetu wa wakala, hebu tuendelee kwenye somo lijalo ambapo tutatengeneza kila wakala huyu!
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Kiarifa cha Kukataa**:
-Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kwa usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au upungufu wa usahihi. Hati ya asili katika lugha yake ya asili inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatubebei dhamana kwa kutoelewana au tafsiri potofu zinazotokana na matumizi ya tafsiri hii.
+**Kionyozo**:
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kupata usahihi, tafadhali fahamu kwamba tafsiri za kiotomatiki zinaweza kuwa na makosa au upungufu wa usahihi. Hati ya asili katika lugha yake halisi inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu inayofanywa na binadamu inapendekezwa. Hatutojibu kwa kuelewa vibaya au tafsiri potofu zinazotokea kutokana na matumizi ya tafsiri hii.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
