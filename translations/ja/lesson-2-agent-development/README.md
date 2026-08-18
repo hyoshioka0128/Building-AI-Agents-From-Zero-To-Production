@@ -1,6 +1,6 @@
-# Lesson 2 Agent Development
+# レッスン2 エージェント開発
 
-「Building AI Agent from Zero to Production Course」第2課へようこそ！
+「ゼロからプロダクションまでの AI エージェント構築コース」の第2回レッスンへようこそ！
 
 このレッスンでは以下を扱います：
 
@@ -14,7 +14,7 @@
 
 まずは、AIエージェントを作成するためのツールを見ていきましょう。
 
-## Tools and Setup Instructions
+## ツールとセットアップ手順
 
 ### Microsoft Foundry
 
@@ -38,7 +38,19 @@ Microsoft Agent Frameworkおよびその他必要なパッケージをインス�
 pip install -r requirements.txt
 ```
 
-### Setup .env Variables
+### Azureでの認証
+
+エージェントはAzure CLIの資格情報（`AzureCliCredential`）を使用してMicrosoft Foundryに対する認証を行います。そのため、サンプルを実行する前にサインインする必要があります。
+
+```bash
+az login
+# 複数のサブスクリプションがある場合は、Foundryプロジェクトが含まれるサブスクリプションを選択してください：
+az account set --subscription "<your-subscription-id>"
+```
+
+モデルやエージェントのAPIを呼び出せるよう、使用するアカウントにFoundryプロジェクトでの**Azure AI User**ロール（または同等の権限）が割り当てられていることを確認してください。
+
+### .env変数の設定
 
 このコースのコードサンプルを実行するには、このプロジェクトのルートディレクトリに `.env` ファイルを作成する必要があります。
 
@@ -47,6 +59,51 @@ pip install -r requirements.txt
 ```bash
 cp .env.example .env
 ```
+
+次に、エージェントが読み取る2つの変数を設定します（`FoundryChatClient` がこれらを自動的に認識します）：
+
+| 変数 | 内容 | 確認場所 |
+|----------|------------|------------------|
+| `FOUNDRY_PROJECT_ENDPOINT` | Foundry **プロジェクト**のエンドポイント（`/api/projects/<project>` で終わるもの） | Foundryポータル → 対象プロジェクト → **Overview** → *Endpoints* |
+| `FOUNDRY_MODEL` | エージェントが実行されるモデルのデプロイ名（例: `gpt-5.1`） | Foundryポータル → **Models + endpoints** |
+
+### 従業員用ベクトルストアの作成
+
+サンプルの一つである**従業員検索エージェント（Employee Search Agent）**は、Microsoft Foundryの**ベクトルストア**に格納された従業員ディレクトリを検索します。ベクトルストアを一度作成し、出力されたIDをコピーして、`.env` ファイルに `VECTOR_STORE_ID` として設定してください（`.env` ファイルを読み込めるよう、リポジトリのルートディレクトリから実行してください）：
+
+```bash
+python lesson-2-agent-development/setup_vector_store.py
+```
+
+### サンプルの実行
+
+各エージェントは、それぞれ独自のローカルDevUI（開発用UI）で動作します。例：
+
+```bash
+python lesson-2-agent-development/employee-search-agent.py
+```
+
+その後、表示された `http://localhost:<port>` というURLをブラウザで開き、エージェントとチャットを行います。
+
+## 本レッスンのエージェント
+
+各サンプルは、Microsoft Agent Frameworkを使用して構築された独立したエージェントです。これらを組み合わせることで、[レッスン1](../lesson-1-agent-design/README.md)で設計したシナリオが実装されます：
+
+| サンプル | レッスン1のシナリオ | 使用するツール | ポート |
+|--------|-------------------|-----------|------|
+| `employee-search-agent.py` | シナリオ1 — 従業員検索 | ベクターストアに対するFoundryホスト型**ファイル検索** | 8090 |
+| `task-recommendation-agent.py` | シナリオ2 — タスク推奨 | **GitHub MCP**サーバー（ホスト型MCPツール） | 8095 |
+| `azure-learning-agent.py` | シナリオ3 — コードアシスタント（調査） | **Microsoft Learn MCP**サーバー（ホスト型MCPツール） | 8092 |
+| `coding-agent.py` | シナリオ3 — コードアシスタント（コーディング） | **Code Interpreter** | 8093 |
+| `learning-recommendation-agent.py` | サポート用エージェント | Learn MCP + 推論 | 8091 |
+| `agent-orchestration.py` | シナリオの統合 | マルチエージェント**ハンドオフ**・オーケストレーション | 8094 |
+
+> **タスク推奨エージェントに関する注記:** `task-recommendation-agent.py` を動作させるには、
+> `.env` ファイルに `GITHUB_PERSONAL_ACCESS_TOKEN` を設定する必要があります
+> （トークンは <https://github.com/settings/personal-access-tokens/new> で作成してください）。
+> このエージェントは、開発者の最近のGitHubアクティビティを読み取り、
+> それに合致するオープンなIssueを1〜3件推奨します。これはまさにシナリオ2の設計そのものです。
+> GitHubを呼び出すサンプルはこれだけであり、他のサンプルはFoundryプロジェクトのみを必要とします。
 
 ---
 
