@@ -132,9 +132,7 @@ flowchart TD
 
 | 評価者 | `evaluator_name` | 測定内容 |
 |-----------|------------------|------------------|
-
 | 関連性 | `builtin.relevance` | 応答はユーザーの要求に応えていますか？ |
-
 | Groundedness | `builtin.groundedness` | 応答は取得したデータやツールデータで裏付けられているか（幻覚ではないか）？ |
 | Tool-call accuracy | `builtin.tool_call_accuracy` | 正しいツールが正しい引数で呼び出されたか？ |
 | Tool-output utilization | `builtin.tool_output_utilization` | エージェントは実際に回答にツールの結果を使ったか？ |
@@ -206,11 +204,11 @@ client.configure_azure_monitor()   # Application Insightsにトレースとメ�
 
 ---
 
-## 「実行」から「良い」へ：実際の使い方
+## 「実行」から「良い」へ：実践での活用法
 
 - **プレリリースゲート。** 新しいプロンプトやモデルを公開する前に、固定された代表的なクエリセットに対して評価を実行します。スコアを前バージョンと比較し、低下をリグレッションとして扱います。
 - **毎晩の品質シグナル。** データや依存関係の変化によるドリフトを検知するために評価をスケジュールします。
-- **スモークテストとの併用。** [Lesson 4のスモークテスト](../lesson-4-agentdeployment/README.md#smoke-testing-the-hosted-agent-ci-gate) は迅速なデプロイゲートであり、評価はより遅く深い品質ゲートです。コストの低い方は毎マージで、コストの高い方はスケジュールまたはリリース前に実行します。
+- **スモークテストとの併用。** [レッスン4のスモークテスト](../lesson-4-agentdeployment/README.md#smoke-testing-the-hosted-agent-ci-gate) は迅速なデプロイゲートであり、評価はより遅く深い品質ゲートです。コストの低い方は毎マージで、コストの高い方はスケジュールまたはリリース前に実行します。
 
 
 
