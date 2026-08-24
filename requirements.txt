@@ -8,8 +8,8 @@
 # Microsoft Agent Framework — the "foundry" extra brings the Microsoft Foundry
 # client surface (FoundryChatClient, FoundryAgent, Toolbox helpers,
 # FoundryMemoryProvider, FoundryEvals). "devui" provides the local dev server.
-agent-framework==1.2.0
-agent-framework-foundry==1.2.0
+agent-framework==1.13.0
+agent-framework-foundry==1.10.4
 agent-framework-devui
 
 # Azure identity for AzureCliCredential / DefaultAzureCredential
@@ -26,6 +26,6 @@ python-dotenv
 # The A2A extra is currently a PREVIEW build, so it is pinned exactly. It brings
 # agent_framework.a2a (A2AAgent, A2AExecutor); a2a-sdk provides the server app and
 # Agent Card types; uvicorn serves the A2A HTTP application.
-agent-framework-a2a==1.0.0b260424
+agent-framework-a2a==1.0.0b260730
 a2a-sdk
 uvicorn
